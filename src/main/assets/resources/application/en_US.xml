@@ -882,6 +882,20 @@
 				<node name="summaryOff" value="Do not show daily tips"/>
 			</node>
 		</node>
+		<node name="twitter" value="Twitter integration">
+			<node name="summary" value="How to tweet from FBReader"/>
+			<node name="enableTwitter" value="Enable tweets">
+				<node name="summaryOn" value="Show twitter link at end of book"/>
+				<node name="summaryOff" value="Do not show twitter link"/>
+			</node>
+			<node name="tweetText" value="Tweet text">
+				<node name="hint" value="Use %title% for the book title, %authors% for authors list"/>
+			</node>
+			<node name="coverInTweet" value="Add book cover to tweet">
+				<node name="summaryOn" value="Tweet text and book cover image"/>
+				<node name="summaryOff" value="Tweet text only"/>
+			</node>
+		</node>
 		<node name="about" value="About FBReader">
 			<node name="summary" value="Version info, contacts, etc."/>
 			<node name="version" value="Version"/>
@@ -900,7 +914,24 @@
 			<node name="facebook" value="FBReader on Facebook">
 				<node name="url" value="https://facebook.com/fbreader"/>
 			</node>
+			<node name="telegram" value="Add Telegram channel">
+				<node name="url" value="https://telegram.me/fbreader"/>
+			</node>
 			<node name="thirdParty" value="Third-party libraries"/>
+			<node name="development" value="Developer options">
+				<node name="summary" value="Use carefully ;)"/>
+				<node name="forceWebAuth" value="Force web authentication">
+					<node name="summaryOn" value="Use web auth even if Google services are available"/>
+					<node name="summaryOff" value="Use Google auth if available"/>
+				</node>
+				<node name="copyLogs" value="Copy log files">
+					<node name="summary" value="Copies *.log files to %s"/>
+				</node>
+				<node name="deleteLogs" value="Clear logs"/>
+				<node name="copyDatabase" value="Copy books database">
+					<node name="summary" value="Copies books.db file to %s"/>
+				</node>
+			</node>
 		</node>
 		<node name="eink" value="E-ink screen">
 			<node name="summary" value="Specific options for e-ink screens"/>
@@ -910,6 +941,7 @@
 			</node>
 			<node name="interval" value="Number of fast updates between complete refreshes"/>
 		</node>
+		<node name="lockedOption" value="Install Premium Edition to unlock this option"/>
 	</node>
 	<node name="dialog">
 		<node name="button">
@@ -1254,5 +1286,24 @@
 			<node name="book" value="Read book"/>
 			<node name="library" value="Open library"/>
 		</node>
+	</node>
+	<node name="modifiedBook">
+		<node name="notification">
+			<node name="title" value="Modified book file"/>
+			<node name="message" value="File %s has been changed"/>
+		</node>
+		<node name="dialog">
+			<node name="title" value="%s modified"/>
+			<node name="message" value="File “%s” has been changed. Please choose an action from the list."/>
+			<node name="createNew" value="Create new book “%s” from the file"/>
+			<node name="linkExisting" value="Link the file to existing “%s”"/>
+			<node name="updateMetainfo" value="Link to the existing book, update metainfo from the file"/>
+			<node name="removeFromLibrary" value="Remove the file from the library"/>
+		</node>
+	</node>
+	<node name="twitter">
+		<node name="link" value="Tweet what you have read!"/>
+		<node name="tweet" value="I've read “%title%” in @fbreader"/>
+		<node name="missingApp" value="Twitter app is not installed"/>
 	</node>
 </resources>
