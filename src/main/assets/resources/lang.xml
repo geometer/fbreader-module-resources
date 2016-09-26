@@ -26,6 +26,7 @@
 		<node name="nl" value="Nederlands"/>
 		<node name="pl" value="Polski"/>
 		<node name="pt" value="Português"/>
+		<node name="pt_BR" value="Português brasileiro"/>
 		<node name="ro" value="Romana"/>
 		<node name="ru" value="Русский"/>
 		<node name="sr" value="Српски"/>
