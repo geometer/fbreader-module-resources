@@ -35,6 +35,6 @@
 		<node name="uk" value="Українська"/>
 		<node name="vi" value="Tiếng Việt"/>
 		<node name="zh" value="简体中文"/>
-		<node name="zh_TW" value="中文(繁體)" toBeTranslated="true"/>
+		<node name="zh_TW" value="中文(繁體)"/>
 	</node>
 </resources>
