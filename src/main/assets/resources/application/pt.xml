@@ -628,11 +628,11 @@
 		</node>
 		<node name="toast" value="Popups">
 			<node name="summary" value="Janelas de rodapé, etc."/>
-			<node name="showFootnoteToast" value="Ver texto hiperligado num popup">
+			<node name="showFootnoteToast" value="Ver texto hiperligado em janela flutuante">
 				<node name="never" value="Nunca"/>
 				<node name="footnotesOnly" value="Apenas em notas de rodapé"/>
 				<node name="footnotesAndSuperscripts" value="Em notas de rodapé e ligações sobre-escritas"/>
-				<node name="allInternalLinks" value="Em todos os links internos"/>
+				<node name="allInternalLinks" value="Em todas as ligações internas"/>
 			</node>
 			<node name="footnoteToastDuration" value="Quanto tempo apresentar popup da ligação"/>
 			<node name="fontSizePercent" value="Tamanho da fonte (percentagem do texto regular)"/>
@@ -648,7 +648,7 @@
 				<node name="summaryOff" value="Ignorar tamanho da letra definido em CSS"/>
 			</node>
 			<node name="textAlignment" value="Alinhamento de texto">
-				<node name="summaryOn" value="Aplicar alinhamento de texo tdefindo em CSS"/>
+				<node name="summaryOn" value="Aplicar alinhamento de texto defindo em CSS"/>
 				<node name="summaryOff" value="Ignorar alinhamento de texto definido em CSS"/>
 			</node>
 			<node name="margins" value="Margens">
@@ -662,7 +662,7 @@
 				<node name="chooser">
 					<node name="solidColor" value="Cor sólida…"/>
 					<node name="predefined" value="Textura pré-definida…"/>
-					<node name="selectFile" value="Selecionar arquivo…"/>
+					<node name="selectFile" value="Selecionar ficheiro…"/>
 				</node>
 				<node name="solidColor" value="Cor sólida"/>
 				<node name="leather" value="Couro"/>
@@ -758,11 +758,11 @@
 				<node name="curl" value="Animação - folhear "/>
 				<node name="slide" value="Animação - slide"/>
 				<node name="slideOldStyle" value="Animação - slide (estilo antigo)"/>
-				<node name="shift" value="Selecionar mover animação"/>
+				<node name="shift" value="Animação - mover"/>
 			</node>
-			<node name="animationSpeed" value="Velocidade de animação">
-				<node name="fast" value="rápido"/>
-				<node name="slow" value="lento"/>
+			<node name="animationSpeed" value="Velocidade da animação">
+				<node name="fast" value="Rápida"/>
+				<node name="slow" value="Lenta"/>
 			</node>
 			<node name="horizontal" value="Deslizamento horizontal">
 				<node name="summaryOn" value="Deslizar páginas horizontalmente"/>
@@ -818,21 +818,21 @@
 			</node>
 			<node name="fitImagesToScreen" value="Ajustar imagens ao ecrã">
 				<node name="none" value="Nenhum"/>
-				<node name="covers" value="Só as capas"/>
+				<node name="covers" value="Apenas capas"/>
 				<node name="all" value="Tudo"/>
 			</node>
-			<node name="matchBackground" value="Combinar com intensidade do fundo">
-				<node name="summaryOn" value="Ajustar a cor da imagem de acordo com o fundo"/>
+			<node name="matchBackground" value="Combinar com a intensidade do fundo">
+				<node name="summaryOn" value="Ajustar a cor da imagem com o fundo"/>
 				<node name="summaryOff" value="Não ajustar a cor da imagem"/>
 			</node>
 		</node>
 		<node name="menu" value="Menu">
-			<node name="summary" value="Configure main screen menu" toBeTranslated="true"/>
+			<node name="summary" value="Configurar menu de ecrã principal"/>
 			<node name="backgroundCover" value="Use book cover as background" toBeTranslated="true">
 				<node name="summaryOn" value="Show cover in the book menu" toBeTranslated="true"/>
 				<node name="summaryOff" value="Keep background clear" toBeTranslated="true"/>
 			</node>
-			<node name="bookMenuStatusItem" value="Status item" toBeTranslated="true">
+			<node name="bookMenuStatusItem" value="Item de estado">
 				<node name="summaryOn" value="Show status item in the book menu" toBeTranslated="true"/>
 				<node name="summaryOff" value="Hide status item" toBeTranslated="true"/>
 			</node>
@@ -883,13 +883,13 @@
 				<node name="summaryOff" value="Não mostrar"/>
 			</node>
 		</node>
-		<node name="twitter" value="Twitter integration" toBeTranslated="true">
+		<node name="twitter" value="Integração Twitter">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
-			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
+			<node name="enableTwitter" value="Ativar tweets">
 				<node name="summaryOn" value="Show twitter link at end of book" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not show twitter link" toBeTranslated="true"/>
+				<node name="summaryOff" value="Não exibir ligação Twitter"/>
 			</node>
-			<node name="tweetText" value="Tweet text" toBeTranslated="true">
+			<node name="tweetText" value="Texto do Tweet">
 				<node name="hint" value="Use %title% for the book title, %authors% for authors list" toBeTranslated="true"/>
 			</node>
 			<node name="coverInTweet" value="Add book cover to tweet" toBeTranslated="true">
@@ -910,17 +910,17 @@
 				<node name="url" value="https://plus.google.com/communities/115894899404862312312"/>
 			</node>
 			<node name="twitter" value="Siga-nos no Twitter">
-				<node name="url" value="https://twitter.com/dennissheil"/>
+				<node name="url" value="https://twitter.com/fbreader"/>
 			</node>
 			<node name="facebook" value="FBReader no Facebook">
 				<node name="url" value="https://facebook.com/fbreader"/>
 			</node>
 			<node name="telegram" value="Add Telegram channel" toBeTranslated="true">
-				<node name="url" value="https://telegram.me/fbreader" toBeTranslated="true"/>
+				<node name="url" value="https://telegram.me/fbreader"/>
 			</node>
 			<node name="thirdParty" value="Bibliotecas de terceiros"/>
-			<node name="development" value="Developer options" toBeTranslated="true">
-				<node name="summary" value="Use carefully ;)" toBeTranslated="true"/>
+			<node name="development" value="Opções de programador">
+				<node name="summary" value="Utilize com cuidado ;)"/>
 				<node name="forceWebAuth" value="Force web authentication" toBeTranslated="true">
 					<node name="summaryOn" value="Use web auth even if Google services are available" toBeTranslated="true"/>
 					<node name="summaryOff" value="Use Google auth if available" toBeTranslated="true"/>
@@ -970,8 +970,8 @@
 			<node name="removeFromFavorites" value="Remover dos favoritos"/>
 			<node name="markAsRead" value="Marcar como lido"/>
 			<node name="markAsUnread" value="Marcar como não lido"/>
-			<node name="plugin" value="Plugin" toBeTranslated="true"/>
-			<node name="premium" value="Premium" toBeTranslated="true"/>
+			<node name="plugin" value="Plugin"/>
+			<node name="premium" value="Premium"/>
 		</node>
 		<node name="gotoPage" value="Ir para a página "/>
 		<node name="plugin">
@@ -987,19 +987,19 @@
 			<node name="configure" value="Configurar tradução"/>
 			<node name="skip" value="Saltar"/>
 		</node>
-		<node name="installDictionary" value="Instalar Dicionário">
+		<node name="installDictionary">
 			<node name="title" value="Instalar dicionário"/>
 			<node name="message" value="Gostaria de instalar %s?"/>
 		</node>
-		<node name="deleteBookBox" value="Apagar ficheiro do livro">
-			<node name="message" value="O ficheiro do livro será removido de forma irreversível. Tem a certeza?"/>
+		<node name="deleteBookBox">
+			<node name="message" value="O ficheiro será removido de forma irreversível. Tem a certeza?"/>
 		</node>
-		<node name="deleteMultipleBookBox" value="Apagar ficheiros múltiplos">
+		<node name="deleteMultipleBookBox">
 			<node name="title" value="Eliminar livros"/>
 			<node name="message" value="%s arquivos do livro serão removidos de forma irreversível. Tem a certeza?"/>
 		</node>
 		<node name="redownloadFileBox">
-			<node name="message" value="O arquivo já existe. Quer descarregá-lo novamente?"/>
+			<node name="message" value="O ficheiro já existe. Quer descarregá-lo novamente?"/>
 		</node>
 		<node name="litresUserRegistration">
 			<node name="title" value="Registar utilizador"/>
@@ -1074,7 +1074,7 @@
 			<node name="loginIsEmpty" value="O nome de utilizador não pode ficar vazio"/>
 			<node name="register" value="Registar-se"/>
 		</node>
-		<node name="CustomCatalogDialog" value="Catálogos">
+		<node name="CustomCatalogDialog">
 			<node name="title" value="FBReader: adicionar catálogo personalizado"/>
 			<node name="catalogTitle" value="Título"/>
 			<node name="catalogUrl" value="URL"/>
@@ -1217,7 +1217,7 @@
 			<node name="summary" value="Procurar por livros na rede local"/>
 		</node>
 		<node name="bookshelf" value="Estante">
-			<node name="summary" value="Vista de miniaturas de biblioteca"/>
+			<node name="summary" value="Vista em miniaturas da biblioteca"/>
 		</node>
 		<node name="opds_server" value="Servidor OPDS">
 			<node name="summary" value="Permitir que o seu dispositivo atue como servidor"/>
@@ -1291,11 +1291,11 @@
 	</node>
 	<node name="modifiedBook">
 		<node name="notification">
-			<node name="title" value="Modified book file" toBeTranslated="true"/>
+			<node name="title" value="Ficheiro de livro alterado"/>
 			<node name="message" value="File %s has been changed" toBeTranslated="true"/>
 		</node>
 		<node name="dialog">
-			<node name="title" value="%s modified" toBeTranslated="true"/>
+			<node name="title" value="%s modifificado"/>
 			<node name="message" value="File “%s” has been changed. Please choose an action from the list." toBeTranslated="true"/>
 			<node name="createNew" value="Create new book “%s” from the file" toBeTranslated="true"/>
 			<node name="linkExisting" value="Link the file to existing “%s”" toBeTranslated="true"/>
