@@ -883,13 +883,13 @@
 				<node name="summaryOff" value="Não mostrar"/>
 			</node>
 		</node>
-		<node name="twitter" value="Integration Twitter">
+		<node name="twitter" value="Integração Twitter">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Ativar tweets">
 				<node name="summaryOn" value="Show twitter link at end of book" toBeTranslated="true"/>
 				<node name="summaryOff" value="Não exibir ligação Twitter"/>
 			</node>
-			<node name="tweetText" value="Texto do yweet">
+			<node name="tweetText" value="Texto do Tweet">
 				<node name="hint" value="Use %title% for the book title, %authors% for authors list" toBeTranslated="true"/>
 			</node>
 			<node name="coverInTweet" value="Add book cover to tweet" toBeTranslated="true">
