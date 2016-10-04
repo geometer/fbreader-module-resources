@@ -1316,4 +1316,8 @@
 		<node name="tweet" value="Dočtena kniha „%title%“ v @fbreader"/>
 		<node name="missingApp" value="Aplikace Twitter není nainstalována"/>
 	</node>
+	<node name="networkError">
+		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
+		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
 </resources>

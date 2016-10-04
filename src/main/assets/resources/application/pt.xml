@@ -1308,4 +1308,8 @@
 		<node name="tweet" value="I've read “%title%” in @fbreader" toBeTranslated="true"/>
 		<node name="missingApp" value="Twitter app is not installed" toBeTranslated="true"/>
 	</node>
+	<node name="networkError">
+		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
+		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
 </resources>
