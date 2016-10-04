@@ -1309,6 +1309,6 @@
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again"/>
-		<node name="syncServerFailure" value="Temporary server failure. Please try again later"/>
+		<node name="syncServerFailure" value="Server connection failure. Please try again later"/>
 	</node>
 </resources>
