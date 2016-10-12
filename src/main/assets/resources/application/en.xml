@@ -332,6 +332,7 @@
 		<node name="help" value="Help"/>
 		<node name="plugins" value="Install plugins"/>
 		<node name="gotoPageNumber" value="Go to page…"/>
+		<node name="readAloud" value="Read aloud…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="File name"/>
