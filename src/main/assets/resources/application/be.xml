@@ -332,6 +332,7 @@
 		<node name="help" value="Дапамога"/>
 		<node name="plugins" value="Усталяваць убудовы"/>
 		<node name="gotoPageNumber" value="Перайсьці да старонкі…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Назва файла"/>
@@ -1203,9 +1204,6 @@
 	</node>
 	<node name="plugins" value="Усталяваць убудовы">
 		<node name="noMorePlugins" value="Зараз няма новых убудоваў, прабачце"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Расейская кніжная крама"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Чытайце ўголас"/>
 		</node>
@@ -1220,9 +1218,6 @@
 		</node>
 		<node name="opds_server" value="Сэрвэр OPDS">
 			<node name="summary" value="Дазваляць прыладзе дзейнічаць як сэрвэру"/>
-		</node>
-		<node name="widgets" value="Віджэты">
-			<node name="summary" value="Кнігі на галоўны экран"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Чытаньне кніг фармату PDF"/>

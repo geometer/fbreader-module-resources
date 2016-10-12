@@ -337,6 +337,7 @@
 		<node name="help" value="Hilfe"/>
 		<node name="plugins" value="Plugins"/>
 		<node name="gotoPageNumber" value="Gehe zur Seite…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Dateiname"/>
@@ -1208,9 +1209,6 @@
 	</node>
 	<node name="plugins" value="Plugins installieren">
 		<node name="noMorePlugins" value="Aktuell sind keine neuen Plugins verfügbar."/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Russische Buchhandlung"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Vorlesen"/>
 		</node>
@@ -1225,9 +1223,6 @@
 		</node>
 		<node name="opds_server" value="OPDS Server">
 			<node name="summary" value="Bücher auf dem Gerät bereitstellen"/>
-		</node>
-		<node name="widgets" value="Widgets">
-			<node name="summary" value="Bücher zu Startbildschirm hinzufügen"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="PDF Bücher lesen"/>

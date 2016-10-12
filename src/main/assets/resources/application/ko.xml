@@ -332,6 +332,7 @@
 		<node name="help" value="도움말"/>
 		<node name="plugins" value="플러그인 설치"/>
 		<node name="gotoPageNumber" value="페이지로 가기"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="파일명"/>
@@ -1203,9 +1204,6 @@
 	</node>
 	<node name="plugins" value="플러그인 설치">
 		<node name="noMorePlugins" value="지금은 새로운 플러그인이 없습니다"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="러시아 서점"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="소리내어 읽기"/>
 		</node>
@@ -1220,9 +1218,6 @@
 		</node>
 		<node name="opds_server" value="OPDS 서버">
 			<node name="summary" value="기기로부터 책 제공"/>
-		</node>
-		<node name="widgets" value="위젯">
-			<node name="summary" value="홈 화면에 책 추가"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="PDF 형식의 책 읽기"/>

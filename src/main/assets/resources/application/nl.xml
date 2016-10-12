@@ -332,6 +332,7 @@
 		<node name="help" value="Help"/>
 		<node name="plugins" value="Plug-ins"/>
 		<node name="gotoPageNumber" value="Ga naar pagina…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Bestandsnaam"/>
@@ -1203,9 +1204,6 @@
 	</node>
 	<node name="plugins" value="Installeer plug-ins">
 		<node name="noMorePlugins" value="Er zijn geen nieuwe plug-ins beschikbaar, sorry"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Russische boekenwinkel"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Hardop voorlezen"/>
 		</node>
@@ -1220,9 +1218,6 @@
 		</node>
 		<node name="opds_server" value="OPDS-server">
 			<node name="summary" value="Bied boeken aan vanaf jouw apparaat"/>
-		</node>
-		<node name="widgets" value="Widgets">
-			<node name="summary" value="Voeg boeken toe aan jouw Startscherm"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Lees boeken in PDF-formaat"/>

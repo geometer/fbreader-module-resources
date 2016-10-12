@@ -338,6 +338,7 @@
 		<node name="help" value="Օգնություն"/>
 		<node name="plugins" value="Հավելվածքներ"/>
 		<node name="gotoPageNumber" value="Գնալ էջ…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Նիշք"/>
@@ -1209,9 +1210,6 @@
 	</node>
 	<node name="plugins" value="Հավելվածքներ">
 		<node name="noMorePlugins" value="Նոր հավելվածքներ առայժմ չկան"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Հավելյալ հնարավորություններ LitRes գրախանութում"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Բարձրաձայն ընթերցում"/>
 		</node>
@@ -1226,9 +1224,6 @@
 		</node>
 		<node name="opds_server" value="OPDS սպասարկիչ">
 			<node name="summary" value="Գրքերը բաշխել այլ սարքավորումների միջև"/>
-		</node>
-		<node name="widgets" value="Վիջեթներ">
-			<node name="summary" value="Գիրքն անմիջապես սարքավորման էկրանին"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Ընթերցել PDF գրքեր"/>

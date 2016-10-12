@@ -322,6 +322,7 @@
 		<node name="help" value="Допомога"/>
 		<node name="plugins" value="Встановити доповнення"/>
 		<node name="gotoPageNumber" value="На сторінку…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Файл"/>
@@ -1193,9 +1194,6 @@
 	</node>
 	<node name="plugins" value="Встановлення доповнень">
 		<node name="noMorePlugins" value="Наразі нові доповнення відсутні"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Російський книжковий магазин"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Читай вголос"/>
 		</node>
@@ -1210,9 +1208,6 @@
 		</node>
 		<node name="opds_server" value="OPDS-сервер">
 			<node name="summary" value="Дозволяє пристрою працювати з сервером"/>
-		</node>
-		<node name="widgets" value="Віджети">
-			<node name="summary" value="Додайте книги на стільницю"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Читайте книги у PDF-форматі"/>

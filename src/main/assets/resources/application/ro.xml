@@ -325,6 +325,7 @@
 		<node name="help" value="Ajutor"/>
 		<node name="plugins" value="Instaleaza plugin-uri"/>
 		<node name="gotoPageNumber" value="Du-te la pagina…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Nume de fisier"/>
@@ -1196,9 +1197,6 @@
 	</node>
 	<node name="plugins" value="Instalare plugin-uri">
 		<node name="noMorePlugins" value="Nu avem, plugin-uri noi in acest moment, ne pare rau"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Librarie Rusa"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Citit cu voce tare"/>
 		</node>
@@ -1213,9 +1211,6 @@
 		</node>
 		<node name="opds_server" value="Server OPDS">
 			<node name="summary" value="Serviti carti de pe dispozitivul dvs."/>
-		</node>
-		<node name="widgets" value="Widget-uri">
-			<node name="summary" value="Adaugati carti in ecranul de start"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Citire carti in formatul PDF"/>

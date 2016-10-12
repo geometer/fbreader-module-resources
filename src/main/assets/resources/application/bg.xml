@@ -338,6 +338,7 @@
 		<node name="help" value="Помощ"/>
 		<node name="plugins" value="Допълнителни модули"/>
 		<node name="gotoPageNumber" value="Страница…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Файл"/>
@@ -1209,9 +1210,6 @@
 	</node>
 	<node name="plugins" value="Инсталиране на допълнителни модули">
 		<node name="noMorePlugins" value="Няма нови модули към момента"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Руски магазин за книги"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Чети на глас"/>
 		</node>
@@ -1226,9 +1224,6 @@
 		</node>
 		<node name="opds_server" value="OPDS Сървър">
 			<node name="summary" value="Обслужване книги от вашето устройство"/>
-		</node>
-		<node name="widgets" value="Джунджурийки">
-			<node name="summary" value="Добавяне книги към вашият хоум скрийн"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Чети книги в PDF формат"/>

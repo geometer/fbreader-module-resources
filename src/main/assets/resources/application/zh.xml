@@ -322,6 +322,7 @@
 		<node name="help" value="帮助"/>
 		<node name="plugins" value="安装插件"/>
 		<node name="gotoPageNumber" value="翻到页码"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="文件"/>
@@ -1193,9 +1194,6 @@
 	</node>
 	<node name="plugins" value="安装插件">
 		<node name="noMorePlugins" value="抱歉, 目前没有新插件"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="俄语书籍商店"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="朗读"/>
 		</node>
@@ -1210,9 +1208,6 @@
 		</node>
 		<node name="opds_server" value="OPDS 服务器">
 			<node name="summary" value="允许设备用作服务器"/>
-		</node>
-		<node name="widgets" value="Widgets">
-			<node name="summary" value="将书籍添加到主屏幕"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="用 PDF 格式阅读书籍"/>

@@ -331,6 +331,7 @@
 		<node name="help" value="کمک"/>
 		<node name="plugins" value="نصب افزونه ها"/>
 		<node name="gotoPageNumber" value="برو به صفحه..."/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="نام فایل"/>
@@ -1202,9 +1203,6 @@
 	</node>
 	<node name="plugins" value="نصب افزونه ها">
 		<node name="noMorePlugins" value="ما در حال حاضر هیچ پلاگین جدیدی  نداریم، متاسفم"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="فروشگاه کتاب روسی"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="نوشتار به گفتار"/>
 		</node>
@@ -1219,9 +1217,6 @@
 		</node>
 		<node name="opds_server" value="OPDS سرور">
 			<node name="summary" value="کتاب ها را از دستگاهتان ارائه کنید"/>
-		</node>
-		<node name="widgets" value="ابزارک ها">
-			<node name="summary" value="کتاب ها را به صفحه خانگی تان بیفزاریید"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="کتاب ها را در فرمت پی دی اف بخوانید"/>

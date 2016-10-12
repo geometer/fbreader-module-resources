@@ -335,6 +335,7 @@
 		<node name="help" value="Ajuda"/>
 		<node name="plugins" value="Instalar plug-ins"/>
 		<node name="gotoPageNumber" value="Ir para a Página …"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo" value="Informação do lvro">
 		<node name="fileName" value="Nome do arquivo"/>
@@ -1206,9 +1207,6 @@
 	</node>
 	<node name="plugins" value="Instalar plug-ins">
 		<node name="noMorePlugins" value="Não há novos plug-ins de momento, desculpe"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Seção de livros Russa"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Ler em voz alta"/>
 		</node>
@@ -1223,9 +1221,6 @@
 		</node>
 		<node name="opds_server" value="Servidor OPDS">
 			<node name="summary" value="Servir livros do seu dispositivo"/>
-		</node>
-		<node name="widgets" value="Widgets">
-			<node name="summary" value="Adicionar livros no seu ecrã de início"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Ler livros no formato PDF"/>

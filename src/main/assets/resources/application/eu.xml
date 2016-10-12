@@ -72,8 +72,8 @@
 		<node name="addToFavorites" value="Gehitu gogokoetara"/>
 		<node name="removeFromFavorites" value="Kendu gogokoetatik"/>
 		<node name="removeFromRecents" value="Kendu azkenaldikoen zerrendatik"/>
-		<node name="markAsRead" value="Markatu irakurria bezala" />
-		<node name="markAsUnread" value="Markatu irakurri gabea bezala" />
+		<node name="markAsRead" value="Markatu irakurria bezala"/>
+		<node name="markAsUnread" value="Markatu irakurri gabea bezala"/>
 		<node name="deleteAll" value="Ezabatu dena"/>
 		<node name="uploadAgain" value="Kargatu berriro"/>
 		<node name="tryAgain" value="Saiatu berriro"/>
@@ -332,6 +332,7 @@
 		<node name="help" value="Laguntza"/>
 		<node name="plugins" value="Instalatu pluginak"/>
 		<node name="gotoPageNumber" value="Orri honetara joan…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Fitxategiaren izena"/>
@@ -343,7 +344,7 @@
 		<node name="series" value="Saila"/>
 	</node>
 	<node name="Preferences" value="FBReaderren ezarpenak">
-	<node name="sync" value="Sinkronizazioa">
+		<node name="sync" value="Sinkronizazioa">
 			<node name="summary" value="Liburu-sarearen ezarpenak"/>
 			<node name="site" value="Sinkronizarioari buruz gehiago irakurri (ENG)">
 				<node name="url" value="https://books.fbreader.org/help.html"/>
@@ -387,7 +388,7 @@
 		</node>
 		<node name="appearance" value="Itxura">
 			<node name="summary" value="Pantaila ezarpenak, egoera barra, botoien argiak"/>
-			<node name="language" value="Interfazearen hizkuntza" />
+			<node name="language" value="Interfazearen hizkuntza"/>
 			<node name="screenOrientation" value="Pantailaren orientazioa">
 				<node name="system" value="Sistema"/>
 				<node name="sensor" value="Automatikoki biratu"/>
@@ -421,7 +422,7 @@
 				<node name="summaryOff" value="Ez saiatu botoien argiak ezgaitzen"/>
 			</node>
 			<node name="twoColumnView" value="Zutabe biko bista">
-				<node name="summaryOn" value="Testua zutabe bitan aurkeztu gailua horizontalean eusterakoan" /> 
+				<node name="summaryOn" value="Testua zutabe bitan aurkeztu gailua horizontalean eusterakoan"/>
 				<node name="summaryOff" value="Testua beti zutabe bakarrean aurkeztu"/>
 			</node>
 			<node name="allowScreenBrightnessAdjustment" value="Pantailaren distira doitu">
@@ -696,7 +697,7 @@
 			<node name="right" value="Eskumako marjina"/>
 			<node name="top" value="Goiko marjina"/>
 			<node name="bottom" value="Beheko marjina"/>
-			<node name="spaceBetweenColumns" value="Zutabeen arteko tartea" />
+			<node name="spaceBetweenColumns" value="Zutabeen arteko tartea"/>
 		</node>
 		<node name="scrollBar" value="Aurrerapen-barra">
 			<node name="summary" value="Aurrerapen adierazlearen eta oin-oharren hobespenak"/>
@@ -967,8 +968,8 @@
 			<node name="sendReport" value="Bidali txostena"/>
 			<node name="addToFavorites" value="Gehitu gogokoetara"/>
 			<node name="removeFromFavorites" value="Kendu gogokoetatik"/>
-			<node name="markAsRead" value="Markatu irakurria bezala" />
-			<node name="markAsUnread" value="Markatu ez irakurria bezala" />
+			<node name="markAsRead" value="Markatu irakurria bezala"/>
+			<node name="markAsUnread" value="Markatu ez irakurria bezala"/>
 			<node name="plugin" value="Plugin"/>
 			<node name="premium" value="Premium"/>
 		</node>
@@ -1203,9 +1204,6 @@
 	</node>
 	<node name="plugins" value="Instalatu pluginak">
 		<node name="noMorePlugins" value="Plugin berririk ez oraingoz"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Liburu-denda errusiarra"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Ozen irakurri"/>
 		</node>
@@ -1220,9 +1218,6 @@
 		</node>
 		<node name="opds_server" value="OPDS Zerbitzaria">
 			<node name="summary" value="Gailua zerbitzari modura erabili"/>
-		</node>
-		<node name="widgets" value="Widgetak">
-			<node name="summary" value="Gehitu liburuak hasiera pantailara"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Irakurri liburuak PDF formatuan"/>

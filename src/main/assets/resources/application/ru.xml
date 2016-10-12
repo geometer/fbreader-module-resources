@@ -337,6 +337,7 @@
 		<node name="help" value="Помощь"/>
 		<node name="plugins" value="Дополнительные модули"/>
 		<node name="gotoPageNumber" value="На страницу…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Файл"/>
@@ -1212,9 +1213,6 @@
 	</node>
 	<node name="plugins" value="Дополнительные модули">
 		<node name="noMorePlugins" value="Извините, но прямо сейчас у нас нет новых модулей"/>
-		<node name="litres" value="ЛитРес">
-			<node name="summary" value="Дополнительные возможности при покупке в магазине ЛитРес"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Чтение вслух"/>
 		</node>
@@ -1229,9 +1227,6 @@
 		</node>
 		<node name="opds_server" value="Сервер OPDS">
 			<node name="summary" value="Раздача книг другим устройствам"/>
-		</node>
-		<node name="widgets" value="Виджеты">
-			<node name="summary" value="Книги прямо на домашнем экране устройства"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Чтение файлов PDF"/>

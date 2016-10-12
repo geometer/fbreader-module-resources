@@ -322,6 +322,7 @@
 		<node name="help" value="Súgó"/>
 		<node name="plugins" value="Bővítmények telepítése"/>
 		<node name="gotoPageNumber" value="Ugrás oldalszámra…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Fájlnév"/>
@@ -1193,9 +1194,6 @@
 	</node>
 	<node name="plugins" value="Bővítmények telepítése">
 		<node name="noMorePlugins" value="Jelenleg nincs új bővítmény"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Orosz könyváruház"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Hangos felolvasás"/>
 		</node>
@@ -1210,9 +1208,6 @@
 		</node>
 		<node name="opds_server" value="OPDS szerver">
 			<node name="summary" value="Könyvmegosztó szerver indítása az eszközön"/>
-		</node>
-		<node name="widgets" value="Widgetek">
-			<node name="summary" value="Könyvek megjelenítése a kezdőképernyőn"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="PDF formátumú könyvek olvasása"/>

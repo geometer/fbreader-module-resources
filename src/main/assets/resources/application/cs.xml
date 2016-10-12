@@ -341,6 +341,7 @@
 		<node name="help" value="Nápověda"/>
 		<node name="plugins" value="Doplňky"/>
 		<node name="gotoPageNumber" value="Přejít na stránku…"/>
+		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Název souboru"/>
@@ -1212,9 +1213,6 @@
 	</node>
 	<node name="plugins" value="Instalovat doplňky">
 		<node name="noMorePlugins" value="Bohužel, právě nemáme žádné nové doplňky"/>
-		<node name="litres" value="LitRes">
-			<node name="summary" value="Ruské knihkupectví"/>
-		</node>
 		<node name="tts_plus" value="TTS+">
 			<node name="summary" value="Čte nahlas"/>
 		</node>
@@ -1229,9 +1227,6 @@
 		</node>
 		<node name="opds_server" value="OPDS Server">
 			<node name="summary" value="Dodá knihy z vašeho zařízení"/>
-		</node>
-		<node name="widgets" value="Widgety">
-			<node name="summary" value="Přidá knihy na domovskou obrazovku"/>
 		</node>
 		<node name="pdf" value="PDF">
 			<node name="summary" value="Čte knihy ve formátu PDF"/>
