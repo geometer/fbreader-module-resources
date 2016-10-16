@@ -925,6 +925,10 @@
 					<node name="summaryOn" value="Use web auth even if Google services are available"/>
 					<node name="summaryOff" value="Use Google auth if available"/>
 				</node>
+				<node name="logFileScanning" value="Log file scanning">
+					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info"/>
+					<node name="summaryOff" value="Do not log"/>
+				</node>
 				<node name="copyLogs" value="Copy log files">
 					<node name="summary" value="Copies *.log files to %s"/>
 				</node>
