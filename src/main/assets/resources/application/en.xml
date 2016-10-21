@@ -925,6 +925,11 @@
 					<node name="summaryOn" value="Use web auth even if Google services are available"/>
 					<node name="summaryOff" value="Use Google auth if available"/>
 				</node>
+				<node name="showChangeNotifications" value="Notify about file modifications">
+					<node name="allFiles" value="Always"/>
+					<node name="bookFolders" value="For files in book folders only"/>
+					<node name="noFiles" value="Never"/>
+				</node>
 				<node name="logFileScanning" value="Log file scanning">
 					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info"/>
 					<node name="summaryOff" value="Do not log"/>
