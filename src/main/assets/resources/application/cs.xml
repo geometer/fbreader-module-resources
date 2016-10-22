@@ -341,7 +341,7 @@
 		<node name="help" value="Nápověda"/>
 		<node name="plugins" value="Doplňky"/>
 		<node name="gotoPageNumber" value="Přejít na stránku…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
+		<node name="readAloud" value="Číst nahlas…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Název souboru"/>
@@ -1312,7 +1312,7 @@
 		<node name="missingApp" value="Aplikace Twitter není nainstalována"/>
 	</node>
 	<node name="networkError">
-		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
-		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+		<node name="noNetworkConnection" value="Síť není dostupná. Zkontrolujte své připojení a zkuste to znovu."/>
+		<node name="syncServerFailure" value="Selhání připojení serveru. Zkuste to znovu později."/>
 	</node>
 </resources>
