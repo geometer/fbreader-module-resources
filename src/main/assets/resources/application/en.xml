@@ -930,6 +930,10 @@
 					<node name="bookFolders" value="For files in book folders only"/>
 					<node name="noFiles" value="Never"/>
 				</node>
+				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog">
+					<node name="summaryOn" value="Show each time you start FBReader from launcher"/>
+					<node name="summaryOff" value="Do not show"/>
+				</node>
 				<node name="logFileScanning" value="Log file scanning">
 					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info"/>
 					<node name="summaryOff" value="Do not log"/>
