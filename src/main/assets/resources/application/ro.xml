@@ -515,108 +515,42 @@
 			<node name="verticalAlignment" value="Aliniere verticală"/>
 			<node name="more" value="Mai multe stiluri">
 				<node name="summary" value="Setări separate pentru titluri, epigrafe, etc"/>
-				<node name="Regular Paragraph" value="Paragraf normal">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Regular Paragraph" value="Paragraf normal"/>
 				<node name="xhtml-tag-p" value="Paragraf EPub ">
 					<node name="summary" value="&lt;p&gt; continutul tagului XHTML"/>
 				</node>
-				<node name="Title" value="Titlu">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Section Title" value="Sectiunea titlu">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Poem Title" value="Poem titlul">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subtitle" value="Subtitlu">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Annotation" value="Adnotare">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Epigraph" value="Epigraf">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Stanza" value="Strofa">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Verse" value="Verset">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Preformatted text" value="Text preformatat">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Image" value="Imagine">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Cite" value="Citat">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Author" value="Autor">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Date" value="Data">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Internal Hyperlink" value="Hyperlink intern">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Footnote" value="Notă de subsol">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Emphasis" value="Accent">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Strong" value="Puternic">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subscript" value="Indice">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Superscript" value="Exponent">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Code" value="Cod">
-					<node name="summary" value=""/>
-				</node>
-				<node name="StrikeThrough" value="Tăiat">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Italic" value="Cursiv">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Bold" value="Îngroșat">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition" value="Definiție">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition Description" value="Definiție descriere">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 1" value="Antet 1">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 2" value="Antet 2">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 3" value="Antet 3">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 4" value="Antet 4">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 5" value="Antet 5">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 6" value="Antet 6">
-					<node name="summary" value=""/>
-				</node>
-				<node name="External Hyperlink" value="Hyperlink extern">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Title" value="Titlu"/>
+				<node name="Section Title" value="Sectiunea titlu"/>
+				<node name="Poem Title" value="Poem titlul"/>
+				<node name="Subtitle" value="Subtitlu"/>
+				<node name="Annotation" value="Adnotare"/>
+				<node name="Epigraph" value="Epigraf"/>
+				<node name="Stanza" value="Strofa"/>
+				<node name="Verse" value="Verset"/>
+				<node name="Preformatted text" value="Text preformatat"/>
+				<node name="Image" value="Imagine"/>
+				<node name="Cite" value="Citat"/>
+				<node name="Author" value="Autor"/>
+				<node name="Date" value="Data"/>
+				<node name="Internal Hyperlink" value="Hyperlink intern"/>
+				<node name="Footnote" value="Notă de subsol"/>
+				<node name="Emphasis" value="Accent"/>
+				<node name="Strong" value="Puternic"/>
+				<node name="Subscript" value="Indice"/>
+				<node name="Superscript" value="Exponent"/>
+				<node name="Code" value="Cod"/>
+				<node name="StrikeThrough" value="Tăiat"/>
+				<node name="Italic" value="Cursiv"/>
+				<node name="Bold" value="Îngroșat"/>
+				<node name="Definition" value="Definiție"/>
+				<node name="Definition Description" value="Definiție descriere"/>
+				<node name="Header 1" value="Antet 1"/>
+				<node name="Header 2" value="Antet 2"/>
+				<node name="Header 3" value="Antet 3"/>
+				<node name="Header 4" value="Antet 4"/>
+				<node name="Header 5" value="Antet 5"/>
+				<node name="Header 6" value="Antet 6"/>
+				<node name="External Hyperlink" value="Hyperlink extern"/>
 			</node>
 		</node>
 		<node name="toast" value="Pop-ups" toBeTranslated="true">
