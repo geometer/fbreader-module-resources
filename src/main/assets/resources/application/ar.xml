@@ -520,108 +520,42 @@
 			<node name="verticalAlignment" value="Vertical alignment" toBeTranslated="true"/>
 			<node name="more" value="مزيد...">
 				<node name="summary" value="اعدادات العناوين وغيرها"/>
-				<node name="Regular Paragraph" value="Regular Paragraph" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Regular Paragraph" value="Regular Paragraph" toBeTranslated="true"/>
 				<node name="xhtml-tag-p" value="EPub Paragraph" toBeTranslated="true">
 					<node name="summary" value="&lt;p&gt; XHTML tag content" toBeTranslated="true"/>
 				</node>
-				<node name="Title" value="Title" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Section Title" value="Section Title" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Poem Title" value="Poem Title" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subtitle" value="Subtitle" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Annotation" value="Annotation" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Epigraph" value="Epigraph" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Stanza" value="Stanza" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Verse" value="Verse" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Preformatted text" value="Preformatted text" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Image" value="Image" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Cite" value="Cite" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Author" value="Author" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Date" value="Date" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Internal Hyperlink" value="Internal hyperlink" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Footnote" value="Footnote" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Emphasis" value="Emphasis" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Strong" value="Strong" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subscript" value="Subscript" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Superscript" value="Superscript" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Code" value="Code" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="StrikeThrough" value="Strikethrough" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Italic" value="Italic" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Bold" value="Bold" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition" value="Definition" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition Description" value="Definition description" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 1" value="Header 1" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 2" value="Header 2" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 3" value="Header 3" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 4" value="Header 4" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 5" value="Header 5" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 6" value="Header 6" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
-				<node name="External Hyperlink" value="External hyperlink" toBeTranslated="true">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Title" value="Title" toBeTranslated="true"/>
+				<node name="Section Title" value="Section Title" toBeTranslated="true"/>
+				<node name="Poem Title" value="Poem Title" toBeTranslated="true"/>
+				<node name="Subtitle" value="Subtitle" toBeTranslated="true"/>
+				<node name="Annotation" value="Annotation" toBeTranslated="true"/>
+				<node name="Epigraph" value="Epigraph" toBeTranslated="true"/>
+				<node name="Stanza" value="Stanza" toBeTranslated="true"/>
+				<node name="Verse" value="Verse" toBeTranslated="true"/>
+				<node name="Preformatted text" value="Preformatted text" toBeTranslated="true"/>
+				<node name="Image" value="Image" toBeTranslated="true"/>
+				<node name="Cite" value="Cite" toBeTranslated="true"/>
+				<node name="Author" value="Author" toBeTranslated="true"/>
+				<node name="Date" value="Date" toBeTranslated="true"/>
+				<node name="Internal Hyperlink" value="Internal hyperlink" toBeTranslated="true"/>
+				<node name="Footnote" value="Footnote" toBeTranslated="true"/>
+				<node name="Emphasis" value="Emphasis" toBeTranslated="true"/>
+				<node name="Strong" value="Strong" toBeTranslated="true"/>
+				<node name="Subscript" value="Subscript" toBeTranslated="true"/>
+				<node name="Superscript" value="Superscript" toBeTranslated="true"/>
+				<node name="Code" value="Code" toBeTranslated="true"/>
+				<node name="StrikeThrough" value="Strikethrough" toBeTranslated="true"/>
+				<node name="Italic" value="Italic" toBeTranslated="true"/>
+				<node name="Bold" value="Bold" toBeTranslated="true"/>
+				<node name="Definition" value="Definition" toBeTranslated="true"/>
+				<node name="Definition Description" value="Definition description" toBeTranslated="true"/>
+				<node name="Header 1" value="Header 1" toBeTranslated="true"/>
+				<node name="Header 2" value="Header 2" toBeTranslated="true"/>
+				<node name="Header 3" value="Header 3" toBeTranslated="true"/>
+				<node name="Header 4" value="Header 4" toBeTranslated="true"/>
+				<node name="Header 5" value="Header 5" toBeTranslated="true"/>
+				<node name="Header 6" value="Header 6" toBeTranslated="true"/>
+				<node name="External Hyperlink" value="External hyperlink" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="toast" value="Pop-ups" toBeTranslated="true">

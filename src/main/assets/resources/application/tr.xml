@@ -522,108 +522,42 @@
 			<node name="verticalAlignment" value="Vertical alignment" toBeTranslated="true"/>
 			<node name="more" value="Daha Fazla Ayar">
 				<node name="summary" value="Başlıkları, vecizeleri vs. ayırma ayarları"/>
-				<node name="Regular Paragraph" value="Normal Paragraf">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Regular Paragraph" value="Normal Paragraf"/>
 				<node name="xhtml-tag-p" value="EPub Paragraph" toBeTranslated="true">
 					<node name="summary" value="&lt;p&gt; XHTML tag content" toBeTranslated="true"/>
 				</node>
-				<node name="Title" value="İsim">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Section Title" value="Bölüm başlığı">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Poem Title" value="Şiir İsmi">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subtitle" value="Altyazı">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Annotation" value="Not">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Epigraph" value="Vecize">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Stanza" value="Dörtlük">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Verse" value="Dize">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Preformatted text" value="Önceden biçimlendirilmiş metin">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Image" value="Resim">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Cite" value="Yorum">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Author" value="Yazar">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Date" value="Tarih">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Internal Hyperlink" value="Dahili linkler">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Footnote" value="Dipnot">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Emphasis" value="Vurgu">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Strong" value="Koyu">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subscript" value="Altsimge">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Superscript" value="Üstsimge">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Code" value="Kod">
-					<node name="summary" value=""/>
-				</node>
-				<node name="StrikeThrough" value="Üstü çizilmiş">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Italic" value="Eğik">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Bold" value="Kalın">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition" value="Tanımlama">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition Description" value="Tanımlama Tarif">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 1" value="Başlık 1">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 2" value="Başlık 2">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 3" value="Başlık 3">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 4" value="Başlık 4">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 5" value="Başlık 5">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 6" value="Başlık 6">
-					<node name="summary" value=""/>
-				</node>
-				<node name="External Hyperlink" value="Dış Bağlantı">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Title" value="İsim"/>
+				<node name="Section Title" value="Bölüm başlığı"/>
+				<node name="Poem Title" value="Şiir İsmi"/>
+				<node name="Subtitle" value="Altyazı"/>
+				<node name="Annotation" value="Not"/>
+				<node name="Epigraph" value="Vecize"/>
+				<node name="Stanza" value="Dörtlük"/>
+				<node name="Verse" value="Dize"/>
+				<node name="Preformatted text" value="Önceden biçimlendirilmiş metin"/>
+				<node name="Image" value="Resim"/>
+				<node name="Cite" value="Yorum"/>
+				<node name="Author" value="Yazar"/>
+				<node name="Date" value="Tarih"/>
+				<node name="Internal Hyperlink" value="Dahili linkler"/>
+				<node name="Footnote" value="Dipnot"/>
+				<node name="Emphasis" value="Vurgu"/>
+				<node name="Strong" value="Koyu"/>
+				<node name="Subscript" value="Altsimge"/>
+				<node name="Superscript" value="Üstsimge"/>
+				<node name="Code" value="Kod"/>
+				<node name="StrikeThrough" value="Üstü çizilmiş"/>
+				<node name="Italic" value="Eğik"/>
+				<node name="Bold" value="Kalın"/>
+				<node name="Definition" value="Tanımlama"/>
+				<node name="Definition Description" value="Tanımlama Tarif"/>
+				<node name="Header 1" value="Başlık 1"/>
+				<node name="Header 2" value="Başlık 2"/>
+				<node name="Header 3" value="Başlık 3"/>
+				<node name="Header 4" value="Başlık 4"/>
+				<node name="Header 5" value="Başlık 5"/>
+				<node name="Header 6" value="Başlık 6"/>
+				<node name="External Hyperlink" value="Dış Bağlantı"/>
 			</node>
 		</node>
 		<node name="toast" value="Pop-ups" toBeTranslated="true">

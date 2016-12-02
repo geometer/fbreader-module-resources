@@ -528,108 +528,42 @@
 			<node name="verticalAlignment" value="Ուղղաձիգ հավասարեցում"/>
 			<node name="more" value="Այլ ոճեր">
 				<node name="summary" value="Առանձին կարգավորումներ վերնագրերի, բնաբանների և այլնի համար"/>
-				<node name="Regular Paragraph" value="Կանոնավոր պարբերություն">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Regular Paragraph" value="Կանոնավոր պարբերություն"/>
 				<node name="xhtml-tag-p" value="EPub պարբերություն">
 					<node name="summary" value="&lt;p&gt; գլխաբառի բովանդակությունը XHTML նիշքերում"/>
 				</node>
-				<node name="Title" value="Վերնագիր">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Section Title" value="Գլխի անվանում">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Poem Title" value="Բանաստեղծության անվանում">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subtitle" value="Ենթավերնագիր">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Annotation" value="Ծանոթագրություններ">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Epigraph" value="Բնաբան">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Stanza" value="Տուն (բանաստեղծական)">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Verse" value="Բանաստեղծություններ">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Preformatted text" value="Նախաձևաչափված գրվածք">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Image" value="Պատկեր">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Cite" value="Մեջբերում">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Author" value="Հեղինակի անուն">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Date" value="Տարեթիվ">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Internal Hyperlink" value="Հղում">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Footnote" value="Տողատակ">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Emphasis" value="Շեշտադրում">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Strong" value="Թնդացում">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subscript" value="Վարգիր">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Superscript" value="Վերգիր">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Code" value="Ծրագրի գրվածք">
-					<node name="summary" value=""/>
-				</node>
-				<node name="StrikeThrough" value="Ընդգծված գրվածք">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Italic" value="Շեղ">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Bold" value="Թավ գրվածք">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition" value="Սահմանում">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition Description" value="Սահմանման նկարագրություն">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 1" value="Վերնագիր 1">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 2" value="Վերնագիր 2">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 3" value="Վերնագիր 3">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 4" value="Վերնագիր 4">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 5" value="Վերնագիր 5">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 6" value="Վերնագիր 6">
-					<node name="summary" value=""/>
-				</node>
-				<node name="External Hyperlink" value="Արտաքին հղում">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Title" value="Վերնագիր"/>
+				<node name="Section Title" value="Գլխի անվանում"/>
+				<node name="Poem Title" value="Բանաստեղծության անվանում"/>
+				<node name="Subtitle" value="Ենթավերնագիր"/>
+				<node name="Annotation" value="Ծանոթագրություններ"/>
+				<node name="Epigraph" value="Բնաբան"/>
+				<node name="Stanza" value="Տուն (բանաստեղծական)"/>
+				<node name="Verse" value="Բանաստեղծություններ"/>
+				<node name="Preformatted text" value="Նախաձևաչափված գրվածք"/>
+				<node name="Image" value="Պատկեր"/>
+				<node name="Cite" value="Մեջբերում"/>
+				<node name="Author" value="Հեղինակի անուն"/>
+				<node name="Date" value="Տարեթիվ"/>
+				<node name="Internal Hyperlink" value="Հղում"/>
+				<node name="Footnote" value="Տողատակ"/>
+				<node name="Emphasis" value="Շեշտադրում"/>
+				<node name="Strong" value="Թնդացում"/>
+				<node name="Subscript" value="Վարգիր"/>
+				<node name="Superscript" value="Վերգիր"/>
+				<node name="Code" value="Ծրագրի գրվածք"/>
+				<node name="StrikeThrough" value="Ընդգծված գրվածք"/>
+				<node name="Italic" value="Շեղ"/>
+				<node name="Bold" value="Թավ գրվածք"/>
+				<node name="Definition" value="Սահմանում"/>
+				<node name="Definition Description" value="Սահմանման նկարագրություն"/>
+				<node name="Header 1" value="Վերնագիր 1"/>
+				<node name="Header 2" value="Վերնագիր 2"/>
+				<node name="Header 3" value="Վերնագիր 3"/>
+				<node name="Header 4" value="Վերնագիր 4"/>
+				<node name="Header 5" value="Վերնագիր 5"/>
+				<node name="Header 6" value="Վերնագիր 6"/>
+				<node name="External Hyperlink" value="Արտաքին հղում"/>
 			</node>
 		</node>
 		<node name="toast" value="Pop-ups" toBeTranslated="true">

@@ -522,108 +522,42 @@
 			<node name="verticalAlignment" value="세로 정렬"/>
 			<node name="more" value="더 많은 형식">
 				<node name="summary" value="제목, 명구(epigraph) 등을 별도로 설정"/>
-				<node name="Regular Paragraph" value="일반 단락">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Regular Paragraph" value="일반 단락"/>
 				<node name="xhtml-tag-p" value="EPub 단락">
 					<node name="summary" value="&lt;p&gt; XHTML 태그 내용"/>
 				</node>
-				<node name="Title" value="제목">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Section Title" value="부문 제목">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Poem Title" value="시 제목">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subtitle" value="부제">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Annotation" value="주석">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Epigraph" value="명구">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Stanza" value="연(Stanza)">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Verse" value="절(Verse)">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Preformatted text" value="미리 짜여진 텍스트">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Image" value="이미지">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Cite" value="인용">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Author" value="저자">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Date" value="날짜">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Internal Hyperlink" value="내부 하이퍼링크">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Footnote" value="각주">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Emphasis" value="강조(emphasis)">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Strong" value="Strong">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Subscript" value="첨자(Subscript)">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Superscript" value="어깨 글자(Superscript)">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Code" value="코드">
-					<node name="summary" value=""/>
-				</node>
-				<node name="StrikeThrough" value="위에 줄긋기(StrikeThrough)">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Italic" value="이탤릭체">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Bold" value="굵게">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition" value="정의(Definition)">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Definition Description" value="정의 설명">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 1" value="헤더 1">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 2" value="헤더 2">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 3" value="헤더 3">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 4" value="헤더 4">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 5" value="헤더 5">
-					<node name="summary" value=""/>
-				</node>
-				<node name="Header 6" value="헤더 6">
-					<node name="summary" value=""/>
-				</node>
-				<node name="External Hyperlink" value="외부 하이퍼링크">
-					<node name="summary" value=""/>
-				</node>
+				<node name="Title" value="제목"/>
+				<node name="Section Title" value="부문 제목"/>
+				<node name="Poem Title" value="시 제목"/>
+				<node name="Subtitle" value="부제"/>
+				<node name="Annotation" value="주석"/>
+				<node name="Epigraph" value="명구"/>
+				<node name="Stanza" value="연(Stanza)"/>
+				<node name="Verse" value="절(Verse)"/>
+				<node name="Preformatted text" value="미리 짜여진 텍스트"/>
+				<node name="Image" value="이미지"/>
+				<node name="Cite" value="인용"/>
+				<node name="Author" value="저자"/>
+				<node name="Date" value="날짜"/>
+				<node name="Internal Hyperlink" value="내부 하이퍼링크"/>
+				<node name="Footnote" value="각주"/>
+				<node name="Emphasis" value="강조(emphasis)"/>
+				<node name="Strong" value="Strong"/>
+				<node name="Subscript" value="첨자(Subscript)"/>
+				<node name="Superscript" value="어깨 글자(Superscript)"/>
+				<node name="Code" value="코드"/>
+				<node name="StrikeThrough" value="위에 줄긋기(StrikeThrough)"/>
+				<node name="Italic" value="이탤릭체"/>
+				<node name="Bold" value="굵게"/>
+				<node name="Definition" value="정의(Definition)"/>
+				<node name="Definition Description" value="정의 설명"/>
+				<node name="Header 1" value="헤더 1"/>
+				<node name="Header 2" value="헤더 2"/>
+				<node name="Header 3" value="헤더 3"/>
+				<node name="Header 4" value="헤더 4"/>
+				<node name="Header 5" value="헤더 5"/>
+				<node name="Header 6" value="헤더 6"/>
+				<node name="External Hyperlink" value="외부 하이퍼링크"/>
 			</node>
 		</node>
 		<node name="toast" value="Pop-ups" toBeTranslated="true">
