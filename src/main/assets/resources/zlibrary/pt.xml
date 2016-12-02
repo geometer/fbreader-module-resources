@@ -62,7 +62,7 @@
 		<node name="nl" value="Holandês"/>
 		<node name="pl" value="Polaco"/>
 		<node name="pt" value="Português (Portugal)"/>
-		<node name="pt" value="Português (Brasil)"/>
+		<node name="pt_BR" value="Português (Brasil)"/>
 		<node name="ro" value="Romeno"/>
 		<node name="ru" value="Russo"/>
 		<node name="sr" value="Sérvio"/>
