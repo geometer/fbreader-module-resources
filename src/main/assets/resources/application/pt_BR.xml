@@ -585,7 +585,7 @@
 				<node name="summaryOff" value="Ignorar tamanho da letra definido em CSS"/>
 			</node>
 			<node name="textAlignment" value="Alinhamento de Texto">
-				<node name="summaryOn" value="Aplicar alinhamento de texto defindo em CSS"/>
+				<node name="summaryOn" value="Aplicar alinhamento de texto definido em CSS"/>
 				<node name="summaryOff" value="Ignorar alinhamento de texto definido em CSS"/>
 			</node>
 			<node name="margins" value="Margens">
