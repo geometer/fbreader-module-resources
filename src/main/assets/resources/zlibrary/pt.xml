@@ -11,16 +11,16 @@
 		<node name="networkError">
 			<node name="title" value="Erro de rede"/>
 			<node name="unknownErrorMessage" value="Erro desconhecido"/>
-			<node name="operationTimedOutMessage" value="Tempo de operação esgotou"/>
-			<node name="somethingWrongMessage" value="Algo está errado para %s"/>
+			<node name="operationTimedOutMessage" value="O tempo de operação esgotou"/>
+			<node name="somethingWrongMessage" value="Algo está errado com %s"/>
 			<node name="couldntCreateDirectoryMessage" value="Não foi possível criar o diretório %s"/>
-			<node name="couldntCreateFileMessage" value="Não foi possível criar o arquivo %s"/>
-			<node name="couldntConnectMessage" value="Não foi possível ligar ao host %s"/>
-			<node name="couldntResolveHostMessage" value="Não foi possível resolver host %s"/>
+			<node name="couldntCreateFileMessage" value="Não foi possível criar o ficheiro %s"/>
+			<node name="couldntConnectMessage" value="Não foi possível ligar ao hospedeiro %s"/>
+			<node name="couldntResolveHostMessage" value="Não foi possível mapear o IP do hospedeiro %s"/>
 			<node name="authenticationFailed" value="Falha na autenticação"/>
 			<node name="unsupportedProtocol" value="Protocolo não suportado"/>
 			<node name="invalidURL" value="URL inválido"/>
-			<node name="hostCantBeReached" value="Host %s não pode ser alcançado"/>
+			<node name="hostCantBeReached" value="Não foi possível alcançar o hospedeiro %s"/>
 			<node name="connectionRefused" value="A ligação foi recusada por %s"/>
 			<node name="networkNotAvailable" value="Rede não disponível"/>
 		</node>
@@ -40,8 +40,8 @@
 		<node name="de" value="Alemão"/>
 		<node name="de-traditional" value="Alemão (ortografia tradicional)"/>
 		<node name="el" value="Grego"/>
-		<node name="en" value="Inglês"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en" value="Inglês (GB)"/>
+		<node name="en_US" value="Inglês (US)"/>
 		<node name="eo" value="Esperanto"/>
 		<node name="es" value="Espanhol"/>
 		<node name="eu" value="Basco"/>
@@ -84,6 +84,6 @@
 		<node name="unchanged" value="Inalterado"/>
 	</node>
 	<node name="keyOptionView">
-		<node name="actionFor" value="Ação para Tecla"/>
+		<node name="actionFor" value="Ação para tecla"/>
 	</node>
 </resources>

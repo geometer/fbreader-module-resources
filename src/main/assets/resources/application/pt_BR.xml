@@ -650,7 +650,7 @@
 				<node name="summaryOff" value="Ignorar tamanho da letra definido em CSS"/>
 			</node>
 			<node name="textAlignment" value="Alinhamento de Texto">
-				<node name="summaryOn" value="Aplicar alinhamento de texot defindo em CSS"/>
+				<node name="summaryOn" value="Aplicar alinhamento de texto definido em CSS"/>
 				<node name="summaryOff" value="Ignorar alinhamento de texto definido em CSS"/>
 			</node>
 			<node name="margins" value="Margens">
@@ -708,7 +708,7 @@
 				<node name="show" value="Slider vertical"/>
 				<node name="showAsProgress" value="Barra de progresso vertical"/>
 				<node name="showAsFooter" value="Rodapé Horizontal"/>
-				<node name="showAsFooterOldStyle" value="Rodapé horizontal (estilo aantigo)"/>
+				<node name="showAsFooterOldStyle" value="Rodapé horizontal (estilo antigo)"/>
 			</node>
 			<node name="footerHeight" value="Altura do rodapé"/>
 			<node name="footerOldStyleColor" value="Cor do Rodapé (estilo antigo)"/>
