@@ -826,7 +826,7 @@
 				<node name="summaryOff" value="Nezobrazovat"/>
 			</node>
 		</node>
-		<node name="twitter" value="Integrace Twitter">
+		<node name="twitter" value="Integrace Twitteru">
 			<node name="summary" value="Jak tweetovat z FBReaderu"/>
 			<node name="enableTwitter" value="Povolit tweety">
 				<node name="summaryOn" value="Zobrazit odkaz na Twitter na konci knihy"/>
@@ -835,7 +835,7 @@
 			<node name="tweetText" value="Text tweetu">
 				<node name="hint" value="Použijte %title% pro název knihy, %authors% pro seznam autorů"/>
 			</node>
-			<node name="coverInTweet" value="Přidat obálku knihy do to tweetu">
+			<node name="coverInTweet" value="Přidat obálku knihy do tweetu">
 				<node name="summaryOn" value="Tweetovat text a obrázek obálky knihy"/>
 				<node name="summaryOff" value="Tweetovat pouze text"/>
 			</node>
