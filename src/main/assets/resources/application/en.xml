@@ -879,6 +879,9 @@
 				<node name="copyDatabase" value="Copy books database">
 					<node name="summary" value="Copies books.db file to %s"/>
 				</node>
+				<node name="scanFailures" value="Scan failures list">
+					<node name="summary" value="List of files FBReader couldn't scan"/>
+				</node>
 			</node>
 		</node>
 		<node name="eink" value="E-ink screen">
@@ -919,6 +922,7 @@
 			<node name="markAsUnread" value="Mark as unread"/>
 			<node name="plugin" value="Plugin"/>
 			<node name="premium" value="Premium"/>
+			<node name="clear" value="Clear"/>
 		</node>
 		<node name="gotoPage" value="Go to page"/>
 		<node name="plugin">
