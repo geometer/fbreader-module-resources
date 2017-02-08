@@ -247,7 +247,7 @@
 		<node name="collapseTree" value="Свернуть ветвь дерева"/>
 		<node name="readText" value="Читать главу"/>
 	</node>
-	<node name="bookmarksView" value="Закладки">
+	<node name="bookmarksView">
 		<node name="thisBook" value="Эта книга"/>
 		<node name="allBooks" value="Все книги"/>
 		<node name="new" value="Добавить закладку"/>

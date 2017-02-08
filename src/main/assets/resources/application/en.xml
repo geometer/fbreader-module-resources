@@ -242,7 +242,7 @@
 		<node name="collapseTree" value="Collapse tree"/>
 		<node name="readText" value="Read book text"/>
 	</node>
-	<node name="bookmarksView" value="Bookmarks">
+	<node name="bookmarksView">
 		<node name="thisBook" value="This book"/>
 		<node name="allBooks" value="All books"/>
 		<node name="new" value="New bookmark"/>
