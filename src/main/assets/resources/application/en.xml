@@ -250,6 +250,9 @@
 		<node name="editBookmark" value="Edit bookmark"/>
 		<node name="deleteBookmark" value="Delete bookmark"/>
 		<node name="search" value="Search"/>
+		<node name="orderByCreationTime" value="By creation time"/>
+		<node name="orderByAccessTime" value="By access time"/>
+		<node name="orderByPageNo" value="By page number"/>
 	</node>
 	<node name="editBookmark">
 		<node name="text" value="Text"/>

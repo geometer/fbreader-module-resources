@@ -255,6 +255,9 @@
 		<node name="editBookmark" value="Поправить закладку"/>
 		<node name="deleteBookmark" value="Стереть закладку"/>
 		<node name="search" value="Поиск"/>
+		<node name="orderByCreationTime" value="По времени создания"/>
+		<node name="orderByAccessTime" value="По времени обращения"/>
+		<node name="orderByPageNo" value="По номеру страницы"/>
 	</node>
 	<node name="editBookmark">
 		<node name="text" value="Текст"/>
