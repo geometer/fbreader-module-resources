@@ -27,6 +27,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 import org.geometerplus.zlibrary.core.filesystem.*;
 import org.geometerplus.zlibrary.core.language.Language;
+import org.geometerplus.zlibrary.core.util.LocaleUtil;
 import org.geometerplus.zlibrary.core.util.XmlUtil;
 
 final class ZLTreeResource extends ZLResource {
@@ -137,7 +138,7 @@ final class ZLTreeResource extends ZLResource {
 	}
 
 	private static void setInterfaceLanguage() {
-		final String custom = Language.uiLanguageOption().getValue();
+		final String custom = LocaleUtil.uiLanguageOption().getValue();
 		final String language;
 		final String country;
 		if (Language.SYSTEM_CODE.equals(custom)) {
