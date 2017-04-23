@@ -21,36 +21,35 @@ package org.geometerplus.zlibrary.core.resources;
 
 import java.util.*;
 
-import org.geometerplus.zlibrary.core.filesystem.ZLFile;
-import org.geometerplus.zlibrary.core.filesystem.ZLResourceFile;
+import android.content.Context;
 
 import org.fbreader.util.Language;
 
 abstract public class ZLResource {
 	public final String Name;
 
-	private static final List<String> ourLanguageCodes = new LinkedList<String>();
-	public static List<String> languageCodes() {
-		synchronized (ourLanguageCodes) {
-			if (ourLanguageCodes.isEmpty()) {
-				final ZLFile dir = ZLResourceFile.createResourceFile("resources/application");
-				final List<ZLFile> children = dir.children();
-				for (ZLFile file : children) {
-					final String name = file.getShortName();
-					final String postfix = ".xml";
-					if (name.endsWith(postfix) && !"neutral.xml".equals(name)) {
-						ourLanguageCodes.add(name.substring(0, name.length() - postfix.length()));
+	private static List<String> languageCodes(Context context) {
+		try {
+			final String[] names = context.getAssets().list("resources/application");
+			if (names != null && names.length != 0) {
+				final ArrayList<String> codes = new ArrayList<String>(names.length);
+				final String postfix = ".xml";
+				for (String n : names) {
+					if (n.endsWith(postfix) && !"neutral.xml".equals(n)) {
+						codes.add(n.substring(0, n.length() - postfix.length()));
 					}
 				}
+				return codes;
 			}
+		} catch (Exception e) {
 		}
-		return Collections.unmodifiableList(ourLanguageCodes);
+		return Collections.emptyList();
 	}
 
-	public static List<Language> interfaceLanguages() {
+	public static List<Language> interfaceLanguages(Context context) {
 		final List<Language> allLanguages = new LinkedList<Language>();
 		final ZLResource resource = ZLResource.resource("language-self");
-		for (String c : languageCodes()) {
+		for (String c : languageCodes(context)) {
 			allLanguages.add(ResourceLanguageUtil.language(c, resource));
 		}
 		Collections.sort(allLanguages);

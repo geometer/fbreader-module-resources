@@ -25,9 +25,10 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import org.geometerplus.zlibrary.core.filesystem.*;
+import android.util.Xml;
+
+import org.geometerplus.zlibrary.core.filesystem.ZLResourceFile;
 import org.geometerplus.zlibrary.core.util.LocaleUtil;
-import org.geometerplus.zlibrary.core.util.XmlUtil;
 
 import org.fbreader.util.Language;
 
@@ -239,10 +240,14 @@ final class ZLTreeResource extends ZLResource {
 		private static final String NODE = "node";
 		private final ArrayList<ZLTreeResource> myStack = new ArrayList<ZLTreeResource>();
 
-		public void readDocument(ZLTreeResource root, ZLFile file) {
+		public void readDocument(ZLTreeResource root, ZLResourceFile file) {
 			myStack.clear();
 			myStack.add(root);
-			XmlUtil.parseQuietly(file, this);
+			try {
+				Xml.parse(file.getInputStream(), Xml.Encoding.UTF_8, this);
+			} catch (Exception e) {
+				// ignore
+			}
 		}
 
 		@Override
