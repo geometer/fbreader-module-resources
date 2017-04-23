@@ -255,6 +255,11 @@
 		<node name="editBookmark" value="Поправить закладку"/>
 		<node name="deleteBookmark" value="Стереть закладку"/>
 		<node name="search" value="Поиск"/>
+		<node name="order">
+			<node name="byCreationTime" value="По времени создания"/>
+			<node name="byAccessTime" value="По времени обращения"/>
+			<node name="byPageNo" value="По номеру страницы"/>
+		</node>
 	</node>
 	<node name="editBookmark">
 		<node name="text" value="Текст"/>
@@ -967,7 +972,7 @@
 		<node name="waitMessage">
 			<node name="translating" value="Идёт перевод…"/>
 			<node name="tryConnect" value="Устанавливается соединение. Подождите, пожалуйста…"/>
-			<node name="downloadingBook" value="Загужается книга «%s»"/>
+			<node name="downloadingBook" value="Загружается книга «%s»"/>
 			<node name="search" value="Идет поиск. Подождите, пожалуйста…"/>
 			<node name="loadInfo" value="Загружается информация. Подождите, пожалуйста…"/>
 			<node name="loadingBook" value="Открывается книга. Подождите, пожалуйста…"/>
