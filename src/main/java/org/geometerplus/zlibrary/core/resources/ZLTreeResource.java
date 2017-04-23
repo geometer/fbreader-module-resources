@@ -26,9 +26,10 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import org.geometerplus.zlibrary.core.filesystem.*;
-import org.geometerplus.zlibrary.core.language.Language;
 import org.geometerplus.zlibrary.core.util.LocaleUtil;
 import org.geometerplus.zlibrary.core.util.XmlUtil;
+
+import org.fbreader.util.Language;
 
 final class ZLTreeResource extends ZLResource {
 	private static interface Condition {

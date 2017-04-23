@@ -17,13 +17,13 @@
  * 02110-1301, USA.
  */
 
-package org.geometerplus.zlibrary.core.language;
+package org.geometerplus.zlibrary.core.resources;
 
 import java.util.Locale;
 
-import org.geometerplus.zlibrary.core.resources.ZLResource;
+import org.fbreader.util.Language;
 
-public abstract class LanguageUtil {
+public abstract class ResourceLanguageUtil {
 	public static Language language(String code) {
 		return language(code, ZLResource.resource("language"));
 	}

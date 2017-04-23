@@ -23,8 +23,8 @@ import java.util.*;
 
 import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 import org.geometerplus.zlibrary.core.filesystem.ZLResourceFile;
-import org.geometerplus.zlibrary.core.language.Language;
-import org.geometerplus.zlibrary.core.language.LanguageUtil;
+
+import org.fbreader.util.Language;
 
 abstract public class ZLResource {
 	public final String Name;
@@ -51,10 +51,10 @@ abstract public class ZLResource {
 		final List<Language> allLanguages = new LinkedList<Language>();
 		final ZLResource resource = ZLResource.resource("language-self");
 		for (String c : languageCodes()) {
-			allLanguages.add(LanguageUtil.language(c, resource));
+			allLanguages.add(ResourceLanguageUtil.language(c, resource));
 		}
 		Collections.sort(allLanguages);
-		allLanguages.add(0, LanguageUtil.language(Language.SYSTEM_CODE));
+		allLanguages.add(0, ResourceLanguageUtil.language(Language.SYSTEM_CODE));
 		return allLanguages;
 	}
 
