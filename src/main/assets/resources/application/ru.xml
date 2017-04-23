@@ -869,12 +869,28 @@
 					<node name="summaryOn" value="Use web auth even if Google services are available" toBeTranslated="true"/>
 					<node name="summaryOff" value="Use Google auth if available" toBeTranslated="true"/>
 				</node>
+				<node name="showChangeNotifications" value="Notify about file modifications" toBeTranslated="true">
+					<node name="allFiles" value="Always" toBeTranslated="true"/>
+					<node name="bookFolders" value="For files in book folders only" toBeTranslated="true"/>
+					<node name="noFiles" value="Never" toBeTranslated="true"/>
+				</node>
+				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog" toBeTranslated="true">
+					<node name="summaryOn" value="Show each time you start FBReader from launcher" toBeTranslated="true"/>
+					<node name="summaryOff" value="Do not show" toBeTranslated="true"/>
+				</node>
+				<node name="logFileScanning" value="Log file scanning" toBeTranslated="true">
+					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info" toBeTranslated="true"/>
+					<node name="summaryOff" value="Do not log" toBeTranslated="true"/>
+				</node>
 				<node name="copyLogs" value="Copy log files" toBeTranslated="true">
 					<node name="summary" value="Copies *.log files to %s" toBeTranslated="true"/>
 				</node>
 				<node name="deleteLogs" value="Clear logs" toBeTranslated="true"/>
 				<node name="copyDatabase" value="Copy books database" toBeTranslated="true">
 					<node name="summary" value="Copies books.db file to %s" toBeTranslated="true"/>
+				</node>
+				<node name="scanFailures" value="Scan failures list" toBeTranslated="true">
+					<node name="summary" value="List of files FBReader couldn't scan" toBeTranslated="true"/>
 				</node>
 			</node>
 		</node>
@@ -916,6 +932,7 @@
 			<node name="markAsUnread" value="Пометить как непрочтённое"/>
 			<node name="plugin" value="Модуль"/>
 			<node name="premium" value="Premium"/>
+			<node name="clear" value="Clear" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="На страницу"/>
 		<node name="plugin">
@@ -1248,6 +1265,9 @@
 		<node name="link" value="Расскажите о прочитанной книге!"/>
 		<node name="tweet" value="«%title%» Прочитано в @fbreader_ru"/>
 		<node name="missingApp" value="Приложение Twitter не установлено"/>
+	</node>
+	<node name="goodreads">
+		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Сеть недоступна. Пожалуйста, проверьте соединение и попробуйте ещё раз."/>

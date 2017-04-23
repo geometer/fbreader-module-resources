@@ -19,7 +19,7 @@
 			<node name="couldntResolveHostMessage" value="Failed to resolve host %s" toBeTranslated="true"/>
 			<node name="authenticationFailed" value="توثیق ناکام"/>
 			<node name="unsupportedProtocol" value="غیر معاون کردہ پروٹوکول"/>
-			<node name="invalidURL" value="ناجائز URL" toBeTranslated="true"/>
+			<node name="invalidURL" value="Invalid URL" toBeTranslated="true"/>
 			<node name="hostCantBeReached" value="Host %s cannot be reached" toBeTranslated="true"/>
 			<node name="connectionRefused" value="کنکشن %s کی طرف سے رد کر دیا گیا"/>
 			<node name="networkNotAvailable" value="نیٹ ورک دستیاب نہیں ہے"/>
