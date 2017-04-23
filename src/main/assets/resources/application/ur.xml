@@ -36,7 +36,7 @@
 			<node name="summary" value="تلاش کے نتائج برائے: %s"/>
 		</node>
 		<node name="sync" value="ہم آہنگی">
-			<node name="summary" value="Books by synchronization status" toBeTranslated="true"/>
+			<node name="summary" value="Books by synchronisation status" toBeTranslated="true"/>
 			<node name="sync-success" value="ہم آہنگ کردہ">
 				<node name="summary" value="کامیابی کے ساتھ کتب سرور پر اپلوڈ کر دی گئیں"/>
 			</node>
@@ -128,8 +128,8 @@
 		<node name="signOut" value="سائن آؤٹ (%s)"/>
 		<node name="signUp" value="سائن اپ کریں"/>
 		<node name="quickBuy" value="فوری خرید"/>
-		<node name="topup" value="Add credit to account (currently: %s)" toBeTranslated="true"/>
-		<node name="topupTitle" value="Add credit to account" toBeTranslated="true"/>
+		<node name="topup" value="Top up account (currently: %s)" toBeTranslated="true"/>
+		<node name="topupTitle" value="Top up account" toBeTranslated="true"/>
 		<node name="topupViaBrowser" value="براؤزر میں کھولیں صفحہ"/>
 		<node name="authorisationMenuTitle" value="عمل منتخب کریں"/>
 		<node name="topupSummary" value="اس وقت: %s"/>
@@ -148,7 +148,7 @@
 		<node name="editCustomCatalog" value="کیٹا لااگ مدون کریں"/>
 		<node name="removeCustomCatalog" value="کیٹا لااگ ہٹا دیں"/>
 		<node name="addCustomCatalog" value="کیٹا لاگ شامل کریں"/>
-		<node name="addCustomCatalogSummary" value="Add custom OPDS catalog manually" toBeTranslated="true"/>
+		<node name="addCustomCatalogSummary" value="Add custom OPDS catalogue manually" toBeTranslated="true"/>
 		<node name="disableCatalog" value="کیٹا لاگ غیر فعال کریں"/>
 		<node name="confirmQuestions">
 			<node name="read" value="آپ ڈاؤن لوڈ شدہ کتاب کا مطالعہ کرنا چاہتے ہیں؟"/>
@@ -166,8 +166,8 @@
 			<node name="title" value="کیٹا لاگ شامل کریں"/>
 			<node name="editUrl" value="Enter URL manually" toBeTranslated="true"/>
 		</node>
-		<node name="manageCatalogs" value="Manage catalogs" toBeTranslated="true">
-			<node name="summary" value="Configure your catalogs" toBeTranslated="true"/>
+		<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true">
+			<node name="summary" value="Configure your catalogues" toBeTranslated="true"/>
 			<node name="enabled" value="فعال کردہ"/>
 			<node name="disabled" value="غیر فعال کردہ"/>
 		</node>
@@ -178,10 +178,10 @@
 			<node name="signIn" value="سائن ان کریں"/>
 			<node name="signUp" value="سائن اپ کریں"/>
 			<node name="signOut" value="سائن آؤٹ (%s)"/>
-			<node name="topup" value="Add credit to account" toBeTranslated="true"/>
+			<node name="topup" value="Top up account" toBeTranslated="true"/>
 			<node name="addCustomCatalog" value="کیٹا لاگ کا اضافہ کریں"/>
 			<node name="refreshCatalogsList" value="کیٹا لاگ تازہ کریں"/>
-			<node name="manageCatalogs" value="Manage catalogs" toBeTranslated="true"/>
+			<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true"/>
 			<node name="clearBasket" value="Clear basket" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="تمام کتابیں خریدیں"/>
 		</node>
@@ -192,7 +192,7 @@
 		<node name="confirm" value="Are you sure you want to buy &#10;“%s”?" toBeTranslated="true"/>
 		<node name="confirmSeveralBooks" value="Are you sure you want to buy %s books?" toBeTranslated="true"/>
 		<node name="alreadyBought" value="Book has already been purchased" toBeTranslated="true"/>
-		<node name="notAuthorised" value="Authorization required" toBeTranslated="true"/>
+		<node name="notAuthorised" value="Authorisation required" toBeTranslated="true"/>
 		<node name="noAccountInformation" value="Cannot load account details" toBeTranslated="true"/>
 		<node name="unsufficientFunds" value="This purchase costs %0, your balance is %1" toBeTranslated="true"/>
 		<node name="zeroFunds" value="This purchase costs %0" toBeTranslated="true"/>
@@ -250,6 +250,11 @@
 		<node name="editBookmark" value="بک مارک کی تدوین کریں"/>
 		<node name="deleteBookmark" value="بک مارک حذف کریں"/>
 		<node name="search" value="تلاش کریں"/>
+		<node name="order">
+			<node name="byCreationTime" value="By creation time" toBeTranslated="true"/>
+			<node name="byAccessTime" value="By access time" toBeTranslated="true"/>
+			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
+		</node>
 	</node>
 	<node name="editBookmark">
 		<node name="text" value="متن"/>
@@ -349,10 +354,10 @@
 			<node name="site" value="ہم آہنگی کے بارے میں مزید پڑھیں">
 				<node name="url" value="https://books.fbreader.org/help.html"/>
 			</node>
-			<node name="enable" value="Enable synchronization" toBeTranslated="true">
-				<node name="summaryOn" value="Synchronize my library with FBReader book network server" toBeTranslated="true"/>
-				<node name="summaryOnWithAccount" value="Synchronize my library as %s" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not synchronize my library with FBReader book network server" toBeTranslated="true"/>
+			<node name="enable" value="Enable synchronisation" toBeTranslated="true">
+				<node name="summaryOn" value="Synchronise my library with FBReader book network server" toBeTranslated="true"/>
+				<node name="summaryOnWithAccount" value="Synchronise my library as %s" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not synchronise my library with FBReader book network server" toBeTranslated="true"/>
 			</node>
 			<node name="values">
 				<node name="always" value="ہمیشہ"/>
@@ -362,13 +367,13 @@
 			<node name="uploadAllBooks" value="Upload all books to server" toBeTranslated="true"/>
 			<node name="downloadAllBooks" value="Download all books from server" toBeTranslated="true"/>
 			<node name="downloadCurrentBook" value="Download current book from server" toBeTranslated="true"/>
-			<node name="positions" value="Synchronize reading positions" toBeTranslated="true"/>
-			<node name="bookmarks" value="Synchronize bookmarks" toBeTranslated="true"/>
-			<node name="customShelves" value="Synchronize custom shelves" toBeTranslated="true"/>
-			<node name="metainfo" value="Synchronize metainfo (title, tags, etc.)" toBeTranslated="true"/>
+			<node name="positions" value="Synchronise reading positions" toBeTranslated="true"/>
+			<node name="bookmarks" value="Synchronise bookmarks" toBeTranslated="true"/>
+			<node name="customShelves" value="Synchronise custom shelves" toBeTranslated="true"/>
+			<node name="metainfo" value="Synchronise metainfo (title, tags, etc.)" toBeTranslated="true"/>
 			<node name="changeCurrentBook" value="Change current book" toBeTranslated="true">
 				<node name="summaryOn" value="Open same book on all devices" toBeTranslated="true"/>
-				<node name="summaryOff" value="Synchronize reading positions, but do not open same book on all devices" toBeTranslated="true"/>
+				<node name="summaryOff" value="Synchronise reading positions, but do not open same book on all devices" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="directories" value="ڈائریکٹریاں">
@@ -457,8 +462,8 @@
 					<node name="summaryOff" value="Device kerning is disabled" toBeTranslated="true"/>
 				</node>
 				<node name="dithering" value="Dithering" toBeTranslated="true">
-					<node name="summaryOn" value="Color dithering is enabled" toBeTranslated="true"/>
-					<node name="summaryOff" value="Color dithering is disabled" toBeTranslated="true"/>
+					<node name="summaryOn" value="Colour dithering is enabled" toBeTranslated="true"/>
+					<node name="summaryOff" value="Colour dithering is disabled" toBeTranslated="true"/>
 				</node>
 				<node name="hinting" value="Hinting" toBeTranslated="true">
 					<node name="summaryOn" value="Font hinting is enabled" toBeTranslated="true"/>
@@ -526,7 +531,7 @@
 				<node name="xhtml-tag-p" value="EPub Paragraph" toBeTranslated="true">
 					<node name="summary" value="&lt;p&gt; XHTML tag content" toBeTranslated="true"/>
 				</node>
-				<node name="Title" value="عنوان" toBeTranslated="true"/>
+				<node name="Title" value="Title" toBeTranslated="true"/>
 				<node name="Section Title" value="Section Title" toBeTranslated="true"/>
 				<node name="Poem Title" value="Poem Title" toBeTranslated="true"/>
 				<node name="Subtitle" value="Subtitle" toBeTranslated="true"/>
@@ -590,7 +595,7 @@
 				<node name="summaryOff" value="Ignore margins defined in CSS" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="colors" value="Colors &amp; wallpapers" toBeTranslated="true">
+		<node name="colors" value="Colours &amp; wallpapers" toBeTranslated="true">
 			<node name="summary" value="رنگ کی ترتیبات"/>
 			<node name="background" value="پس منظر">
 				<node name="chooser">
@@ -643,10 +648,10 @@
 				<node name="showAsFooterOldStyle" value="Horizontal footer (old style)" toBeTranslated="true"/>
 			</node>
 			<node name="footerHeight" value="Footer height" toBeTranslated="true"/>
-			<node name="footerOldStyleColor" value="Footer (old style) color" toBeTranslated="true"/>
-			<node name="footerBackgroundColor" value="Footer background color" toBeTranslated="true"/>
-			<node name="footerForegroundColor" value="Footer text color" toBeTranslated="true"/>
-			<node name="footerForegroundUnreadColor" value="Footer line color" toBeTranslated="true"/>
+			<node name="footerOldStyleColor" value="Footer (old style) colour" toBeTranslated="true"/>
+			<node name="footerBackgroundColor" value="Footer background colour" toBeTranslated="true"/>
+			<node name="footerForegroundColor" value="Footer text colour" toBeTranslated="true"/>
+			<node name="footerForegroundUnreadColor" value="Footer line colour" toBeTranslated="true"/>
 			<node name="tocMarks" value="Show TOC marks" toBeTranslated="true">
 				<node name="summaryOn" value="Show TOC marks in the footer bar" toBeTranslated="true"/>
 				<node name="summaryOff" value="Don't show TOC marks in the footer bar" toBeTranslated="true"/>
@@ -744,7 +749,7 @@
 		</node>
 		<node name="images" value="تصاویر">
 			<node name="summary" value="Image display options" toBeTranslated="true"/>
-			<node name="backgroundColor" value="Background color in image view" toBeTranslated="true"/>
+			<node name="backgroundColor" value="Background colour in image view" toBeTranslated="true"/>
 			<node name="longTapAction" value="Long tap action" toBeTranslated="true">
 				<node name="doNothing" value="Long tap does nothing" toBeTranslated="true"/>
 				<node name="selectImage" value="Long tap to select the image" toBeTranslated="true"/>
@@ -756,8 +761,8 @@
 				<node name="all" value="تمام"/>
 			</node>
 			<node name="matchBackground" value="Match background intensity" toBeTranslated="true">
-				<node name="summaryOn" value="Adjust image color to background" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not adjust image color" toBeTranslated="true"/>
+				<node name="summaryOn" value="Adjust image colour to background" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not adjust image colour" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="menu" value="مینیو">
@@ -859,12 +864,28 @@
 					<node name="summaryOn" value="Use web auth even if Google services are available" toBeTranslated="true"/>
 					<node name="summaryOff" value="Use Google auth if available" toBeTranslated="true"/>
 				</node>
+				<node name="showChangeNotifications" value="Notify about file modifications" toBeTranslated="true">
+					<node name="allFiles" value="Always" toBeTranslated="true"/>
+					<node name="bookFolders" value="For files in book folders only" toBeTranslated="true"/>
+					<node name="noFiles" value="Never" toBeTranslated="true"/>
+				</node>
+				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog" toBeTranslated="true">
+					<node name="summaryOn" value="Show each time you start FBReader from launcher" toBeTranslated="true"/>
+					<node name="summaryOff" value="Do not show" toBeTranslated="true"/>
+				</node>
+				<node name="logFileScanning" value="Log file scanning" toBeTranslated="true">
+					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info" toBeTranslated="true"/>
+					<node name="summaryOff" value="Do not log" toBeTranslated="true"/>
+				</node>
 				<node name="copyLogs" value="Copy log files" toBeTranslated="true">
 					<node name="summary" value="Copies *.log files to %s" toBeTranslated="true"/>
 				</node>
 				<node name="deleteLogs" value="Clear logs" toBeTranslated="true"/>
 				<node name="copyDatabase" value="Copy books database" toBeTranslated="true">
 					<node name="summary" value="Copies books.db file to %s" toBeTranslated="true"/>
+				</node>
+				<node name="scanFailures" value="Scan failures list" toBeTranslated="true">
+					<node name="summary" value="List of files FBReader couldn't scan" toBeTranslated="true"/>
 				</node>
 			</node>
 		</node>
@@ -894,10 +915,10 @@
 			<node name="edit" value="تدوین کریں"/>
 			<node name="reloadInfo" value="دوبارہ لوڈ کریں"/>
 			<node name="shareBook" value="کسی کو بھیجیں"/>
-			<node name="topup" value="Add credit" toBeTranslated="true"/>
+			<node name="topup" value="Top up" toBeTranslated="true"/>
 			<node name="pay" value="Pay" toBeTranslated="true"/>
 			<node name="refresh" value="Refresh" toBeTranslated="true"/>
-			<node name="authorise" value="Authorize" toBeTranslated="true"/>
+			<node name="authorise" value="Authorise" toBeTranslated="true"/>
 			<node name="resetPosition" value="Reset position" toBeTranslated="true"/>
 			<node name="sendReport" value="رپورٹ بھیجیں"/>
 			<node name="addToFavorites" value="پسندیدہ میں شامل کریں"/>
@@ -906,6 +927,7 @@
 			<node name="markAsUnread" value="بطور نا پڑھا ہوا نشان زد کریں"/>
 			<node name="plugin" value="پلگ ان"/>
 			<node name="premium" value="پریمیم"/>
+			<node name="clear" value="Clear" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="جائیں بطرف صفحہ"/>
 		<node name="plugin">
@@ -974,7 +996,7 @@
 			<node name="updatingCatalogsList" value="کیٹا لاگ کی فہرست کی اپڈیٹ کر رہا ہے ۔ براۓ مہربانی انتظار کريں…"/>
 			<node name="updatingAccountInformation" value="اکاؤنٹ کی معلومات کی اپڈیٹ کر رہا ہے ۔ براۓ مہربانی انتظار کريں…"/>
 			<node name="initDRMEngine" value="Initialising DRM engine. Please wait…" toBeTranslated="true"/>
-			<node name="acquireLicence" value="Acquiring license. Please wait…" toBeTranslated="true"/>
+			<node name="acquireLicence" value="Acquiring licence. Please wait…" toBeTranslated="true"/>
 			<node name="registerUser" value="نیا کھاتہ رجسٹر کر رہا ہے ۔ براۓ مہربانی انتظار کريں…"/>
 			<node name="autoSignIn" value="سائن ان کر رہا ہے ۔ براۓ مہربانی انتظار کريں…"/>
 			<node name="recoverPassword" value="Recovering password. Please wait…" toBeTranslated="true"/>
@@ -988,8 +1010,8 @@
 			<node name="downloadLimitExceeded" value="Download limit exceeded" toBeTranslated="true"/>
 			<node name="noUserForEmail" value="No user is registered&#10;with specified email address" toBeTranslated="true"/>
 			<node name="unsupportedOperation" value="Unsupported operation" toBeTranslated="true"/>
-			<node name="notAnOPDS" value="This is not an OPDS catalog" toBeTranslated="true"/>
-			<node name="noRequiredInformation" value="Required information is not specified in the catalog" toBeTranslated="true"/>
+			<node name="notAnOPDS" value="This is not an OPDS catalogue" toBeTranslated="true"/>
+			<node name="noRequiredInformation" value="Required information is not specified in the catalogue" toBeTranslated="true"/>
 			<node name="cacheDirectoryError" value="Unable to create cache directory" toBeTranslated="true"/>
 			<node name="usernameAlreadyInUse" value="اسم صارف پہلے ہی زیر استعمال"/>
 			<node name="usernameNotSpecified" value="اسم صارف خالی نہیں ہونا چاہئے"/>
@@ -1009,7 +1031,7 @@
 			<node name="register" value="سائن اپ کریں"/>
 		</node>
 		<node name="CustomCatalogDialog">
-			<node name="title" value="FBReader: add custom catalog" toBeTranslated="true"/>
+			<node name="title" value="FBReader: add custom catalogue" toBeTranslated="true"/>
 			<node name="catalogTitle" value="عنوان"/>
 			<node name="catalogUrl" value="URL"/>
 			<node name="catalogSummary" value="خلاصہ"/>
@@ -1032,8 +1054,8 @@
 			<node name="more" value="Next tip" toBeTranslated="true"/>
 		</node>
 		<node name="screenHint">
-			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the center third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog." toBeTranslated="true"/>
-			<node name="message2" value="Well done! Now tap the center third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings." toBeTranslated="true"/>
+			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the centre third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog." toBeTranslated="true"/>
+			<node name="message2" value="Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings." toBeTranslated="true"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="فولڈر شامل کریں"/>
@@ -1081,8 +1103,8 @@
 		<node name="licensing" value="Not licensed" toBeTranslated="true">
 			<node name="message" value="%s is not licensed. Purchase on Google Play now?" toBeTranslated="true"/>
 		</node>
-		<node name="retryLicensing" value="License verification" toBeTranslated="true">
-			<node name="message" value="Cannot verify %s license. Try again?" toBeTranslated="true"/>
+		<node name="retryLicensing" value="Licence verification" toBeTranslated="true">
+			<node name="message" value="Cannot verify %s licence. Try again?" toBeTranslated="true"/>
 		</node>
 	</node>
 	<node name="errorMessage">
@@ -1234,6 +1256,9 @@
 		<node name="link" value="Tweet what you have read!" toBeTranslated="true"/>
 		<node name="tweet" value="I've read “%title%” in @fbreader" toBeTranslated="true"/>
 		<node name="missingApp" value="Twitter app is not installed" toBeTranslated="true"/>
+	</node>
+	<node name="goodreads">
+		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>

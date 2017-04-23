@@ -251,6 +251,11 @@
 		<node name="editBookmark" value="Editar favorito"/>
 		<node name="deleteBookmark" value="Eliminar marcador"/>
 		<node name="search" value="Pesquisar"/>
+		<node name="order">
+			<node name="byCreationTime" value="By creation time" toBeTranslated="true"/>
+			<node name="byAccessTime" value="By access time" toBeTranslated="true"/>
+			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
+		</node>
 	</node>
 	<node name="editBookmark">
 		<node name="text" value="Texto"/>
@@ -860,12 +865,28 @@
 					<node name="summaryOn" value="Usar autenticador web mesmo se os serviços Google estejam disponíveis"/>
 					<node name="summaryOff" value="Usar autenticador Google se disponível"/>
 				</node>
+				<node name="showChangeNotifications" value="Notify about file modifications" toBeTranslated="true">
+					<node name="allFiles" value="Always" toBeTranslated="true"/>
+					<node name="bookFolders" value="For files in book folders only" toBeTranslated="true"/>
+					<node name="noFiles" value="Never" toBeTranslated="true"/>
+				</node>
+				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog" toBeTranslated="true">
+					<node name="summaryOn" value="Show each time you start FBReader from launcher" toBeTranslated="true"/>
+					<node name="summaryOff" value="Do not show" toBeTranslated="true"/>
+				</node>
+				<node name="logFileScanning" value="Log file scanning" toBeTranslated="true">
+					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info" toBeTranslated="true"/>
+					<node name="summaryOff" value="Do not log" toBeTranslated="true"/>
+				</node>
 				<node name="copyLogs" value="Copiar ficheiros de registo">
 					<node name="summary" value="Copiar ficheiros *.log para %s"/>
 				</node>
 				<node name="deleteLogs" value="Limpar registos"/>
 				<node name="copyDatabase" value="Copiar base de dados dos livros">
 					<node name="summary" value="Copiar ficheiro da base books.db para %s"/>
+				</node>
+				<node name="scanFailures" value="Scan failures list" toBeTranslated="true">
+					<node name="summary" value="List of files FBReader couldn't scan" toBeTranslated="true"/>
 				</node>
 			</node>
 		</node>
@@ -907,6 +928,7 @@
 			<node name="markAsUnread" value="Marcar como não lido"/>
 			<node name="plugin" value="Plugin"/>
 			<node name="premium" value="Premium"/>
+			<node name="clear" value="Clear" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="Ir para a página"/>
 		<node name="plugin">
@@ -1235,6 +1257,9 @@
 		<node name="link" value="Tweet o que leu!"/>
 		<node name="tweet" value="Li “%title%” no @fbreader"/>
 		<node name="missingApp" value="Aplicação Twitter não instalada"/>
+	</node>
+	<node name="goodreads">
+		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Rede não disponível. Verifique a sua liagação e tente novamente"/>

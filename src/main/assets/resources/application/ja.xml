@@ -250,6 +250,11 @@
 		<node name="editBookmark" value="しおりを編集"/>
 		<node name="deleteBookmark" value="しおりを削除"/>
 		<node name="search" value="検索"/>
+		<node name="order">
+			<node name="byCreationTime" value="By creation time" toBeTranslated="true"/>
+			<node name="byAccessTime" value="By access time" toBeTranslated="true"/>
+			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
+		</node>
 	</node>
 	<node name="editBookmark">
 		<node name="text" value="メモ"/>
@@ -907,12 +912,28 @@
 					<node name="summaryOn" value="Google サービスが利用できる場合 Web 認証を使用します"/>
 					<node name="summaryOff" value="利用可能な場合 Google 認証を使用します"/>
 				</node>
+				<node name="showChangeNotifications" value="Notify about file modifications" toBeTranslated="true">
+					<node name="allFiles" value="Always" toBeTranslated="true"/>
+					<node name="bookFolders" value="For files in book folders only" toBeTranslated="true"/>
+					<node name="noFiles" value="Never" toBeTranslated="true"/>
+				</node>
+				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog" toBeTranslated="true">
+					<node name="summaryOn" value="Show each time you start FBReader from launcher" toBeTranslated="true"/>
+					<node name="summaryOff" value="Do not show" toBeTranslated="true"/>
+				</node>
+				<node name="logFileScanning" value="Log file scanning" toBeTranslated="true">
+					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info" toBeTranslated="true"/>
+					<node name="summaryOff" value="Do not log" toBeTranslated="true"/>
+				</node>
 				<node name="copyLogs" value="ログファイルをコピー">
 					<node name="summary" value="*.log ファイルを %s にコピーします"/>
 				</node>
 				<node name="deleteLogs" value="ログを消去"/>
 				<node name="copyDatabase" value="本のデータベースをコピー">
 					<node name="summary" value="books.db ファイルを %s にコピーします"/>
+				</node>
+				<node name="scanFailures" value="Scan failures list" toBeTranslated="true">
+					<node name="summary" value="List of files FBReader couldn't scan" toBeTranslated="true"/>
 				</node>
 			</node>
 		</node>
@@ -954,6 +975,7 @@
 			<node name="markAsUnread" value="未読にする"/>
 			<node name="plugin" value="プラグイン"/>
 			<node name="premium" value="プレミアム"/>
+			<node name="clear" value="Clear" toBeTranslated="true"/>
 		</node>
 		<node name="gotoPage" value="ページに移動"/>
 		<node name="plugin">
@@ -1283,6 +1305,9 @@
 		<node name="link" value="読んだことをツイートしましょう!"/>
 		<node name="tweet" value="“%title%” を @fbreader で読みました"/>
 		<node name="missingApp" value="Twitter アプリがインストールされていません"/>
+	</node>
+	<node name="goodreads">
+		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="ネットワークが利用できません。 接続を確認してもう一度やり直してください"/>
