@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 dependencies {
-	compile project(':fbreader/common')
+	compile project(':fbreader/options')
 }
 
 android {

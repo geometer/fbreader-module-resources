@@ -22,11 +22,13 @@ package org.geometerplus.zlibrary.core.resources;
 import java.util.*;
 
 import android.content.Context;
+import android.content.res.AssetManager;
+
 
 import org.fbreader.util.Language;
 
 abstract public class ZLResource {
-	public final String Name;
+	public static AssetManager AssetManager;
 
 	private static List<String> languageCodes(Context context) {
 		try {
@@ -67,6 +69,8 @@ abstract public class ZLResource {
 		} finally {
 		}
 	}
+
+	public final String Name;
 
 	protected ZLResource(String name) {
 		Name = name;

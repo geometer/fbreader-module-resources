@@ -19,6 +19,7 @@
 
 package org.geometerplus.zlibrary.core.resources;
 
+import java.io.InputStream;
 import java.util.*;
 
 import org.xml.sax.Attributes;
@@ -27,9 +28,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 import android.util.Xml;
 
-import org.geometerplus.zlibrary.core.filesystem.ZLResourceFile;
-import org.geometerplus.zlibrary.core.util.LocaleUtil;
-
+import org.fbreader.options.util.LocaleUtil;
 import org.fbreader.util.Language;
 
 final class ZLTreeResource extends ZLResource {
@@ -178,10 +177,10 @@ final class ZLTreeResource extends ZLResource {
 	}
 
 	private static void loadData(ResourceTreeReader reader, String fileName) {
-		reader.readDocument(ourRoot, ZLResourceFile.createResourceFile("resources/zlibrary/" + fileName));
-		reader.readDocument(ourRoot, ZLResourceFile.createResourceFile("resources/application/" + fileName));
-		reader.readDocument(ourRoot, ZLResourceFile.createResourceFile("resources/lang.xml"));
-		reader.readDocument(ourRoot, ZLResourceFile.createResourceFile("resources/application/neutral.xml"));
+		reader.readDocument(ourRoot, "resources/zlibrary/" + fileName);
+		reader.readDocument(ourRoot, "resources/application/" + fileName);
+		reader.readDocument(ourRoot, "resources/lang.xml");
+		reader.readDocument(ourRoot, "resources/application/neutral.xml");
 	}
 
 	private static void loadData() {
@@ -240,11 +239,11 @@ final class ZLTreeResource extends ZLResource {
 		private static final String NODE = "node";
 		private final ArrayList<ZLTreeResource> myStack = new ArrayList<ZLTreeResource>();
 
-		public void readDocument(ZLTreeResource root, ZLResourceFile file) {
+		public void readDocument(ZLTreeResource root, String path) {
 			myStack.clear();
 			myStack.add(root);
-			try {
-				Xml.parse(file.getInputStream(), Xml.Encoding.UTF_8, this);
+			try (InputStream stream = AssetManager.open(path)) {
+				Xml.parse(stream, Xml.Encoding.UTF_8, this);
 			} catch (Exception e) {
 				// ignore
 			}
