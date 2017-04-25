@@ -707,6 +707,12 @@
 				<node name="summaryOn" value="페이지를 가로로 스크롤합니다"/>
 				<node name="summaryOff" value="페이지를 세로로 스크롤합니다"/>
 			</node>
+			<node name="tapToScrollForward" value="Tap to scroll forward" toBeTranslated="true">
+				<node name="right_to_left" value="Right third of the screen" toBeTranslated="true"/>
+				<node name="left_to_right" value="Left third of the screen" toBeTranslated="true"/>
+				<node name="up" value="Bottom third of the screen" toBeTranslated="true"/>
+				<node name="down" value="Top third of the screen" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="tapZones" value="두드리기 영역">
 			<node name="summary" value="손가락으로 두드릴때 동작"/>

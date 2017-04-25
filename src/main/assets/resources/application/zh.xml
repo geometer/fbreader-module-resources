@@ -697,6 +697,12 @@
 				<node name="summaryOn" value="横屏翻阅"/>
 				<node name="summaryOff" value="纵屏翻阅"/>
 			</node>
+			<node name="tapToScrollForward" value="Tap to scroll forward" toBeTranslated="true">
+				<node name="right_to_left" value="Right third of the screen" toBeTranslated="true"/>
+				<node name="left_to_right" value="Left third of the screen" toBeTranslated="true"/>
+				<node name="up" value="Bottom third of the screen" toBeTranslated="true"/>
+				<node name="down" value="Top third of the screen" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="tapZones" value="拍触区域">
 			<node name="summary" value="手指拍触动作设定"/>

@@ -712,6 +712,12 @@
 				<node name="summaryOn" value="При листании страница движется по горизонтали"/>
 				<node name="summaryOff" value="При листании страница движется по вертикали"/>
 			</node>
+			<node name="tapToScrollForward" value="Листание вперёд касанием">
+				<node name="right_to_left" value="Правой трети экрана"/>
+				<node name="left_to_right" value="Левой трети экрана"/>
+				<node name="up" value="Нижней трети экрана"/>
+				<node name="down" value="Верхней трети экрана"/>
+			</node>
 		</node>
 		<node name="tapZones" value="Tap zones" toBeTranslated="true">
 			<node name="summary" value="Finger tap actions" toBeTranslated="true"/>

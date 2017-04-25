@@ -707,6 +707,12 @@
 				<node name="summaryOn" value="Гартаць старонкі гарызантальна"/>
 				<node name="summaryOff" value="Гартаць старонкі вэртыкальна"/>
 			</node>
+			<node name="tapToScrollForward" value="Tap to scroll forward" toBeTranslated="true">
+				<node name="right_to_left" value="Right third of the screen" toBeTranslated="true"/>
+				<node name="left_to_right" value="Left third of the screen" toBeTranslated="true"/>
+				<node name="up" value="Bottom third of the screen" toBeTranslated="true"/>
+				<node name="down" value="Top third of the screen" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="tapZones" value="Зоны дотыкаў">
 			<node name="summary" value="Дзеяньня дотыкаў"/>
