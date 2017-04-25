@@ -697,6 +697,12 @@
 				<node name="summaryOn" value="При гортанні сторінка рухається по горизонталі"/>
 				<node name="summaryOff" value="При гортанні сторінка рухається по вертикалі"/>
 			</node>
+			<node name="tapToScrollForward" value="Tap to scroll forward" toBeTranslated="true">
+				<node name="right_to_left" value="Right third of the screen" toBeTranslated="true"/>
+				<node name="left_to_right" value="Left third of the screen" toBeTranslated="true"/>
+				<node name="up" value="Bottom third of the screen" toBeTranslated="true"/>
+				<node name="down" value="Top third of the screen" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="tapZones" value="Зони дотику">
 			<node name="summary" value="Дії при дотику"/>

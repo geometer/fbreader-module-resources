@@ -697,6 +697,12 @@
 				<node name="summaryOn" value="Zmieniaj strony poziomo"/>
 				<node name="summaryOff" value="Zmieniaj strony pionowo"/>
 			</node>
+			<node name="tapToScrollForward" value="Tap to scroll forward" toBeTranslated="true">
+				<node name="right_to_left" value="Right third of the screen" toBeTranslated="true"/>
+				<node name="left_to_right" value="Left third of the screen" toBeTranslated="true"/>
+				<node name="up" value="Bottom third of the screen" toBeTranslated="true"/>
+				<node name="down" value="Top third of the screen" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="tapZones" value="Strefy dotyku">
 			<node name="summary" value="Akcja po dotknięciu palcem"/>
