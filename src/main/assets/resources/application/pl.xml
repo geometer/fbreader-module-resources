@@ -856,9 +856,9 @@
 			<node name="thirdParty" value="Zewnętrzne biblioteki"/>
 			<node name="development" value="Opcje dla deweloperów">
 				<node name="summary" value="Używaj ostrożnie ;)"/>
-				<node name="forceWebAuth" value="Force web authentication" toBeTranslated="true">
-					<node name="summaryOn" value="Use web auth even if Google services are available" toBeTranslated="true"/>
-					<node name="summaryOff" value="Use Google auth if available" toBeTranslated="true"/>
+				<node name="forceWebAuth" value="Wymuś uwierzytelnianie w sieci">
+					<node name="summaryOn" value="Używa uwierzytelniania nawet jeśli usługi Google są niedostępne"/>
+					<node name="summaryOff" value="Używa uwierzytelniania Google jeśli jest dostępne"/>
 				</node>
 				<node name="showChangeNotifications" value="Notify about file modifications" toBeTranslated="true">
 					<node name="allFiles" value="Always" toBeTranslated="true"/>
@@ -873,12 +873,12 @@
 					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info" toBeTranslated="true"/>
 					<node name="summaryOff" value="Do not log" toBeTranslated="true"/>
 				</node>
-				<node name="copyLogs" value="Copy log files" toBeTranslated="true">
-					<node name="summary" value="Copies *.log files to %s" toBeTranslated="true"/>
+				<node name="copyLogs" value="Kopiuj pliki dzienników">
+					<node name="summary" value="Kopiuje pliki  *.log do %s"/>
 				</node>
-				<node name="deleteLogs" value="Clear logs" toBeTranslated="true"/>
-				<node name="copyDatabase" value="Copy books database" toBeTranslated="true">
-					<node name="summary" value="Copies books.db file to %s" toBeTranslated="true"/>
+				<node name="deleteLogs" value="Wyczyść pliki dzienników"/>
+				<node name="copyDatabase" value="Kopiuj bazę danych książek">
+					<node name="summary" value="Kopiuje plik books.db do %s"/>
 				</node>
 				<node name="scanFailures" value="Scan failures list" toBeTranslated="true">
 					<node name="summary" value="List of files FBReader couldn't scan" toBeTranslated="true"/>
@@ -1106,7 +1106,7 @@
 	<node name="errorMessage">
 		<node name="nativeCodeFailure" value="Błąd %s w kodzie podczas czytania '%s'"/>
 		<node name="errorReadingFile" value="Wystąpił błąd podczas odczytu '%s'"/>
-		<node name="errorReadingZip" value="Wystąpił błąd podczas Error occured while extracting '%s'" toBeTranslated="true"/>
+		<node name="errorReadingZip" value="Wystąpił błąd podczas wypakowywania '%s'"/>
 		<node name="pluginNotFound" value="Brak wtyczki dla '%s'"/>
 		<node name="unknownPluginType" value="Nieznany typ wtyczki: %s"/>
 		<node name="fileNotFound" value="Nie znaleziono pliku: %s"/>
