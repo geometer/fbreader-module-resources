@@ -186,7 +186,7 @@
 		<node name="title" value="Zakup książki"/>
 		<node name="titleSeveralBooks" value="Kup książki"/>
 		<node name="confirm" value="Czy na pewno chcesz kupić książkę &#10;„%s”?"/>
-		<node name="confirmSeveralBooks" value="Czy na pewno chcesz kupić %s ksiązki?"/>
+		<node name="confirmSeveralBooks" value="Czy na pewno chcesz kupić %s książki?"/>
 		<node name="alreadyBought" value="Ta książka jest już kupiona"/>
 		<node name="notAuthorised" value="Wymagana autoryzacja"/>
 		<node name="noAccountInformation" value="Nie można pobrać stanu konta"/>
@@ -234,7 +234,7 @@
 	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Ta książka"/>
-		<node name="allBooks" value="Wszystkie ksiązki"/>
+		<node name="allBooks" value="Wszystkie książki"/>
 		<node name="new" value="Nowa zakładka"/>
 		<node name="openBook" value="Otwórz"/>
 		<node name="editBookmark" value="Edytuj zakładkę"/>
@@ -303,7 +303,7 @@
 			<node name="toc" value="Spis treści"/>
 			<node name="gotoHome" value="Idź do początku dokumentu"/>
 			<node name="gotoSectionStart" value="Przejdź do początku rozdziału"/>
-			<node name="gotoSectionEnd" value="Przejdż na koniec rozdziału"/>
+			<node name="gotoSectionEnd" value="Przejdź na koniec rozdziału"/>
 			<node name="nextTOCSection" value="Przejdź do kolejnej pozycji spisu treści"/>
 			<node name="previousTOCSection" value="Przejdź do poprzedniej pozycji spisu treści"/>
 			<node name="undo" value="Powrót"/>
@@ -356,7 +356,7 @@
 			</node>
 			<node name="uploadAllBooks" value="Ładuj wszystkie książki na serwer"/>
 			<node name="downloadAllBooks" value="Pobieraj wszystkie książki z serwera"/>
-			<node name="downloadCurrentBook" value="Pobieraj bierzącą książkę z serwera"/>
+			<node name="downloadCurrentBook" value="Pobieraj bieżącą książkę z serwera"/>
 			<node name="positions" value="Synchronizuj czytane pozycje"/>
 			<node name="bookmarks" value="Synchronizuj zakładki"/>
 			<node name="customShelves" value="Synchronizuj moje regały"/>
@@ -432,7 +432,7 @@
 			</node>
 			<node name="dontTurnScreenOffDuringCharging" value="Zapobiegaj wygaszaniu ekranu podczas ładowania">
 				<node name="summaryOn" value="Zapobiegaj wygaszaniu ekranu gdy urządzenie jest w trybie ładowania"/>
-				<node name="summaryOff" value="Wyłączaj ekran gdy urządznie jest w trybie ładowania"/>
+				<node name="summaryOff" value="Wyłączaj ekran gdy urządzenie jest w trybie ładowania"/>
 			</node>
 			<node name="enableBookMenuSwipeGesture" value="Włącz gest przeciągnięcia palcem dla menu książki">
 				<node name="summaryOn" value="Przeciągnięcie lewego brzegu ekranu otwiera menu książki"/>
@@ -724,7 +724,7 @@
 				<node name="ask" value="Pyta, jeśli brak tłumaczenia w sieci"/>
 				<node name="never" value="Nigdy"/>
 			</node>
-			<node name="translationToastDuration" value="Jak długo wyświetlać okno z tłumaczniem"/>
+			<node name="translationToastDuration" value="Jak długo wyświetlać okno z tłumaczeniem"/>
 			<node name="errorToastDuration" value="Jak długo wyświetlać okno z błędem"/>
 			<node name="sourceLanguage" value="Tłumacz z">
 				<node name="detect" value="Wykrywa język automatycznie"/>
@@ -804,7 +804,7 @@
 				<node name="goBack" value="Powrót do poprzedniej lokalizacji"/>
 				<node name="cancelMenu" value="Wyświetl menu przycisku 'Wstecz'"/>
 			</node>
-			<node name="backKeyLongPressAction" value="Akcja przytrzymania przycsku wstecz">
+			<node name="backKeyLongPressAction" value="Akcja przytrzymania przycisku wstecz">
 				<node name="exit" value="Zamknij FBReadera"/>
 				<node name="goBack" value="Powrót do poprzedniej lokalizacji"/>
 				<node name="cancelMenu" value="Wyświetl menu przycisku 'Wstecz'"/>
@@ -893,7 +893,7 @@
 			</node>
 			<node name="interval" value="Liczba szybkich odświeżań pomiędzy odświeżaniem całościowym"/>
 		</node>
-		<node name="lockedOption" value="Zainstaluj wersję Premium aby odblokować tą opcję"/>
+		<node name="lockedOption" value="Zainstaluj wersję Premium, aby odblokować tą opcję"/>
 	</node>
 	<node name="dialog">
 		<node name="button">
@@ -904,7 +904,7 @@
 			<node name="buy" value="Kup"/>
 			<node name="buyAndDownload" value="Kup i pobierz"/>
 			<node name="download" value="Pobierz"/>
-			<node name="continue" value="Kontunuuj"/>
+			<node name="continue" value="Kontynuuj"/>
 			<node name="editUrl" value="Edytuj URL"/>
 			<node name="tryAgain" value="Spróbuj ponownie"/>
 			<node name="openBook" value="Czytaj"/>
@@ -998,7 +998,7 @@
 			<node name="recoverPassword" value="Trwa odzyskiwanie hasła. Proszę czekać…"/>
 		</node>
 		<node name="networkError">
-			<node name="internalError" value="Wenętrzny błąd serwera"/>
+			<node name="internalError" value="Wewnętrzny błąd serwera"/>
 			<node name="purchaseNotEnoughMoney" value="Za mało pieniędzy"/>
 			<node name="purchaseMissingBook" value="Brak książki"/>
 			<node name="purchaseAlreadyPurchased" value="Książka już została kupiona"/>
@@ -1016,7 +1016,7 @@
 			<node name="emailNotSpecified" value="Adres Email jest pusty"/>
 			<node name="emailAlreadyInUse" value="Adres Email jest już używany"/>
 			<node name="invalidEMail" value="Nieprawidłowy adres email"/>
-			<node name="tooManyRegistrations" value="Zbyt dużo rejestracji z tego adresu IP address;&#10;Spróbuj ponownie za kilka minut"/>
+			<node name="tooManyRegistrations" value="Zbyt dużo rejestracji z tego adresu IP;&#10;Spróbuj ponownie za kilka minut"/>
 		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Uwierzytelnianie"/>
@@ -1118,7 +1118,7 @@
 		<node name="textNotFound" value="Niestety w książce nie ma pasującego tekstu"/>
 		<node name="bookNotFound" value="Niestety w bibliotece brak pasujących książek"/>
 		<node name="bookmarkNotFound" value="Niestety brak pasujących zakładek"/>
-		<node name="cannotOpenBook" value="Niestety nie można traz otworzyć tej książki"/>
+		<node name="cannotOpenBook" value="Niestety nie można teraz otworzyć tej książki"/>
 		<node name="dictionaryIsNotInstalled" value="Niestety nie zainstalowano słownika"/>
 		<node name="permissionDenied" value="Niestety nie masz uprawnień"/>
 		<node name="noFavorites" value="Niestety lista ulubionych jest pusta"/>
@@ -1139,7 +1139,7 @@
 	<node name="crash">
 		<node name="fixBooksDirectory">
 			<node name="title" value="Problem z FBReaderem"/>
-			<node name="text" value="Nie można zapisywać do pamięci cache FBReader. Spradź czy karta pamięci została prawidłowo zainstalowana lub wybierz inny katalog."/>
+			<node name="text" value="Nie można zapisywać do pamięci cache FBReader. Sprawdź czy karta pamięci została prawidłowo zainstalowana lub wybierz inny katalog."/>
 		</node>
 		<node name="missingNativeLibrary">
 			<node name="title" value="Problem z FBReaderem"/>
