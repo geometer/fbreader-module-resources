@@ -29,8 +29,8 @@
 		<node name="tinyCardsView" value="Drobne karty"/>
 		<node name="coversView" value="Okładki"/>
 		<node name="oldView" value="Klasyczny"/>
-		<node name="bookshelfView" value="Widok półki">
-			<node name="summary" value="Przełącz na widok półki"/>
+		<node name="bookshelfView" value="Widok regału">
+			<node name="summary" value="Przełącza na widok regału"/>
 		</node>
 		<node name="found" value="Wyszukane">
 			<node name="summary" value="Wyniki dla: %s"/>
@@ -241,9 +241,9 @@
 		<node name="deleteBookmark" value="Usuń zakładkę"/>
 		<node name="search" value="Szukaj"/>
 		<node name="order">
-			<node name="byCreationTime" value="Wg daty utworzenia"/>
-			<node name="byAccessTime" value="Wg daty dostępu"/>
-			<node name="byPageNo" value="Wg liczby stron"/>
+			<node name="byCreationTime" value="wg daty utworzenia"/>
+			<node name="byAccessTime" value="wg daty dostępu"/>
+			<node name="byPageNo" value="wg liczby stron"/>
 		</node>
 	</node>
 	<node name="editBookmark">
@@ -359,7 +359,7 @@
 			<node name="downloadCurrentBook" value="Pobieraj bieżącą książkę z serwera"/>
 			<node name="positions" value="Synchronizuj czytane pozycje"/>
 			<node name="bookmarks" value="Synchronizuj zakładki"/>
-			<node name="customShelves" value="Synchronizuj moje półki"/>
+			<node name="customShelves" value="Synchronizuj moje regały"/>
 			<node name="metainfo" value="Synchronizuj metadane (tytuły, tagi, itp.)"/>
 			<node name="changeCurrentBook" value="Synchronizacja bieżącej książki">
 				<node name="summaryOn" value="Otwiera tę samą książkę na wszystkich urządzeniach"/>
@@ -1165,8 +1165,8 @@
 		<node name="local_opds_scanner" value="Lokalny skaner OPDS">
 			<node name="summary" value="Szuka książek w lokalnej sieci"/>
 		</node>
-		<node name="bookshelf" value="Półka">
-			<node name="summary" value="Widok półki z książkami"/>
+		<node name="bookshelf" value="Regał">
+			<node name="summary" value="Widok regałów z książkami"/>
 		</node>
 		<node name="opds_server" value="Serwer OPDS">
 			<node name="summary" value="Pozwala Twojemu urządzeniu działać jak serwer"/>
