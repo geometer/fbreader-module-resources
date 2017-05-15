@@ -24,7 +24,7 @@
 			<node name="summary" value="Moje wybrane książki"/>
 		</node>
 		<node name="chooseView" value="Zmień widok"/>
-		<node name="wideCardsView" value="Duże karty"/>
+		<node name="wideCardsView" value="Szerokie karty"/>
 		<node name="smallCardsView" value="Małe karty"/>
 		<node name="tinyCardsView" value="Drobne karty"/>
 		<node name="coversView" value="Okładki"/>
@@ -338,14 +338,14 @@
 		<node name="tags" value="Etykiety"/>
 		<node name="series" value="Seria"/>
 	</node>
-	<node name="Preferences" value="Ustawienia FBReader">
+	<node name="Preferences" value="Ustawienia FBReadera">
 		<node name="sync" value="Synchronizacja">
 			<node name="summary" value="Ustawienia synchronizacji książek"/>
 			<node name="site" value="Dowiedz się więcej na temat synchronizacji">
 				<node name="url" value="https://books.fbreader.org/help.html"/>
 			</node>
 			<node name="enable" value="Włącz synchronizację">
-				<node name="summaryOn" value="Synchronizuj moją bibliotekę z serwerem książek FBReader"/>
+				<node name="summaryOn" value="Synchronizuj moją bibliotekę z serwerem książek FBReadera"/>
 				<node name="summaryOnWithAccount" value="Synchronizuje moją bibliotekę jako %s"/>
 				<node name="summaryOff" value="Nie synchronizuje biblioteki z serwerem"/>
 			</node>
@@ -367,7 +367,7 @@
 			</node>
 		</node>
 		<node name="directories" value="Katalogi">
-			<node name="summary" value="Katalogi zawierające pliki z których korzysta FBReader"/>
+			<node name="summary" value="Katalogi zawierające pliki, z których korzysta FBReader"/>
 			<node name="bookPath" value="Miejsca z książkami">
 				<node name="chooserTitle" value="Katalog z książkami"/>
 			</node>
@@ -401,8 +401,8 @@
 				<node name="summaryOff" value="Ukrywa pasek statusu podczas czytania"/>
 			</node>
 			<node name="showActionBar" value="Wyświetlaj pasek poleceń">
-				<node name="summaryOn" value="Wyświetla pasek poleceń w trybie czytania"/>
-				<node name="summaryOff" value="Ukrywa pasek poleceń w trybie czytania"/>
+				<node name="summaryOn" value="Wyświetla pasek poleceń podczas czytania"/>
+				<node name="summaryOff" value="Ukrywa pasek poleceń podczas czytania"/>
 			</node>
 			<node name="showStatusBarWhenMenuIsActive" value="Wyświetlaj pasek statusu gdy menu jest aktywne">
 				<node name="summaryOn" value="Wyświetla pasek statusu gdy menu jest włączone"/>
@@ -422,7 +422,7 @@
 			</node>
 			<node name="allowScreenBrightnessAdjustment" value="Dostosowywanie jasności">
 				<node name="summaryOn" value="Przesuwając palcem w górę/dół wzdłuż lewej krawędzi ekranu"/>
-				<node name="summaryOff" value="Wyłączona"/>
+				<node name="summaryOff" value="Wyłączone"/>
 			</node>
 			<node name="dontTurnScreenOff" value="Zapobiegaj wygaszaniu ekranu">
 				<node name="0" value="Zawsze"/>
@@ -501,8 +501,8 @@
 				<node name="inherit" value="&lt;bez zmian&gt;"/>
 			</node>
 			<node name="autoHyphenations" value="Automatyczne dzielenie wyrazów">
-				<node name="summaryOn" value="dziel wyrazy automatycznie"/>
-				<node name="summaryOff" value="nie dziel wyrazów automatycznie"/>
+				<node name="summaryOn" value="Dziel wyrazy automatycznie"/>
+				<node name="summaryOff" value="Nie dziel wyrazów automatycznie"/>
 			</node>
 			<node name="allowHyphenations" value="Zezwalaj na dzielenie wyrazów">
 				<node name="auto" value="dziel wyrazy"/>
@@ -569,7 +569,7 @@
 		<node name="css" value="CSS">
 			<node name="summary" value="Stosuj/ignoruj wartości zdefiniowane w CSS"/>
 			<node name="fontFamily" value="Rodzina czcionek">
-				<node name="summaryOn" value="Stosuje rodziny czcionek zdefiniowanych w CSS"/>
+				<node name="summaryOn" value="Stosuje rodziny czcionek zdefiniowane w CSS"/>
 				<node name="summaryOff" value="Ignoruje rodziny czcionek zdefiniowane w CSS"/>
 			</node>
 			<node name="fontSize" value="Rozmiar czcionki">
@@ -832,7 +832,7 @@
 				<node name="summaryOff" value="Tylko treść tweeta"/>
 			</node>
 		</node>
-		<node name="about" value="O FBReader">
+		<node name="about" value="O FBReaderze">
 			<node name="summary" value="Informacja o wersji, kontakt, itp."/>
 			<node name="version" value="Wersja"/>
 			<node name="site" value="Odwiedź naszą witrynę">
@@ -866,7 +866,7 @@
 					<node name="noFiles" value="Nigdy"/>
 				</node>
 				<node name="showOpenPremiumSuggestion" value="Okienko „Otwórz wersję Premium”">
-					<node name="summaryOn" value="Wyświetla przy każdym uruchomieniu FBReader"/>
+					<node name="summaryOn" value="Wyświetla przy każdym uruchomieniu FBReadera"/>
 					<node name="summaryOff" value="Nie wyświetla"/>
 				</node>
 				<node name="logFileScanning" value="Przetwarzanie pliku dziennika">
@@ -1110,7 +1110,7 @@
 		<node name="pluginNotFound" value="Brak wtyczki dla '%s'"/>
 		<node name="unknownPluginType" value="Nieznany typ wtyczki: %s"/>
 		<node name="fileNotFound" value="Nie znaleziono pliku: %s"/>
-		<node name="unsupportedEncryptionMethod" value="Metoda szyfrowania pliku %s nie jest wspierania przez FBReader. Niektóre strony mogą być nieczytelne"/>
+		<node name="unsupportedEncryptionMethod" value="Metoda szyfrowania pliku %s nie jest wspierania przez FBReadera. Niektóre strony mogą być nieczytelne"/>
 		<node name="opfFileNotFound" value="OPF nie został odnaleziony w %s"/>
 		<node name="unsupportedFileFormat" value="Format pliku nie jest wspierany dla '%s'"/>
 		<node name="errorParsingRtf" value="Błąd parsowania Rtf w: %s"/>
@@ -1139,7 +1139,7 @@
 	<node name="crash">
 		<node name="fixBooksDirectory">
 			<node name="title" value="Problem z FBReaderem"/>
-			<node name="text" value="Nie można zapisywać do pamięci cache FBReader. Sprawdź czy karta pamięci została prawidłowo zainstalowana lub wybierz inny katalog."/>
+			<node name="text" value="Nie można zapisywać do pamięci cache FBReadera. Sprawdź czy karta pamięci została prawidłowo zainstalowana lub wybierz inny katalog."/>
 		</node>
 		<node name="missingNativeLibrary">
 			<node name="title" value="Problem z FBReaderem"/>
@@ -1148,7 +1148,7 @@
 	</node>
 	<node name="error">
 		<node name="bookReading">
-			<node name="title" value="Błąd FBReader"/>
+			<node name="title" value="Błąd FBReadera"/>
 		</node>
 	</node>
 	<node name="links">
@@ -1194,13 +1194,13 @@
 		<node name="percent" value="Np.: 125%"/>
 	</node>
 	<node name="duration">
-		<node name="duration1" value="1 sekunda"/>
+		<node name="duration1" value="1 sekundę"/>
 		<node name="duration3" value="3 sekundy"/>
 		<node name="duration5" value="5 sekund"/>
 		<node name="duration10" value="10 sekund"/>
 		<node name="duration20" value="20 sekund"/>
 		<node name="duration40" value="40 sekund"/>
-		<node name="duration60" value="1 minuta"/>
+		<node name="duration60" value="1 minutę"/>
 		<node name="duration300" value="5 minut"/>
 	</node>
 	<node name="textSearchPopup">
