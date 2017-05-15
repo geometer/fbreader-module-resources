@@ -15,7 +15,7 @@
 			<node name="summary" value="Książki posortowane seriami"/>
 		</node>
 		<node name="byTag" value="Etykietami">
-			<node name="summary" value="Książki posortowane po eytkietach"/>
+			<node name="summary" value="Książki posortowane po etykietach"/>
 		</node>
 		<node name="recent" value="Ostatnio czytane">
 			<node name="summary" value="Ostatnio czytane książki"/>
@@ -150,7 +150,7 @@
 			<node name="read" value="Czy chcesz czytać lokalną kopię?"/>
 			<node name="download" value="Czy chcesz pobrać tę książkę?"/>
 			<node name="readDemo" value="Czy chcesz czytać fragment?"/>
-			<node name="downloadDemo" value="Czy chesz pobrać fragment?"/>
+			<node name="downloadDemo" value="Czy chcesz pobrać fragment?"/>
 			<node name="buy" value="Czy chcesz kupić tę książkę? (%s)"/>
 			<node name="openInBrowser" value="Czy chcesz otworzyć ten katalog w przeglądarce?"/>
 		</node>
@@ -185,8 +185,8 @@
 	<node name="buyBook">
 		<node name="title" value="Zakup książki"/>
 		<node name="titleSeveralBooks" value="Kup książki"/>
-		<node name="confirm" value="Czy na pewno chcesz kupić książkę &#10;“%s”?"/>
-		<node name="confirmSeveralBooks" value="Czy na pewno chesz kupić %s ksiązki?"/>
+		<node name="confirm" value="Czy na pewno chcesz kupić książkę &#10;„%s”?"/>
+		<node name="confirmSeveralBooks" value="Czy na pewno chcesz kupić %s książki?"/>
 		<node name="alreadyBought" value="Ta książka jest już kupiona"/>
 		<node name="notAuthorised" value="Wymagana autoryzacja"/>
 		<node name="noAccountInformation" value="Nie można pobrać stanu konta"/>
@@ -222,7 +222,7 @@
 		<node name="downloadFailedTicker" value="Błąd pobierania książki"/>
 		<node name="downloadComplete" value="Pobieranie zakończone"/>
 		<node name="downloadFailed" value="Pobieranie nieudane"/>
-		<node name="downloadStarted" value="Rozpoczęto pobiernie książki"/>
+		<node name="downloadStarted" value="Rozpoczęto pobieranie książki"/>
 		<node name="alreadyDownloading" value="Książka jest już pobierana"/>
 		<node name="cannotCreateDirectory" value="Nie udało się utworzyć katalogu %s"/>
 		<node name="cannotCreateFile" value="Nie udało się utworzyć pliku %s"/>
@@ -234,16 +234,16 @@
 	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Ta książka"/>
-		<node name="allBooks" value="Wszystkie ksiązki"/>
+		<node name="allBooks" value="Wszystkie książki"/>
 		<node name="new" value="Nowa zakładka"/>
 		<node name="openBook" value="Otwórz"/>
 		<node name="editBookmark" value="Edytuj zakładkę"/>
 		<node name="deleteBookmark" value="Usuń zakładkę"/>
 		<node name="search" value="Szukaj"/>
 		<node name="order">
-			<node name="byCreationTime" value="By creation time" toBeTranslated="true"/>
-			<node name="byAccessTime" value="By access time" toBeTranslated="true"/>
-			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
+			<node name="byCreationTime" value="Wg daty utworzenia"/>
+			<node name="byAccessTime" value="Wg daty dostępu"/>
+			<node name="byPageNo" value="Wg liczby stron"/>
 		</node>
 	</node>
 	<node name="editBookmark">
@@ -303,7 +303,7 @@
 			<node name="toc" value="Spis treści"/>
 			<node name="gotoHome" value="Idź do początku dokumentu"/>
 			<node name="gotoSectionStart" value="Przejdź do początku rozdziału"/>
-			<node name="gotoSectionEnd" value="Przejdż na koniec rozdziału"/>
+			<node name="gotoSectionEnd" value="Przejdź na koniec rozdziału"/>
 			<node name="nextTOCSection" value="Przejdź do kolejnej pozycji spisu treści"/>
 			<node name="previousTOCSection" value="Przejdź do poprzedniej pozycji spisu treści"/>
 			<node name="undo" value="Powrót"/>
@@ -356,7 +356,7 @@
 			</node>
 			<node name="uploadAllBooks" value="Ładuj wszystkie książki na serwer"/>
 			<node name="downloadAllBooks" value="Pobieraj wszystkie książki z serwera"/>
-			<node name="downloadCurrentBook" value="Pobieraj bierzącą książkę z serwera"/>
+			<node name="downloadCurrentBook" value="Pobieraj bieżącą książkę z serwera"/>
 			<node name="positions" value="Synchronizuj czytane pozycje"/>
 			<node name="bookmarks" value="Synchronizuj zakładki"/>
 			<node name="customShelves" value="Synchronizuj moje półki"/>
@@ -432,11 +432,11 @@
 			</node>
 			<node name="dontTurnScreenOffDuringCharging" value="Zapobiegaj wygaszaniu ekranu podczas ładowania">
 				<node name="summaryOn" value="Zapobiegaj wygaszaniu ekranu gdy urządzenie jest w trybie ładowania"/>
-				<node name="summaryOff" value="Wyłączaj ekran gdy urządznie jest w trybie ładowania"/>
+				<node name="summaryOff" value="Wyłączaj ekran gdy urządzenie jest w trybie ładowania"/>
 			</node>
 			<node name="enableBookMenuSwipeGesture" value="Włącz gest przeciągnięcia palcem dla menu książki">
 				<node name="summaryOn" value="Przeciągnięcie lewego brzegu ekranu otwiera menu książki"/>
-				<node name="summaryOff" value="Trzyliniowy przycisk typu “hamburger” otwiera menu książki"/>
+				<node name="summaryOff" value="Trzyliniowy przycisk typu „hamburger” otwiera menu książki"/>
 			</node>
 		</node>
 		<node name="text" value="Tekst">
@@ -697,11 +697,11 @@
 				<node name="summaryOn" value="Zmieniaj strony poziomo"/>
 				<node name="summaryOff" value="Zmieniaj strony pionowo"/>
 			</node>
-			<node name="tapToScrollForward" value="Tap to scroll forward" toBeTranslated="true">
-				<node name="right_to_left" value="Right third of the screen" toBeTranslated="true"/>
-				<node name="left_to_right" value="Left third of the screen" toBeTranslated="true"/>
-				<node name="up" value="Bottom third of the screen" toBeTranslated="true"/>
-				<node name="down" value="Top third of the screen" toBeTranslated="true"/>
+			<node name="tapToScrollForward" value="Dotknij, aby przewinąć dalej">
+				<node name="right_to_left" value="Jedną trzecią ekranu z prawej strony"/>
+				<node name="left_to_right" value="Jedną trzecią ekranu z lewej strony"/>
+				<node name="up" value="Jedną trzecią ekranu na dole"/>
+				<node name="down" value="Jedną trzecią ekranu na górze"/>
 			</node>
 		</node>
 		<node name="tapZones" value="Strefy dotyku">
@@ -724,7 +724,7 @@
 				<node name="ask" value="Pyta, jeśli brak tłumaczenia w sieci"/>
 				<node name="never" value="Nigdy"/>
 			</node>
-			<node name="translationToastDuration" value="Jak długo wyświetlać okno z tłumaczniem"/>
+			<node name="translationToastDuration" value="Jak długo wyświetlać okno z tłumaczeniem"/>
 			<node name="errorToastDuration" value="Jak długo wyświetlać okno z błędem"/>
 			<node name="sourceLanguage" value="Tłumacz z">
 				<node name="detect" value="Wykrywa język automatycznie"/>
@@ -804,7 +804,7 @@
 				<node name="goBack" value="Powrót do poprzedniej lokalizacji"/>
 				<node name="cancelMenu" value="Wyświetl menu przycisku 'Wstecz'"/>
 			</node>
-			<node name="backKeyLongPressAction" value="Akcja przytrzymania przycsku wstecz">
+			<node name="backKeyLongPressAction" value="Akcja przytrzymania przycisku wstecz">
 				<node name="exit" value="Zamknij FBReadera"/>
 				<node name="goBack" value="Powrót do poprzedniej lokalizacji"/>
 				<node name="cancelMenu" value="Wyświetl menu przycisku 'Wstecz'"/>
@@ -860,28 +860,28 @@
 					<node name="summaryOn" value="Używa uwierzytelniania nawet jeśli usługi Google są niedostępne"/>
 					<node name="summaryOff" value="Używa uwierzytelniania Google jeśli jest dostępne"/>
 				</node>
-				<node name="showChangeNotifications" value="Notify about file modifications" toBeTranslated="true">
-					<node name="allFiles" value="Always" toBeTranslated="true"/>
-					<node name="bookFolders" value="For files in book folders only" toBeTranslated="true"/>
-					<node name="noFiles" value="Never" toBeTranslated="true"/>
+				<node name="showChangeNotifications" value="Powiadomienia o zmianach pliku">
+					<node name="allFiles" value="Zawsze"/>
+					<node name="bookFolders" value="Tylko dla plików w folderach z książkami"/>
+					<node name="noFiles" value="Nigdy"/>
 				</node>
-				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog" toBeTranslated="true">
-					<node name="summaryOn" value="Show each time you start FBReader from launcher" toBeTranslated="true"/>
-					<node name="summaryOff" value="Do not show" toBeTranslated="true"/>
+				<node name="showOpenPremiumSuggestion" value="Okienko „Open Premium”">
+					<node name="summaryOn" value="Pokazuj za każdym razem gdy FBReader uruchamiany jest z launchera"/>
+					<node name="summaryOff" value="Nie pokazuj"/>
 				</node>
-				<node name="logFileScanning" value="Log file scanning" toBeTranslated="true">
-					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info" toBeTranslated="true"/>
-					<node name="summaryOff" value="Do not log" toBeTranslated="true"/>
+				<node name="logFileScanning" value="Zapisywanie skanowania plików do dziennika">
+					<node name="summaryOn" value="Utwórz nowy wpis dziennika za każdym razem gdy aplikacja próbuje wydobyć informacje o książce"/>
+					<node name="summaryOff" value="Nie zapisuj skanowania do dziennika"/>
 				</node>
 				<node name="copyLogs" value="Kopiuj pliki dzienników">
-					<node name="summary" value="Kopiuje pliki  *.log do %s"/>
+					<node name="summary" value="Kopiuje pliki *.log do %s"/>
 				</node>
 				<node name="deleteLogs" value="Wyczyść pliki dzienników"/>
 				<node name="copyDatabase" value="Kopiuj bazę danych książek">
 					<node name="summary" value="Kopiuje plik books.db do %s"/>
 				</node>
-				<node name="scanFailures" value="Scan failures list" toBeTranslated="true">
-					<node name="summary" value="List of files FBReader couldn't scan" toBeTranslated="true"/>
+				<node name="scanFailures" value="Lista nieudanych skanowań">
+					<node name="summary" value="Lista plików, których FBReader nie mógł sprawdzić"/>
 				</node>
 			</node>
 		</node>
@@ -893,7 +893,7 @@
 			</node>
 			<node name="interval" value="Liczba szybkich odświeżań pomiędzy odświeżaniem całościowym"/>
 		</node>
-		<node name="lockedOption" value="Zainstaluj wersję Premium aby odblokować tą opcję"/>
+		<node name="lockedOption" value="Zainstaluj wersję Premium, aby odblokować tę opcję"/>
 	</node>
 	<node name="dialog">
 		<node name="button">
@@ -904,7 +904,7 @@
 			<node name="buy" value="Kup"/>
 			<node name="buyAndDownload" value="Kup i pobierz"/>
 			<node name="download" value="Pobierz"/>
-			<node name="continue" value="Kontunuuj"/>
+			<node name="continue" value="Kontynuuj"/>
 			<node name="editUrl" value="Edytuj URL"/>
 			<node name="tryAgain" value="Spróbuj ponownie"/>
 			<node name="openBook" value="Czytaj"/>
@@ -923,7 +923,7 @@
 			<node name="markAsUnread" value="Oznacz jako nieprzeczytaną"/>
 			<node name="plugin" value="Wtyczka"/>
 			<node name="premium" value="Premium"/>
-			<node name="clear" value="Clear" toBeTranslated="true"/>
+			<node name="clear" value="Czyść"/>
 		</node>
 		<node name="gotoPage" value="Idź do strony"/>
 		<node name="plugin">
@@ -998,7 +998,7 @@
 			<node name="recoverPassword" value="Trwa odzyskiwanie hasła. Proszę czekać…"/>
 		</node>
 		<node name="networkError">
-			<node name="internalError" value="Wenętrzny błąd serwera"/>
+			<node name="internalError" value="Wewnętrzny błąd serwera"/>
 			<node name="purchaseNotEnoughMoney" value="Za mało pieniędzy"/>
 			<node name="purchaseMissingBook" value="Brak książki"/>
 			<node name="purchaseAlreadyPurchased" value="Książka już została kupiona"/>
@@ -1016,7 +1016,7 @@
 			<node name="emailNotSpecified" value="Adres Email jest pusty"/>
 			<node name="emailAlreadyInUse" value="Adres Email jest już używany"/>
 			<node name="invalidEMail" value="Nieprawidłowy adres email"/>
-			<node name="tooManyRegistrations" value="Zbyt dużo rejestracji z tego adresu IP address;&#10;Spróbuj ponownie za kilka minut"/>
+			<node name="tooManyRegistrations" value="Zbyt dużo rejestracji z tego adresu IP;&#10;Spróbuj ponownie za kilka minut"/>
 		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Uwierzytelnianie"/>
@@ -1050,15 +1050,15 @@
 			<node name="more" value="Następna porada"/>
 		</node>
 		<node name="screenHint">
-			<node name="message1" value="FBReader domyślnie pracuje w trybie pełnoekranowym. Kliknij centralną część ekranu, aby wyświetlić przyciski kontrolne. Możesz to zmienić w seckji “Wygląd” ustawień aplikacji."/>
-			<node name="message2" value="Dobrze! Teraz kliknij centralną część ekranu, aby ukryć przyciski i tą poradę. Jeśli chcesz wyświetlać kontrolki podczas czytania, wybierz opcję “Wyświetlaj pasek poleceń” w sekcji “Wygląd” w ustawieniach."/>
+			<node name="message1" value="FBReader domyślnie pracuje w trybie pełnoekranowym. Kliknij centralną część ekranu, aby wyświetlić przyciski kontrolne. Możesz to zmienić w sekcji „Wygląd” ustawień aplikacji."/>
+			<node name="message2" value="Dobrze! Teraz kliknij centralną część ekranu, aby ukryć przyciski i tę poradę. Jeśli chcesz wyświetlać kontrolki podczas czytania, wybierz opcję „Wyświetlaj pasek poleceń” w sekcji „Wygląd” w ustawieniach."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Dodaj folder"/>
 			<node name="removeDialog" value="Usuń folder">
-				<node name="message" value="Usunąć “%s” z listy?"/>
+				<node name="message" value="Usunąć „%s” z listy?"/>
 			</node>
-			<node name="duplicate" value="“%s” jest już na liście"/>
+			<node name="duplicate" value="„%s” jest już na liście"/>
 		</node>
 		<node name="editList">
 			<node name="edit" value="Edytuj"/>
@@ -1068,14 +1068,14 @@
 			<node name="addTag" value="Dodaj etykietę"/>
 			<node name="editTag" value="Edytuj etykietę"/>
 			<node name="removeTag" value="Usuń etykietę">
-				<node name="message" value="Usunąć etykietę “%s” z listy?"/>
+				<node name="message" value="Usunąć etykietę „%s” z listy?"/>
 			</node>
 		</node>
 		<node name="editAuthors" value="Autorzy">
 			<node name="addAuthor" value="Dodaj autora"/>
 			<node name="editAuthor" value="Edytuj autora"/>
 			<node name="removeAuthor" value="Usuń autora">
-				<node name="message" value="Usunąć autora “%s” z listy?"/>
+				<node name="message" value="Usunąć autora „%s” z listy?"/>
 			</node>
 		</node>
 		<node name="fileChooser">
@@ -1083,7 +1083,7 @@
 			<node name="newFolder" value="Nowy folder"/>
 			<node name="folderNameHint" value="Nazwa folderu"/>
 			<node name="menu">
-				<node name="origin" value="Originał"/>
+				<node name="origin" value="Pierwotne"/>
 				<node name="reload" value="Wczytaj ponownie"/>
 			</node>
 			<node name="sortBy" value="Sortuj wg">
@@ -1118,7 +1118,7 @@
 		<node name="textNotFound" value="Niestety w książce nie ma pasującego tekstu"/>
 		<node name="bookNotFound" value="Niestety w bibliotece brak pasujących książek"/>
 		<node name="bookmarkNotFound" value="Niestety brak pasujących zakładek"/>
-		<node name="cannotOpenBook" value="Niestety nie można traz otworzyć tej książki"/>
+		<node name="cannotOpenBook" value="Niestety nie można teraz otworzyć tej książki"/>
 		<node name="dictionaryIsNotInstalled" value="Niestety nie zainstalowano słownika"/>
 		<node name="permissionDenied" value="Niestety nie masz uprawnień"/>
 		<node name="noFavorites" value="Niestety lista ulubionych jest pusta"/>
@@ -1139,7 +1139,7 @@
 	<node name="crash">
 		<node name="fixBooksDirectory">
 			<node name="title" value="Problem z FBReaderem"/>
-			<node name="text" value="Nie można zapisywać do pamięci cache FBReader. Spradź czy karta pamięci została prawidłowo zainstalowana lub wybierz inny katalog."/>
+			<node name="text" value="Nie można zapisywać do pamięci cache FBReader. Sprawdź czy karta pamięci została prawidłowo zainstalowana lub wybierz inny katalog."/>
 		</node>
 		<node name="missingNativeLibrary">
 			<node name="title" value="Problem z FBReaderem"/>
@@ -1219,7 +1219,7 @@
 	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Nieznany błąd"/>
-		<node name="noArticle" value="Nie znaleziono artykułu “%s”"/>
+		<node name="noArticle" value="Nie znaleziono artykułu „%s”"/>
 		<node name="cannotOpenDictionary" value="Nie można otworzyć słownika"/>
 		<node name="noDictionarySelected" value="Nie wybrano słownika; proszę zmienić ustawienia Dictan"/>
 	</node>
@@ -1242,20 +1242,20 @@
 		</node>
 		<node name="dialog">
 			<node name="title" value="%s zmodyfikowany"/>
-			<node name="message" value="Plik “%s” został zmieniony. Proszę wybrać akcję z listy."/>
-			<node name="createNew" value="Utwórz nową książkę z pliku “%s”"/>
-			<node name="linkExisting" value="Utwórz łącze do istniejącego pliku “%s”"/>
+			<node name="message" value="Plik „%s” został zmieniony. Proszę wybrać akcję z listy."/>
+			<node name="createNew" value="Utwórz nową książkę z pliku „%s”"/>
+			<node name="linkExisting" value="Utwórz łącze do istniejącego pliku „%s”"/>
 			<node name="updateMetainfo" value="Utwórz łącze do istniejącej książki, zmień metadane pliku"/>
 			<node name="removeFromLibrary" value="Usuń plik z biblioteki"/>
 		</node>
 	</node>
 	<node name="twitter">
 		<node name="link" value="Tweetnij co przeczytałeś!"/>
-		<node name="tweet" value="Przeczytałem “%title%” z @fbreader"/>
+		<node name="tweet" value="Przeczytałem „%title%” z @fbreader"/>
 		<node name="missingApp" value="Aplikacja Twitter nie jest zainstalowana"/>
 	</node>
 	<node name="goodreads">
-		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
+		<node name="link" value="Podziel się swoim doświadczeniem czytelniczym na Goodreads!"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Sieć jest niedostępna. Sprawdź połączenie i spróbuj ponownie"/>
