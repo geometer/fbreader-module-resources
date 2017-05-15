@@ -15,7 +15,7 @@
 			<node name="summary" value="Książki posortowane seriami"/>
 		</node>
 		<node name="byTag" value="Etykietami">
-			<node name="summary" value="Książki posortowane po eytkietach"/>
+			<node name="summary" value="Książki posortowane po etykietach"/>
 		</node>
 		<node name="recent" value="Ostatnio czytane">
 			<node name="summary" value="Ostatnio czytane książki"/>
@@ -150,7 +150,7 @@
 			<node name="read" value="Czy chcesz czytać lokalną kopię?"/>
 			<node name="download" value="Czy chcesz pobrać tę książkę?"/>
 			<node name="readDemo" value="Czy chcesz czytać fragment?"/>
-			<node name="downloadDemo" value="Czy chesz pobrać fragment?"/>
+			<node name="downloadDemo" value="Czy chcesz pobrać fragment?"/>
 			<node name="buy" value="Czy chcesz kupić tę książkę? (%s)"/>
 			<node name="openInBrowser" value="Czy chcesz otworzyć ten katalog w przeglądarce?"/>
 		</node>
@@ -186,7 +186,7 @@
 		<node name="title" value="Zakup książki"/>
 		<node name="titleSeveralBooks" value="Kup książki"/>
 		<node name="confirm" value="Czy na pewno chcesz kupić książkę &#10;“%s”?"/>
-		<node name="confirmSeveralBooks" value="Czy na pewno chesz kupić %s ksiązki?"/>
+		<node name="confirmSeveralBooks" value="Czy na pewno chcesz kupić %s ksiązki?"/>
 		<node name="alreadyBought" value="Ta książka jest już kupiona"/>
 		<node name="notAuthorised" value="Wymagana autoryzacja"/>
 		<node name="noAccountInformation" value="Nie można pobrać stanu konta"/>
@@ -222,7 +222,7 @@
 		<node name="downloadFailedTicker" value="Błąd pobierania książki"/>
 		<node name="downloadComplete" value="Pobieranie zakończone"/>
 		<node name="downloadFailed" value="Pobieranie nieudane"/>
-		<node name="downloadStarted" value="Rozpoczęto pobiernie książki"/>
+		<node name="downloadStarted" value="Rozpoczęto pobieranie książki"/>
 		<node name="alreadyDownloading" value="Książka jest już pobierana"/>
 		<node name="cannotCreateDirectory" value="Nie udało się utworzyć katalogu %s"/>
 		<node name="cannotCreateFile" value="Nie udało się utworzyć pliku %s"/>
