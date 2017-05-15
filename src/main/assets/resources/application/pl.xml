@@ -697,7 +697,7 @@
 				<node name="summaryOn" value="Zmieniaj strony poziomo"/>
 				<node name="summaryOff" value="Zmieniaj strony pionowo"/>
 			</node>
-			<node name="tapToScrollForward" value="Dotknij aby przerzucić stronę">
+			<node name="tapToScrollForward" value="Dotknij, aby przerzucić stronę">
 				<node name="right_to_left" value="Prawą część ekranu"/>
 				<node name="left_to_right" value="Lewą część ekranu"/>
 				<node name="up" value="Dolną część ekranu"/>
@@ -1083,7 +1083,7 @@
 			<node name="newFolder" value="Nowy folder"/>
 			<node name="folderNameHint" value="Nazwa folderu"/>
 			<node name="menu">
-				<node name="origin" value="Originał"/>
+				<node name="origin" value="Folder pierwotny"/>
 				<node name="reload" value="Wczytaj ponownie"/>
 			</node>
 			<node name="sortBy" value="Sortuj wg">
