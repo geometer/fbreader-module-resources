@@ -874,7 +874,7 @@
 					<node name="summaryOff" value="Nie tworzy wpisów"/>
 				</node>
 				<node name="copyLogs" value="Kopiuj pliki dzienników">
-					<node name="summary" value="Kopiuje pliki  *.log do %s"/>
+					<node name="summary" value="Kopiuje pliki *.log do %s"/>
 				</node>
 				<node name="deleteLogs" value="Wyczyść pliki dzienników"/>
 				<node name="copyDatabase" value="Kopiuj bazę danych książek">
