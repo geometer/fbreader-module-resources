@@ -185,7 +185,7 @@
 	<node name="buyBook">
 		<node name="title" value="Zakup książki"/>
 		<node name="titleSeveralBooks" value="Kup książki"/>
-		<node name="confirm" value="Czy na pewno chcesz kupić książkę &#10;“%s”?"/>
+		<node name="confirm" value="Czy na pewno chcesz kupić książkę &#10;„%s”?"/>
 		<node name="confirmSeveralBooks" value="Czy na pewno chcesz kupić %s ksiązki?"/>
 		<node name="alreadyBought" value="Ta książka jest już kupiona"/>
 		<node name="notAuthorised" value="Wymagana autoryzacja"/>
@@ -436,7 +436,7 @@
 			</node>
 			<node name="enableBookMenuSwipeGesture" value="Włącz gest przeciągnięcia palcem dla menu książki">
 				<node name="summaryOn" value="Przeciągnięcie lewego brzegu ekranu otwiera menu książki"/>
-				<node name="summaryOff" value="Trzyliniowy przycisk typu “hamburger” otwiera menu książki"/>
+				<node name="summaryOff" value="Trzyliniowy przycisk typu „hamburger” otwiera menu książki"/>
 			</node>
 		</node>
 		<node name="text" value="Tekst">
@@ -865,7 +865,7 @@
 					<node name="bookFolders" value="Dla plików w folderach książek"/>
 					<node name="noFiles" value="Nigdy"/>
 				</node>
-				<node name="showOpenPremiumSuggestion" value="Okienko “Otwórz wersję Premium”">
+				<node name="showOpenPremiumSuggestion" value="Okienko „Otwórz wersję Premium”">
 					<node name="summaryOn" value="Wyświetla przy każdym uruchomieniu FBReader"/>
 					<node name="summaryOff" value="Nie wyświetla"/>
 				</node>
@@ -1050,15 +1050,15 @@
 			<node name="more" value="Następna porada"/>
 		</node>
 		<node name="screenHint">
-			<node name="message1" value="FBReader domyślnie pracuje w trybie pełnoekranowym. Kliknij centralną część ekranu, aby wyświetlić przyciski kontrolne. Możesz to zmienić w seckji “Wygląd” ustawień aplikacji."/>
-			<node name="message2" value="Dobrze! Teraz kliknij centralną część ekranu, aby ukryć przyciski i tą poradę. Jeśli chcesz wyświetlać kontrolki podczas czytania, wybierz opcję “Wyświetlaj pasek poleceń” w sekcji “Wygląd” w ustawieniach."/>
+			<node name="message1" value="FBReader domyślnie pracuje w trybie pełnoekranowym. Kliknij centralną część ekranu, aby wyświetlić przyciski kontrolne. Możesz to zmienić w seckji „Wygląd” ustawień aplikacji."/>
+			<node name="message2" value="Dobrze! Teraz kliknij centralną część ekranu, aby ukryć przyciski i tą poradę. Jeśli chcesz wyświetlać kontrolki podczas czytania, wybierz opcję „Wyświetlaj pasek poleceń” w sekcji „Wygląd” w ustawieniach."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Dodaj folder"/>
 			<node name="removeDialog" value="Usuń folder">
-				<node name="message" value="Usunąć “%s” z listy?"/>
+				<node name="message" value="Usunąć „%s” z listy?"/>
 			</node>
-			<node name="duplicate" value="“%s” jest już na liście"/>
+			<node name="duplicate" value="„%s” jest już na liście"/>
 		</node>
 		<node name="editList">
 			<node name="edit" value="Edytuj"/>
@@ -1068,14 +1068,14 @@
 			<node name="addTag" value="Dodaj etykietę"/>
 			<node name="editTag" value="Edytuj etykietę"/>
 			<node name="removeTag" value="Usuń etykietę">
-				<node name="message" value="Usunąć etykietę “%s” z listy?"/>
+				<node name="message" value="Usunąć etykietę „%s” z listy?"/>
 			</node>
 		</node>
 		<node name="editAuthors" value="Autorzy">
 			<node name="addAuthor" value="Dodaj autora"/>
 			<node name="editAuthor" value="Edytuj autora"/>
 			<node name="removeAuthor" value="Usuń autora">
-				<node name="message" value="Usunąć autora “%s” z listy?"/>
+				<node name="message" value="Usunąć autora „%s” z listy?"/>
 			</node>
 		</node>
 		<node name="fileChooser">
@@ -1219,7 +1219,7 @@
 	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Nieznany błąd"/>
-		<node name="noArticle" value="Nie znaleziono artykułu “%s”"/>
+		<node name="noArticle" value="Nie znaleziono artykułu „%s”"/>
 		<node name="cannotOpenDictionary" value="Nie można otworzyć słownika"/>
 		<node name="noDictionarySelected" value="Nie wybrano słownika; proszę zmienić ustawienia Dictan"/>
 	</node>
@@ -1242,16 +1242,16 @@
 		</node>
 		<node name="dialog">
 			<node name="title" value="%s zmodyfikowany"/>
-			<node name="message" value="Plik “%s” został zmieniony. Proszę wybrać akcję z listy."/>
-			<node name="createNew" value="Utwórz nową książkę z pliku “%s”"/>
-			<node name="linkExisting" value="Utwórz łącze do istniejącego pliku “%s”"/>
+			<node name="message" value="Plik „%s” został zmieniony. Proszę wybrać akcję z listy."/>
+			<node name="createNew" value="Utwórz nową książkę z pliku „%s”"/>
+			<node name="linkExisting" value="Utwórz łącze do istniejącego pliku „%s”"/>
 			<node name="updateMetainfo" value="Utwórz łącze do istniejącej książki, zmień metadane pliku"/>
 			<node name="removeFromLibrary" value="Usuń plik z biblioteki"/>
 		</node>
 	</node>
 	<node name="twitter">
 		<node name="link" value="Tweetnij co przeczytałeś!"/>
-		<node name="tweet" value="Przeczytałem “%title%” z @fbreader"/>
+		<node name="tweet" value="Przeczytałem „%title%” z @fbreader"/>
 		<node name="missingApp" value="Aplikacja Twitter nie jest zainstalowana"/>
 	</node>
 	<node name="goodreads">
