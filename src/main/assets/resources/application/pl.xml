@@ -505,8 +505,8 @@
 				<node name="summaryOff" value="nie dziel wyrazów automatycznie"/>
 			</node>
 			<node name="allowHyphenations" value="Zezwalaj na dzielenie wyrazów">
-				<node name="auto" value="dziel wyrazy"/>
-				<node name="none" value="nie dziel wyrazów"/>
+				<node name="auto" value="Dziel wyrazy"/>
+				<node name="none" value="Nie dziel wyrazów"/>
 				<node name="inherit" value="&lt;bez zmian&gt;"/>
 			</node>
 			<node name="firstLineIndent" value="Wcięcie pierwszego wiersza"/>
@@ -781,7 +781,7 @@
 				<node name="disabled" value="Wyłączone"/>
 			</node>
 		</node>
-		<node name="cancelMenu" value="Przycisk wstecz">
+		<node name="cancelMenu" value="Przycisk 'Wstecz'">
 			<node name="summary" value="Menu po naciśnięciu przycisku 'Wstecz'"/>
 			<node name="library" value="Biblioteka">
 				<node name="summaryOn" value="Wyświetla pozycję 'Otwórz bibliotekę'"/>
@@ -804,7 +804,7 @@
 				<node name="goBack" value="Powrót do poprzedniej lokalizacji"/>
 				<node name="cancelMenu" value="Wyświetl menu przycisku 'Wstecz'"/>
 			</node>
-			<node name="backKeyLongPressAction" value="Akcja przytrzymania przycisku wstecz">
+			<node name="backKeyLongPressAction" value="Akcja przytrzymania przycisku 'Wstecz'">
 				<node name="exit" value="Zamknij FBReadera"/>
 				<node name="goBack" value="Powrót do poprzedniej lokalizacji"/>
 				<node name="cancelMenu" value="Wyświetl menu przycisku 'Wstecz'"/>
@@ -1087,9 +1087,9 @@
 				<node name="reload" value="Wczytaj ponownie"/>
 			</node>
 			<node name="sortBy" value="Sortuj wg">
-				<node name="name" value="Nazwy"/>
-				<node name="size" value="Rozmiaru"/>
-				<node name="date" value="Daty"/>
+				<node name="name" value="nazwy"/>
+				<node name="size" value="rozmiaru"/>
+				<node name="date" value="daty"/>
 			</node>
 			<node name="permissionDenied" value="Brak uprawnień"/>
 		</node>
