@@ -5,23 +5,23 @@
 		<node name="unknownAuthor" value="Nieznany autor"/>
 		<node name="booksWithNoTags" value="Książki niesklasyfikowane"/>
 		<node name="demo" value="Demo"/>
-		<node name="byAuthor" value="Po autorze">
-			<node name="summary" value="Książki posortowane po autorze"/>
+		<node name="byAuthor" value="Wg autora">
+			<node name="summary" value="Książki posortowane wg autora"/>
 		</node>
-		<node name="byTitle" value="Po tytule">
-			<node name="summary" value="Książki posortowane po tytule"/>
+		<node name="byTitle" value="Wg tytułu">
+			<node name="summary" value="Książki posortowane wg tytułu"/>
 		</node>
-		<node name="bySeries" value="Seriami">
-			<node name="summary" value="Książki posortowane seriami"/>
+		<node name="bySeries" value="Wg serii">
+			<node name="summary" value="Książki posortowane wg serii"/>
 		</node>
-		<node name="byTag" value="Etykietami">
-			<node name="summary" value="Książki posortowane po etykietach"/>
+		<node name="byTag" value="Wg etykiet">
+			<node name="summary" value="Książki posortowane wg etykiet"/>
 		</node>
 		<node name="recent" value="Ostatnio czytane">
 			<node name="summary" value="Ostatnio czytane książki"/>
 		</node>
 		<node name="favorites" value="Ulubione">
-			<node name="summary" value="Moje wybrane książki"/>
+			<node name="summary" value="Moje ulubione książki"/>
 		</node>
 		<node name="chooseView" value="Zmień widok"/>
 		<node name="wideCardsView" value="Szerokie karty"/>
@@ -32,7 +32,7 @@
 		<node name="bookshelfView" value="Widok regału">
 			<node name="summary" value="Przełącza na widok regału"/>
 		</node>
-		<node name="found" value="Wyszukane">
+		<node name="found" value="Znalezione">
 			<node name="summary" value="Wyniki dla: %s"/>
 		</node>
 		<node name="sync" value="Synchronizacja">
@@ -44,7 +44,7 @@
 				<node name="summary" value="Książki niepoprawnie załadowane na serwer"/>
 			</node>
 			<node name="sync-deleted" value="Usunięte z serwera">
-				<node name="summary" value="Usunięte książki niedostępne już na serwerze"/>
+				<node name="summary" value="Usunięte książki, niedostępne już na serwerze"/>
 			</node>
 			<node name="sync-tosync" value="Nie zsynchronizowane">
 				<node name="summary" value="Książki jeszcze nie zsynchronizowane"/>
@@ -64,7 +64,7 @@
 			<node name="summary" value="Katalog z książkami FBReadera"/>
 		</node>
 		<node name="localSearch" value="Wyszukiwanie lokalne"/>
-		<node name="rescan" value="Przeszukaj ponownie"/>
+		<node name="rescan" value="Wyszukaj ponownie"/>
 		<node name="openBook" value="Otwórz książkę"/>
 		<node name="showBookInfo" value="Informacje o książce"/>
 		<node name="shareBook" value="Udostępnij książkę"/>
@@ -82,17 +82,17 @@
 		<node name="sync" value="Biblioteka sieciowa FBReader®">
 			<node name="summary" value="Mój osobisty katalog"/>
 		</node>
-		<node name="byAuthor" value="Po autorze">
-			<node name="summary" value="Książki posortowane po autorze"/>
+		<node name="byAuthor" value="Wg autora">
+			<node name="summary" value="Książki posortowane wg autora"/>
 		</node>
-		<node name="byTitle" value="Po tytule">
-			<node name="summary" value="Książki posortowane po tytule"/>
+		<node name="byTitle" value="Wg tytułu">
+			<node name="summary" value="Książki posortowane wg tytułu"/>
 		</node>
-		<node name="byDate" value="Po dacie">
-			<node name="summary" value="Książki posortowane po dacie zakupu"/>
+		<node name="byDate" value="Wg daty">
+			<node name="summary" value="Książki posortowane wg daty"/>
 		</node>
-		<node name="bySeries" value="Seriami">
-			<node name="summary" value="Książki posortowane seriami"/>
+		<node name="bySeries" value="Wg serii">
+			<node name="summary" value="Książki posortowane wg serii"/>
 		</node>
 		<node name="search" value="Wyszukaj">
 			<node name="summary" value="Wyszukaj książki w %s"/>
@@ -122,9 +122,9 @@
 		<node name="clearBasket" value="Wyczyść koszyk"/>
 		<node name="buyAllBooks" value="Kup wszystkie książki"/>
 		<node name="openInBrowser" value="Otwórz w przeglądarce"/>
-		<node name="stopLoading" value="Zatrzymaj otwieranie"/>
+		<node name="stopLoading" value="Zatrzymaj ładowanie"/>
 		<node name="stopSearching" value="Zatrzymaj wyszukiwanie"/>
-		<node name="signIn" value="Zaloguj"/>
+		<node name="signIn" value="Zaloguj się"/>
 		<node name="signOut" value="Wyloguj (%s)"/>
 		<node name="signUp" value="Zarejestruj się"/>
 		<node name="quickBuy" value="Szybki zakup"/>
@@ -163,7 +163,7 @@
 			<node name="editUrl" value="Wpisz adres URL"/>
 		</node>
 		<node name="manageCatalogs" value="Zarządzaj katalogami">
-			<node name="summary" value="Konfiguruj swoje katalogi"/>
+			<node name="summary" value="Konfiguruj katalogi"/>
 			<node name="enabled" value="Włącz"/>
 			<node name="disabled" value="Wyłącz"/>
 		</node>
@@ -175,7 +175,7 @@
 			<node name="signUp" value="Rejestracja"/>
 			<node name="signOut" value="Wyloguj (%s)"/>
 			<node name="topup" value="Doładuj konto"/>
-			<node name="addCustomCatalog" value="Dodaj własny katalog"/>
+			<node name="addCustomCatalog" value="Utwórz katalog"/>
 			<node name="refreshCatalogsList" value="Odśwież katalogi"/>
 			<node name="manageCatalogs" value="Zarządzaj katalogami"/>
 			<node name="clearBasket" value="Opróżnij koszyk"/>
@@ -187,7 +187,7 @@
 		<node name="titleSeveralBooks" value="Kup książki"/>
 		<node name="confirm" value="Czy na pewno chcesz kupić książkę &#10;„%s”?"/>
 		<node name="confirmSeveralBooks" value="Czy na pewno chcesz kupić %s książki?"/>
-		<node name="alreadyBought" value="Ta książka jest już kupiona"/>
+		<node name="alreadyBought" value="Ta książka została już zakupiona"/>
 		<node name="notAuthorised" value="Wymagana autoryzacja"/>
 		<node name="noAccountInformation" value="Nie można pobrać stanu konta"/>
 		<node name="unsufficientFunds" value="To zamówienie jest warte %0, a masz tylko %1"/>
@@ -198,7 +198,7 @@
 		<node name="fileInfo" value="Informacja o pliku"/>
 		<node name="description" value="Opis"/>
 		<node name="noDescription" value="Brak dostępnego opisu."/>
-		<node name="annotation" value="adnotacje"/>
+		<node name="annotation" value="Adnotacje:"/>
 		<node name="title" value="Tytuł:"/>
 		<node name="authors" value="Autorzy:"/>
 		<node name="series" value="Seria:"/>
@@ -212,13 +212,13 @@
 		<node name="sizeInBytes" value="%s bajtów"/>
 		<node name="sizeInKiloBytes" value="%s kB"/>
 		<node name="catalog" value="Katalog:"/>
-		<node name="extraLinks" value="Powiązane linki"/>
+		<node name="extraLinks" value="Powiązane lącza"/>
 		<node name="menu">
 			<node name="edit" value="Edytuj"/>
 		</node>
 	</node>
 	<node name="bookDownloader">
-		<node name="downloadCompleteTicker" value="Książka pobrana"/>
+		<node name="downloadCompleteTicker" value="Książka została pobrana"/>
 		<node name="downloadFailedTicker" value="Błąd pobierania książki"/>
 		<node name="downloadComplete" value="Pobieranie zakończone"/>
 		<node name="downloadFailed" value="Pobieranie nieudane"/>
@@ -230,7 +230,7 @@
 	<node name="tocView">
 		<node name="expandTree" value="Rozwiń drzewo"/>
 		<node name="collapseTree" value="Zwiń drzewo"/>
-		<node name="readText" value="Czytaj tekst książki"/>
+		<node name="readText" value="Czytaj książkę"/>
 	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Ta książka"/>
@@ -242,7 +242,7 @@
 		<node name="search" value="Szukaj"/>
 		<node name="order">
 			<node name="byCreationTime" value="wg daty utworzenia"/>
-			<node name="byAccessTime" value="wg daty otworzenia"/>
+			<node name="byAccessTime" value="wg daty użycia"/>
 			<node name="byPageNo" value="wg numeru strony"/>
 		</node>
 	</node>
@@ -259,9 +259,9 @@
 		<node name="offline" value="Offline"/>
 	</node>
 	<node name="cancelMenu">
-		<node name="library" value="Otwórz bibliotekę"/>
-		<node name="networkLibrary" value="Otwórz bibliotekę sieciową"/>
-		<node name="previousBook" value="Otwórz poprzednią książkę"/>
+		<node name="library" value="Biblioteka"/>
+		<node name="networkLibrary" value="Biblioteka sieciowa"/>
+		<node name="previousBook" value="Poprzednio czytana książka"/>
 		<node name="returnTo" value="Wróć do …"/>
 		<node name="back" value="Wstecz"/>
 		<node name="forward" value="Do przodu"/>
@@ -270,9 +270,9 @@
 	<node name="style" value="Styl %s"/>
 	<node name="editStyle" value="Edytuj styl">
 		<node name="name" value="Nazwa stylu"/>
-		<node name="invisible" value="Niewidoczny">
-			<node name="summaryOn" value="Nie podświetlaj zakładek"/>
-			<node name="summaryOff" value="Podświetlaj zakładki"/>
+		<node name="invisible" value="Tło przezroczyste">
+			<node name="summaryOn" value="Brak koloru tła zakładki"/>
+			<node name="summaryOff" value="Zakładka posiada kolor tła"/>
 		</node>
 		<node name="bgColor" value="Kolor tła"/>
 	</node>
@@ -288,7 +288,7 @@
 		<node name="openPremium" value="Otwórz FBReader Premium"/>
 		<node name="premium" value="FBReader Premium"/>
 		<node name="whatsnew" value="Nowości"/>
-		<node name="openStartScreen" value="Ekran startowy"/>
+		<node name="openStartScreen" value="Wprowadzenie"/>
 		<node name="preferences" value="Ustawienia"/>
 		<node name="bookInfo" value="Informacje o książce"/>
 		<node name="library" value="Biblioteka"/>
@@ -301,11 +301,11 @@
 		<node name="networkLibrary" value="Biblioteka sieciowa"/>
 		<node name="navigate" value="Nawigacja">
 			<node name="toc" value="Spis treści"/>
-			<node name="gotoHome" value="Idź do początku dokumentu"/>
-			<node name="gotoSectionStart" value="Przejdź do początku rozdziału"/>
-			<node name="gotoSectionEnd" value="Przejdź na koniec rozdziału"/>
-			<node name="nextTOCSection" value="Przejdź do kolejnej pozycji spisu treści"/>
-			<node name="previousTOCSection" value="Przejdź do poprzedniej pozycji spisu treści"/>
+			<node name="gotoHome" value="Początek książki"/>
+			<node name="gotoSectionStart" value="Początek rozdziału"/>
+			<node name="gotoSectionEnd" value="Koniec rozdziału"/>
+			<node name="nextTOCSection" value="Następna pozycja spisu treści"/>
+			<node name="previousTOCSection" value="Poprzednia pozycja spisu treści"/>
 			<node name="undo" value="Powrót"/>
 			<node name="redo" value="Naprzód"/>
 		</node>
@@ -345,8 +345,8 @@
 				<node name="url" value="https://books.fbreader.org/help.html"/>
 			</node>
 			<node name="enable" value="Włącz synchronizację">
-				<node name="summaryOn" value="Synchronizuj moją bibliotekę z serwerem książek FBReadera"/>
-				<node name="summaryOnWithAccount" value="Synchronizuje moją bibliotekę jako %s"/>
+				<node name="summaryOn" value="Synchronizuje bibliotekę z serwerem książek FBReadera"/>
+				<node name="summaryOnWithAccount" value="Synchronizuje bibliotekę jako %s"/>
 				<node name="summaryOff" value="Nie synchronizuje biblioteki z serwerem"/>
 			</node>
 			<node name="values">
@@ -360,22 +360,22 @@
 			<node name="positions" value="Synchronizuj czytane pozycje"/>
 			<node name="bookmarks" value="Synchronizuj zakładki"/>
 			<node name="customShelves" value="Synchronizuj moje regały"/>
-			<node name="metainfo" value="Synchronizuj metadane (tytuły, tagi, itp.)"/>
+			<node name="metainfo" value="Synchronizuj metadane (tytuły, etykiety, itp.)"/>
 			<node name="changeCurrentBook" value="Synchronizacja bieżącej książki">
 				<node name="summaryOn" value="Otwiera tę samą książkę na wszystkich urządzeniach"/>
 				<node name="summaryOff" value="Synchronizuje postęp czytania, ale nie otwiera tej samej książki na różnych urządzeniach"/>
 			</node>
 		</node>
-		<node name="directories" value="Katalogi">
-			<node name="summary" value="Katalogi zawierające pliki, z których korzysta FBReader"/>
-			<node name="bookPath" value="Miejsca z książkami">
-				<node name="chooserTitle" value="Katalog z książkami"/>
+		<node name="directories" value="Foldery">
+			<node name="summary" value="Foldery zawierające pliki, z których korzysta FBReader"/>
+			<node name="bookPath" value="Miejsca przechowywania książek">
+				<node name="chooserTitle" value="Folder z książkami"/>
 			</node>
 			<node name="downloadDir" value="Miejsce przechowywania pobranych książek">
-				<node name="chooserTitle" value="Katalog z książkami"/>
+				<node name="chooserTitle" value="Folder z pobranymi książkami"/>
 			</node>
 			<node name="fontPath" value="Miejsca przechowywania czcionek">
-				<node name="chooserTitle" value="Katalog z czcionkami"/>
+				<node name="chooserTitle" value="Folder z czcionkami"/>
 			</node>
 			<node name="tempDir" value="Miejsce przechowywania plików tymczasowych">
 				<node name="chooserTitle" value="Folder plików tymczasowych"/>
@@ -393,8 +393,8 @@
 				<node name="reverseLandscape" value="Odwrócona pozioma"/>
 			</node>
 			<node name="autoOrientation" value="Automatyczne obracanie">
-				<node name="summaryOn" value="Ekran będzie obracany gdy użytkownik przestawi urządzenie"/>
-				<node name="summaryOff" value="Ekran nie będzie obracany gdy użytkownik przestawi urządzenie"/>
+				<node name="summaryOn" value="Orientacja ekranu będzie zmieniana wraz z położeniem urządzenia"/>
+				<node name="summaryOff" value="Orientacja ekranu nie będzie zmieniana"/>
 			</node>
 			<node name="showStatusBar" value="Wyświetlaj pasek statusu">
 				<node name="summaryOn" value="Wyświetla pasek statusu podczas czytania"/>
@@ -405,15 +405,15 @@
 				<node name="summaryOff" value="Ukrywa pasek poleceń podczas czytania"/>
 			</node>
 			<node name="showStatusBarWhenMenuIsActive" value="Wyświetlaj pasek statusu gdy menu jest aktywne">
-				<node name="summaryOn" value="Wyświetla pasek statusu gdy menu jest włączone"/>
-				<node name="summaryOff" value="Ukrywa pasek statusu gdy menu jest włączone"/>
+				<node name="summaryOn" value="Wyświetla pasek statusu, gdy menu jest włączone"/>
+				<node name="summaryOff" value="Ukrywa pasek statusu, gdy menu jest włączone"/>
 			</node>
 			<node name="fullscreenMode" value="Pełny ekran">
 				<node name="summaryOn" value="Ukrywa przyciski nawigacji"/>
 				<node name="summaryOff" value="Wyświetla przyciski nawigacji"/>
 			</node>
 			<node name="disableButtonLights" value="Wyłącz podświetlenie przycisków podczas czytania">
-				<node name="summaryOn" value="Nie podświetla przycisków (nie wszystkie urządzenia respektują to ustawienie)"/>
+				<node name="summaryOn" value="Nie podświetla przycisków (nie wszystkie urządzenia są wspierane)"/>
 				<node name="summaryOff" value="Podświetlenie przycisków jest aktywne"/>
 			</node>
 			<node name="twoColumnView" value="Widok dwukolumnowy">
@@ -421,18 +421,18 @@
 				<node name="summaryOff" value="Zawsze wyświetla tekst w jednej kolumnie"/>
 			</node>
 			<node name="allowScreenBrightnessAdjustment" value="Dostosowywanie jasności">
-				<node name="summaryOn" value="Przesuwając palcem w górę/dół wzdłuż lewej krawędzi ekranu"/>
+				<node name="summaryOn" value="Przesuwając palcem w górę lub w dół wzdłuż lewej krawędzi ekranu"/>
 				<node name="summaryOff" value="Wyłączone"/>
 			</node>
 			<node name="dontTurnScreenOff" value="Zapobiegaj wygaszaniu ekranu">
 				<node name="0" value="Zawsze"/>
-				<node name="25" value="Gdy poziom baterii większy niż 25 procent"/>
-				<node name="50" value="Gdy poziom baterii większy niż 50 procent"/>
+				<node name="25" value="Gdy poziom baterii jest większy niż 25 procent"/>
+				<node name="50" value="Gdy poziom baterii jest większy niż 50 procent"/>
 				<node name="100" value="Nigdy"/>
 			</node>
 			<node name="dontTurnScreenOffDuringCharging" value="Zapobiegaj wygaszaniu ekranu podczas ładowania">
-				<node name="summaryOn" value="Zapobiegaj wygaszaniu ekranu gdy urządzenie jest w trybie ładowania"/>
-				<node name="summaryOff" value="Wyłączaj ekran gdy urządzenie jest w trybie ładowania"/>
+				<node name="summaryOn" value="Zapobiega wygaszaniu ekranu podczas ładowania"/>
+				<node name="summaryOff" value="Wygaszanie ekranu jest aktywne podczas ładowania"/>
 			</node>
 			<node name="enableBookMenuSwipeGesture" value="Włącz gest przeciągnięcia palcem dla menu książki">
 				<node name="summaryOn" value="Przeciągnięcie lewego brzegu ekranu otwiera menu książki"/>
@@ -440,9 +440,9 @@
 			</node>
 		</node>
 		<node name="text" value="Tekst">
-			<node name="summary" value="Czcionka, dzielenie wyrazów itp."/>
-			<node name="fontProperties" value="Ustawienia czcionki">
-				<node name="summary" value="Wygładzanie czcionek"/>
+			<node name="summary" value="Czcionki, dzielenie wyrazów itp."/>
+			<node name="fontProperties" value="Ustawienia czcionek">
+				<node name="summary" value="Wygładzanie, antyaliasing, kerning…"/>
 				<node name="antiAlias" value="Antyaliasing">
 					<node name="summaryOn" value="Antyaliasing jest aktywny"/>
 					<node name="summaryOff" value="Antyaliasing jest nieaktywny"/>
@@ -475,13 +475,13 @@
 				<node name="boldItalic" value="Pogrubiona kursywa"/>
 			</node>
 			<node name="bold" value="Pogrubienie">
-				<node name="bold" value="pogrubienie"/>
-				<node name="normal" value="zwykłe"/>
+				<node name="bold" value="pogrubiony"/>
+				<node name="normal" value="zwykły"/>
 				<node name="inherit" value="&lt;bez zmian&gt;"/>
 			</node>
 			<node name="italic" value="Kursywa">
 				<node name="italic" value="kursywa"/>
-				<node name="normal" value="zwykłe"/>
+				<node name="normal" value="zwykły"/>
 				<node name="inherit" value="&lt;bez zmian&gt;"/>
 			</node>
 			<node name="textDecoration" value="Dekoracja tekstu">
@@ -497,16 +497,16 @@
 				<node name="left" value="Do lewej"/>
 				<node name="right" value="Do prawej"/>
 				<node name="center" value="Wyśrodkowanie"/>
-				<node name="justify" value="Wyjustowanie"/>
+				<node name="justify" value="Justowanie"/>
 				<node name="inherit" value="&lt;bez zmian&gt;"/>
 			</node>
 			<node name="autoHyphenations" value="Automatyczne dzielenie wyrazów">
-				<node name="summaryOn" value="Dziel wyrazy automatycznie"/>
-				<node name="summaryOff" value="Nie dziel wyrazów automatycznie"/>
+				<node name="summaryOn" value="Dzieli wyrazy automatycznie"/>
+				<node name="summaryOff" value="Nie dzieli wyrazów automatycznie"/>
 			</node>
 			<node name="allowHyphenations" value="Zezwalaj na dzielenie wyrazów">
-				<node name="auto" value="Dziel wyrazy"/>
-				<node name="none" value="Nie dziel wyrazów"/>
+				<node name="auto" value="Dzieli wyrazy"/>
+				<node name="none" value="Nie dzieli wyrazów"/>
 				<node name="inherit" value="&lt;bez zmian&gt;"/>
 			</node>
 			<node name="firstLineIndent" value="Wcięcie pierwszego wiersza"/>
@@ -529,7 +529,7 @@
 				<node name="Epigraph" value="Motto"/>
 				<node name="Stanza" value="Strofa"/>
 				<node name="Verse" value="Wers"/>
-				<node name="Preformatted text" value="Preformatowany tekst"/>
+				<node name="Preformatted text" value="Tekst preformatowany"/>
 				<node name="Image" value="Obraz"/>
 				<node name="Cite" value="Cytat"/>
 				<node name="Author" value="Autor"/>
@@ -694,8 +694,8 @@
 				<node name="slow" value="wolniej"/>
 			</node>
 			<node name="horizontal" value="Przewijanie poziome">
-				<node name="summaryOn" value="Zmieniaj strony poziomo"/>
-				<node name="summaryOff" value="Zmieniaj strony pionowo"/>
+				<node name="summaryOn" value="Zmienia strony poziomo"/>
+				<node name="summaryOff" value="Zmienia strony pionowo"/>
 			</node>
 			<node name="tapToScrollForward" value="Dotknij, aby przerzucić stronę">
 				<node name="right_to_left" value="Prawą część ekranu"/>
@@ -730,7 +730,7 @@
 				<node name="detect" value="Wykrywa język automatycznie"/>
 			</node>
 			<node name="targetLanguage" value="Tłumacz na">
-				<node name="any" value="Wszystkie języki"/>
+				<node name="any" value="Dowolny język"/>
 			</node>
 			<node name="longTapAction" value="Akcja po przytrzymaniu palcem">
 				<node name="doNothing" value="Przytrzymanie nie wywołuje akcji"/>
@@ -784,16 +784,16 @@
 		<node name="cancelMenu" value="Przycisk 'Wstecz'">
 			<node name="summary" value="Menu po naciśnięciu przycisku 'Wstecz'"/>
 			<node name="library" value="Biblioteka">
-				<node name="summaryOn" value="Wyświetla pozycję 'Otwórz bibliotekę'"/>
-				<node name="summaryOff" value="Nie wyświetla pozycji 'Otwórz bibliotekę'"/>
+				<node name="summaryOn" value="Wyświetla pozycję 'Biblioteka'"/>
+				<node name="summaryOff" value="Nie wyświetla pozycji 'Biblioteka'"/>
 			</node>
 			<node name="networkLibrary" value="Biblioteka sieciowa">
-				<node name="summaryOn" value="Wyświetla pozycję 'Otwórz bibliotekę sieciową'"/>
-				<node name="summaryOff" value="Nie wyświetla pozycji 'Otwórz bibliotekę sieciową'"/>
+				<node name="summaryOn" value="Wyświetla pozycję 'Biblioteka sieciowa'"/>
+				<node name="summaryOff" value="Nie wyświetla pozycji 'Biblioteka sieciowa'"/>
 			</node>
-			<node name="previousBook" value="Poprzednia książka">
-				<node name="summaryOn" value="Wyświetla pozycję 'Wróć do poprzedniej książki'"/>
-				<node name="summaryOff" value="Nie wyświetla pozycji 'Wróć do poprzedniej książki'"/>
+			<node name="previousBook" value="Poprzednio czytana książka">
+				<node name="summaryOn" value="Wyświetla pozycję 'Poprzednio czytana książka'"/>
+				<node name="summaryOff" value="Nie wyświetla pozycji 'Poprzednio czytana książka'"/>
 			</node>
 			<node name="positions" value="Ostatnie trzy lokalizacje">
 				<node name="summaryOn" value="Wyświetla pozycje dla trzech ostatnich lokalizacji w książce"/>
@@ -976,21 +976,21 @@
 		<node name="waitMessage">
 			<node name="translating" value="Trwa tłumaczenie…"/>
 			<node name="tryConnect" value="Trwa próba połączenia. Proszę czekać…"/>
-			<node name="downloadingBook" value="Pobieranie książki %s"/>
-			<node name="search" value="Wyszukiwanie. Proszę czekać…"/>
-			<node name="loadInfo" value="Wczytywanie informacji. Proszę czekać…"/>
-			<node name="loadingBook" value="Otwieranie książki. Proszę czekać…"/>
-			<node name="loadingBookList" value="Otwieranie biblioteki. Proszę czekać…"/>
-			<node name="creatingBooksDatabase" value="Tworzenie bazy danych. Proszę czekać…"/>
-			<node name="updatingBooksDatabase" value="Aktualizacja bazy danych. Proszę czekać…"/>
-			<node name="loadingNetworkLibrary" value="Otwieranie biblioteki sieciowej. Proszę czekać…"/>
-			<node name="authentication" value="Uwierzytelnianie. Proszę czekać…"/>
-			<node name="signOut" value="Wylogowywanie. Proszę czekać…"/>
-			<node name="purchaseBook" value="Zakup książki. Proszę czekać…"/>
-			<node name="loadingCatalogInfo" value="Ładowanie danych katalogu. Proszę czekać…"/>
-			<node name="loadingNetworkBookInfo" value="Ładowanie informacji o książce. Proszę, czekać…"/>
-			<node name="updatingCatalogsList" value="Aktualizacja listy katalogów. Proszę czekać…"/>
-			<node name="updatingAccountInformation" value="Aktualizacja informacji o koncie. Proszę czekać…"/>
+			<node name="downloadingBook" value="Trwa pobieranie książki %s"/>
+			<node name="search" value="Trwa wyszukiwanie. Proszę czekać…"/>
+			<node name="loadInfo" value="Trwa wczytywanie informacji. Proszę czekać…"/>
+			<node name="loadingBook" value="Trwa otwieranie książki. Proszę czekać…"/>
+			<node name="loadingBookList" value="Trwa otwieranie biblioteki. Proszę czekać…"/>
+			<node name="creatingBooksDatabase" value="Trwa tworzenie bazy danych. Proszę czekać…"/>
+			<node name="updatingBooksDatabase" value="Trwa aktualizacja bazy danych. Proszę czekać…"/>
+			<node name="loadingNetworkLibrary" value="Trwa otwieranie biblioteki sieciowej. Proszę czekać…"/>
+			<node name="authentication" value="Trwa uwierzytelnianie. Proszę czekać…"/>
+			<node name="signOut" value="Trwa wylogowywanie. Proszę czekać…"/>
+			<node name="purchaseBook" value="Trwa zakup książki. Proszę czekać…"/>
+			<node name="loadingCatalogInfo" value="Trwa ładowanie danych katalogu. Proszę czekać…"/>
+			<node name="loadingNetworkBookInfo" value="Trwa ładowanie informacji o książce. Proszę, czekać…"/>
+			<node name="updatingCatalogsList" value="Trwa aktualizacja listy katalogów. Proszę czekać…"/>
+			<node name="updatingAccountInformation" value="Trwa aktualizacja informacji o koncie. Proszę czekać…"/>
 			<node name="initDRMEngine" value="Trwa instalacja silnika DRM. Proszę czekać…"/>
 			<node name="acquireLicence" value="Trwa pobieranie licencji. Proszę czekać…"/>
 			<node name="registerUser" value="Trwa rejestracja nowego konta. Proszę czekać…"/>
