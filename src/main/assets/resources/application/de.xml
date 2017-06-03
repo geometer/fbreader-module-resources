@@ -661,7 +661,7 @@
 				<node name="summaryOn" value="Kapitelmarken in der Fußzeile anzeigen"/>
 				<node name="summaryOff" value="Keine Kapitelmarken in der Fußzeile anzeigen"/>
 			</node>
-			<node name="tocMarksMaxNumber" value="Maximum number of TOC marks to display" toBeTranslated="true"/>
+			<node name="tocMarksMaxNumber" value="Maximum number of ToC marks to display" toBeTranslated="true"/>
 			<node name="showProgress" value="Lesefortschritt">
 				<node name="dontDisplay" value="Nicht anzeigen"/>
 				<node name="asPages" value="Als Seitenummer"/>

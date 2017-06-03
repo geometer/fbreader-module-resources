@@ -306,8 +306,8 @@
 			<node name="gotoHome" value="Vai all'inizio del Documento"/>
 			<node name="gotoSectionStart" value="Vai all'inizio della Sezione"/>
 			<node name="gotoSectionEnd" value="Vai alla fine della Sezione"/>
-			<node name="nextTOCSection" value="Vai alla successiva voce TOC"/>
-			<node name="previousTOCSection" value="Vai alla precedente voce TOC"/>
+			<node name="nextTOCSection" value="Vai alla successiva voce ToC"/>
+			<node name="previousTOCSection" value="Vai alla precedente voce ToC"/>
 			<node name="undo" value="Torna indietro"/>
 			<node name="redo" value="Vai avanti"/>
 		</node>
@@ -648,7 +648,7 @@
 				<node name="summaryOn" value="Mostra segnalibri in basso"/>
 				<node name="summaryOff" value="Non mostrare segnalibri in basso"/>
 			</node>
-			<node name="tocMarksMaxNumber" value="Maximum number of TOC marks to display" toBeTranslated="true"/>
+			<node name="tocMarksMaxNumber" value="Maximum number of ToC marks to display" toBeTranslated="true"/>
 			<node name="showProgress" value="Mostra progresso di lettura">
 				<node name="dontDisplay" value="Non mostrare"/>
 				<node name="asPages" value="Come numero di pagina"/>

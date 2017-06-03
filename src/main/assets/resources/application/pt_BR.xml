@@ -240,7 +240,7 @@
 		<node name="cannotCreateDirectory" value="Não foi possível criar diretório %s"/>
 		<node name="cannotCreateFile" value="Não foi possível criar arquivo %s"/>
 	</node>
-	<node name="tocView" value="Ver TOC">
+	<node name="tocView" value="Ver ToC">
 		<node name="expandTree" value="Expandir a árvore"/>
 		<node name="collapseTree" value="Diminuir a árvore"/>
 		<node name="readText" value="Ler texto do livro"/>
@@ -317,8 +317,8 @@
 			<node name="gotoHome" value="Ir para o Início do Documento"/>
 			<node name="gotoSectionStart" value="Ir para o Início do Texto da Seção"/>
 			<node name="gotoSectionEnd" value="Ir para o Fim do Texto da Seção"/>
-			<node name="nextTOCSection" value="Ir para o Próximo Item TOC"/>
-			<node name="previousTOCSection" value="Ir para o Item TOC Anterior"/>
+			<node name="nextTOCSection" value="Ir para o Próximo Item ToC"/>
+			<node name="previousTOCSection" value="Ir para o Item ToC Anterior"/>
 			<node name="undo" value="Voltar"/>
 			<node name="redo" value="Avançar"/>
 		</node>
@@ -655,11 +655,11 @@
 			<node name="footerBackgroundColor" value="Cor de fundo do rodapé"/>
 			<node name="footerForegroundColor" value="Cor do texto de rodapé"/>
 			<node name="footerForegroundUnreadColor" value="Cor do rodapé"/>
-			<node name="tocMarks" value="Mostrar marcas de TOC">
-				<node name="summaryOn" value="Mostrar marcas de TOC na barra de rodapé"/>
-				<node name="summaryOff" value="Não mostrar marcas de TOC na barra de rodapé"/>
+			<node name="tocMarks" value="Mostrar marcas de ToC">
+				<node name="summaryOn" value="Mostrar marcas de ToC na barra de rodapé"/>
+				<node name="summaryOff" value="Não mostrar marcas de ToC na barra de rodapé"/>
 			</node>
-			<node name="tocMarksMaxNumber" value="Maximum number of TOC marks to display" toBeTranslated="true"/>
+			<node name="tocMarksMaxNumber" value="Maximum number of ToC marks to display" toBeTranslated="true"/>
 			<node name="showProgress" value="Show reading progress" toBeTranslated="true">
 				<node name="dontDisplay" value="Do not show" toBeTranslated="true"/>
 				<node name="asPages" value="As page number" toBeTranslated="true"/>

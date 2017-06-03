@@ -314,8 +314,8 @@
 			<node name="gotoHome" value="Go to Start of Document" toBeTranslated="true"/>
 			<node name="gotoSectionStart" value="Go to start of text section" toBeTranslated="true"/>
 			<node name="gotoSectionEnd" value="Go to end of text section" toBeTranslated="true"/>
-			<node name="nextTOCSection" value="Go to next TOC item" toBeTranslated="true"/>
-			<node name="previousTOCSection" value="Go to previous TOC item" toBeTranslated="true"/>
+			<node name="nextTOCSection" value="Go to next ToC item" toBeTranslated="true"/>
+			<node name="previousTOCSection" value="Go to previous ToC item" toBeTranslated="true"/>
 			<node name="undo" value="پیچھے جائیں"/>
 			<node name="redo" value="آگے جائیں"/>
 		</node>
@@ -652,11 +652,11 @@
 			<node name="footerBackgroundColor" value="Footer background colour" toBeTranslated="true"/>
 			<node name="footerForegroundColor" value="Footer text colour" toBeTranslated="true"/>
 			<node name="footerForegroundUnreadColor" value="Footer line colour" toBeTranslated="true"/>
-			<node name="tocMarks" value="Show TOC marks" toBeTranslated="true">
-				<node name="summaryOn" value="Show TOC marks in the footer bar" toBeTranslated="true"/>
-				<node name="summaryOff" value="Don't show TOC marks in the footer bar" toBeTranslated="true"/>
+			<node name="tocMarks" value="Show ToC marks" toBeTranslated="true">
+				<node name="summaryOn" value="Show ToC marks in the footer bar" toBeTranslated="true"/>
+				<node name="summaryOff" value="Don't show ToC marks in the footer bar" toBeTranslated="true"/>
 			</node>
-			<node name="tocMarksMaxNumber" value="Maximum number of TOC marks to display" toBeTranslated="true"/>
+			<node name="tocMarksMaxNumber" value="Maximum number of ToC marks to display" toBeTranslated="true"/>
 			<node name="showProgress" value="Show reading progress" toBeTranslated="true">
 				<node name="dontDisplay" value="مت دکھائیں"/>
 				<node name="asPages" value="صفحہ نمبر کے طور پر"/>

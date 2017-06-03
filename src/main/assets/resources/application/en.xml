@@ -314,8 +314,8 @@
 			<node name="gotoHome" value="Go to Start of Document"/>
 			<node name="gotoSectionStart" value="Go to start of text section"/>
 			<node name="gotoSectionEnd" value="Go to end of text section"/>
-			<node name="nextTOCSection" value="Go to next TOC item"/>
-			<node name="previousTOCSection" value="Go to previous TOC item"/>
+			<node name="nextTOCSection" value="Go to next ToC item"/>
+			<node name="previousTOCSection" value="Go to previous ToC item"/>
 			<node name="undo" value="Go Back"/>
 			<node name="redo" value="Go Forward"/>
 		</node>
@@ -652,11 +652,11 @@
 			<node name="footerBackgroundColor" value="Footer background colour"/>
 			<node name="footerForegroundColor" value="Footer text colour"/>
 			<node name="footerForegroundUnreadColor" value="Footer line colour"/>
-			<node name="tocMarks" value="Show TOC marks">
-				<node name="summaryOn" value="Show TOC marks in the footer bar"/>
-				<node name="summaryOff" value="Don't show TOC marks in the footer bar"/>
+			<node name="tocMarks" value="Show ToC marks">
+				<node name="summaryOn" value="Show ToC marks in the footer bar"/>
+				<node name="summaryOff" value="Don't show ToC marks in the footer bar"/>
 			</node>
-			<node name="tocMarksMaxNumber" value="Maximum number of TOC marks to display"/>
+			<node name="tocMarksMaxNumber" value="Maximum number of ToC marks to display"/>
 			<node name="showProgress" value="Show reading progress">
 				<node name="dontDisplay" value="Do not show"/>
 				<node name="asPages" value="As page number"/>

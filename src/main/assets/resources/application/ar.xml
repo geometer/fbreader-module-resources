@@ -312,8 +312,8 @@
 			<node name="gotoHome" value="انتقل الى البداية"/>
 			<node name="gotoSectionStart" value="انتقل الى بداية الصفحة"/>
 			<node name="gotoSectionEnd" value="انتقل الى نهاية الصفحة"/>
-			<node name="nextTOCSection" value="Go to next TOC item" toBeTranslated="true"/>
-			<node name="previousTOCSection" value="Go to previous TOC item" toBeTranslated="true"/>
+			<node name="nextTOCSection" value="Go to next ToC item" toBeTranslated="true"/>
+			<node name="previousTOCSection" value="Go to previous ToC item" toBeTranslated="true"/>
 			<node name="undo" value="الى الخلف"/>
 			<node name="redo" value="الى الأمام"/>
 		</node>
@@ -654,7 +654,7 @@
 				<node name="summaryOn" value="عرض علامات الفهرس على شريط التقدم"/>
 				<node name="summaryOff" value="لا تعرض علامات الفهرس على شريط التقدم"/>
 			</node>
-			<node name="tocMarksMaxNumber" value="Maximum number of TOC marks to display" toBeTranslated="true"/>
+			<node name="tocMarksMaxNumber" value="Maximum number of ToC marks to display" toBeTranslated="true"/>
 			<node name="showProgress" value="Show reading progress" toBeTranslated="true">
 				<node name="dontDisplay" value="Do not show" toBeTranslated="true"/>
 				<node name="asPages" value="As page number" toBeTranslated="true"/>

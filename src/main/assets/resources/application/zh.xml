@@ -646,7 +646,7 @@
 				<node name="summaryOn" value="在页脚栏显示内容目录标志"/>
 				<node name="summaryOff" value="不在页脚栏显示内容目录标志"/>
 			</node>
-			<node name="tocMarksMaxNumber" value="要显示的TOC标签最大值"/>
+			<node name="tocMarksMaxNumber" value="要显示的ToC标签最大值"/>
 			<node name="showProgress" value="显示阅读进度">
 				<node name="dontDisplay" value="不显示"/>
 				<node name="asPages" value="显示为页码"/>

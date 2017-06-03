@@ -314,8 +314,8 @@
 			<node name="gotoHome" value="문서 처음으로 가기"/>
 			<node name="gotoSectionStart" value="텍스트 부분 처음으로 가기"/>
 			<node name="gotoSectionEnd" value="텍스트 부분 끝으로 가기"/>
-			<node name="nextTOCSection" value="다음 TOC 항목으로 가기"/>
-			<node name="previousTOCSection" value="이전 TOC 항목으로 가기"/>
+			<node name="nextTOCSection" value="다음 ToC 항목으로 가기"/>
+			<node name="previousTOCSection" value="이전 ToC 항목으로 가기"/>
 			<node name="undo" value="뒤로 가기"/>
 			<node name="redo" value="앞으로 가기"/>
 		</node>
@@ -652,11 +652,11 @@
 			<node name="footerBackgroundColor" value="꼬리말 배경 색상"/>
 			<node name="footerForegroundColor" value="꼬리말 텍스트 색상"/>
 			<node name="footerForegroundUnreadColor" value="꼬리말 선 색상"/>
-			<node name="tocMarks" value="TOC 표시 보이기">
-				<node name="summaryOn" value="꼬리말 바에 TOC 표시 보이기"/>
-				<node name="summaryOff" value="꼬리말 바에 TOC 표시 보이지 않음"/>
+			<node name="tocMarks" value="ToC 표시 보이기">
+				<node name="summaryOn" value="꼬리말 바에 ToC 표시 보이기"/>
+				<node name="summaryOff" value="꼬리말 바에 ToC 표시 보이지 않음"/>
 			</node>
-			<node name="tocMarksMaxNumber" value="Maximum number of TOC marks to display" toBeTranslated="true"/>
+			<node name="tocMarksMaxNumber" value="Maximum number of ToC marks to display" toBeTranslated="true"/>
 			<node name="showProgress" value="Show reading progress" toBeTranslated="true">
 				<node name="dontDisplay" value="Do not show" toBeTranslated="true"/>
 				<node name="asPages" value="As page number" toBeTranslated="true"/>
