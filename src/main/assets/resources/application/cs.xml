@@ -260,9 +260,9 @@
 		<node name="deleteBookmark" value="Odstranit záložku"/>
 		<node name="search" value="Hledat"/>
 		<node name="order">
-			<node name="byCreationTime" value="By creation time" toBeTranslated="true"/>
-			<node name="byAccessTime" value="By access time" toBeTranslated="true"/>
-			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
+			<node name="byCreationTime" value="Podle času vytvoření"/>
+			<node name="byAccessTime" value="Podle času přístupu"/>
+			<node name="byPageNo" value="Podle čísla stránky"/>
 		</node>
 	</node>
 	<node name="editBookmark">
@@ -716,11 +716,11 @@
 				<node name="summaryOn" value="Posouvat stránky vodorovně"/>
 				<node name="summaryOff" value="Posouvat stránky svisle"/>
 			</node>
-			<node name="tapToScrollForward" value="Tap to scroll forward" toBeTranslated="true">
-				<node name="right_to_left" value="Right third of the screen" toBeTranslated="true"/>
-				<node name="left_to_right" value="Left third of the screen" toBeTranslated="true"/>
-				<node name="up" value="Bottom third of the screen" toBeTranslated="true"/>
-				<node name="down" value="Top third of the screen" toBeTranslated="true"/>
+			<node name="tapToScrollForward" value="Klepnout pro posouvání vpřed">
+				<node name="right_to_left" value="Pravá třetina obrazovky"/>
+				<node name="left_to_right" value="Levá třetina obrazovky"/>
+				<node name="up" value="Dolní třetina obrazovky"/>
+				<node name="down" value="Horní třetina obrazovky"/>
 			</node>
 		</node>
 		<node name="tapZones" value="Oblasti dotyku">
@@ -879,18 +879,18 @@
 					<node name="summaryOn" value="Použít webové ověření, i když jsou dostupné Služby Google"/>
 					<node name="summaryOff" value="Použít Služby Google, když jsou dostupné"/>
 				</node>
-				<node name="showChangeNotifications" value="Notify about file modifications" toBeTranslated="true">
-					<node name="allFiles" value="Always" toBeTranslated="true"/>
-					<node name="bookFolders" value="For files in book folders only" toBeTranslated="true"/>
-					<node name="noFiles" value="Never" toBeTranslated="true"/>
+				<node name="showChangeNotifications" value="Upozornit na změny souborů">
+					<node name="allFiles" value="Vždy"/>
+					<node name="bookFolders" value="Pouze pro soubory ve složkách knih"/>
+					<node name="noFiles" value="Nikdy"/>
 				</node>
-				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog" toBeTranslated="true">
-					<node name="summaryOn" value="Show each time you start FBReader from launcher" toBeTranslated="true"/>
-					<node name="summaryOff" value="Do not show" toBeTranslated="true"/>
+				<node name="showOpenPremiumSuggestion" value="Dialogové okno „Otevřít Prémium“">
+					<node name="summaryOn" value="Zobrazit při každém spuštění FBReaderu z plochy"/>
+					<node name="summaryOff" value="Nezobrazovat"/>
 				</node>
-				<node name="logFileScanning" value="Log file scanning" toBeTranslated="true">
-					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info" toBeTranslated="true"/>
-					<node name="summaryOff" value="Do not log" toBeTranslated="true"/>
+				<node name="logFileScanning" value="Protokolovat prohledávání souboru">
+					<node name="summaryOn" value="Vytvořit záznam protokolu při každém prohledání souboru aplikací pro extrahování informací o knize"/>
+					<node name="summaryOff" value="Neprotokolovat"/>
 				</node>
 				<node name="copyLogs" value="Kopírovat soubory protokolů">
 					<node name="summary" value="Zkopíruje soubory *.log do %s"/>
@@ -899,8 +899,8 @@
 				<node name="copyDatabase" value="Kopírovat databázi knih">
 					<node name="summary" value="Zkopíruje soubor books.db do %s"/>
 				</node>
-				<node name="scanFailures" value="Scan failures list" toBeTranslated="true">
-					<node name="summary" value="List of files FBReader couldn't scan" toBeTranslated="true"/>
+				<node name="scanFailures" value="Seznam selhání prohledání">
+					<node name="summary" value="Seznam souborů, které FBReader nemohl prohledat"/>
 				</node>
 			</node>
 		</node>
@@ -942,7 +942,7 @@
 			<node name="markAsUnread" value="Označit jako nepřečtené"/>
 			<node name="plugin" value="Doplněk"/>
 			<node name="premium" value="Premium"/>
-			<node name="clear" value="Clear" toBeTranslated="true"/>
+			<node name="clear" value="Vymazat"/>
 		</node>
 		<node name="gotoPage" value="Přejít na stránku"/>
 		<node name="plugin">
@@ -1274,7 +1274,7 @@
 		<node name="missingApp" value="Aplikace Twitter není nainstalována"/>
 	</node>
 	<node name="goodreads">
-		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
+		<node name="link" value="Sdílejte svůj dojem ze čtení na Goodreads!"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Síť není dostupná. Zkontrolujte své připojení a zkuste to znovu."/>
