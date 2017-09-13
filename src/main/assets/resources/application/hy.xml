@@ -304,6 +304,8 @@
 		<node name="installPremium" value="Անցնել Premium տարբերակի"/>
 		<node name="openPremium" value="Բացել FBReader Premium-ը"/>
 		<node name="premium" value="FBReader Premium"/>
+		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="Նորույթները"/>
 		<node name="openStartScreen" value="Հիմնական էկրան"/>
 		<node name="preferences" value="Կարգավորումներ"/>
@@ -792,6 +794,7 @@
 				<node name="summary" value="Փոխել կետերի հաջորդականությունը"/>
 				<node name="bookMenuUpperSection" value="Գրքի գործիքագոտին (վերին մասը)"/>
 				<node name="bookMenuLowerSection" value="Գրքի գործիքագոտին (ստորին մասը)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Գործիքադարակ կամ հիմնական գործիքագոտի"/>
 				<node name="mainMenu" value="Հիմնական գործիքագոտի"/>
 				<node name="enabled" value="Միացված է"/>

@@ -302,6 +302,8 @@
 		<node name="installPremium" value="Перейти на Premium"/>
 		<node name="openPremium" value="Открыть Premium"/>
 		<node name="premium" value="FBReader Premium"/>
+		<node name="yoWindow" value="Точная Погода"/>
+		<node name="ads" value="Рекомендуемое приложение"/>
 		<node name="whatsnew" value="Что нового"/>
 		<node name="openStartScreen" value="Стартовый экран"/>
 		<node name="preferences" value="Настройки"/>
@@ -790,6 +792,7 @@
 				<node name="summary" value="Изменить порядок пунктов"/>
 				<node name="bookMenuUpperSection" value="Меню книги (верхняя часть)"/>
 				<node name="bookMenuLowerSection" value="Меню книги (нижняя часть)"/>
+				<node name="bookMenuExtrasSection" value="Меню книги (дополнения)"/>
 				<node name="toolbarOrMainMenu" value="Тулбар или главное меню"/>
 				<node name="mainMenu" value="Главное меню"/>
 				<node name="enabled" value="Включены"/>

@@ -297,6 +297,8 @@
 		<node name="installPremium" value="プレミアムにアップグレード"/>
 		<node name="openPremium" value="FBReader プレミアムを開く"/>
 		<node name="premium" value="FBReader プレミアムダイアログ"/>
+		<node name="yoWindow" value="正確な天気"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="新着情報"/>
 		<node name="openStartScreen" value="スタート画面"/>
 		<node name="preferences" value="設定"/>
@@ -833,6 +835,7 @@
 				<node name="summary" value="項目の順序を変更"/>
 				<node name="bookMenuUpperSection" value="本のメニュー (上部)"/>
 				<node name="bookMenuLowerSection" value="本のメニュー (下部)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="ツールバーまたはメインメニュー"/>
 				<node name="mainMenu" value="メインメニュー"/>
 				<node name="enabled" value="有効"/>

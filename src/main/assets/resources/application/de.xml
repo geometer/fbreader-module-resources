@@ -300,8 +300,10 @@
 	</node>
 	<node name="menu">
 		<node name="installPremium" value="Upgrade auf Premium"/>
-		<node name="openPremium" value="FBReader Premium öffnen"/>
+		<node name="openPremium" value="Premium öffnen"/>
 		<node name="premium" value="FBReader Premium"/>
+		<node name="yoWindow" value="Genaues Wetter"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="Was ist neu"/>
 		<node name="openStartScreen" value="Startbildschirm"/>
 		<node name="preferences" value="Einstellungen"/>
@@ -790,6 +792,7 @@
 				<node name="summary" value="Reihenfolge ändern"/>
 				<node name="bookMenuUpperSection" value="Buchmenü (oberer Bereich)"/>
 				<node name="bookMenuLowerSection" value="Buchmenü (unterer Bereich)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Symbolleiste oder Hauptmenü"/>
 				<node name="mainMenu" value="Hauptmenü"/>
 				<node name="enabled" value="Aktiviert"/>

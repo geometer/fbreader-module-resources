@@ -297,6 +297,8 @@
 		<node name="installPremium" value="Eguneratu Premium-era"/>
 		<node name="openPremium" value="Ireki FBReader Premium"/>
 		<node name="premium" value="FBReader Premium elkarrizketa-koadroa"/>
+		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="Zer berri"/>
 		<node name="openStartScreen" value="Hasiera pantaila"/>
 		<node name="preferences" value="Hobespenak"/>
@@ -785,6 +787,7 @@
 				<node name="summary" value="Aldatu elementuen ordena"/>
 				<node name="bookMenuUpperSection" value="Liburuaren menua (goiko atalean)"/>
 				<node name="bookMenuLowerSection" value="Liburuaren menua (beheko atalean)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Tresna-barra edo menu nagusia"/>
 				<node name="mainMenu" value="Menu nagusia"/>
 				<node name="enabled" value="Gaituta"/>

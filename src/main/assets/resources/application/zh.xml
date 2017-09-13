@@ -287,6 +287,8 @@
 		<node name="installPremium" value="升级到付费版"/>
 		<node name="openPremium" value="打开FBReader付费版"/>
 		<node name="premium" value="FBReader付费版对话框"/>
+		<node name="yoWindow" value="实景天气"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="新增内容"/>
 		<node name="openStartScreen" value="开始屏幕"/>
 		<node name="preferences" value="阅读相关设置"/>
@@ -775,6 +777,7 @@
 				<node name="summary" value="更改项的顺序"/>
 				<node name="bookMenuUpperSection" value="书籍菜单 (升序)"/>
 				<node name="bookMenuLowerSection" value="书籍菜单 (降序)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="工具条或主菜单"/>
 				<node name="mainMenu" value="主菜单"/>
 				<node name="enabled" value="已启用"/>

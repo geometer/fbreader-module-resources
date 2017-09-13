@@ -287,6 +287,8 @@
 		<node name="installPremium" value="Підняти до Преміум"/>
 		<node name="openPremium" value="Відкрити FBReader Преміум"/>
 		<node name="premium" value="Діалог FBReader Преміум"/>
+		<node name="yoWindow" value="Точна Погода"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="Що нового"/>
 		<node name="openStartScreen" value="Стартовий екран"/>
 		<node name="preferences" value="Налаштування"/>
@@ -775,6 +777,7 @@
 				<node name="summary" value="Змінити порядок елементів"/>
 				<node name="bookMenuUpperSection" value="Меню книг (верхня частина)"/>
 				<node name="bookMenuLowerSection" value="Меню книг (нижня частина)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Панель інструментів або головне меню"/>
 				<node name="mainMenu" value="Головне меню"/>
 				<node name="enabled" value="Увімкнено"/>

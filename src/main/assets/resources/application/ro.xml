@@ -290,6 +290,8 @@
 		<node name="installPremium" value="Instalează varianta Premium"/>
 		<node name="openPremium" value="Deschide FBReader Premium"/>
 		<node name="premium" value="Dialog FBReader Premium"/>
+		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="Ce este nou"/>
 		<node name="openStartScreen" value="Ecranul de start"/>
 		<node name="preferences" value="Setări"/>
@@ -778,6 +780,7 @@
 				<node name="summary" value="Schimbă ordinea intrărilor"/>
 				<node name="bookMenuUpperSection" value="Meniul cărții (partea de sus)"/>
 				<node name="bookMenuLowerSection" value="Meniul cărții (partea de jos)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Meniul de scule sau meniu principal"/>
 				<node name="mainMenu" value="Meniu principal"/>
 				<node name="enabled" value="Activat"/>

@@ -287,6 +287,8 @@
 		<node name="installPremium" value="Zainstaluj wersję Premium"/>
 		<node name="openPremium" value="Otwórz FBReader Premium"/>
 		<node name="premium" value="FBReader Premium"/>
+		<node name="yoWindow" value="Najlepsza Pogoda"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="Nowości"/>
 		<node name="openStartScreen" value="Wprowadzenie"/>
 		<node name="preferences" value="Ustawienia"/>
@@ -775,6 +777,7 @@
 				<node name="summary" value="Zmień kolejność pozycji"/>
 				<node name="bookMenuUpperSection" value="Menu książki (górna sekcja)"/>
 				<node name="bookMenuLowerSection" value="Menu książki (dolna sekcja)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Pasek narzędzi lub główne menu"/>
 				<node name="mainMenu" value="Główne menu"/>
 				<node name="enabled" value="Włączone"/>

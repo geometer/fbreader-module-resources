@@ -293,8 +293,10 @@
 	</node>
 	<node name="menu">
 		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open FBReader Premium" toBeTranslated="true"/>
+		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
 		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
+		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
 		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
 		<node name="preferences" value="اعدادات"/>
@@ -783,6 +785,7 @@
 				<node name="summary" value="Change items order" toBeTranslated="true"/>
 				<node name="bookMenuUpperSection" value="Book menu (upper section)" toBeTranslated="true"/>
 				<node name="bookMenuLowerSection" value="Book menu (lower section)" toBeTranslated="true"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Toolbar or main menu" toBeTranslated="true"/>
 				<node name="mainMenu" value="Main menu" toBeTranslated="true"/>
 				<node name="enabled" value="Enabled" toBeTranslated="true"/>

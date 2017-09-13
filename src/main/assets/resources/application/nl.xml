@@ -297,6 +297,8 @@
 		<node name="installPremium" value="Upgrade naar Premium"/>
 		<node name="openPremium" value="FBReader Premium openen"/>
 		<node name="premium" value="FBReader Premium scherm"/>
+		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
+		<node name="ads" value="Recommended app" toBeTranslated="true"/>
 		<node name="whatsnew" value="Wat is er nieuw"/>
 		<node name="openStartScreen" value="Startscherm"/>
 		<node name="preferences" value="Instellingen"/>
@@ -785,6 +787,7 @@
 				<node name="summary" value="Pas volgorde aan"/>
 				<node name="bookMenuUpperSection" value="Boekenmenu (bovenste sectie)"/>
 				<node name="bookMenuLowerSection" value="Boekenmenu (onderste sectie)"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Knoppenbalk of hoofdmenu"/>
 				<node name="mainMenu" value="Hoofdmenu"/>
 				<node name="enabled" value="Ingeschakeld"/>
