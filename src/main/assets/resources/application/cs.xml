@@ -306,8 +306,8 @@
 		<node name="installPremium" value="Upgradovat na Premium"/>
 		<node name="openPremium" value="Otevřít FBReader Premium"/>
 		<node name="premium" value="Dialogové okno FBReader Premium"/>
-		<node name="yoWindow" value="Přesná Počasí"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
+		<node name="yoWindow" value="Přesné počasí"/>
+		<node name="ads" value="Doporučená aplikace"/>
 		<node name="whatsnew" value="Co je nového"/>
 		<node name="openStartScreen" value="Úvodní obrazovka"/>
 		<node name="preferences" value="Nastavení"/>
@@ -796,7 +796,7 @@
 				<node name="summary" value="Změnit pořadí položek"/>
 				<node name="bookMenuUpperSection" value="Menu knihy (horní část)"/>
 				<node name="bookMenuLowerSection" value="Menu knihy (dolní část)"/>
-				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
+				<node name="bookMenuExtrasSection" value="Menu knihy (doplňková část)"/>
 				<node name="toolbarOrMainMenu" value="Panel nástrojů nebo hlavní menu"/>
 				<node name="mainMenu" value="Hlavní menu"/>
 				<node name="enabled" value="Povoleno"/>
