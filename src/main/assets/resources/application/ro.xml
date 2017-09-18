@@ -603,6 +603,7 @@
 				<node name="sepia" value="Sepia"/>
 				<node name="wood" value="Lemn"/>
 				<node name="sand" value="Nisip"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="Carton"/>
 			</node>
 			<node name="fillMode" value="Modul de umplere">

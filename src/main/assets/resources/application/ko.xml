@@ -610,6 +610,7 @@
 				<node name="sepia" value="세피아"/>
 				<node name="wood" value="나무"/>
 				<node name="sand" value="모래"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="두꺼운 도화지"/>
 			</node>
 			<node name="fillMode" value="채우기 모드">

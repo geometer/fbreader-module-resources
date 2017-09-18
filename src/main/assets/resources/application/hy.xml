@@ -617,6 +617,7 @@
 				<node name="sepia" value="Դարչնագույն"/>
 				<node name="wood" value="Փայտի գույնով"/>
 				<node name="sand" value="Ավազի գույնով"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="Կոշտ թուղթ"/>
 			</node>
 			<node name="fillMode" value="Գունավորման եղանակ">

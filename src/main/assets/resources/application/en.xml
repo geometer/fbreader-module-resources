@@ -610,6 +610,7 @@
 				<node name="sepia" value="Sepia"/>
 				<node name="wood" value="Wood"/>
 				<node name="sand" value="Sand"/>
+				<node name="paper" value="Paper"/>
 				<node name="hardpaper" value="Hard paper"/>
 			</node>
 			<node name="fillMode" value="Fill mode">

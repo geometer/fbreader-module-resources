@@ -616,6 +616,7 @@
 				<node name="sepia" value="Sepia"/>
 				<node name="wood" value="Madera"/>
 				<node name="sand" value="Arena"/>
+				<node name="paper" value="Papel"/>
 				<node name="hardpaper" value="Cartón"/>
 			</node>
 			<node name="fillMode" value="Modo de relleno">

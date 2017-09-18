@@ -603,6 +603,7 @@
 				<node name="sepia" value="Sépia"/>
 				<node name="wood" value="Bois"/>
 				<node name="sand" value="Sable"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="Papier"/>
 			</node>
 			<node name="fillMode" value="Mode de remplissage">

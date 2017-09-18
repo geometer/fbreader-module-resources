@@ -600,6 +600,7 @@
 				<node name="sepia" value="Sepia"/>
 				<node name="wood" value="Drewno"/>
 				<node name="sand" value="Piasek"/>
+				<node name="paper" value="Papier"/>
 				<node name="hardpaper" value="Tektura"/>
 			</node>
 			<node name="fillMode" value="Sposób wypełnienia">

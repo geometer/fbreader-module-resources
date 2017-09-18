@@ -602,6 +602,7 @@
 				<node name="sepia" value="Seppia"/>
 				<node name="wood" value="Legno"/>
 				<node name="sand" value="Sabbia"/>
+				<node name="paper" value="Carta"/>
 				<node name="hardpaper" value="Carta ruvida"/>
 			</node>
 			<node name="fillMode" value="Modalità riempimento">

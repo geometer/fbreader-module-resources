@@ -619,6 +619,7 @@
 				<node name="sepia" value="Sépie"/>
 				<node name="wood" value="Dřevo"/>
 				<node name="sand" value="Písek"/>
+				<node name="paper" value="Papír"/>
 				<node name="hardpaper" value="Tvrdý papír"/>
 			</node>
 			<node name="fillMode" value="Režim vyplnění">

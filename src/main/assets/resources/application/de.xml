@@ -615,6 +615,7 @@
 				<node name="sepia" value="Sepia (altes Papier)"/>
 				<node name="wood" value="Holz"/>
 				<node name="sand" value="Sand"/>
+				<node name="paper" value="Papier"/>
 				<node name="hardpaper" value="Hartpapier"/>
 			</node>
 			<node name="fillMode" value="Füllmodus">

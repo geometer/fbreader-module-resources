@@ -600,6 +600,7 @@
 				<node name="sepia" value="Сепія"/>
 				<node name="wood" value="Деревина"/>
 				<node name="sand" value="Пісок"/>
+				<node name="paper" value="Папір"/>
 				<node name="hardpaper" value="Грубий папір"/>
 			</node>
 			<node name="fillMode" value="Режим заповення">

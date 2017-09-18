@@ -616,6 +616,7 @@
 				<node name="sepia" value="Сепия"/>
 				<node name="wood" value="Дърво"/>
 				<node name="sand" value="Sand" toBeTranslated="true"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="Hard paper" toBeTranslated="true"/>
 			</node>
 			<node name="fillMode" value="Fill mode" toBeTranslated="true">

@@ -610,6 +610,7 @@
 				<node name="sepia" value="Sepia"/>
 				<node name="wood" value="Zura"/>
 				<node name="sand" value="Area"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="Kartoia"/>
 			</node>
 			<node name="fillMode" value="Bete">

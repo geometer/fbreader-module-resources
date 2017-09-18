@@ -600,6 +600,7 @@
 				<node name="sepia" value="褐色"/>
 				<node name="wood" value="木材"/>
 				<node name="sand" value="Sand" toBeTranslated="true"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="Hard paper" toBeTranslated="true"/>
 			</node>
 			<node name="fillMode" value="Fill mode" toBeTranslated="true">

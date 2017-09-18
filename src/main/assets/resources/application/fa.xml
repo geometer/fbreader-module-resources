@@ -609,6 +609,7 @@
 				<node name="sepia" value="قرمز قهوه اي"/>
 				<node name="wood" value="درختي"/>
 				<node name="sand" value="شن"/>
+				<node name="paper" value="Paper" toBeTranslated="true"/>
 				<node name="hardpaper" value="کاغذ سخت"/>
 			</node>
 			<node name="fillMode" value="حالت پر کردن">

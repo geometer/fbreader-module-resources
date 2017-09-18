@@ -611,6 +611,7 @@
 				<node name="sepia" value="Sépia"/>
 				<node name="wood" value="Madeira"/>
 				<node name="sand" value="Areia"/>
+				<node name="paper" value="Papel"/>
 				<node name="hardpaper" value="Lixa"/>
 			</node>
 			<node name="fillMode" value="Modo de preenchimento">
