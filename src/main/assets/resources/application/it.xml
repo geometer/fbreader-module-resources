@@ -1257,7 +1257,7 @@
 	</node>
 	<node name="twitter">
 		<node name="link" value="Tweet what you have read!" toBeTranslated="true"/>
-		<node name="tweet" value="I've read “%title%” in @fbreader" toBeTranslated="true"/>
+		<node name="tweet" value="I've read “%title%” in #FBReader" toBeTranslated="true"/>
 		<node name="missingApp" value="Twitter app is not installed" toBeTranslated="true"/>
 	</node>
 	<node name="goodreads">

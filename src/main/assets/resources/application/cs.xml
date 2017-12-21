@@ -1274,7 +1274,7 @@
 	</node>
 	<node name="twitter">
 		<node name="link" value="Tweetujte, co máte dočteno!"/>
-		<node name="tweet" value="Dočtena kniha „%title%“ v @fbreader"/>
+		<node name="tweet" value="Dočtena kniha „%title%“ v #FBReader"/>
 		<node name="missingApp" value="Aplikace Twitter není nainstalována"/>
 	</node>
 	<node name="goodreads">

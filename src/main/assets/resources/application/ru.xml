@@ -1273,7 +1273,7 @@
 	</node>
 	<node name="twitter">
 		<node name="link" value="Расскажите о прочитанной книге!"/>
-		<node name="tweet" value="«%title%» Прочитано в @fbreader_ru"/>
+		<node name="tweet" value="«%title%» Прочитано в #FBReader"/>
 		<node name="missingApp" value="Приложение Twitter не установлено"/>
 	</node>
 	<node name="goodreads">
