@@ -726,6 +726,18 @@
 				<node name="down" value="Up to down page scrolling"/>
 				<node name="custom" value="Custom…"/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="No action"/>
+				<node name="toggleBars" value="Toggle toolbars"/>
+				<node name="pageForward" value="Page forward"/>
+				<node name="pageBack" value="Page back"/>
+				<node name="nextChapter" value="Next Chapter"/>
+				<node name="prevChapter" value="Previous Chapter"/>
+				<node name="back" value="Back"/>
+
+				<node name="lastItem" value="Tap in this area toggles toolbars"/>
+				<node name="delete" value="Delete"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Dictionary &amp; translator">
 			<node name="summary" value="Translation settings"/>
