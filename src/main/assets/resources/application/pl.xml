@@ -1255,7 +1255,7 @@
 	</node>
 	<node name="twitter">
 		<node name="link" value="Tweetnij co przeczytałeś!"/>
-		<node name="tweet" value="Przeczytałem „%title%” z @fbreader"/>
+		<node name="tweet" value="Przeczytałem „%title%” z #FBReader"/>
 		<node name="missingApp" value="Aplikacja Twitter nie jest zainstalowana"/>
 	</node>
 	<node name="goodreads">

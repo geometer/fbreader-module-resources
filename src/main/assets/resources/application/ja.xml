@@ -1313,7 +1313,7 @@
 	</node>
 	<node name="twitter">
 		<node name="link" value="読んだことをツイートしましょう!"/>
-		<node name="tweet" value="“%title%” を @fbreader で読みました"/>
+		<node name="tweet" value="“%title%” を #FBReader で読みました"/>
 		<node name="missingApp" value="Twitter アプリがインストールされていません"/>
 	</node>
 	<node name="goodreads">

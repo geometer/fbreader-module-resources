@@ -1265,7 +1265,7 @@
 	</node>
 	<node name="twitter">
 		<node name="link" value="Ціўт пра тое, что я чытаю!"/>
-		<node name="tweet" value="Я чытаю “%title%” у @fbreader"/>
+		<node name="tweet" value="Я чытаю “%title%” у #FBReader"/>
 		<node name="missingApp" value="Дадатак для Twitter не ўсталяваны "/>
 	</node>
 	<node name="goodreads">
