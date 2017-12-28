@@ -738,6 +738,13 @@
 				<node name="lastItem" value="Tap in this area toggles toolbars"/>
 				<node name="delete" value="Delete"/>
 			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward"/>
+				<node name="left" value="Left third forward"/>
+				<node name="top" value="Top third forward"/>
+				<node name="bottom" value="Bottom third forward"/>
+				<node name="disabled" value="Disabled"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Dictionary &amp; translator">
 			<node name="summary" value="Translation settings"/>
