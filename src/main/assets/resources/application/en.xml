@@ -825,7 +825,13 @@
 				<node name="none" value="No action"/>
 			</node>
 		</node>
-		<node name="tips" value="Tips">
+	<node name="tts" value="Text to speech">
+		<node name="highlight" value="Highlight sentences">
+			<node name="summaryOn" value="Highlight"/>
+			<node name="summaryOff" value="Do not highlight"/>
+		</node>
+	</node>
+	<node name="tips" value="Tips">
 			<node name="summary" value="Daily tips settings"/>
 			<node name="showTips" value="Show tips">
 				<node name="summaryOn" value="Show daily tips"/>
