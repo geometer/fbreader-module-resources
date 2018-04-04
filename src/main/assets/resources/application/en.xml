@@ -852,6 +852,14 @@
 			<node name="summaryOn" value="Yes"/>
 			<node name="summaryOff" value="No"/>
 		</node>
+		<node name="useNetwork" value="Use network tts if possible">
+			<node name="summaryOn" value="Yes"/>
+			<node name="summaryOff" value="No"/>
+		</node>
+		<node name="wifiOnly" value="Only on wifi">
+			<node name="summaryOn" value="Yes"/>
+			<node name="summaryOff" value="No"/>
+		</node>
 
 	</node>
 	<node name="tips" value="Tips">
