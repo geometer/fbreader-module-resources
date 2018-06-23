@@ -9,7 +9,7 @@
 			<node name="apply" value="Ужыць"/>
 		</node>
 		<node name="networkError">
-			<node name="title" value="Памылка сеціва"/>
+			<node name="title" value="Памылка сеткі"/>
 			<node name="unknownErrorMessage" value="Невядомая памылка"/>
 			<node name="operationTimedOutMessage" value="Скончыўся тэрмін аперацыі"/>
 			<node name="somethingWrongMessage" value="Нешта пайшло не так з «%s»"/>
@@ -22,7 +22,7 @@
 			<node name="invalidURL" value="Хібны адрас"/>
 			<node name="hostCantBeReached" value="Вузел %s недаступны"/>
 			<node name="connectionRefused" value="Злучэнне разарванае %s"/>
-			<node name="networkNotAvailable" value="Сеціва недаступна"/>
+			<node name="networkNotAvailable" value="Сетка недаступна"/>
 		</node>
 	</node>
 	<node name="color">
