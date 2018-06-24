@@ -982,6 +982,7 @@
 			<node name="password" value="Пароль"/>
 			<node name="confirmPassword" value="Еще раз пароль"/>
 			<node name="email" value="E-mail"/>
+			<node name="birthdate" value="Дата рождения"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="Автоматический вход"/>
@@ -1039,6 +1040,8 @@
 			<node name="emailNotSpecified" value="Введите e-mail"/>
 			<node name="emailAlreadyInUse" value="Пользователь с таким e-mail уже зарегистрирован"/>
 			<node name="invalidEMail" value="Некорректный e-mail"/>
+			<node name="birthdateNotSpecified" value="Не указана дата рождения"/>
+			<node name="invalidBirthdate" value="Некорректная дата рождения"/>
 			<node name="tooManyRegistrations" value="Слишком много регистраций с вашего IP;&#10;попробуйте ещё раз через пару минут"/>
 		</node>
 		<node name="AuthenticationDialog">

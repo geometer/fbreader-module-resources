@@ -992,6 +992,7 @@
 			<node name="password" value="Password"/>
 			<node name="confirmPassword" value="Password&#10;confirmation"/>
 			<node name="email" value="Email"/>
+			<node name="birthdate" value="Date of birth"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="Signing in"/>
@@ -1049,6 +1050,8 @@
 			<node name="emailNotSpecified" value="Email address is blank"/>
 			<node name="emailAlreadyInUse" value="Email address is already in use"/>
 			<node name="invalidEMail" value="Invalid email address"/>
+			<node name="birthdateNotSpecified" value="Date of birth is blank"/>
+			<node name="invalidBirthdate" value="Invalid date of birth"/>
 			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes"/>
 		</node>
 		<node name="AuthenticationDialog">
