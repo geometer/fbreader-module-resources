@@ -1059,6 +1059,7 @@
 			<node name="unencryptedWarning" value="Your password will be sent unencrypted"/>
 			<node name="login" value="Username"/>
 			<node name="password" value="Password"/>
+			<node name="recoverPassword" value="Forgot password?"/>
 			<node name="loginIsEmpty" value="Username should not be blank"/>
 			<node name="register" value="Sign up"/>
 		</node>

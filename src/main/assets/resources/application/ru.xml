@@ -1049,6 +1049,7 @@
 			<node name="unencryptedWarning" value="Пароль пересылается незашифрованным"/>
 			<node name="login" value="Имя пользователя"/>
 			<node name="password" value="Пароль"/>
+			<node name="recoverPassword" value="Забыли пароль?"/>
 			<node name="loginIsEmpty" value="Имя пользователя не может быть пустым"/>
 			<node name="register" value="Зарегистрироваться"/>
 		</node>
