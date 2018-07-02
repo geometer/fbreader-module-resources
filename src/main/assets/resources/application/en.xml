@@ -478,6 +478,10 @@
 			</node>
 			<node name="font" value="Font family">
 				<node name="inherit" value="&lt;unchanged&gt;"/>
+				<node name="useDownloadable" value="Enable downloadable fonts"/>
+				<node name="downloadableWarning" value="Network traffic can be used"/>
+				<node name="fontPreview" value="Preview"/>
+                <node name="fontLoading" value="Loading..."/>
 			</node>
 			<node name="fontSize" value="Font size"/>
 			<node name="fontStyle" value="Font style">
@@ -1030,6 +1034,9 @@
 			<node name="registerUser" value="Registering new account. Please wait…"/>
 			<node name="autoSignIn" value="Signing in. Please wait…"/>
 			<node name="recoverPassword" value="Recovering password. Please wait…"/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…">
+				<node name="disable" value="Disable downloadable fonts"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="Internal server error"/>
