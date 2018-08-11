@@ -1290,4 +1290,8 @@
 	<node name="dictionary">
 		<node name="Yandex.Translate" value="Яндекс.Переводчик"/>
 	</node>
+	<node name="syncNotification">
+		<node name="title" value="Синхронизация FBReader"/>
+		<node name="text" value="Синхронизация работает в фоне, чтобы информация всегда была актуальной"/>
+	</node>
 </resources>
