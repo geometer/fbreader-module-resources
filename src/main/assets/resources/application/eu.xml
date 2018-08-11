@@ -478,6 +478,10 @@
 			</node>
 			<node name="font" value="Letra-tipoaren familia">
 				<node name="inherit" value="&lt;aldaketarik gabe&gt;"/>
+				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
+				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
+				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
+				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
 			</node>
 			<node name="fontSize" value="Letra-tipoaren tamaina"/>
 			<node name="fontStyle" value="Letra-tipoaren estiloa">
@@ -726,6 +730,24 @@
 				<node name="down" value="Goitik behera mugitu orriak"/>
 				<node name="custom" value="Pertsonalizatua…"/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="No action" toBeTranslated="true"/>
+				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
+				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
+				<node name="pageBack" value="Page back" toBeTranslated="true"/>
+				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
+				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
+				<node name="back" value="Back" toBeTranslated="true"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
+				<node name="delete" value="Delete" toBeTranslated="true"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward" toBeTranslated="true"/>
+				<node name="left" value="Left third forward" toBeTranslated="true"/>
+				<node name="top" value="Top third forward" toBeTranslated="true"/>
+				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Hiztegia eta itzultzailea">
 			<node name="summary" value="Itzulpenaren ezarpenak"/>
@@ -973,6 +995,7 @@
 			<node name="password" value="Password"/>
 			<node name="confirmPassword" value="Password&#10;confirmation"/>
 			<node name="email" value="Posta elektronikoa"/>
+			<node name="birthdate" value="Date of birth" toBeTranslated="true"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="Hasi saioa"/>
@@ -1010,6 +1033,9 @@
 			<node name="registerUser" value="Kontu berria erregistratzen. Itxaron mesedez…"/>
 			<node name="autoSignIn" value="Saioa hasten. Itxaron mesedez…"/>
 			<node name="recoverPassword" value="Pasahitza berreskuratzen. Itxaron mesedez…"/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
+				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="Zerbitzariaren barneko errorea"/>
@@ -1030,6 +1056,8 @@
 			<node name="emailNotSpecified" value="Posta elektronikoa hutsik utzi duzu"/>
 			<node name="emailAlreadyInUse" value="Posta elektroniko hori badago dagoeneko"/>
 			<node name="invalidEMail" value="Baliogabeko posta elektronikoa"/>
+			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
+			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
 			<node name="tooManyRegistrations" value="Izen-emate saiakera gehiegi IP helbide horretatik;&#10; saiatu berriro minutu batzu barru"/>
 		</node>
 		<node name="AuthenticationDialog">
@@ -1037,6 +1065,7 @@
 			<node name="unencryptedWarning" value="Pasahitza zifratu gabe bidaliko da"/>
 			<node name="login" value="Erabiltzailea"/>
 			<node name="password" value="Pasahitza"/>
+			<node name="recoverPassword" value="Forgot password?" toBeTranslated="true"/>
 			<node name="loginIsEmpty" value="Ezin da erabiltzaile-izena hutsik utzi"/>
 			<node name="register" value="Izena eman"/>
 		</node>
@@ -1274,5 +1303,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
+		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
 	</node>
 </resources>

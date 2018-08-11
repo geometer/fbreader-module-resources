@@ -478,6 +478,10 @@
 			</node>
 			<node name="font" value="Гарнітура">
 				<node name="inherit" value="&lt;unchanged&gt;"/>
+				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
+				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
+				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
+				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
 			</node>
 			<node name="fontSize" value="Памер шрыфту"/>
 			<node name="fontStyle" value="Стыль шрыфту">
@@ -726,6 +730,24 @@
 				<node name="down" value="Перацягванне зверху ўніз"/>
 				<node name="custom" value="адвольная…"/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="No action" toBeTranslated="true"/>
+				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
+				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
+				<node name="pageBack" value="Page back" toBeTranslated="true"/>
+				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
+				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
+				<node name="back" value="Back" toBeTranslated="true"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
+				<node name="delete" value="Delete" toBeTranslated="true"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward" toBeTranslated="true"/>
+				<node name="left" value="Left third forward" toBeTranslated="true"/>
+				<node name="top" value="Top third forward" toBeTranslated="true"/>
+				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Слоўнік і пераклад">
 			<node name="summary" value="налады перакладу"/>
@@ -788,7 +810,7 @@
 				<node name="summary" value="Змяніць парадак элементаў"/>
 				<node name="bookMenuUpperSection" value="Меню кнігі (верхняя секцыя)"/>
 				<node name="bookMenuLowerSection" value="Меню кнігі (ніжняя секцыя)"/>
-				<node name="bookMenuExtrasSection" value="Меню кнігі (extras section)" toBeTranslated="true"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
 				<node name="toolbarOrMainMenu" value="Панэль у асноўным меню"/>
 				<node name="mainMenu" value="Асноўнае меню"/>
 				<node name="enabled" value="Уключана"/>
@@ -973,6 +995,7 @@
 			<node name="password" value="Пароль"/>
 			<node name="confirmPassword" value="Пацверджанне пароля"/>
 			<node name="email" value="Электронны адрас"/>
+			<node name="birthdate" value="Date of birth" toBeTranslated="true"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="Уваход"/>
@@ -1010,6 +1033,9 @@
 			<node name="registerUser" value="Рэгістрацыя новага рахунка. Калі ласка, пачакайце…"/>
 			<node name="autoSignIn" value="Уваход. Калі ласка, пачакайце…"/>
 			<node name="recoverPassword" value="Аднаўленне пароля. Калі ласка, пачакайце…"/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
+				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="Унутраная памылка сервера"/>
@@ -1030,6 +1056,8 @@
 			<node name="emailNotSpecified" value="Электронны адрас пусты"/>
 			<node name="emailAlreadyInUse" value="Электронны адрас ужо выкарыстоўваецца"/>
 			<node name="invalidEMail" value="Хібны электронны адрас"/>
+			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
+			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
 			<node name="tooManyRegistrations" value="Зашмат рэгсітрацый з Вашага адраса IP;&#10;калі ласка, паспрабуйце праз некалькі хвілін"/>
 		</node>
 		<node name="AuthenticationDialog">
@@ -1037,6 +1065,7 @@
 			<node name="unencryptedWarning" value="Ваш пароль будзе адпраўлены незашыфраваным"/>
 			<node name="login" value="Імя карыстальніка"/>
 			<node name="password" value="Пароль"/>
+			<node name="recoverPassword" value="Forgot password?" toBeTranslated="true"/>
 			<node name="loginIsEmpty" value="Імя карытсальніка не павінна быць пустым"/>
 			<node name="register" value="Зарэгістравацца"/>
 		</node>
@@ -1274,5 +1303,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Сетка недаступна. Калі ласка, праверце злучэнне і паспрабуйце зноў."/>
 		<node name="syncServerFailure" value="Не атрымалася злучыцца з серверам. Калі ласка, паспрабуйце пазней"/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
+		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
 	</node>
 </resources>

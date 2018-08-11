@@ -477,6 +477,10 @@
 			</node>
 			<node name="font" value="خانواده فونت">
 				<node name="inherit" value="&lt;بدون تغيير&gt;"/>
+				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
+				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
+				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
+				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
 			</node>
 			<node name="fontSize" value="سايز فونت"/>
 			<node name="fontStyle" value="سبك فونت">
@@ -725,6 +729,24 @@
 				<node name="down" value="حركت بالا به پائين صفحه"/>
 				<node name="custom" value="سفارشي..."/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="No action" toBeTranslated="true"/>
+				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
+				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
+				<node name="pageBack" value="Page back" toBeTranslated="true"/>
+				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
+				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
+				<node name="back" value="Back" toBeTranslated="true"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
+				<node name="delete" value="Delete" toBeTranslated="true"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward" toBeTranslated="true"/>
+				<node name="left" value="Left third forward" toBeTranslated="true"/>
+				<node name="top" value="Top third forward" toBeTranslated="true"/>
+				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Dictionary &amp; translator" toBeTranslated="true">
 			<node name="summary" value="Translation settings" toBeTranslated="true"/>
@@ -972,6 +994,7 @@
 			<node name="password" value="گذرواژه"/>
 			<node name="confirmPassword" value="گذرواژه&#10;تایید"/>
 			<node name="email" value="ایمیل"/>
+			<node name="birthdate" value="Date of birth" toBeTranslated="true"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="ورود به سیستم"/>
@@ -1009,6 +1032,9 @@
 			<node name="registerUser" value="ثبت نام حساب جدید. لطفا صبر کنید ..."/>
 			<node name="autoSignIn" value="ورود به سیستم. لطفا، منتظر بمانید ..."/>
 			<node name="recoverPassword" value="بازیابی رمز عبور. لطفا صبر کنید ..."/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
+				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="خطاي سرور داخلي"/>
@@ -1029,6 +1055,8 @@
 			<node name="emailNotSpecified" value="آدرس ایمیل نباید خالی باشد"/>
 			<node name="emailAlreadyInUse" value="ایمیل قبلا استفاده شده"/>
 			<node name="invalidEMail" value="آدرس ایمیل نامعتبر است"/>
+			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
+			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
 			<node name="tooManyRegistrations" value="ثبت نام بیش از حد از IP شما;&#10;چند دقیقه بعد دوباره امتحان کنید"/>
 		</node>
 		<node name="AuthenticationDialog">
@@ -1036,6 +1064,7 @@
 			<node name="unencryptedWarning" value="رمز عبورتان مخفي فرستاده خواهد شد"/>
 			<node name="login" value="نام كاربري"/>
 			<node name="password" value="رمز عبور"/>
+			<node name="recoverPassword" value="Forgot password?" toBeTranslated="true"/>
 			<node name="loginIsEmpty" value="نام كاربردي نبايد خالي باشد"/>
 			<node name="register" value="ثبت نام"/>
 		</node>
@@ -1273,5 +1302,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
+		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
 	</node>
 </resources>

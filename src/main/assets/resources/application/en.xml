@@ -481,7 +481,7 @@
 				<node name="useDownloadable" value="Enable downloadable fonts"/>
 				<node name="downloadableWarning" value="Network traffic can be used"/>
 				<node name="fontPreview" value="Preview"/>
-                <node name="fontLoading" value="Loading..."/>
+        <node name="fontLoading" value="Loading…"/>
 			</node>
 			<node name="fontSize" value="Font size"/>
 			<node name="fontStyle" value="Font style">
