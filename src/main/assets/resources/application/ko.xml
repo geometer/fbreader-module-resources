@@ -478,6 +478,10 @@
 			</node>
 			<node name="font" value="글꼴 집합">
 				<node name="inherit" value="&lt;변화없음&gt;"/>
+				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
+				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
+				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
+				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
 			</node>
 			<node name="fontSize" value="글꼴 크기"/>
 			<node name="fontStyle" value="글꼴 형식">
@@ -726,6 +730,24 @@
 				<node name="down" value="위에서 아래로 페이지 스크롤링"/>
 				<node name="custom" value="임의"/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="No action" toBeTranslated="true"/>
+				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
+				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
+				<node name="pageBack" value="Page back" toBeTranslated="true"/>
+				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
+				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
+				<node name="back" value="Back" toBeTranslated="true"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
+				<node name="delete" value="Delete" toBeTranslated="true"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward" toBeTranslated="true"/>
+				<node name="left" value="Left third forward" toBeTranslated="true"/>
+				<node name="top" value="Top third forward" toBeTranslated="true"/>
+				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Dictionary &amp; translator" toBeTranslated="true">
 			<node name="summary" value="Translation settings" toBeTranslated="true"/>
@@ -973,6 +995,7 @@
 			<node name="password" value="암호"/>
 			<node name="confirmPassword" value="암호&#10;확인"/>
 			<node name="email" value="이메일"/>
+			<node name="birthdate" value="Date of birth" toBeTranslated="true"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="로그인중"/>
@@ -1010,6 +1033,9 @@
 			<node name="registerUser" value="새 계정을 등록하고 있습니다. 기다려 주세요."/>
 			<node name="autoSignIn" value="로그인 중입니다. 기다려 주세요."/>
 			<node name="recoverPassword" value="암호를 복구하고 있습니다. 기다려 주세요."/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
+				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="내부 서버 오류"/>
@@ -1030,6 +1056,8 @@
 			<node name="emailNotSpecified" value="이메일 주소가 비어있습니다"/>
 			<node name="emailAlreadyInUse" value="이메일 주소가 이미 사용중입니다"/>
 			<node name="invalidEMail" value="잘못된 이메일 주소"/>
+			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
+			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
 			<node name="tooManyRegistrations" value="당신의 IP로부터 너무 많은 등록이 진행되고 있습니다;&#10;몇 분 후에 다시 시도하세요"/>
 		</node>
 		<node name="AuthenticationDialog">
@@ -1037,6 +1065,7 @@
 			<node name="unencryptedWarning" value="당신의 암호는 암호화되지 않은 상태로 전송됩니다"/>
 			<node name="login" value="사용자 이름"/>
 			<node name="password" value="암호"/>
+			<node name="recoverPassword" value="Forgot password?" toBeTranslated="true"/>
 			<node name="loginIsEmpty" value="사용자 이름을 반드시 입력해야 합니다"/>
 			<node name="register" value="가입"/>
 		</node>
@@ -1274,5 +1303,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
+		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
 	</node>
 </resources>

@@ -478,6 +478,10 @@
 			</node>
 			<node name="font" value="Lettertype">
 				<node name="inherit" value="&lt;ongewijzigd&gt;"/>
+				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
+				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
+				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
+				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
 			</node>
 			<node name="fontSize" value="Lettergrootte"/>
 			<node name="fontStyle" value="Letterstijl">
@@ -726,6 +730,24 @@
 				<node name="down" value="Van boven naar beneden"/>
 				<node name="custom" value="Aangepast…"/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="No action" toBeTranslated="true"/>
+				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
+				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
+				<node name="pageBack" value="Page back" toBeTranslated="true"/>
+				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
+				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
+				<node name="back" value="Back" toBeTranslated="true"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
+				<node name="delete" value="Delete" toBeTranslated="true"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward" toBeTranslated="true"/>
+				<node name="left" value="Left third forward" toBeTranslated="true"/>
+				<node name="top" value="Top third forward" toBeTranslated="true"/>
+				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Woordenboek &amp; vertaler">
 			<node name="summary" value="Vertaalinstellingen"/>
@@ -973,6 +995,7 @@
 			<node name="password" value="Wachtwoord"/>
 			<node name="confirmPassword" value="Bevestig&#10;wachtwoord"/>
 			<node name="email" value="E-mail"/>
+			<node name="birthdate" value="Date of birth" toBeTranslated="true"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="Aanmelden"/>
@@ -1010,6 +1033,9 @@
 			<node name="registerUser" value="Nieuwe account registeren. Een ogenblik…"/>
 			<node name="autoSignIn" value="Aanmelden. Een ogenblik…"/>
 			<node name="recoverPassword" value="Wachtwoord aan het herstellen. Een ogenblik…"/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
+				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="Interne serverfout"/>
@@ -1030,6 +1056,8 @@
 			<node name="emailNotSpecified" value="E-mailadres is leeg"/>
 			<node name="emailAlreadyInUse" value="E-mailadres bestaat al"/>
 			<node name="invalidEMail" value="Ongeldig e-mailadres"/>
+			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
+			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
 			<node name="tooManyRegistrations" value="Te veel registraties vanaf jouw IP;&#10;Probeer het nog een keer over een paar minuten"/>
 		</node>
 		<node name="AuthenticationDialog">
@@ -1037,6 +1065,7 @@
 			<node name="unencryptedWarning" value="Je wachtwoord wordt niet versleuteld verstuurd"/>
 			<node name="login" value="Gebruikersnaam"/>
 			<node name="password" value="Wachtwoord"/>
+			<node name="recoverPassword" value="Forgot password?" toBeTranslated="true"/>
 			<node name="loginIsEmpty" value="Gebruikersnaam kan niet leeg zijn"/>
 			<node name="register" value="Registeren"/>
 		</node>
@@ -1274,5 +1303,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
+		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
 	</node>
 </resources>

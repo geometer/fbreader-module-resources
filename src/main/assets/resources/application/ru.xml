@@ -483,6 +483,10 @@
 			</node>
 			<node name="font" value="Шрифт">
 				<node name="inherit" value="не менять"/>
+				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
+				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
+				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
+				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
 			</node>
 			<node name="fontSize" value="Размер шрифта"/>
 			<node name="fontStyle" value="Начертание">
@@ -730,6 +734,24 @@
 				<node name="up" value="Down to up page scrolling" toBeTranslated="true"/>
 				<node name="down" value="Up to down page scrolling" toBeTranslated="true"/>
 				<node name="custom" value="Custom…" toBeTranslated="true"/>
+			</node>
+			<node name="actions">
+				<node name="nothing" value="No action" toBeTranslated="true"/>
+				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
+				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
+				<node name="pageBack" value="Page back" toBeTranslated="true"/>
+				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
+				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
+				<node name="back" value="Back" toBeTranslated="true"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
+				<node name="delete" value="Delete" toBeTranslated="true"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward" toBeTranslated="true"/>
+				<node name="left" value="Left third forward" toBeTranslated="true"/>
+				<node name="top" value="Top third forward" toBeTranslated="true"/>
+				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="dictionary" value="Словарь и переводчик">
@@ -982,6 +1004,7 @@
 			<node name="password" value="Пароль"/>
 			<node name="confirmPassword" value="Еще раз пароль"/>
 			<node name="email" value="E-mail"/>
+			<node name="birthdate" value="Дата рождения"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="Автоматический вход"/>
@@ -1019,6 +1042,9 @@
 			<node name="registerUser" value="Регистрируем пользователя. Подождите, пожалуйста…"/>
 			<node name="autoSignIn" value="Входим в систему. Подождите, пожалуйста…"/>
 			<node name="recoverPassword" value="Восстанавливаем пароль. Подождите, пожалуйста…"/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
+				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="Внутренняя ошибка сервера"/>
@@ -1039,6 +1065,8 @@
 			<node name="emailNotSpecified" value="Введите e-mail"/>
 			<node name="emailAlreadyInUse" value="Пользователь с таким e-mail уже зарегистрирован"/>
 			<node name="invalidEMail" value="Некорректный e-mail"/>
+			<node name="birthdateNotSpecified" value="Не указана дата рождения"/>
+			<node name="invalidBirthdate" value="Некорректная дата рождения"/>
 			<node name="tooManyRegistrations" value="Слишком много регистраций с вашего IP;&#10;попробуйте ещё раз через пару минут"/>
 		</node>
 		<node name="AuthenticationDialog">
@@ -1046,6 +1074,7 @@
 			<node name="unencryptedWarning" value="Пароль пересылается незашифрованным"/>
 			<node name="login" value="Имя пользователя"/>
 			<node name="password" value="Пароль"/>
+			<node name="recoverPassword" value="Забыли пароль?"/>
 			<node name="loginIsEmpty" value="Имя пользователя не может быть пустым"/>
 			<node name="register" value="Зарегистрироваться"/>
 		</node>
@@ -1282,6 +1311,10 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Сеть недоступна. Пожалуйста, проверьте соединение и попробуйте ещё раз."/>
 		<node name="syncServerFailure" value="Не удалось соединиться с сервером. Пожалуйста, попробуйте ещё раз через некоторое время."/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="Синхронизация FBReader"/>
+		<node name="text" value="Синхронизация работает в фоне, чтобы информация всегда была актуальной"/>
 	</node>
 	<node name="dictionary">
 		<node name="Yandex.Translate" value="Яндекс.Переводчик"/>

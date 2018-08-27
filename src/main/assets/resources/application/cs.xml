@@ -487,6 +487,10 @@
 			</node>
 			<node name="font" value="Rodina písem">
 				<node name="inherit" value="&lt;nezměněno&gt;"/>
+				<node name="useDownloadable" value="Povolit písma ke stažení"/>
+				<node name="downloadableWarning" value="Může být použit provoz sítě"/>
+				<node name="fontPreview" value="Náhled"/>
+				<node name="fontLoading" value="Načítání…"/>
 			</node>
 			<node name="fontSize" value="Velikost písma"/>
 			<node name="fontStyle" value="Řez písma">
@@ -735,6 +739,24 @@
 				<node name="down" value="Posouvání stránky zhora dolů"/>
 				<node name="custom" value="Vlastní…"/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="Žádná akce"/>
+				<node name="toggleBars" value="Přepnout panely nástrojů"/>
+				<node name="pageForward" value="O stránku vpřed"/>
+				<node name="pageBack" value="O stránku zpět"/>
+				<node name="nextChapter" value="Další kapitola"/>
+				<node name="prevChapter" value="Předchozí kapitola"/>
+				<node name="back" value="Zpět"/>
+				<node name="lastItem" value="Klepnutí do této oblasti přepne panely nástrojů"/>
+				<node name="delete" value="Odstranit"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Pravá třetina vpřed"/>
+				<node name="left" value="Levá třetina vpřed"/>
+				<node name="top" value="Horní třetina vpřed"/>
+				<node name="bottom" value="Dolní třetina vpřed"/>
+				<node name="disabled" value="Zakázáno"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Slovník a překladač">
 			<node name="summary" value="Nastavení překladu"/>
@@ -982,6 +1004,7 @@
 			<node name="password" value="Heslo"/>
 			<node name="confirmPassword" value="Potvrzení&#10;hesla"/>
 			<node name="email" value="E-mail"/>
+			<node name="birthdate" value="Datum narození"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="Přihlašování"/>
@@ -1019,6 +1042,9 @@
 			<node name="registerUser" value="Registrace nového účtu. Čekejte..."/>
 			<node name="autoSignIn" value="Přihlašování. Čekejte…"/>
 			<node name="recoverPassword" value="Obnovování hesla. Čekejte…"/>
+			<node name="loadingFonts" value="Načítání písem. Čekejte…">
+				<node name="disable" value="Zakázat písma ke stažení"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="Vnitřní chyba serveru"/>
@@ -1039,6 +1065,8 @@
 			<node name="emailNotSpecified" value="Zadejte e-mailovou adresu"/>
 			<node name="emailAlreadyInUse" value="E-mailová adresa se již používá"/>
 			<node name="invalidEMail" value="Neplatná e-mailová adresa"/>
+			<node name="birthdateNotSpecified" value="Datum narození je prázdné"/>
+			<node name="invalidBirthdate" value="Neplatné datum narození"/>
 			<node name="tooManyRegistrations" value="Příliš mnoho registrací z vaší IP;&#10;zkuste to znovu za pár minut"/>
 		</node>
 		<node name="AuthenticationDialog">
@@ -1046,6 +1074,7 @@
 			<node name="unencryptedWarning" value="Vaše heslo bude odesláno nešifrovaně"/>
 			<node name="login" value="Uživatelské jméno"/>
 			<node name="password" value="Heslo"/>
+			<node name="recoverPassword" value="Zapomenuté heslo?"/>
 			<node name="loginIsEmpty" value="Uživatelské jméno by nemělo být prázdné"/>
 			<node name="register" value="Přihlásit"/>
 		</node>
@@ -1283,5 +1312,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Síť není dostupná. Zkontrolujte své připojení a zkuste to znovu."/>
 		<node name="syncServerFailure" value="Selhání připojení serveru. Zkuste to znovu později."/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="Synchronizace FBReaderu"/>
+		<node name="text" value="Synchronizace běží na pozadí, aby vaše pozice čtení zůstaly aktuální"/>
 	</node>
 </resources>

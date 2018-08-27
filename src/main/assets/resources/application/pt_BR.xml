@@ -481,6 +481,10 @@
 			</node>
 			<node name="font" value="Família de fontes">
 				<node name="inherit" value="&lt;sem alteração&gt;"/>
+				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
+				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
+				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
+				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
 			</node>
 			<node name="fontSize" value="Tamanho da fonte"/>
 			<node name="fontStyle" value="Estilo da fonte">
@@ -729,6 +733,24 @@
 				<node name="down" value="Deslizar as páginas de cima para baixo"/>
 				<node name="custom" value="Personalizado…"/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="No action" toBeTranslated="true"/>
+				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
+				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
+				<node name="pageBack" value="Page back" toBeTranslated="true"/>
+				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
+				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
+				<node name="back" value="Back" toBeTranslated="true"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
+				<node name="delete" value="Delete" toBeTranslated="true"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward" toBeTranslated="true"/>
+				<node name="left" value="Left third forward" toBeTranslated="true"/>
+				<node name="top" value="Top third forward" toBeTranslated="true"/>
+				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="dictionary" value="Dicionário &amp; tradutor">
 			<node name="summary" value="Definições de tradução"/>
@@ -976,6 +998,7 @@
 			<node name="password" value="Senha"/>
 			<node name="confirmPassword" value="Senha&#10;confirmação"/>
 			<node name="email" value="Email"/>
+			<node name="birthdate" value="Date of birth" toBeTranslated="true"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="A entrar"/>
@@ -1013,6 +1036,9 @@
 			<node name="registerUser" value="A registar nova conta. Por favor, aguarde…"/>
 			<node name="autoSignIn" value="A entrar. Aguarde…"/>
 			<node name="recoverPassword" value="A recuperar senha. Aguarde…"/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
+				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="networkError" value="Erro de ligação">
 			<node name="internalError" value="Erro interno do servidor"/>
@@ -1033,6 +1059,8 @@
 			<node name="emailNotSpecified" value="Endereço de Email vazio"/>
 			<node name="emailAlreadyInUse" value="Endereço de Email já existe"/>
 			<node name="invalidEMail" value="Endereço de Email inválido"/>
+			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
+			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
 			<node name="tooManyRegistrations" value="Demasiados registos vindos do seu IP;&#10;tente novamente daqui a uns minutos"/>
 		</node>
 		<node name="AuthenticationDialog" value="Autenticação">
@@ -1040,6 +1068,7 @@
 			<node name="unencryptedWarning" value="A sua senha será enviada sem criptografia"/>
 			<node name="login" value="Nome de Utilizador"/>
 			<node name="password" value="Senha"/>
+			<node name="recoverPassword" value="Forgot password?" toBeTranslated="true"/>
 			<node name="loginIsEmpty" value="Nome de utilizador não deve ser deixado vazio"/>
 			<node name="register" value="Registe-se"/>
 		</node>
@@ -1277,5 +1306,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
+		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
 	</node>
 </resources>

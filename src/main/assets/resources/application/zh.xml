@@ -468,6 +468,10 @@
 			</node>
 			<node name="font" value="字体">
 				<node name="inherit" value="&lt;不变&gt;"/>
+				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
+				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
+				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
+				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
 			</node>
 			<node name="fontSize" value="字体大小"/>
 			<node name="fontStyle" value="字型">
@@ -716,6 +720,24 @@
 				<node name="down" value="从上往下翻阅"/>
 				<node name="custom" value="定制…"/>
 			</node>
+			<node name="actions">
+				<node name="nothing" value="No action" toBeTranslated="true"/>
+				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
+				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
+				<node name="pageBack" value="Page back" toBeTranslated="true"/>
+				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
+				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
+				<node name="back" value="Back" toBeTranslated="true"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
+				<node name="delete" value="Delete" toBeTranslated="true"/>
+			</node>
+			<node name="predefined">
+				<node name="right" value="Right third forward" toBeTranslated="true"/>
+				<node name="left" value="Left third forward" toBeTranslated="true"/>
+				<node name="top" value="Top third forward" toBeTranslated="true"/>
+				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
+				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="dictionary" value="词典 &amp; 译者">
 			<node name="summary" value="翻译设定"/>
@@ -963,6 +985,7 @@
 			<node name="password" value="密码"/>
 			<node name="confirmPassword" value="密码确认"/>
 			<node name="email" value="E-mail"/>
+			<node name="birthdate" value="Date of birth" toBeTranslated="true"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="正在登录"/>
@@ -1000,6 +1023,9 @@
 			<node name="registerUser" value="正在注册新账号，请稍等…"/>
 			<node name="autoSignIn" value="正在登录. 请稍等…"/>
 			<node name="recoverPassword" value="正在恢复密码. 请稍等…"/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
+				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			</node>
 		</node>
 		<node name="networkError">
 			<node name="internalError" value="内部服务器出错"/>
@@ -1020,6 +1046,8 @@
 			<node name="emailNotSpecified" value="请输入你的电子邮箱"/>
 			<node name="emailAlreadyInUse" value="该email已经注册过"/>
 			<node name="invalidEMail" value="无效的电子邮箱"/>
+			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
+			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
 			<node name="tooManyRegistrations" value="来自你的IP的注册数过多，&#10;请稍候再尝试注册"/>
 		</node>
 		<node name="AuthenticationDialog">
@@ -1027,6 +1055,7 @@
 			<node name="unencryptedWarning" value="你的密码将明文传送"/>
 			<node name="login" value="登录"/>
 			<node name="password" value="密码"/>
+			<node name="recoverPassword" value="Forgot password?" toBeTranslated="true"/>
 			<node name="loginIsEmpty" value="用户名不允许为空"/>
 			<node name="register" value="注册"/>
 		</node>
@@ -1264,5 +1293,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="syncNotification">
+		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
+		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
 	</node>
 </resources>
