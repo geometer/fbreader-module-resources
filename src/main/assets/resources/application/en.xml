@@ -853,25 +853,17 @@
 			<node name="summaryOn" value="Highlight"/>
 			<node name="summaryOff" value="Do not highlight"/>
 		</node>
-		<node name="concurrent" value="Concurrent (TODO: explain)">
-			<node name="summaryOn" value="Concurrent"/>
-			<node name="summaryOff" value="Not concurrent"/>
-		</node>
 		<node name="stopUnplug" value="Stop on headphones/BT unplug">
 			<node name="summaryOn" value="Stop"/>
 			<node name="summaryOff" value="Do not stop"/>
 		</node>
-		<node name="lockscreen" value="Show lockscreen widget">
-			<node name="summaryOn" value="Show"/>
-			<node name="summaryOff" value="Do not show"/>
-		</node>
-		<node name="paragraphPause" value="Pause after paragraphs"/>
-		<node name="sentencePause" value="Pause after sentence"/>
-		<node name="byWords" value="Read by words">
+		<node name="paragraphPause" value="Pause after paragraphs, msec"/>
+		<node name="sentencePause" value="Pause after sentence, msec"/>
+		<node name="byWords" value="Read by word">
 			<node name="summaryOn" value="Yes"/>
 			<node name="summaryOff" value="No"/>
 		</node>
-		<node name="wordsPause" value="...And pause after each word">
+		<node name="wordsPause" value="… and pause after each word">
 			<node name="summaryOn" value="Yes"/>
 			<node name="summaryOff" value="No"/>
 		</node>
@@ -883,7 +875,6 @@
 			<node name="summaryOn" value="Yes"/>
 			<node name="summaryOff" value="No"/>
 		</node>
-
 	</node>
 	<node name="tips" value="Tips">
 			<node name="summary" value="Daily tips settings"/>
