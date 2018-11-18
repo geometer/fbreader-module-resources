@@ -655,6 +655,7 @@
 				<node name="showAsFooterOldStyle" value="Horizontal footer (old style)"/>
 			</node>
 			<node name="footerHeight" value="Footer height"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin"/>
 			<node name="footerOldStyleColor" value="Footer (old style) colour"/>
 			<node name="footerBackgroundColor" value="Footer background colour"/>
 			<node name="footerForegroundColor" value="Footer text colour"/>
