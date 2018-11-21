@@ -111,17 +111,32 @@ final class ZLTreeResource extends ZLResource {
 	private LinkedHashMap<Condition,String> myConditionalValues;
 
 	static void buildTree() {
+		if (ourRoot != null) {
+			return;
+		}
 		synchronized (ourLock) {
-			if (ourRoot == null) {
-				ourRoot = new ZLTreeResource("", null);
+			if (ourRoot != null) {
+				return;
+			}
+			try {
+				final ZLTreeResource root = new ZLTreeResource("", null);
 				ourLanguage = "en";
 				ourCountry = "GB";
-				loadData();
+				loadData(root);
+				ourRoot = root;
+			} catch (Throwable t) {
+				// ignore
 			}
 		}
 	}
 
 	private static void setInterfaceLanguage() {
+		if (ourRoot == null) {
+			buildTree();
+		}
+		if (ourRoot == null) {
+			return;
+		}
 		final String custom = Language.uiLanguageOption().getValue();
 		final String language;
 		final String country;
@@ -143,7 +158,11 @@ final class ZLTreeResource extends ZLResource {
 			(country != null && !country.equals(ourCountry))) {
 			ourLanguage = language;
 			ourCountry = country;
-			loadData();
+			try {
+				loadData(ourRoot);
+			} catch (Throwable t) {
+				// ignore
+			}
 		}
 	}
 
@@ -159,17 +178,17 @@ final class ZLTreeResource extends ZLResource {
 		}
 	}
 
-	private static void loadData(ResourceTreeReader reader, String fileName) {
-		reader.readDocument(ourRoot, ZLResourceFile.createResourceFile("resources/zlibrary/" + fileName));
-		reader.readDocument(ourRoot, ZLResourceFile.createResourceFile("resources/application/" + fileName));
-		reader.readDocument(ourRoot, ZLResourceFile.createResourceFile("resources/lang.xml"));
-		reader.readDocument(ourRoot, ZLResourceFile.createResourceFile("resources/application/neutral.xml"));
+	private static void loadData(ZLTreeResource root, ResourceTreeReader reader, String fileName) {
+		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/zlibrary/" + fileName));
+		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/application/" + fileName));
+		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/lang.xml"));
+		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/application/neutral.xml"));
 	}
 
-	private static void loadData() {
-		ResourceTreeReader reader = new ResourceTreeReader();
-		loadData(reader, ourLanguage + ".xml");
-		loadData(reader, ourLanguage + "_" + ourCountry + ".xml");
+	private static void loadData(ZLTreeResource root) {
+		final ResourceTreeReader reader = new ResourceTreeReader();
+		loadData(root, reader, ourLanguage + ".xml");
+		loadData(root, reader, ourLanguage + "_" + ourCountry + ".xml");
 	}
 
 	private	ZLTreeResource(String name, String value) {
