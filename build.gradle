@@ -3,6 +3,7 @@ apply plugin: 'com.android.library'
 dependencies {
 	implementation project(':fbreader_api')
 	implementation project(':fbreader_common')
+	implementation project(':fbreader_config_client')
 }
 
 android {
