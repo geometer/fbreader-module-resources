@@ -6,6 +6,8 @@ package org.geometerplus.zlibrary.core.resources;
 
 import java.util.*;
 
+import android.content.Context;
+
 import org.geometerplus.zlibrary.core.filesystem.ZLFile;
 import org.geometerplus.zlibrary.core.filesystem.ZLResourceFile;
 import org.geometerplus.zlibrary.core.language.Language;
@@ -41,6 +43,10 @@ abstract public class ZLResource {
 		Collections.sort(allLanguages);
 		allLanguages.add(0, LanguageUtil.language(Language.SYSTEM_CODE));
 		return allLanguages;
+	}
+
+	public static ZLResource resource(Context context, String key) {
+		return resource(key);
 	}
 
 	public static ZLResource resource(String key) {
