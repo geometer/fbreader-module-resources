@@ -34,14 +34,14 @@ abstract public class ZLResource {
 		return Collections.unmodifiableList(ourLanguageCodes);
 	}
 
-	public static List<Language> interfaceLanguages() {
+	public static List<Language> interfaceLanguages(Context context) {
 		final List<Language> allLanguages = new LinkedList<Language>();
 		final ZLResource resource = ZLResource.resource("language-self");
 		for (String c : languageCodes()) {
 			allLanguages.add(LanguageUtil.language(c, resource));
 		}
 		Collections.sort(allLanguages);
-		allLanguages.add(0, LanguageUtil.language(Language.SYSTEM_CODE));
+		allLanguages.add(0, LanguageUtil.language(context, Language.SYSTEM_CODE));
 		return allLanguages;
 	}
 

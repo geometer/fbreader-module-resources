@@ -6,11 +6,13 @@ package org.geometerplus.zlibrary.core.language;
 
 import java.util.Locale;
 
+import android.content.Context;
+
 import org.geometerplus.zlibrary.core.resources.ZLResource;
 
 public abstract class LanguageUtil {
-	public static Language language(String code) {
-		return language(code, ZLResource.resource("language"));
+	public static Language language(Context context, String code) {
+		return language(code, ZLResource.resource(context, "language"));
 	}
 
 	public static Language language(String code, ZLResource root) {
