@@ -12,7 +12,6 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import org.geometerplus.zlibrary.core.filesystem.*;
 import org.geometerplus.zlibrary.core.language.Language;
 import org.geometerplus.zlibrary.core.util.XmlUtil;
 
@@ -181,10 +180,10 @@ final class ZLTreeResource extends ZLResource {
 	}
 
 	private static void loadData(ZLTreeResource root, ResourceTreeReader reader, String fileName) {
-		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/zlibrary/" + fileName));
-		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/application/" + fileName));
-		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/lang.xml"));
-		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/application/neutral.xml"));
+		reader.readDocument(root, "resources/zlibrary/" + fileName);
+		reader.readDocument(root, "resources/application/" + fileName);
+		reader.readDocument(root, "resources/lang.xml");
+		reader.readDocument(root, "resources/application/neutral.xml");
 	}
 
 	private static void loadData(Context context, ZLTreeResource root) {
@@ -251,10 +250,14 @@ final class ZLTreeResource extends ZLResource {
 			this.context = context;
 		}
 
-		public void readDocument(ZLTreeResource root, ZLFile file) {
+		public void readDocument(ZLTreeResource root, String path) {
 			myStack.clear();
 			myStack.add(root);
-			XmlUtil.parseQuietly(file, this);
+			try {
+				XmlUtil.parseQuietly(this.context.getAssets().open(path), this);
+			} catch (Throwable t) {
+				// ignore
+			}
 		}
 
 		@Override

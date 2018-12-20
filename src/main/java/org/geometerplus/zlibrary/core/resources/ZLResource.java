@@ -8,22 +8,28 @@ import java.util.*;
 
 import android.content.Context;
 
-import org.geometerplus.zlibrary.core.filesystem.ZLFile;
-import org.geometerplus.zlibrary.core.filesystem.ZLResourceFile;
 import org.geometerplus.zlibrary.core.language.Language;
 import org.geometerplus.zlibrary.core.language.LanguageUtil;
 
 abstract public class ZLResource {
 	public final String Name;
 
+	private static String[] assets(Context context, String path) {
+		try {
+			final String[] names = context.getAssets().list(path);
+			if (names != null) {
+				return names;
+			}
+		} catch (Throwable e) {
+		}
+		return new String[0];
+	}
+
 	private static final List<String> ourLanguageCodes = new LinkedList<String>();
-	public static List<String> languageCodes() {
+	public static List<String> languageCodes(Context context) {
 		synchronized (ourLanguageCodes) {
 			if (ourLanguageCodes.isEmpty()) {
-				final ZLFile dir = ZLResourceFile.createResourceFile("resources/application");
-				final List<ZLFile> children = dir.children();
-				for (ZLFile file : children) {
-					final String name = file.getShortName();
+				for (String name : assets(context, "resources/application")) {
 					final String postfix = ".xml";
 					if (name.endsWith(postfix) && !"neutral.xml".equals(name)) {
 						ourLanguageCodes.add(name.substring(0, name.length() - postfix.length()));
@@ -37,7 +43,7 @@ abstract public class ZLResource {
 	public static List<Language> interfaceLanguages(Context context) {
 		final List<Language> allLanguages = new LinkedList<Language>();
 		final ZLResource resource = ZLResource.resource(context, "language-self");
-		for (String c : languageCodes()) {
+		for (String c : languageCodes(context)) {
 			allLanguages.add(LanguageUtil.language(c, resource));
 		}
 		Collections.sort(allLanguages);
