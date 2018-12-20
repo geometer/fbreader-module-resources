@@ -6,6 +6,8 @@ package org.geometerplus.zlibrary.core.resources;
 
 import java.util.*;
 
+import android.content.Context;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -110,7 +112,7 @@ final class ZLTreeResource extends ZLResource {
 	private HashMap<String,ZLTreeResource> myChildren;
 	private LinkedHashMap<Condition,String> myConditionalValues;
 
-	static void buildTree() {
+	static void buildTree(Context context) {
 		if (ourRoot != null) {
 			return;
 		}
@@ -119,10 +121,10 @@ final class ZLTreeResource extends ZLResource {
 				return;
 			}
 			try {
-				final ZLTreeResource root = new ZLTreeResource("", null);
+				final ZLTreeResource root = new ZLTreeResource(context, "", null);
 				ourLanguage = "en";
 				ourCountry = "GB";
-				loadData(root);
+				loadData(context, root);
 				ourRoot = root;
 			} catch (Throwable t) {
 				// ignore
@@ -130,14 +132,14 @@ final class ZLTreeResource extends ZLResource {
 		}
 	}
 
-	private static void setInterfaceLanguage() {
+	private static void setInterfaceLanguage(Context context) {
 		if (ourRoot == null) {
-			buildTree();
+			buildTree(context);
 		}
 		if (ourRoot == null) {
 			return;
 		}
-		final String custom = Language.uiLanguageOption().getValue();
+		final String custom = Language.uiLanguageOption(context).getValue();
 		final String language;
 		final String country;
 		if (Language.SYSTEM_CODE.equals(custom)) {
@@ -159,20 +161,20 @@ final class ZLTreeResource extends ZLResource {
 			ourLanguage = language;
 			ourCountry = country;
 			try {
-				loadData(ourRoot);
+				loadData(context, ourRoot);
 			} catch (Throwable t) {
 				// ignore
 			}
 		}
 	}
 
-	private static void updateLanguage() {
+	private static void updateLanguage(Context context) {
 		final long timeStamp = System.currentTimeMillis();
 		if (timeStamp > ourTimeStamp + 1000) {
 			synchronized (ourLock) {
 				if (timeStamp > ourTimeStamp + 1000) {
 					ourTimeStamp = timeStamp;
-					setInterfaceLanguage();
+					setInterfaceLanguage(context);
 				}
 			}
 		}
@@ -185,14 +187,17 @@ final class ZLTreeResource extends ZLResource {
 		reader.readDocument(root, ZLResourceFile.createResourceFile("resources/application/neutral.xml"));
 	}
 
-	private static void loadData(ZLTreeResource root) {
-		final ResourceTreeReader reader = new ResourceTreeReader();
+	private static void loadData(Context context, ZLTreeResource root) {
+		final ResourceTreeReader reader = new ResourceTreeReader(context);
 		loadData(root, reader, ourLanguage + ".xml");
 		loadData(root, reader, ourLanguage + "_" + ourCountry + ".xml");
 	}
 
-	private	ZLTreeResource(String name, String value) {
+	private final Context context;
+
+	private	ZLTreeResource(Context context, String name, String value) {
 		super(name);
+		this.context = context;
 		setValue(value);
 	}
 
@@ -208,13 +213,13 @@ final class ZLTreeResource extends ZLResource {
 
 	@Override
 	public String getValue() {
-		updateLanguage();
+		updateLanguage(this.context);
 		return myHasValue ? myValue : ZLMissingResource.Value;
 	}
 
 	@Override
 	public String getValue(int number) {
-		updateLanguage();
+		updateLanguage(this.context);
 		if (myConditionalValues != null) {
 			for (Map.Entry<Condition,String> entry: myConditionalValues.entrySet()) {
 				if (entry.getKey().accepts(number)) {
@@ -240,6 +245,11 @@ final class ZLTreeResource extends ZLResource {
 	private static class ResourceTreeReader extends DefaultHandler {
 		private static final String NODE = "node";
 		private final ArrayList<ZLTreeResource> myStack = new ArrayList<ZLTreeResource>();
+		private final Context context;
+
+		ResourceTreeReader(Context context) {
+			this.context = context;
+		}
 
 		public void readDocument(ZLTreeResource root, ZLFile file) {
 			myStack.clear();
@@ -266,7 +276,7 @@ final class ZLTreeResource extends ZLResource {
 						node = children.get(name);
 					}
 					if (node == null) {
-						node = new ZLTreeResource(name, value);
+						node = new ZLTreeResource(context, name, value);
 						children.put(name, node);
 					} else {
 						if (value != null) {

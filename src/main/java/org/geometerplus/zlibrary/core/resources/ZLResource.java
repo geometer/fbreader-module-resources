@@ -36,7 +36,7 @@ abstract public class ZLResource {
 
 	public static List<Language> interfaceLanguages(Context context) {
 		final List<Language> allLanguages = new LinkedList<Language>();
-		final ZLResource resource = ZLResource.resource("language-self");
+		final ZLResource resource = ZLResource.resource(context, "language-self");
 		for (String c : languageCodes()) {
 			allLanguages.add(LanguageUtil.language(c, resource));
 		}
@@ -46,11 +46,7 @@ abstract public class ZLResource {
 	}
 
 	public static ZLResource resource(Context context, String key) {
-		return resource(key);
-	}
-
-	public static ZLResource resource(String key) {
-		ZLTreeResource.buildTree();
+		ZLTreeResource.buildTree(context);
 		if (ZLTreeResource.ourRoot == null) {
 			return ZLMissingResource.Instance;
 		}
