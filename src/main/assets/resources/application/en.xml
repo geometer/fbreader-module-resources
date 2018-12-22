@@ -1338,4 +1338,8 @@
 		<node name="title" value="FBReader Sync"/>
 		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date"/>
 	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader"/>
+		<node name="text" value="Downloading book in background"/>
+	</node>
 </resources>

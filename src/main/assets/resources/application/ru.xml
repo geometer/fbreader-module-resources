@@ -1316,6 +1316,10 @@
 		<node name="title" value="Синхронизация FBReader"/>
 		<node name="text" value="Синхронизация работает в фоне, чтобы информация всегда была актуальной"/>
 	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader"/>
+		<node name="text" value="В фоне загружается книга"/>
+	</node>
 	<node name="dictionary">
 		<node name="Yandex.Translate" value="Яндекс.Переводчик"/>
 	</node>
