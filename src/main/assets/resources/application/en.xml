@@ -303,6 +303,7 @@
 		<node name="openStartScreen" value="Start screen"/>
 		<node name="preferences" value="Settings"/>
 		<node name="bookInfo" value="Book info"/>
+		<node name="pickFile" value="Pick file…"/>
 		<node name="library" value="Library"/>
 		<node name="toc" value="Table of contents"/>
 		<node name="day" value="Day"/>
@@ -1177,6 +1178,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'"/>
 		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'"/>
 		<node name="errorReadingFile" value="Error occured while reading '%s'"/>
 		<node name="errorReadingZip" value="Error occured while extracting '%s'"/>

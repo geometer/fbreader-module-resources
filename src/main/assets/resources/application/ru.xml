@@ -308,6 +308,7 @@
 		<node name="openStartScreen" value="Стартовый экран"/>
 		<node name="preferences" value="Настройки"/>
 		<node name="bookInfo" value="О книге"/>
+		<node name="pickFile" value="Выбор файла…"/>
 		<node name="library" value="Библиотека"/>
 		<node name="toc" value="Оглавление"/>
 		<node name="day" value="День"/>
@@ -1156,6 +1157,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Не удалось открыть '%s'"/>
 		<node name="nativeCodeFailure" value="Ошибка %s в нативном коде при чтении '%s'"/>
 		<node name="errorReadingFile" value="Ошибка при чтении '%s'"/>
 		<node name="errorReadingZip" value="Ошибка при разархивировании '%s'"/>
