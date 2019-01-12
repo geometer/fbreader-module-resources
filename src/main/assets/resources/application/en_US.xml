@@ -208,7 +208,7 @@
 			<node condition="value 1" value="Author:"/>
 		</node>
 		<node name="series" value="Series:"/>
-		<node name="indexInSeries" value="Number in series:"/>
+		<node name="indexInSeries" value="Index in series:"/>
 		<node name="tags" value="Tags:">
 			<node condition="value 1" value="Tag:"/>
 		</node>

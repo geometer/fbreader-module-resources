@@ -206,7 +206,7 @@
 			<node condition="value 1" value="المؤلف:"/>
 		</node>
 		<node name="series" value="السلسة:"/>
-		<node name="indexInSeries" value="Number in series:" toBeTranslated="true"/>
+		<node name="indexInSeries" value="Index in series:" toBeTranslated="true"/>
 		<node name="tags" value="الوسوم:">
 			<node condition="value 1" value="الوسم:"/>
 		</node>

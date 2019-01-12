@@ -208,7 +208,7 @@
 			<node condition="value 1" value="مصنف:"/>
 		</node>
 		<node name="series" value="سیریز:"/>
-		<node name="indexInSeries" value="Number in series:" toBeTranslated="true"/>
+		<node name="indexInSeries" value="Index in series:" toBeTranslated="true"/>
 		<node name="tags" value="ٹیگز:">
 			<node condition="value 1" value="ٹیگ:"/>
 		</node>
