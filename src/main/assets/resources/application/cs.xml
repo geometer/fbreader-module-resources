@@ -1313,8 +1313,4 @@
 		<node name="noNetworkConnection" value="Síť není dostupná. Zkontrolujte své připojení a zkuste to znovu."/>
 		<node name="syncServerFailure" value="Selhání připojení serveru. Zkuste to znovu později."/>
 	</node>
-	<node name="syncNotification">
-		<node name="title" value="Synchronizace FBReaderu"/>
-		<node name="text" value="Synchronizace běží na pozadí, aby vaše pozice čtení zůstaly aktuální"/>
-	</node>
 </resources>

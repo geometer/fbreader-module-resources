@@ -1314,10 +1314,6 @@
 		<node name="noNetworkConnection" value="Сеть недоступна. Пожалуйста, проверьте соединение и попробуйте ещё раз."/>
 		<node name="syncServerFailure" value="Не удалось соединиться с сервером. Пожалуйста, попробуйте ещё раз через некоторое время."/>
 	</node>
-	<node name="syncNotification">
-		<node name="title" value="Синхронизация FBReader"/>
-		<node name="text" value="Синхронизация работает в фоне, чтобы информация всегда была актуальной"/>
-	</node>
 	<node name="bookDownloadNotification">
 		<node name="title" value="FBReader"/>
 		<node name="text" value="В фоне загружается книга"/>

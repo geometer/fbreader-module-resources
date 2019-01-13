@@ -1304,8 +1304,4 @@
 		<node name="noNetworkConnection" value="Сетка недаступна. Калі ласка, праверце злучэнне і паспрабуйце зноў."/>
 		<node name="syncServerFailure" value="Не атрымалася злучыцца з серверам. Калі ласка, паспрабуйце пазней"/>
 	</node>
-	<node name="syncNotification">
-		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
-		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
-	</node>
 </resources>

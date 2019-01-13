@@ -1304,8 +1304,4 @@
 		<node name="noNetworkConnection" value="Rede não disponível. Verifique a sua liagação e tente novamente"/>
 		<node name="syncServerFailure" value="Falha de liagação ao servidor. Tente novamente mais tarde"/>
 	</node>
-	<node name="syncNotification">
-		<node name="title" value="FBReader Sync" toBeTranslated="true"/>
-		<node name="text" value="Synchronisation runs in background to keep your reading positions up-to-date" toBeTranslated="true"/>
-	</node>
 </resources>
