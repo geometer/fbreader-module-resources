@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Basque FBReaderJ resources, by Bixerdo for librezale.eus -->
 <resources>
 	<node name="library" value="FBReader Liburutegia">
@@ -847,13 +847,6 @@
 				<node name="none" value="Ez egin ezer"/>
 			</node>
 		</node>
-		<node name="tips" value="Aholkuak">
-			<node name="summary" value="Eguneko aholkuaren ezarpenak"/>
-			<node name="showTips" value="Erakutsi aholkuak">
-				<node name="summaryOn" value="Erakutsi eguneko aholkua"/>
-				<node name="summaryOff" value="Ez erakutsi eguneko aholkua"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1085,16 +1078,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Hizkuntza iragazkia"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Eguneko aholkua"/>
-			<node name="initializationText" value="FBReader-en eguneko aholkua irakurri nahi? Aholku berriak FBReader-en webgunetik deskargatuko dira, asteko 1-2 kbren neurrira.&#10;&#10;Gaitu aholkuak?"/>
-			<node name="dontShowAgain" value="Ez berriro erakutsi"/>
-			<node name="more" value="Hurrengo aholkua"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReaderrek pantaila osoan lan egiten du modu lehenetsian. Pantailaren erdiguneko herena ikutu kontrolak erakusteko. Ezarpen hau aldatzeko jo Ezarpenak elkarrizketaren “Itxura” atalera."/>
-			<node name="message2" value="Oso ondo! Orain, berriro ikutu pantailaren erdiguneko herena kontrolak eta aholku hau ezkutatzeko. Kontrolak agerian nahi badituzu irakurtzen zauden bitartean, Ezarpenak elkarrizketaren “Itxura” ataleko “Erakutsi ekintza-barra” aukera hautatu."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Gehitu karpeta"/>

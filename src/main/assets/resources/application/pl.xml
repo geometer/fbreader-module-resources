@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Polish FBReaderJ resources, by Tomasz Długosz and Maciej Bator-->
 <resources>
 	<node name="library" value="Biblioteka FBReadera">
@@ -837,13 +837,6 @@
 				<node name="none" value="Brak akcji"/>
 			</node>
 		</node>
-		<node name="tips" value="Porady">
-			<node name="summary" value="Ustawienia codziennych porad"/>
-			<node name="showTips" value="Wyświetlaj porady">
-				<node name="summaryOn" value="Wyświetla codzienne porady"/>
-				<node name="summaryOff" value="Nie wyświetla codziennych porad"/>
-			</node>
-		</node>
 		<node name="twitter" value="Integracja z Twitterem">
 			<node name="summary" value="Jak tweetować z FBReadera"/>
 			<node name="enableTwitter" value="Włącz tweety">
@@ -1075,16 +1068,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Filtr języka"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Porada dnia"/>
-			<node name="initializationText" value="Czy chciałbyś otrzymywać codzienne porady FBReadera? Nowe porady będą pobierane z witryny FBReader, przewidywany transfer ok. 1-2 kb na tydzień.&#10;&#10;Aktywować porady?"/>
-			<node name="dontShowAgain" value="Nie wyświetlaj więcej"/>
-			<node name="more" value="Następna porada"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader domyślnie pracuje w trybie pełnoekranowym. Kliknij centralną część ekranu, aby wyświetlić przyciski kontrolne. Możesz to zmienić w sekcji „Wygląd” ustawień aplikacji."/>
-			<node name="message2" value="Dobrze! Teraz kliknij centralną część ekranu, aby ukryć przyciski i tę poradę. Jeśli chcesz wyświetlać kontrolki podczas czytania, wybierz opcję „Wyświetlaj pasek poleceń” w sekcji „Wygląd” w ustawieniach."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Dodaj folder"/>

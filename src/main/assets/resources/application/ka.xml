@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Georgian FBReaderJ resources, by Zurab Sebiskveradze, George Zautashvili -->
 <resources>
 	<node name="library" value="FBReader: ბიბლიოთეკა">
@@ -852,13 +852,6 @@
 				<node name="none" value="არაფრის გაკეთება"/>
 			</node>
 		</node>
-		<node name="tips" value="რჩევები">
-			<node name="summary" value="ყოველდღიური რჩევები"/>
-			<node name="showTips" value="რჩევების ჩვენება">
-				<node name="summaryOn" value="ჩვენება"/>
-				<node name="summaryOff" value="არ ჩვენება"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1090,16 +1083,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="ფილტრი ენის მიხედვით"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="დღის რჩევა"/>
-			<node name="initializationText" value="გნებავთ დღეში ერთხელ მიიღოთ რჩევები FBReader-ის მოხმარებაზე? ახალი რჩევები ჩაიტვირთება FBReader-ის სერვერიდან. საჭიროებს 1-2 კილობაიტის გადმოტვირთვას კვირაში.&#10;&#10;ჩავრთოთ რჩევები?"/>
-			<node name="dontShowAgain" value="მეტჯერ აღარ მანახო"/>
-			<node name="more" value="მეტი"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the centre third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog." toBeTranslated="true"/>
-			<node name="message2" value="Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings." toBeTranslated="true"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Add folder" toBeTranslated="true"/>

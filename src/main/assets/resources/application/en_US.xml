@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- English FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader library">
@@ -847,13 +847,6 @@
 				<node name="none" value="No action"/>
 			</node>
 		</node>
-		<node name="tips" value="Tips">
-			<node name="summary" value="Daily tips settings"/>
-			<node name="showTips" value="Show tips">
-				<node name="summaryOn" value="Show daily tips"/>
-				<node name="summaryOff" value="Do not show daily tips"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration">
 			<node name="summary" value="How to tweet from FBReader"/>
 			<node name="enableTwitter" value="Enable tweets">
@@ -1085,16 +1078,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Language filter"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Tip of the day"/>
-			<node name="initializationText" value="Would you like to read FBReader's daily tips? New tips would be downloaded from the FBReader site, with expected network traffic 1-2 kilobytes per week.&#10;&#10;Enable tips?"/>
-			<node name="dontShowAgain" value="Don't show again"/>
-			<node name="more" value="Next tip"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the center third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog."/>
-			<node name="message2" value="Well done! Now tap the center third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Add folder"/>

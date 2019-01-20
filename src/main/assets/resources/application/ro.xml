@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Romanian FBReaderJ resources aplicatii.romanesti@gmail.com -->
 <!-- Updated by girlea_alex@yahoo.com, Jul 6 of 2014 -->
 <!-- Updated by aplicatii.romanesti@gmail.com, Nov 20 of 2014 -->
@@ -840,13 +840,6 @@
 				<node name="none" value="Nicio acțiune"/>
 			</node>
 		</node>
-		<node name="tips" value="Sfaturi">
-			<node name="summary" value="Setări sfaturi zilnice"/>
-			<node name="showTips" value="Afișează sfaturi">
-				<node name="summaryOn" value="Afișează sfaturi zilnice"/>
-				<node name="summaryOff" value="Nu afișa"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1078,16 +1071,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Filtrează limba"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Sfatul zilei"/>
-			<node name="initializationText" value="Doriti să cititi zilnic sfaturi despre folosirea aplicatiei? Noile sfaturi sunt descărcate de pe site-ul aplicatiei. Se estimează un trafic de 1-2 kilobytes pe săptămână.&#10;&#10;Să activeaz sfaturile?"/>
-			<node name="dontShowAgain" value="Nu-l mai repeta"/>
-			<node name="more" value="Urmatorul sfat"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader functionează implicit în modulul ecran complet. Pe o treime din ecran de afișează controalele. Puteti schimba acest comportament în sectiunea “Apariție” din dialogul Setări."/>
-			<node name="message2" value="Bine facut! Acum atingeți din nou al treilea centru pentru a ascunde comenzile și acest indiciu. Daca doriți să păstrați comenzile de pe ecran în timpul citirii, selectati “Arată bara de actiune” în secțiunea “Aparitie” din dialogul Setari."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Adaugă dosar"/>

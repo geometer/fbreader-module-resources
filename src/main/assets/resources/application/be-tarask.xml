@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Belarusian FBReaderJ resources by Usievaład Čorny -->
 <resources>
 	<node name="library" value="Бібліятэка FBReader">
@@ -847,13 +847,6 @@
 				<node name="none" value="Няма дзеяньня"/>
 			</node>
 		</node>
-		<node name="tips" value="Падказкі">
-			<node name="summary" value="Налады штодзённых падказак"/>
-			<node name="showTips" value="Паказваць падказкі">
-				<node name="summaryOn" value="Паказваць штодзённыя падказкі"/>
-				<node name="summaryOff" value="Не паказваць штодзённыя падказкі"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1085,16 +1078,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Моўны фільтар"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Падказка дню"/>
-			<node name="initializationText" value="Ці жадаеце Вы чытаць штодзённыя падказкі FBReader? Новыя падказкі будуць зладоўвацца з сайту FBReader. Чаканы расход трафіку — каля 1–2 кБ на тыдзень.&#10;&#10;Уключыць падказкі?"/>
-			<node name="dontShowAgain" value="Не паказваць зноў"/>
-			<node name="more" value="Наступная падказка"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader па стандарце працуе ў поўнаэкранным рэжыме. Краніце цэнтральную траціну экрану, каб убачыць элемэнты кіраваньня. Вы можаце зьмяніць гэта ў разьдзеле «Выгляд» наладаў."/>
-			<node name="message2" value="Выдатна! Цяпер зноў краніце цэнтральную траціну, каб схаваць гэтую падказку й элемэнты кіраваньня. Калі ж Вы жадаеце пакінуць іх на экране, то пастаўце птушку «Паказваць паліцу дзеяньняў» у разьдзеле «Выгляд» наладаў."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Дадаць тэчку"/>

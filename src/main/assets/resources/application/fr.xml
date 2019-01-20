@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- French FBReaderJ resources; 
      Initial work: Sébastien Rodriguez; 
      Maintainer: Mathias Monnerville <mathias@monnerville.com> 
@@ -840,13 +840,6 @@
 				<node name="none" value="Sans effet"/>
 			</node>
 		</node>
-		<node name="tips" value="Astuces">
-			<node name="summary" value="Paramètres des conseils du jour"/>
-			<node name="showTips" value="Afficher les astuces">
-				<node name="summaryOn" value="Affiche les conseils du jour"/>
-				<node name="summaryOff" value="Pas d'astuces"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1078,16 +1071,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Filtre de langue"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Astuce du jour"/>
-			<node name="initializationText" value="Voulez-vous afficher les conseils et astuces de FBReader ? Les nouvelles astuces seront téléchargées depuis le site de FBReader; cela représente un traffic hebdomadaire d'environ 2 kB.&#10;&#10;Activer les astuces ?"/>
-			<node name="dontShowAgain" value="Ne plus afficher"/>
-			<node name="more" value="Astuce suivante"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader fonctionne en mode plein écran par défaut. Toucher le centre de l'écran affiche les contrôles. Ce comportement peut être changé dans la section Apparence dans les préférences."/>
-			<node name="message2" value="Bien joué ! Maintenant, touchez à nouveau le centre de l'écran pour cacher les contrôels. Si vous voulez garder les contrôles à l'écran pendant la lecture, sélectionnez l'option “Montrer la barre d'action” dans la section “Apparence” dans les préférences."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Ajouter un répertoire"/>

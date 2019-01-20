@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Armenian FBReaderJ resources, by Yavruhrat, Marat Yavrumyan -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2015/05/17 -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2016/12/13 -->
@@ -854,13 +854,6 @@
 				<node name="none" value="Ոչ մի գործողություն"/>
 			</node>
 		</node>
-		<node name="tips" value="Հուշումներ">
-			<node name="summary" value="Ամենօրյա հուշումներ"/>
-			<node name="showTips" value="Ցուցադրել հուշումները">
-				<node name="summaryOn" value="Ցուցադրել"/>
-				<node name="summaryOff" value="Թաքցնել"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1092,16 +1085,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Զտել ըստ լեզուների"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Օրվա հուշումը"/>
-			<node name="initializationText" value="Ցանկանո՞ւմ եք ստանալ FBReader-ի օգտագործման մեկանգամյա հուշումներ։ Նոր հուշումները բեռնվելու են FBReader-ի սպասարկչից։ Շաբաթական բեռնվելու է 1-2 կիլոբայթ։ Միացնե՞լ հուշումները։"/>
-			<node name="dontShowAgain" value="Այլևս չցուցադրել"/>
-			<node name="more" value="Կրկին"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader-ը գործարկվելու է ամբողջ էկրանով։ Ղեկավարման տարրերը տեսնելու համար սեղմեք էկրանի ներքևի հատվածում։ Ամբողջ էկրանով գործարկումը կարող եք փոխել Կարգավորումների «Արտաքին տեսք» բաժնում։"/>
-			<node name="message2" value="Այս հուշումը և ղեկավարման տարրերը փակելու համար մեկ անգամ ևս սեղմեք էկրանի ներքևի հատվածում։ Ընթերցելու ժամանակ Գործիքագոտին էկրանին պահելու համար Կարգավորումների «Արտաքին տեսք» բաժնում միացրեք «Ցուցադրել գործիքագոտին»։"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Ավելացնել պանակ"/>

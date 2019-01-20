@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Dutch FBReader resources, by Frank Fesevur since 12-Jan-2011. Last update 02-Dec-2015 -->
 <resources>
 	<node name="library" value="FBReader bibliotheek">
@@ -847,13 +847,6 @@
 				<node name="none" value="Geen actie"/>
 			</node>
 		</node>
-		<node name="tips" value="Tips">
-			<node name="summary" value="Dagelijkse tips"/>
-			<node name="showTips" value="Toon tips">
-				<node name="summaryOn" value="Toon dagelijkse tips"/>
-				<node name="summaryOff" value="Verberg dagelijkse tips"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1085,16 +1078,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Taalfilter"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Tip van de dag"/>
-			<node name="initializationText" value="Wil je dagelijks een tip lezen over FBReader? Nieuwe tips worden gedownload van de FBReader-website. Dit levert ongeveer 1-2 kilobytes netwerkverkeer per week op.&#10;&#10;Tips inschakelen?"/>
-			<node name="dontShowAgain" value="Niet opnieuw tonen"/>
-			<node name="more" value="Volgende tip"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader werkt standaard in volledig scherm. Tik op de middelste deel van het scherm om de controls te tonen. Je kunt dit aanpassen in de “Weergave” sectie van de “Instellingen”"/>
-			<node name="message2" value="Prima! Tik nu nogmaals op het middelste deel van scherm om de controls en deze tip te verbergen. Als je de controls wilt blijven zien tijdens het lezen, selecteer dan “Toon actiebalk” in de “Weergave” sectie van de “Instellingen”."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Map toevoegen"/>

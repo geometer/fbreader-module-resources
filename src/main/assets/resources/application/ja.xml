@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Japanese FBReaderJ resources, by Tamo -->
 <resources>
 	<node name="library" value="FBReader ライブラリ">
@@ -895,13 +895,6 @@
 				<node name="none" value="何もしない"/>
 			</node>
 		</node>
-		<node name="tips" value="コツ情報">
-			<node name="summary" value="毎日の便利な使い方情報の設定"/>
-			<node name="showTips" value="コツを表示">
-				<node name="summaryOn" value="毎日コツ情報を表示"/>
-				<node name="summaryOff" value="表示しない"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter 統合">
 			<node name="summary" value="FBReader からツイートする方法"/>
 			<node name="enableTwitter" value="ツイートを有効にする">
@@ -1133,16 +1126,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="言語フィルタ"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="今日のコツ情報"/>
-			<node name="initializationText" value="毎日 FBReader の便利な使い方をお読みになりたいですか? 新しい情報が FBReader のサイトからダウンロードされます。通信量は一週間で 1～2 キロバイトほどです。&#10;&#10;コツを有効にしますか?"/>
-			<node name="dontShowAgain" value="次からは確認しない"/>
-			<node name="more" value="次のコツ"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader は基本的に全画面モードで動作します。画面幅の真ん中 3 分の 1 をタップして、バーを表示してください。この動作は「設定」ダイアログの「表示」セクションで変更できます。"/>
-			<node name="message2" value="できました。ここでもう一度、画面の真ん中 3 分の 1 をタップして、バーとこの情報を消してください。読書中にもバーを表示しておきたい場合は「設定」ダイアログの「表示」セクションで、「アクションバーを表示」を選択してください。"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="フォルダを追加"/>

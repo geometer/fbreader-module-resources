@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Arabic FBReaderJ resources, by Ahmed Saidi (https://github.com/boussouira) -->
 <resources>
 	<node name="library" value="المكتبة">
@@ -845,13 +845,6 @@
 				<node name="none" value="لا شيء"/>
 			</node>
 		</node>
-		<node name="tips" value="التلميحات">
-			<node name="summary" value="اعدادات التلميحات"/>
-			<node name="showTips" value="عرض التلميحات">
-				<node name="summaryOn" value="عرص التلميحات اليومية"/>
-				<node name="summaryOff" value="لا تعرض التلميحات"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1083,16 +1076,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Language filter" toBeTranslated="true"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Tip of the day" toBeTranslated="true"/>
-			<node name="initializationText" value="Would you like to read FBReader's daily tips? New tips would be downloaded from the FBReader site, with expected network traffic 1-2 kilobytes per week.&#10;&#10;Enable tips?" toBeTranslated="true"/>
-			<node name="dontShowAgain" value="Don't show again" toBeTranslated="true"/>
-			<node name="more" value="Next tip" toBeTranslated="true"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="البرنامج يشغل كامل الشاشة بشكل افتراضي. اضغط في منتصف الشاشة لإظهار أزرار التحكم. يمكنك تغيير هذا الوضع من قائمة “المظهر” في نافذة الإعدادات."/>
-			<node name="message2" value="Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings." toBeTranslated="true"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="اضافة مجلد"/>

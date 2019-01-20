@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Portuguese (Brazil) FBReader translations -->
 <!-- Collaborative work by Igor Marques -->
 <resources>
@@ -850,13 +850,6 @@
 				<node name="none" value="Nenhuma ação"/>
 			</node>
 		</node>
-		<node name="tips" value="Dicas">
-			<node name="summary" value="Dicas diárias de configurações"/>
-			<node name="showTips" value="Mostrar dicas">
-				<node name="summaryOn" value="Mostrar dicas diárias"/>
-				<node name="summaryOff" value="Não mostrar"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1088,16 +1081,6 @@
 		</node>
 		<node name="languageFilterDialog" value="Filtro de idioma">
 			<node name="title" value="Filtro de idioma"/>
-		</node>
-		<node name="tips" value="Dicas">
-			<node name="title" value="Dica do dia"/>
-			<node name="initializationText" value="Gostaria de ler as dicas diárias do FBReader? Novas dicas irão ser descarregadas do site FBReader. Tráfego de rede esperado é de 1-2 kilobytes por semana.&#10;&#10; Ativar dicas?"/>
-			<node name="dontShowAgain" value="Não mostrar novamente"/>
-			<node name="more" value="Próxima dica"/>
-		</node>
-		<node name="screenHint" value="Dicas">
-			<node name="message1" value="O FBReader trabalha por defeito no modo ecrã completo. Toque no terceiro centro do ecrã para ver os controlos. Pode mudar isto na secção “Aparência” das Definições."/>
-			<node name="message2" value="Bom trabalho! Agora, toque novamente no terceiro centro do ecrã para ocultar os controlos e esta dica. Se quiser manter os controlos durante a leitura, selecione a opção “Mostrar barra de ação” na secção “Aparência” das Definições."/>
 		</node>
 		<node name="folderList" value="Lista de diretório">
 			<node name="addFolder" value="Adicionar diretório"/>

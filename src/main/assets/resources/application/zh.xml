@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Chinese FBReaderJ resources, by http://shucang.com/ -->
 <resources>
 	<node name="library" value="FBReader 书库">
@@ -837,13 +837,6 @@
 				<node name="none" value="不做任何事"/>
 			</node>
 		</node>
-		<node name="tips" value="小提示">
-			<node name="summary" value="每日提示设置"/>
-			<node name="showTips" value="显示提示">
-				<node name="summaryOn" value="显示每日提示"/>
-				<node name="summaryOff" value="不显示"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1075,16 +1068,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="语言过滤"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="今天提示"/>
-			<node name="initializationText" value="你希望阅读FBReader每日提示吗? 新的提示将从FBReader网站下载. 每周使用流量大约 1-2 K字节.&#10;&#10;启用小提示吗?"/>
-			<node name="dontShowAgain" value="不要再显示"/>
-			<node name="more" value="下个提示"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the centre third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog." toBeTranslated="true"/>
-			<node name="message2" value="Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings." toBeTranslated="true"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="添加文件夹"/>

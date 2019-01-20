@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Spanish FBReaderJ resources, by Antonio Trueba, updated by Francisco Alvarado -->
 <!-- CHANGELOG
 	17-06-2015: Updated by Pilar Mera
@@ -853,13 +853,6 @@
 				<node name="none" value="No hacer nada"/>
 			</node>
 		</node>
-		<node name="tips" value="Consejos">
-			<node name="summary" value="Ajustes de consejos diarios"/>
-			<node name="showTips" value="Mostrar consejos">
-				<node name="summaryOn" value="Mostrar consejos diarios"/>
-				<node name="summaryOff" value="No mostrar"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1091,16 +1084,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Filtro de idioma"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Consejo del día"/>
-			<node name="initializationText" value="¿Le gustaría leer consejos diarios de FBReader? Se descargarán nuevos consejos desde el sitio web de FBReader. El tráfico de red esperado es de 1-2 kilobytes por semana.&#10;&#10;¿Habilitar consejos?"/>
-			<node name="dontShowAgain" value="No volver a mostrar"/>
-			<node name="more" value="Siguiente consejo"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader funciona en modo pantalla completa por defecto. Toque ahora el tercio central de la pantalla para mostrar los controles. Puede cambiar esto en la sección 'Apariencia' del menú Ajustes."/>
-			<node name="message2" value="¡Bien hecho! Ahora toque de nuevo el tercio central de la pantall para ocultar los controles y este consejo. Si quiere mantener los controles en la pantalla mientras lee, seleccione la opción 'Mostrar barra de acción', dentro de Ajustes - Apariencia"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Añadir carpeta"/>

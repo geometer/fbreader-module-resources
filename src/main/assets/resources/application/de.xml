@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- German FBReaderJ resources, by Victor Massini -->
 <!-- Updated by Ingolf Kübler 2010/11/17 -->
 <!-- Updated by Ingolf Kübler 2011/06/26 -->
@@ -852,13 +852,6 @@
 				<node name="none" value="Keine Aktion"/>
 			</node>
 		</node>
-		<node name="tips" value="Hinweise">
-			<node name="summary" value="Einstellungen für tägliche Tipps"/>
-			<node name="showTips" value="Hinweise anzeigen">
-				<node name="summaryOn" value="Täglich Hinweise anzeigen"/>
-				<node name="summaryOff" value="Keine Hinweise anzeigen"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1090,16 +1083,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Sprachfilter"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Hinweis des Tages"/>
-			<node name="initializationText" value="Möchten die täglich Hinweise zum FBReader erhalten? Neue Hinweise würden von der FBReader-Web-Site heruntergeladen. Das voraussichtliche Datenvolumen beträgt 1-2 kB pro Woche.&#10;&#10;Hinweise aktivieren?"/>
-			<node name="dontShowAgain" value="Nicht mehr anzeigen"/>
-			<node name="more" value="Nächster Hinweis"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="Standardmäßig arbeitet FBReader im Vollbildmodus. Berühren sie das mittlere Drittel des Bildschirm um die Bedienflächen anzuzeigen. Dieses Verhalten kann in den Einstellungen unter “Aussehen” angepasst werden."/>
-			<node name="message2" value="Sehr gut! Berühren sie nun wieder das mittlere Drittel, um die Bedienflächen und den Hinweis zu vertecken. Wenn sie während des Lesens die Bedienflächen immer anzeigen wollen, wählen sie in den Einstellungen unter “Aussehen” den Punkt “Aktionsleiste im Lesemodus anzeigen”."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Ordner hinzufügen"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Turkish FBReaderJ resources, by jericho 1200 -->
 <resources>
 	<node name="library" value="FBReader Kitaplığı">
@@ -847,13 +847,6 @@
 				<node name="none" value="Eylemsiz"/>
 			</node>
 		</node>
-		<node name="tips" value="İpuçları">
-			<node name="summary" value="Günün ipucu ayarları"/>
-			<node name="showTips" value="İpuçlarını göster">
-				<node name="summaryOn" value="Günün ipucunu göster"/>
-				<node name="summaryOff" value="Gösterme"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1085,16 +1078,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Dil filtresi"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Günün ipucu"/>
-			<node name="initializationText" value="FBReader günlük ipuçlarını okumak ister misiniz? Yeni ipuçları FBReader sitesinden indirilebilir. Haftada sadece 1-2 kb lik veri aktarımı harcar.&#10;&#10;İpuçları etkinleşsin mi?"/>
-			<node name="dontShowAgain" value="Tekrar sorma"/>
-			<node name="more" value="Sonraki ipucu"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the centre third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog." toBeTranslated="true"/>
-			<node name="message2" value="Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings." toBeTranslated="true"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Add folder" toBeTranslated="true"/>

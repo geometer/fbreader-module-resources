@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Italian FBReaderJ resources, by Vytek, Neoxx and OlapGirl from AndDev.it Translate Team -->
 <!-- 21.02 25/08/2011 -->
 <!-- Updated by Michelangelo Della Camera, last update: 13 Nov 2015 -->
@@ -839,13 +839,6 @@
 				<node name="none" value="Nessuna azione"/>
 			</node>
 		</node>
-		<node name="tips" value="Suggerimenti">
-			<node name="summary" value="Opzioni suggerimenti giornalieri"/>
-			<node name="showTips" value="Mostra suggerimenti">
-				<node name="summaryOn" value="Mostra suggerimenti giornalieri"/>
-				<node name="summaryOff" value="Non mostrare suggerimenti giornalieri"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1077,16 +1070,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Filtro lingua"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Suggerimento del giorno"/>
-			<node name="initializationText" value="Would you like to read FBReader's daily tips? New tips would be downloaded from the FBReader site, with expected network traffic 1-2 kilobytes per week.&#10;&#10;Enable tips?" toBeTranslated="true"/>
-			<node name="dontShowAgain" value="Don't show again" toBeTranslated="true"/>
-			<node name="more" value="Prossimo suggerimento"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the centre third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog." toBeTranslated="true"/>
-			<node name="message2" value="Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings." toBeTranslated="true"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Aggoimgo cartella"/>

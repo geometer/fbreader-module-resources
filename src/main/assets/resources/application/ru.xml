@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Russian FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader: библиотека">
@@ -853,13 +853,6 @@
 				<node name="none" value="Ничего не делать"/>
 			</node>
 		</node>
-		<node name="tips" value="Советы">
-			<node name="summary" value="Ежедневные советы"/>
-			<node name="showTips" value="Показывать советы">
-				<node name="summaryOn" value="Показывать"/>
-				<node name="summaryOff" value="Не показывать"/>
-			</node>
-		</node>
 		<node name="twitter" value="Интеграция с Twitter">
 			<node name="summary" value="Как отправлять твиты"/>
 			<node name="enableTwitter" value="Включить отправку твитов">
@@ -1095,16 +1088,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Фильтр по языку"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Совет дня"/>
-			<node name="initializationText" value="Хотите ли вы раз в день получать советы по использованию FBReader? Новые советы будут загружаться с сервера FBReader. Это потребует скачивания 1-2 килобайт в неделю.&#10;&#10;Включить советы?"/>
-			<node name="dontShowAgain" value="Больше не показывать"/>
-			<node name="more" value="Ещё"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader запускается в полноэкранном режиме. Чтобы увидеть элементы управления, нажмите на экран в средней трети. Вы можете изменить это поведение в разделе «Внешний вид» диалога настроек."/>
-			<node name="message2" value="Отлично! Нажмите ещё раз на экран в средней трети, чтобы скрыть элементы управления и этот совет. Если вы хотите, чтобы верхнее меню оставалось на экране во время чтения, выберите «Показывать строку меню» в разделе «Внешний вид» диалога настроек."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Добавить каталог"/>

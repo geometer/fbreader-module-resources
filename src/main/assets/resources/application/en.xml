@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- English FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader library">
@@ -482,7 +482,7 @@
 				<node name="useDownloadable" value="Enable downloadable fonts"/>
 				<node name="downloadableWarning" value="Network traffic can be used"/>
 				<node name="fontPreview" value="Preview"/>
-        <node name="fontLoading" value="Loading…"/>
+				<node name="fontLoading" value="Loading…"/>
 			</node>
 			<node name="fontSize" value="Font size"/>
 			<node name="fontStyle" value="Font style">
@@ -740,7 +740,6 @@
 				<node name="nextChapter" value="Next Chapter"/>
 				<node name="prevChapter" value="Previous Chapter"/>
 				<node name="back" value="Back"/>
-
 				<node name="lastItem" value="Tap in this area toggles toolbars"/>
 				<node name="delete" value="Delete"/>
 			</node>
@@ -850,39 +849,32 @@
 				<node name="none" value="No action"/>
 			</node>
 		</node>
-	<node name="tts" value="Text to speech">
-		<node name="highlight" value="Highlight sentences">
-			<node name="summaryOn" value="Highlight"/>
-			<node name="summaryOff" value="Do not highlight"/>
-		</node>
-		<node name="stopUnplug" value="Stop on headphones/BT unplug">
-			<node name="summaryOn" value="Stop"/>
-			<node name="summaryOff" value="Do not stop"/>
-		</node>
-		<node name="paragraphPause" value="Pause after paragraphs, msec"/>
-		<node name="sentencePause" value="Pause after sentence, msec"/>
-		<node name="byWords" value="Read by word">
-			<node name="summaryOn" value="Yes"/>
-			<node name="summaryOff" value="No"/>
-		</node>
-		<node name="wordsPause" value="… and pause after each word">
-			<node name="summaryOn" value="Yes"/>
-			<node name="summaryOff" value="No"/>
-		</node>
-		<node name="useNetwork" value="Use network tts if possible">
-			<node name="summaryOn" value="Yes"/>
-			<node name="summaryOff" value="No"/>
-		</node>
-		<node name="wifiOnly" value="Only on wifi">
-			<node name="summaryOn" value="Yes"/>
-			<node name="summaryOff" value="No"/>
-		</node>
-	</node>
-	<node name="tips" value="Tips">
-			<node name="summary" value="Daily tips settings"/>
-			<node name="showTips" value="Show tips">
-				<node name="summaryOn" value="Show daily tips"/>
-				<node name="summaryOff" value="Do not show daily tips"/>
+		<node name="tts" value="Text to speech">
+			<node name="highlight" value="Highlight sentences">
+				<node name="summaryOn" value="Highlight"/>
+				<node name="summaryOff" value="Do not highlight"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug">
+				<node name="summaryOn" value="Stop"/>
+				<node name="summaryOff" value="Do not stop"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec"/>
+			<node name="sentencePause" value="Pause after sentence, msec"/>
+			<node name="byWords" value="Read by word">
+				<node name="summaryOn" value="Yes"/>
+				<node name="summaryOff" value="No"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word">
+				<node name="summaryOn" value="Yes"/>
+				<node name="summaryOff" value="No"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible">
+				<node name="summaryOn" value="Yes"/>
+				<node name="summaryOff" value="No"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi">
+				<node name="summaryOn" value="Yes"/>
+				<node name="summaryOff" value="No"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration">
@@ -1116,16 +1108,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Language filter"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Tip of the day"/>
-			<node name="initializationText" value="Would you like to read FBReader's daily tips? New tips would be downloaded from the FBReader site, with expected network traffic 1-2 kilobytes per week.&#10;&#10;Enable tips?"/>
-			<node name="dontShowAgain" value="Don't show again"/>
-			<node name="more" value="Next tip"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the centre third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog."/>
-			<node name="message2" value="Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Add folder"/>

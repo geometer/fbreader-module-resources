@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Bulgarian FBReaderJ resources, by Ники Арсов -->
 <!-- Updated by Георги Георгиев, 22.07.2014 -->
 <resources>
@@ -853,13 +853,6 @@
 				<node name="none" value="Не се извършва действие"/>
 			</node>
 		</node>
-		<node name="tips" value="Съвети">
-			<node name="summary" value="Ежедневни съвети"/>
-			<node name="showTips" value="Показвай съвети">
-				<node name="summaryOn" value="Показвай"/>
-				<node name="summaryOff" value="Не показвай"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1091,16 +1084,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Филтър по език"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Съвет на деня"/>
-			<node name="initializationText" value="Желате ли да получавате съвети за работа с BReader веднъж дневно? Новите съвети ще се зареждат от сървъра на FBReader. Седмичен трафик 1-2 килобайта.&#10;&#10;Включи съветите?"/>
-			<node name="dontShowAgain" value="Не показвай повече"/>
-			<node name="more" value="Още"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader стартира в пълноекранен режим по подразбиране. Чукнете централната третина на екрана за да се покажат контролите. Можете да промените това действие в секция “Показване” на диалога Настройки."/>
-			<node name="message2" value="Браво! Сега чукнете централната третина отново за да скриете контролите и този съвет. Ако искате да запазите контролите на екрана по време на четене, селектирайте опцията “Покажи лента с действия” в секция “Показване” на диалога Настройки."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Добави папка"/>

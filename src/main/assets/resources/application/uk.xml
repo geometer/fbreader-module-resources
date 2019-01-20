@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Ukrainian FBReaderJ resources, by Dmytro Shevchenko, Nazariy Makarenko, Maksym Lyashuk -->
 <resources>
 	<node name="library" value="Бібліотека FBReader">
@@ -837,13 +837,6 @@
 				<node name="none" value="Нічого не робити"/>
 			</node>
 		</node>
-		<node name="tips" value="Поради">
-			<node name="summary" value="Налаштування щоденних порад"/>
-			<node name="showTips" value="Показувати поради">
-				<node name="summaryOn" value="Показувати щоденні поради"/>
-				<node name="summaryOff" value="Не показувати"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1075,16 +1068,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Мовний фільтр"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Порада дня"/>
-			<node name="initializationText" value="Бажаєте читати щоденні поради FBReader? Нові поради будуть завантажені з сайту FBReader. Очікуваний інтернет-трафік 1-2 кілобайти на тиждень.&#10;&#10;Увімкнути поради?"/>
-			<node name="dontShowAgain" value="Не показувати знову"/>
-			<node name="more" value="Наступна порада"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="Повноекранний режим для FBReader є типовим. Торкніться середньої третини екрану аби побачити елементи керування. Цей функціонал можна налаштувати у секції “Зовнішній вигляд”."/>
-			<node name="message2" value="Гарна робота! Тепер торкніться середньої третини знову аби приховати елементи керування та підказку. Якщо ви бажаєте щоб елементи керування показувались під час читання, у секції “Зовнішній вигляд” оберіть “Показувати панель дій”."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Додати теку"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Vietnamese FBReaderJ resources, by Phạm Văn Hùng_Firestork -->
 <!-- Updated by Khánh Nguyễn Quốc, 8 May 2015 -->
 <resources>
@@ -838,13 +838,6 @@
 				<node name="none" value="Không làm gì"/>
 			</node>
 		</node>
-		<node name="tips" value="Mẹo nhỏ">
-			<node name="summary" value="Cấu hình về các mẹo nhỏ hàng ngày"/>
-			<node name="showTips" value="Hiện mẹo nhỏ">
-				<node name="summaryOn" value="Hiện hàng ngày"/>
-				<node name="summaryOff" value="Không cho hiện"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1076,16 +1069,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Bộ lọc ngôn ngữ"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Mỗi ngày một mẹo"/>
-			<node name="initializationText" value="Bạn có muốn hàng ngày FBReader gợi ý mẹo nhỏ? Những mẹo này được tải về từ FBReader. Lưu lượng sẽ mất khoảng 1-2kb mỗi tuần.&#10;&#10;Đồng ý?"/>
-			<node name="dontShowAgain" value="Không hiện lại"/>
-			<node name="more" value="Mẹo tiếp"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader mặc định choán màn hình khi chạy. Bấm vào giữa màn hình để gọi bảng điều khiển. Có thể thay đổi điều này trong phần Cài đặt --&gt; Giao diện."/>
-			<node name="message2" value="Tốt lắm! Giờ hãy gõ lại vào giữa màn hình để tắt thanh điều khiển và phần giới thiệu này. Nếu muốn giữ thanh điều khiển khi đọc sách, hãy chọn “Hiện thanh điều khiển” trong Cài đặt -&gt;  Giao diện."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Add folder" toBeTranslated="true"/>

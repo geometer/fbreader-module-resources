@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Czech FBReaderJ resources, by Marek Pavelka -->
 <resources>
 	<node name="library" value="Knihovna FBReaderu">
@@ -856,13 +856,6 @@
 				<node name="none" value="Žádná akce"/>
 			</node>
 		</node>
-		<node name="tips" value="Tipy">
-			<node name="summary" value="Nastavení denních tipů"/>
-			<node name="showTips" value="Zobrazovat tipy">
-				<node name="summaryOn" value="Zobrazovat denní tipy"/>
-				<node name="summaryOff" value="Nezobrazovat"/>
-			</node>
-		</node>
 		<node name="twitter" value="Integrace Twitteru">
 			<node name="summary" value="Jak tweetovat z FBReaderu"/>
 			<node name="enableTwitter" value="Povolit tweety">
@@ -1094,16 +1087,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Filtr jazyků"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="Denní tip"/>
-			<node name="initializationText" value="Chtěli byste číst denní tipy FBReaderu? Nové tipy by byly stahovány ze stránky FBReaderu. Předpokládaný provoz v síti je 1–2 kilobajty týdně.&#10;&#10;Povolit tipy?"/>
-			<node name="dontShowAgain" value="Znovu nezobrazovat"/>
-			<node name="more" value="Další tip"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader ve výchozím nastavení pracuje v režimu celé obrazovky. Klepnutím na prostřední třetinu obrazovky se zobrazí ovládání. Toto chování můžete změnit v části „Vzhled“ dialogového okna Nastavení."/>
-			<node name="message2" value="Výborně! Dalším klepnutím na prostřední třetinu obrazovky se skryje ovládání a tato nápověda. Pokud chcete ponechat během čtení ovládání na obrazovce, vyberte volbu „Zobrazit panel akcí“ v části „Vzhled“ dialogového okna Nastavení."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Přidat složku"/>

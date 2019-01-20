@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<node name="library" value="کتابخانه اف بی ریدر">
 		<node name="unknownAuthor" value="نویسنده نامشخص"/>
@@ -846,13 +846,6 @@
 				<node name="none" value="هيچ اقدام"/>
 			</node>
 		</node>
-		<node name="tips" value="راهنمایی ها">
-			<node name="summary" value="تنظيمات روزانه راهنمایی ها"/>
-			<node name="showTips" value="نمايش راهنمایی ها">
-				<node name="summaryOn" value="نمايش روزانه راهنمایی ها"/>
-				<node name="summaryOff" value="عدم نمايش"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1084,16 +1077,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="فيلتر زبان"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="راهنمایی روز"/>
-			<node name="initializationText" value="تمايل داريد راهنمایی های روزانه پارسی ريدر را بخوانيد؟ راهنمایی های جدي از سايت پارسی ريدر دانلود مي شود. ترافيك شبكه مورد انتظار 1-2 كيلوبايت در هفته است. فعال سازي راهنمایی ها"/>
-			<node name="dontShowAgain" value="عدم نمايش مجدد"/>
-			<node name="more" value="راهنمایی بعدي"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="اف بی ریدر بصورت پیش فرض بصورت تمام صفحه کتاب را نمایش میدهد.با چندبار ضربه زدن به مرکز صفحه کنترل ها نمایش داده میشوند.شما با رفتن به قسمت ظاهر در بخش تنظیمات میتوانید این رفتار برنامه را تغییر دهید."/>
-			<node name="message2" value="خیلی خب!حالا دوباره به مرکز صفحه ضربه بزنید برای مخفی کردن کنترل ها و همچنین این نکته.اگر شما میخواهید کنترل ها را در حین مطالعه نگه دارید گزینه “نمایش نوار فعالیت” را در قسمت  “ظاهر” بخش نتظیمات انتخاب کنید."/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="افزودن پوشه"/>

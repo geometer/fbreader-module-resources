@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Hungarian FBReaderJ resources, by L. B. Szabó.  -->
 <resources>
 	<node name="library" value="FBReader könyvtár">
@@ -837,13 +837,6 @@
 				<node name="none" value="Semmit ne tegyen"/>
 			</node>
 		</node>
-		<node name="tips" value="Tippek">
-			<node name="summary" value="Napi tippek beállításai"/>
-			<node name="showTips" value="Napi tippek">
-				<node name="summaryOn" value="Mutasson tippeket"/>
-				<node name="summaryOff" value="Ne mutasson"/>
-			</node>
-		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
 			<node name="enableTwitter" value="Enable tweets" toBeTranslated="true">
@@ -1075,16 +1068,6 @@
 		</node>
 		<node name="languageFilterDialog">
 			<node name="title" value="Nyelvi szűrő"/>
-		</node>
-		<node name="tips">
-			<node name="title" value="A nap tippje"/>
-			<node name="initializationText" value="Szeretne naponta tippeket kapni az FBReaderről? Az új tippek az FBReader webhelyéről töltődnek le. A várható hálózati forgalom 1-2 kilobyte hetente.&#10;&#10;Bekapcsolja a tippeket?"/>
-			<node name="dontShowAgain" value="Ne mutassa többet"/>
-			<node name="more" value="Következő"/>
-		</node>
-		<node name="screenHint">
-			<node name="message1" value="FBReader works in fullscreen mode by default. Tap the centre third of the screen now to show controls. You can change this in the “Appearance” section of the Settings dialog." toBeTranslated="true"/>
-			<node name="message2" value="Well done! Now tap the centre third of the screen again to hide the controls and this hint. If you want to keep controls on the screen while reading, select the “Show action bar” option in “Appearance” in Settings." toBeTranslated="true"/>
 		</node>
 		<node name="folderList">
 			<node name="addFolder" value="Add folder" toBeTranslated="true"/>
