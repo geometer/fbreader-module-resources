@@ -1128,9 +1128,6 @@
 			</node>
 			<node name="permissionDenied" value="Přístup byl odepřen"/>
 		</node>
-		<node name="missingPlugin" value="Chybějící doplněk">
-			<node name="message" value="Doplněk pro soubory %s není nainstalován. Nainstalovat ho nyní?"/>
-		</node>
 		<node name="licensing" value="Nelicencováno">
 			<node name="message" value="%s není licencovaný. Zakoupit nyní na Google Play?"/>
 		</node>

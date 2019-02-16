@@ -1124,9 +1124,6 @@
 			</node>
 			<node name="permissionDenied" value="Zugriff verweigert"/>
 		</node>
-		<node name="missingPlugin" value="Plugin fehlt">
-			<node name="message" value="Plugin für %s Dateien ist nicht installiert. Jetzt installieren?"/>
-		</node>
 		<node name="licensing" value="Nicht lizenziert">
 			<node name="message" value="%s ist nicht lizenziert. Jetzt im Google Play Store kaufen?"/>
 		</node>

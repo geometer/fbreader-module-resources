@@ -1119,9 +1119,6 @@
 			</node>
 			<node name="permissionDenied" value="اجازت نہیں دی گئی"/>
 		</node>
-		<node name="missingPlugin" value="Missing plugin" toBeTranslated="true">
-			<node name="message" value="Plugin for %s files is not installed. Install now?" toBeTranslated="true"/>
-		</node>
 		<node name="licensing" value="Not licensed" toBeTranslated="true">
 			<node name="message" value="%s is not licensed. Purchase on Google Play now?" toBeTranslated="true"/>
 		</node>

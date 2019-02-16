@@ -1118,9 +1118,6 @@
 			</node>
 			<node name="permissionDenied" value="دسترسی امکان پذیر نیست"/>
 		</node>
-		<node name="missingPlugin" value="Missing plugin" toBeTranslated="true">
-			<node name="message" value="افزونه برای %s قایل نصب مشده است. همین الان نصب شود؟"/>
-		</node>
 		<node name="licensing" value="Not licensed" toBeTranslated="true">
 			<node name="message" value="%s is not licensed. Purchase on Google Play now?" toBeTranslated="true"/>
 		</node>

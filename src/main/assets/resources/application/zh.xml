@@ -1109,9 +1109,6 @@
 			</node>
 			<node name="permissionDenied" value="许可被拒绝"/>
 		</node>
-		<node name="missingPlugin" value="缺失插件">
-			<node name="message" value="%s 文件的插件未安装. 现在安装?"/>
-		</node>
 		<node name="licensing" value="未经许可">
 			<node name="message" value="%s 未经许可. 去 Google Play 购买?"/>
 		</node>

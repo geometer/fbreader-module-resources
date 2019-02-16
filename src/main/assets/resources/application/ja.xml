@@ -1167,9 +1167,6 @@
 			</node>
 			<node name="permissionDenied" value="許可がありません"/>
 		</node>
-		<node name="missingPlugin" value="プラグインが見つかりません">
-			<node name="message" value="ファイル形式 %s 用のプラグインがインストールされていません。今すぐインストールしますか?"/>
-		</node>
 		<node name="licensing" value="ライセンスされていません">
 			<node name="message" value="%s はライセンスされていません。今すぐ Google Play で購入しますか?"/>
 		</node>

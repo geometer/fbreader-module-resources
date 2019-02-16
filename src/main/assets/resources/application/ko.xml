@@ -1119,9 +1119,6 @@
 			</node>
 			<node name="permissionDenied" value="퍼미션 거부됨"/>
 		</node>
-		<node name="missingPlugin" value="Missing plugin" toBeTranslated="true">
-			<node name="message" value="%s 파일에 사용할 플러그인이 설치되지 않았습니다. 지금 설치할까요?"/>
-		</node>
 		<node name="licensing" value="Not licensed" toBeTranslated="true">
 			<node name="message" value="%s is not licensed. Purchase on Google Play now?" toBeTranslated="true"/>
 		</node>

@@ -1112,9 +1112,6 @@
 			</node>
 			<node name="permissionDenied" value="Acces interzis"/>
 		</node>
-		<node name="missingPlugin" value="Plugin lipsă">
-			<node name="message" value="Plugin-ul pentru fișierele e tip %s nu este instalat. Să-l instalez acum?"/>
-		</node>
 		<node name="licensing" value="Fară licentă">
 			<node name="message" value="%s nu este licențiat. Cumpărati acum pe Google Play?"/>
 		</node>

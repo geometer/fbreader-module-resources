@@ -1109,9 +1109,6 @@
 			</node>
 			<node name="permissionDenied" value="Brak uprawnień"/>
 		</node>
-		<node name="missingPlugin" value="Brakująca wtyczka">
-			<node name="message" value="Wtyczka dla plików %s nie jest zainstalowana. Zainstalować teraz?"/>
-		</node>
 		<node name="licensing" value="Brak licencji">
 			<node name="message" value="%s jest bez licencji. Dokonać zakupu w sklepie Google Play teraz?"/>
 		</node>

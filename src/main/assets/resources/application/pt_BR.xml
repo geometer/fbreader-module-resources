@@ -1122,9 +1122,6 @@
 			</node>
 			<node name="permissionDenied" value="Permissão negada"/>
 		</node>
-		<node name="missingPlugin" value="Plug-in em falta">
-			<node name="message" value="Plug-in %s para ficheiros não instalado. Instalar agora?"/>
-		</node>
 		<node name="licensing" value="Not licensed" toBeTranslated="true">
 			<node name="message" value="%s não está licenciado. Comprar no Google Play agora?"/>
 		</node>

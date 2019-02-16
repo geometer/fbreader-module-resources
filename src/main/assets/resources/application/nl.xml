@@ -1119,9 +1119,6 @@
 			</node>
 			<node name="permissionDenied" value="Toegang geweigerd"/>
 		</node>
-		<node name="missingPlugin" value="Ontbrekende plug-in">
-			<node name="message" value="Geen plug-in voor %s-bestanden geïnstalleerd. Nu installeren?"/>
-		</node>
 		<node name="licensing" value="Geen licentie">
 			<node name="message" value="Geen licentie voor %s. Nu op Google Play kopen?"/>
 		</node>

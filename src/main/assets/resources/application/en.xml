@@ -1155,9 +1155,6 @@
 			</node>
 			<node name="permissionDenied" value="Permission denied"/>
 		</node>
-		<node name="missingPlugin" value="Missing plugin">
-			<node name="message" value="Plugin for %s files is not installed. Install now?"/>
-		</node>
 		<node name="licensing" value="Not licensed">
 			<node name="message" value="%s is not licensed. Purchase on Google Play now?"/>
 		</node>

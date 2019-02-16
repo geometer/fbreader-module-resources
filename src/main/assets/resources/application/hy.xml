@@ -1126,9 +1126,6 @@
 			</node>
 			<node name="permissionDenied" value="Մուտքը մերժվեց"/>
 		</node>
-		<node name="missingPlugin" value="Խրվակը բացակայում է">
-			<node name="message" value="%s նիշքերի ընթերցման խրվակը տեղադրված չէ, տեղադրե՞լ այն"/>
-		</node>
 		<node name="licensing" value="Արտոնագիրը բացակայում է">
 			<node name="message" value="%s-ը արտոնագրված չէ։ Գնե՞լ Google Play-ում։"/>
 		</node>
