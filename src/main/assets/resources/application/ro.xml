@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Romanian FBReaderJ resources aplicatii.romanesti@gmail.com -->
 <!-- Updated by girlea_alex@yahoo.com, Jul 6 of 2014 -->
 <!-- Updated by aplicatii.romanesti@gmail.com, Nov 20 of 2014 -->
@@ -123,6 +123,10 @@
 		<node name="removeFromBasket" value="Eliminați din coș"/>
 		<node name="openBasket" value="Deschide coșul"/>
 		<node name="clearBasket" value="Goleste coșul"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Cumpară toate cărțile"/>
 		<node name="openInBrowser" value="Deschide în browser"/>
 		<node name="stopLoading" value="Opriți încărcarea"/>
@@ -137,6 +141,7 @@
 		<node name="authorisationMenuTitle" value="Alegeți actiunea"/>
 		<node name="topupSummary" value="În prezent: %s"/>
 		<node name="basket" value="Coș"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="Nicio carte"/>
 		<node name="basketSummaryCountOnly" value="%0 Cărți"/>
 		<node name="basketSummary" value="%0 Cărți (%1)"/>
@@ -182,6 +187,7 @@
 			<node name="refreshCatalogsList" value="Reîmprospătare cataloage"/>
 			<node name="manageCatalogs" value="Administrează cataloagele"/>
 			<node name="clearBasket" value="Golește coșul"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Cumpără toate cărțile"/>
 		</node>
 	</node>
@@ -296,6 +302,7 @@
 		<node name="openStartScreen" value="Ecranul de start"/>
 		<node name="preferences" value="Setări"/>
 		<node name="bookInfo" value="Informații despre carte"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="Biblioteca"/>
 		<node name="toc" value="Cuprins"/>
 		<node name="day" value="Mod Zi"/>
@@ -648,6 +655,7 @@
 				<node name="showAsFooterOldStyle" value="Subsol orizontal (stil clasic)"/>
 			</node>
 			<node name="footerHeight" value="înaltime subsol"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Culoare subsol (stil clasic)"/>
 			<node name="footerBackgroundColor" value="Culoare fundal subsol"/>
 			<node name="footerForegroundColor" value="Culoare text subsol"/>
@@ -838,6 +846,34 @@
 				<node name="goBack" value="Navigați înapoi"/>
 				<node name="cancelMenu" value="Arată meniul de anulare"/>
 				<node name="none" value="Nicio acțiune"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1120,6 +1156,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="Eroare %s în codulul nativ în timpul lecturii '%s'"/>
 		<node name="errorReadingFile" value="A apărut o eroare în timpul citirii '%s'"/>
 		<node name="errorReadingZip" value="A apărut o eroare în timpul extragerii '%s'"/>
@@ -1276,5 +1313,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

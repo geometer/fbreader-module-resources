@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- English FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader 라이브러리">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="바구니에서 삭제"/>
 		<node name="openBasket" value="바구니 열기"/>
 		<node name="clearBasket" value="바구니 비우기"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="모든 책 구매"/>
 		<node name="openInBrowser" value="브라우저에서 열기"/>
 		<node name="stopLoading" value="불러오기 중지"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="동작 선택"/>
 		<node name="topupSummary" value="현재: %s"/>
 		<node name="basket" value="바구니"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="책 없음"/>
 		<node name="basketSummaryCountOnly" value="%0 책들">
 			<node condition="value 1" value="%0 책"/>
@@ -183,6 +188,7 @@
 			<node name="refreshCatalogsList" value="카탈로그 새로고침"/>
 			<node name="manageCatalogs" value="카탈로그 관리"/>
 			<node name="clearBasket" value="바구니 비우기"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="모든 책 구매"/>
 		</node>
 	</node>
@@ -303,6 +309,7 @@
 		<node name="openStartScreen" value="시작 화면"/>
 		<node name="preferences" value="설정"/>
 		<node name="bookInfo" value="책 정보"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="라이브러리"/>
 		<node name="toc" value="Table of contents" toBeTranslated="true"/>
 		<node name="day" value="주간"/>
@@ -655,6 +662,7 @@
 				<node name="showAsFooterOldStyle" value="가로 꼬리말 (구식)"/>
 			</node>
 			<node name="footerHeight" value="꼬리말 높이"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="꼬리말 (구식) 색상"/>
 			<node name="footerBackgroundColor" value="꼬리말 배경 색상"/>
 			<node name="footerForegroundColor" value="꼬리말 텍스트 색상"/>
@@ -845,6 +853,34 @@
 				<node name="goBack" value="돌아가기"/>
 				<node name="cancelMenu" value="취소 메뉴 표시"/>
 				<node name="none" value="동작 없음"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1127,6 +1163,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="'%s'를 읽는 도중 네이티브 코드 %s 오류"/>
 		<node name="errorReadingFile" value="'%s'를 읽는 도중 오류 발생"/>
 		<node name="errorReadingZip" value="'%s' 추출중 오류 발생"/>
@@ -1283,5 +1320,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

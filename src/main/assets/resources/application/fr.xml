@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- French FBReaderJ resources; 
      Initial work: Sébastien Rodriguez; 
      Maintainer: Mathias Monnerville <mathias@monnerville.com> 
@@ -123,6 +123,10 @@
 		<node name="removeFromBasket" value="Supprimer du panier"/>
 		<node name="openBasket" value="Voir le panier"/>
 		<node name="clearBasket" value="Vider le panier"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Acheter tous les livres"/>
 		<node name="openInBrowser" value="Ouvrir dans un navigateur"/>
 		<node name="stopLoading" value="Arrêt du chargement"/>
@@ -137,6 +141,7 @@
 		<node name="authorisationMenuTitle" value="Action"/>
 		<node name="topupSummary" value="Аctuellement : %s"/>
 		<node name="basket" value="Panier"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="Aucun livre"/>
 		<node name="basketSummaryCountOnly" value="%0 livre(s)"/>
 		<node name="basketSummary" value="%0 livre(s) (%1)"/>
@@ -182,6 +187,7 @@
 			<node name="refreshCatalogsList" value="Rafraîchir"/>
 			<node name="manageCatalogs" value="Gérer les catalogues"/>
 			<node name="clearBasket" value="Vider le panier"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Acheter tous les livres"/>
 		</node>
 	</node>
@@ -296,6 +302,7 @@
 		<node name="openStartScreen" value="Écran de départ"/>
 		<node name="preferences" value="Paramètres"/>
 		<node name="bookInfo" value="Information sur le livre"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="Bibliothèque"/>
 		<node name="toc" value="Table des matières"/>
 		<node name="day" value="Jour"/>
@@ -648,6 +655,7 @@
 				<node name="showAsFooterOldStyle" value="Horizontal footer (old style)" toBeTranslated="true"/>
 			</node>
 			<node name="footerHeight" value="Hauteur du pied de page"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Footer (old style) colour" toBeTranslated="true"/>
 			<node name="footerBackgroundColor" value="Footer background colour" toBeTranslated="true"/>
 			<node name="footerForegroundColor" value="Footer text colour" toBeTranslated="true"/>
@@ -838,6 +846,34 @@
 				<node name="goBack" value="Retour en arrière"/>
 				<node name="cancelMenu" value="Afficher le menu annulation"/>
 				<node name="none" value="Sans effet"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1120,6 +1156,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="Erreur %s dans code natif pendant la lecture '%s'"/>
 		<node name="errorReadingFile" value="Erreur survenue pendant la lecture de '%s'"/>
 		<node name="errorReadingZip" value="Erreur survenue pendant l'extraction de '%s'"/>
@@ -1276,5 +1313,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

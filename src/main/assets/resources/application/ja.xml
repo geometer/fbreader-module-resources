@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Japanese FBReaderJ resources, by Tamo -->
 <resources>
 	<node name="library" value="FBReader ライブラリ">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="カートから削除"/>
 		<node name="openBasket" value="カートを開く"/>
 		<node name="clearBasket" value="カートを空にする"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="すべて購入"/>
 		<node name="openInBrowser" value="ブラウザで開く"/>
 		<node name="stopLoading" value="読み込み中止"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="選択"/>
 		<node name="topupSummary" value="現在: %s"/>
 		<node name="basket" value="カート"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="本がありません"/>
 		<node name="basketSummaryCountOnly" value="%0 冊">
 			<node condition="value 1" value="%0 冊"/>
@@ -183,6 +188,7 @@
 			<node name="refreshCatalogsList" value="カタログリストを再表示"/>
 			<node name="manageCatalogs" value="カタログリストを管理"/>
 			<node name="clearBasket" value="カートを空に"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="すべて購入"/>
 		</node>
 	</node>
@@ -303,6 +309,7 @@
 		<node name="openStartScreen" value="スタート画面"/>
 		<node name="preferences" value="設定"/>
 		<node name="bookInfo" value="本の情報"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="ライブラリ"/>
 		<node name="toc" value="目次"/>
 		<node name="day" value="日中モード"/>
@@ -703,6 +710,7 @@
 				<node name="showAsFooterOldStyle" value="ヨコ向きのフッタ (旧式)"/>
 			</node>
 			<node name="footerHeight" value="フッタ幅"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="フッタ (旧式) の色"/>
 			<node name="footerBackgroundColor" value="フッタの背景色"/>
 			<node name="footerForegroundColor" value="フッタの文字色"/>
@@ -893,6 +901,34 @@
 				<node name="goBack" value="戻る"/>
 				<node name="cancelMenu" value="キャンセルメニューを表示"/>
 				<node name="none" value="何もしない"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter 統合">
@@ -1175,6 +1211,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="エラー %s がネイティブコードで ('%s' を読み込み中に) 発生"/>
 		<node name="errorReadingFile" value="'%s' を読み込み中にエラーが発生"/>
 		<node name="errorReadingZip" value="'%s' を展開中にエラー発生"/>
@@ -1331,5 +1368,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="ネットワークが利用できません。 接続を確認してもう一度やり直してください"/>
 		<node name="syncServerFailure" value="サーバ接続に失敗しました。 後でもう一度やり直してください"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

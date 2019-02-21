@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Russian FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader: библиотека">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="Удалить из корзины"/>
 		<node name="openBasket" value="Корзина"/>
 		<node name="clearBasket" value="Очистить корзину"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Купить все книги"/>
 		<node name="openInBrowser" value="Показать в браузере"/>
 		<node name="stopLoading" value="Остановить загрузку"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="Выберите действие"/>
 		<node name="topupSummary" value="Текущий счёт: %s"/>
 		<node name="basket" value="Корзина"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="Пустая корзина"/>
 		<node name="basketSummaryCountOnly" value="%0 книг">
 			<node condition="modrange 11 19 100" value="%0 книг"/>
@@ -187,6 +192,7 @@
 			<node name="refreshCatalogsList" value="Обновить каталоги"/>
 			<node name="manageCatalogs" value="Управление каталогами"/>
 			<node name="clearBasket" value="Очистить корзину"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Купить все книги"/>
 		</node>
 	</node>
@@ -661,6 +667,7 @@
 				<node name="showAsFooterOldStyle" value="Подвал (старый стиль)"/>
 			</node>
 			<node name="footerHeight" value="Высота подвала"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Цвет подвала (старый стиль)"/>
 			<node name="footerBackgroundColor" value="Цвет фона подвала"/>
 			<node name="footerForegroundColor" value="Цвет текста в подвале"/>
@@ -851,6 +858,34 @@
 				<node name="goBack" value="Вернуться по ссылке"/>
 				<node name="cancelMenu" value="Показать список действий"/>
 				<node name="none" value="Ничего не делать"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Интеграция с Twitter">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Czech FBReaderJ resources, by Marek Pavelka -->
 <resources>
 	<node name="library" value="Knihovna FBReaderu">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="Odebrat z košíku"/>
 		<node name="openBasket" value="Otevřít košík"/>
 		<node name="clearBasket" value="Vymazat košík"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Zakoupit všechny knihy"/>
 		<node name="openInBrowser" value="Otevřít v prohlížeči"/>
 		<node name="stopLoading" value="Zastavit načítání"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="Vybrat akci"/>
 		<node name="topupSummary" value="Aktuálně: %s"/>
 		<node name="basket" value="Košík"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="Žádné knihy"/>
 		<node name="basketSummaryCountOnly" value="%0 knih">
 			<node condition="value 1" value="%0 kniha"/>
@@ -189,6 +194,7 @@
 			<node name="refreshCatalogsList" value="Aktualizovat katalogy"/>
 			<node name="manageCatalogs" value="Spravovat katalogy"/>
 			<node name="clearBasket" value="Vymazat košík"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Zakoupit všechny knihy"/>
 		</node>
 	</node>
@@ -312,6 +318,7 @@
 		<node name="openStartScreen" value="Úvodní obrazovka"/>
 		<node name="preferences" value="Nastavení"/>
 		<node name="bookInfo" value="Informace o knize"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="Knihovna"/>
 		<node name="toc" value="Obsah"/>
 		<node name="day" value="Den"/>
@@ -664,6 +671,7 @@
 				<node name="showAsFooterOldStyle" value="Vodorovná patička (starý styl)"/>
 			</node>
 			<node name="footerHeight" value="Výška patičky"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Barva patičky (starý styl)"/>
 			<node name="footerBackgroundColor" value="Barva pozadí patičky"/>
 			<node name="footerForegroundColor" value="Barva textu patičky"/>
@@ -854,6 +862,34 @@
 				<node name="goBack" value="Navigovat zpět"/>
 				<node name="cancelMenu" value="Zobrazit menu Zrušit"/>
 				<node name="none" value="Žádná akce"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Integrace Twitteru">
@@ -1136,6 +1172,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="Chyba %s v nativním kódu během čtení '%s'"/>
 		<node name="errorReadingFile" value="Došlo k chybě během čtení '%s'"/>
 		<node name="errorReadingZip" value="Došlo k chybě během rozbalování '%s'"/>
@@ -1292,5 +1329,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Síť není dostupná. Zkontrolujte své připojení a zkuste to znovu."/>
 		<node name="syncServerFailure" value="Selhání připojení serveru. Zkuste to znovu později."/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

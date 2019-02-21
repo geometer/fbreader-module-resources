@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<node name="library" value="کتابخانه اف بی ریدر">
 		<node name="unknownAuthor" value="نویسنده نامشخص"/>
@@ -119,6 +119,10 @@
 		<node name="removeFromBasket" value="حذف کردن از سبد"/>
 		<node name="openBasket" value="بازکردن سبد"/>
 		<node name="clearBasket" value="خالی کردن سبد"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="خرید همه کتابها"/>
 		<node name="openInBrowser" value="باز کردن در مرورگر"/>
 		<node name="stopLoading" value="توقف بارگیری"/>
@@ -133,6 +137,7 @@
 		<node name="authorisationMenuTitle" value="انتخاب عمل"/>
 		<node name="topupSummary" value="الان: %s"/>
 		<node name="basket" value="سبد"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="هیچ کتابی نیست"/>
 		<node name="basketSummaryCountOnly" value="%0 کتابها">
 			<node condition="value 1" value="%0 کتابها"/>
@@ -182,6 +187,7 @@
 			<node name="refreshCatalogsList" value="بروزرسانی کاتالوگها"/>
 			<node name="manageCatalogs" value="مدیریت کاتالوگها"/>
 			<node name="clearBasket" value="خالی کردن سبد"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="خرید همه کتابها"/>
 		</node>
 	</node>
@@ -302,6 +308,7 @@
 		<node name="openStartScreen" value="صفحه شروع"/>
 		<node name="preferences" value="تنظیمات"/>
 		<node name="bookInfo" value="اطلاعات کتاب"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="کتابخانه"/>
 		<node name="toc" value="فهرست مطالب"/>
 		<node name="day" value="حالت روز"/>
@@ -654,6 +661,7 @@
 				<node name="showAsFooterOldStyle" value="پاورقی افقی (سبک قدیمی)"/>
 			</node>
 			<node name="footerHeight" value="ارتفاع زيربرگ"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="پاورقی (سبک قدیمی) رنگ"/>
 			<node name="footerBackgroundColor" value="رنگ پس زمینه پاورقی"/>
 			<node name="footerForegroundColor" value="پاورقی رنگ متن"/>
@@ -844,6 +852,34 @@
 				<node name="goBack" value="هدايت به عقب"/>
 				<node name="cancelMenu" value="نمايش منوي لغو"/>
 				<node name="none" value="هيچ اقدام"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1126,6 +1162,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="خطا %s در کد محلی در طول خواندن '%s'"/>
 		<node name="errorReadingFile" value="هنگام خواندن '%s' خطایی رخ داده است"/>
 		<node name="errorReadingZip" value="درهنگام استخراج '%s' خطایی رخ داده است"/>
@@ -1282,5 +1319,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

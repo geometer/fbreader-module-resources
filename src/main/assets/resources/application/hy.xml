@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Armenian FBReaderJ resources, by Yavruhrat, Marat Yavrumyan -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2015/05/17 -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2016/12/13 -->
@@ -122,6 +122,10 @@
 		<node name="removeFromBasket" value="Հեռացնել զամբյուղից"/>
 		<node name="openBasket" value="Զամբյուղ"/>
 		<node name="clearBasket" value="Դատարկել զամբյուղը"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Գնել բոլոր գրքերը"/>
 		<node name="openInBrowser" value="Բացել դիտարկչում"/>
 		<node name="stopLoading" value="Դադարեցնել բեռնումը"/>
@@ -136,6 +140,7 @@
 		<node name="authorisationMenuTitle" value="Ընտրել գործողություն"/>
 		<node name="topupSummary" value="Ընթացիկ հաշիվ՝ %s"/>
 		<node name="basket" value="Զամբյուղ"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="Դատարկ զամբյուղ"/>
 		<node name="basketSummaryCountOnly" value="%0 գրքերի">
 			<node condition="modrange 11 19 100" value="%0 գրքերի"/>
@@ -189,6 +194,7 @@
 			<node name="refreshCatalogsList" value="Թարմացնել գրացուցակները"/>
 			<node name="manageCatalogs" value="Կառավարել գրացուցակները"/>
 			<node name="clearBasket" value="Դատարկել զամբյուղը"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Գնել բոլոր գրքերը"/>
 		</node>
 	</node>
@@ -310,6 +316,7 @@
 		<node name="openStartScreen" value="Հիմնական էկրան"/>
 		<node name="preferences" value="Կարգավորումներ"/>
 		<node name="bookInfo" value="Գրքի մասին"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="Գրադարան"/>
 		<node name="toc" value="Բովանդակություն"/>
 		<node name="day" value="Ցերեկային ռեժիմ"/>
@@ -662,6 +669,7 @@
 				<node name="showAsFooterOldStyle" value="Էջատակ (հին ոճով)"/>
 			</node>
 			<node name="footerHeight" value="Էջատակի բարձրություն"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Էջատակի գույն (հին ոճով)"/>
 			<node name="footerBackgroundColor" value="Էջատակի ետնաշերտի գույն"/>
 			<node name="footerForegroundColor" value="Էջատակում գրվածքի գույն"/>
@@ -852,6 +860,34 @@
 				<node name="goBack" value="Գնալ ետ"/>
 				<node name="cancelMenu" value="Ցուցադրել «Ետ» գործիքագոտին"/>
 				<node name="none" value="Ոչ մի գործողություն"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1134,6 +1170,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="Սխալ %s առաջնային այլագրում՝ %s-ը կարդալիս"/>
 		<node name="errorReadingFile" value="Սխալ՝ %s-ը կարդալիս"/>
 		<node name="errorReadingZip" value="Սխալ՝ %s-ը ապապահարկելիս"/>
@@ -1290,5 +1327,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

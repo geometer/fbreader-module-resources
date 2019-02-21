@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Ukrainian FBReaderJ resources, by Dmytro Shevchenko, Nazariy Makarenko, Maksym Lyashuk -->
 <resources>
 	<node name="library" value="Бібліотека FBReader">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="Прибрати з кошика"/>
 		<node name="openBasket" value="Відкрити кошик"/>
 		<node name="clearBasket" value="Очистити кошик"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Купити всі книжки"/>
 		<node name="openInBrowser" value="Показати у браузері"/>
 		<node name="stopLoading" value="Припинити завантаження"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="Оберіть дію"/>
 		<node name="topupSummary" value="Поточний рахунок: %s"/>
 		<node name="basket" value="Кошик"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="Немає книжок"/>
 		<node name="basketSummaryCountOnly" value="%0 книжок"/>
 		<node name="basketSummary" value="%0 книжок (%1)"/>
@@ -179,6 +184,7 @@
 			<node name="refreshCatalogsList" value="Оновити каталоги"/>
 			<node name="manageCatalogs" value="Керування каталогами"/>
 			<node name="clearBasket" value="Очистити кошик"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Купити всі книжки"/>
 		</node>
 	</node>
@@ -293,6 +299,7 @@
 		<node name="openStartScreen" value="Стартовий екран"/>
 		<node name="preferences" value="Налаштування"/>
 		<node name="bookInfo" value="Про книгу"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="Бібліотека"/>
 		<node name="toc" value="Зміст"/>
 		<node name="day" value="День"/>
@@ -645,6 +652,7 @@
 				<node name="showAsFooterOldStyle" value="Горизонтальний підвал (старий стиль)"/>
 			</node>
 			<node name="footerHeight" value="Висота підвалу"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Колір підвалу (старий стиль)"/>
 			<node name="footerBackgroundColor" value="Колір тла підвалу"/>
 			<node name="footerForegroundColor" value="Колір тексту підвалу"/>
@@ -835,6 +843,34 @@
 				<node name="goBack" value="Перейти назад"/>
 				<node name="cancelMenu" value="Показати меню відміни"/>
 				<node name="none" value="Нічого не робити"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1117,6 +1153,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="У машинном коді виникла помилка %s під час читання '%s'"/>
 		<node name="errorReadingFile" value="Виникла помилка під час читання '%s'"/>
 		<node name="errorReadingZip" value="Виникла помилка під час розпаковування '%s'"/>
@@ -1273,6 +1310,10 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 	<node name="dictionary">
 		<node name="Yandex.Translate" value="Яндекс.Перекладач"/>

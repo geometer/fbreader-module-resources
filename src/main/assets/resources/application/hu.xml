@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Hungarian FBReaderJ resources, by L. B. Szabó.  -->
 <resources>
 	<node name="library" value="FBReader könyvtár">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="Kosárból eltávolít"/>
 		<node name="openBasket" value="Kosár megnyitása"/>
 		<node name="clearBasket" value="Kosár kiürítése"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Összes könyv megvásárlása"/>
 		<node name="openInBrowser" value="Megnyitás böngészőben"/>
 		<node name="stopLoading" value="Letöltés leállítása"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="Művelet kiválasztása"/>
 		<node name="topupSummary" value="Jelenleg: %s"/>
 		<node name="basket" value="Kosár"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="A kosár üres."/>
 		<node name="basketSummaryCountOnly" value="%0 könyv"/>
 		<node name="basketSummary" value="%0 könyv (%1)"/>
@@ -179,6 +184,7 @@
 			<node name="refreshCatalogsList" value="Katalógusok frissítése"/>
 			<node name="manageCatalogs" value="Katalógusok módosítása"/>
 			<node name="clearBasket" value="Kosár kiürítése"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="összes könyv megvásárlása"/>
 		</node>
 	</node>
@@ -293,6 +299,7 @@
 		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
 		<node name="preferences" value="Beállítások"/>
 		<node name="bookInfo" value="Könyv adatai"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="Könyvtár"/>
 		<node name="toc" value="Tartalom"/>
 		<node name="day" value="Nappali"/>
@@ -645,6 +652,7 @@
 				<node name="showAsFooterOldStyle" value="Horizontal footer (old style)" toBeTranslated="true"/>
 			</node>
 			<node name="footerHeight" value="Lábléc magassága"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Footer (old style) colour" toBeTranslated="true"/>
 			<node name="footerBackgroundColor" value="Footer background colour" toBeTranslated="true"/>
 			<node name="footerForegroundColor" value="Footer text colour" toBeTranslated="true"/>
@@ -835,6 +843,34 @@
 				<node name="goBack" value="Navigáljon vissza a szövegben"/>
 				<node name="cancelMenu" value="Vissza menü megjelenítése"/>
 				<node name="none" value="Semmit ne tegyen"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1117,6 +1153,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="%s hiba a natív kódban '%s' olvasása közben"/>
 		<node name="errorReadingFile" value="Hiba történt olvasás közben: '%s'"/>
 		<node name="errorReadingZip" value="Hiba történt a kicsomagoláskor: '%s'"/>
@@ -1273,5 +1310,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

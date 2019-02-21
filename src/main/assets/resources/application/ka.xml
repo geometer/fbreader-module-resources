@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Georgian FBReaderJ resources, by Zurab Sebiskveradze, George Zautashvili -->
 <resources>
 	<node name="library" value="FBReader: ბიბლიოთეკა">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="კალათიდან წაშლა"/>
 		<node name="openBasket" value="კალათა"/>
 		<node name="clearBasket" value="კალათის გასუფთავება"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="ყველა წიგნის ყიდვა"/>
 		<node name="openInBrowser" value="ბრაუზერში გახსნა"/>
 		<node name="stopLoading" value="გადმოწერის შეჩერება"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="ამოირჩიეთ ქმედება"/>
 		<node name="topupSummary" value="მიმდინარე ანგარიში: %s"/>
 		<node name="basket" value="კალათა"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="ცარიელი კალათა"/>
 		<node name="basketSummaryCountOnly" value="%0 წიგნების">
 			<node condition="modrange 11 19 100" value="%0 წიგნების"/>
@@ -187,6 +192,7 @@
 			<node name="refreshCatalogsList" value="კატალოგის განახლება"/>
 			<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true"/>
 			<node name="clearBasket" value="კალათის გასუფთავება"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="ყველა წიგნის ყიდვა"/>
 		</node>
 	</node>
@@ -308,6 +314,7 @@
 		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
 		<node name="preferences" value="პარამეტრები"/>
 		<node name="bookInfo" value="წიგნის შესახებ"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="ბიბლიოთეკა"/>
 		<node name="toc" value="სარჩევი"/>
 		<node name="day" value="დღე"/>
@@ -660,6 +667,7 @@
 				<node name="showAsFooterOldStyle" value="Horizontal footer (old style)" toBeTranslated="true"/>
 			</node>
 			<node name="footerHeight" value="სარდაფის სიმაღლე"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Footer (old style) colour" toBeTranslated="true"/>
 			<node name="footerBackgroundColor" value="Footer background colour" toBeTranslated="true"/>
 			<node name="footerForegroundColor" value="Footer text colour" toBeTranslated="true"/>
@@ -850,6 +858,34 @@
 				<node name="goBack" value="ლინკზე დაბრუნება"/>
 				<node name="cancelMenu" value="ქმედებების ჩამონათვალის ჩვენება"/>
 				<node name="none" value="არაფრის გაკეთება"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1132,6 +1168,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'" toBeTranslated="true"/>
 		<node name="errorReadingFile" value="შეცდომა '%s'-ს კითხვისას"/>
 		<node name="errorReadingZip" value="შეცდომა '%s'-ს განარქივებისას"/>
@@ -1288,5 +1325,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

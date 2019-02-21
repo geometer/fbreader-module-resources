@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Turkish FBReaderJ resources, by jericho 1200 -->
 <resources>
 	<node name="library" value="FBReader Kitaplığı">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="Sepetten çıkar"/>
 		<node name="openBasket" value="Sepete git"/>
 		<node name="clearBasket" value="Sepeti temizle"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Hepsini satın al"/>
 		<node name="openInBrowser" value="Tarayıcıda aç"/>
 		<node name="stopLoading" value="Yüklemeyi durdur"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="Eylem seç"/>
 		<node name="topupSummary" value="Şu anda: %s"/>
 		<node name="basket" value="Sepet"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="Kitap yok"/>
 		<node name="basketSummaryCountOnly" value="%0 kitap">
 			<node condition="value 1" value="%0 kitap"/>
@@ -183,6 +188,7 @@
 			<node name="refreshCatalogsList" value="Katalogları yenile"/>
 			<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true"/>
 			<node name="clearBasket" value="Sepeti temizle"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Tüm kitapları satın al"/>
 		</node>
 	</node>
@@ -303,6 +309,7 @@
 		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
 		<node name="preferences" value="Ayarlar"/>
 		<node name="bookInfo" value="Kitabın künyesi"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="Kitaplık"/>
 		<node name="toc" value="İçindekiler"/>
 		<node name="day" value="Gündüz"/>
@@ -655,6 +662,7 @@
 				<node name="showAsFooterOldStyle" value="Horizontal footer (old style)" toBeTranslated="true"/>
 			</node>
 			<node name="footerHeight" value="Altbilgi yüksekliği"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Footer (old style) colour" toBeTranslated="true"/>
 			<node name="footerBackgroundColor" value="Footer background colour" toBeTranslated="true"/>
 			<node name="footerForegroundColor" value="Footer text colour" toBeTranslated="true"/>
@@ -845,6 +853,34 @@
 				<node name="goBack" value="Geri dön"/>
 				<node name="cancelMenu" value="Çıkış menüsünü göster"/>
 				<node name="none" value="Eylemsiz"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1127,6 +1163,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'" toBeTranslated="true"/>
 		<node name="errorReadingFile" value="'%s' okunurken hata oluştu"/>
 		<node name="errorReadingZip" value="'%s' çıkarılırken hata oluştu"/>
@@ -1283,6 +1320,10 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 	<node name="dictionary">
 		<node name="Yandex.Translate" value="Yandex.Çeviri"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Vietnamese FBReaderJ resources, by Phạm Văn Hùng_Firestork -->
 <!-- Updated by Khánh Nguyễn Quốc, 8 May 2015 -->
 <resources>
@@ -121,6 +121,10 @@
 		<node name="removeFromBasket" value="Bỏ khỏi giỏ"/>
 		<node name="openBasket" value="Open basket" toBeTranslated="true"/>
 		<node name="clearBasket" value="Clear basket" toBeTranslated="true"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="Buy all books" toBeTranslated="true"/>
 		<node name="openInBrowser" value="Mở trình duyệt"/>
 		<node name="stopLoading" value="Dừng tải"/>
@@ -135,6 +139,7 @@
 		<node name="authorisationMenuTitle" value="Select action" toBeTranslated="true"/>
 		<node name="topupSummary" value="Hiện tại: %s"/>
 		<node name="basket" value="Basket" toBeTranslated="true"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="No books" toBeTranslated="true"/>
 		<node name="basketSummaryCountOnly" value="%0 books" toBeTranslated="true"/>
 		<node name="basketSummary" value="%0 book(s) (%1)"/>
@@ -180,6 +185,7 @@
 			<node name="refreshCatalogsList" value="Tải lại các catalo"/>
 			<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true"/>
 			<node name="clearBasket" value="Clear basket" toBeTranslated="true"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Buy all books" toBeTranslated="true"/>
 		</node>
 	</node>
@@ -294,6 +300,7 @@
 		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
 		<node name="preferences" value="Cài đặt"/>
 		<node name="bookInfo" value="Thông tin sách"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="Thư viện"/>
 		<node name="toc" value="Mục lục"/>
 		<node name="day" value="Sáng"/>
@@ -646,6 +653,7 @@
 				<node name="showAsFooterOldStyle" value="Horizontal footer (old style)" toBeTranslated="true"/>
 			</node>
 			<node name="footerHeight" value="Chiều cao của cuối trang"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Footer (old style) colour" toBeTranslated="true"/>
 			<node name="footerBackgroundColor" value="Footer background colour" toBeTranslated="true"/>
 			<node name="footerForegroundColor" value="Footer text colour" toBeTranslated="true"/>
@@ -836,6 +844,34 @@
 				<node name="goBack" value="Trở lại"/>
 				<node name="cancelMenu" value="Hiện 'Lệnh Hủy'"/>
 				<node name="none" value="Không làm gì"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1118,6 +1154,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'" toBeTranslated="true"/>
 		<node name="errorReadingFile" value="Error occured while reading '%s'" toBeTranslated="true"/>
 		<node name="errorReadingZip" value="Error occured while extracting '%s'" toBeTranslated="true"/>
@@ -1274,5 +1311,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Chinese FBReaderJ resources, by http://shucang.com/ -->
 <resources>
 	<node name="library" value="FBReader 书库">
@@ -120,6 +120,10 @@
 		<node name="removeFromBasket" value="从购物篮中删除"/>
 		<node name="openBasket" value="打开购物篮"/>
 		<node name="clearBasket" value="清空购物篮"/>
+		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
+		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
+		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
+		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 		<node name="buyAllBooks" value="购买所有书籍"/>
 		<node name="openInBrowser" value="在浏览器中打开"/>
 		<node name="stopLoading" value="停止加载"/>
@@ -134,6 +138,7 @@
 		<node name="authorisationMenuTitle" value="选择操作"/>
 		<node name="topupSummary" value="当前: %s"/>
 		<node name="basket" value="购物篮"/>
+		<node name="liked" value="Favourites" toBeTranslated="true"/>
 		<node name="basketSummaryEmpty" value="没有书籍"/>
 		<node name="basketSummaryCountOnly" value="%0 本书"/>
 		<node name="basketSummary" value="%0 本书 (%1)"/>
@@ -179,6 +184,7 @@
 			<node name="refreshCatalogsList" value="刷新书库"/>
 			<node name="manageCatalogs" value="管理书库"/>
 			<node name="clearBasket" value="清空购物篮"/>
+			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="购买所有图书"/>
 		</node>
 	</node>
@@ -293,6 +299,7 @@
 		<node name="openStartScreen" value="开始屏幕"/>
 		<node name="preferences" value="阅读相关设置"/>
 		<node name="bookInfo" value="书籍信息"/>
+		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
 		<node name="library" value="本地书柜"/>
 		<node name="toc" value="本书目录"/>
 		<node name="day" value="白底黑字"/>
@@ -645,6 +652,7 @@
 				<node name="showAsFooterOldStyle" value="水平页脚 (旧样式)"/>
 			</node>
 			<node name="footerHeight" value="页脚高度"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="页脚 (旧样式) 颜色"/>
 			<node name="footerBackgroundColor" value="页脚背景颜色"/>
 			<node name="footerForegroundColor" value="页脚文本颜色"/>
@@ -835,6 +843,34 @@
 				<node name="goBack" value="后退到前一个界面"/>
 				<node name="cancelMenu" value="显示取消菜单"/>
 				<node name="none" value="不做任何事"/>
+			</node>
+		</node>
+		<node name="tts" value="Text to speech" toBeTranslated="true">
+			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+			</node>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
+				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			</node>
+			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
+			<node name="byWords" value="Read by word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
+				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
+				<node name="summaryOff" value="No" toBeTranslated="true"/>
 			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
@@ -1117,6 +1153,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
+		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
 		<node name="nativeCodeFailure" value="原生代码错误 %s, 阅读 '%s' 时"/>
 		<node name="errorReadingFile" value="读取 '%s' 时发生错误"/>
 		<node name="errorReadingZip" value="解压 '%s' 时发生错误"/>
@@ -1273,5 +1310,9 @@
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>
 		<node name="syncServerFailure" value="Server connection failure. Please try again later" toBeTranslated="true"/>
+	</node>
+	<node name="bookDownloadNotification">
+		<node name="title" value="FBReader" toBeTranslated="true"/>
+		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
 	</node>
 </resources>
