@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- FBReaderJ, Traditional Chinese, by Fung.T -->
 <resources>
 	<node name="dialog">
 		<node name="button">
@@ -7,23 +6,23 @@
 			<node name="cancel" value="取消"/>
 			<node name="yes" value="是"/>
 			<node name="no" value="否"/>
-			<node name="apply" value="實施"/>
+			<node name="apply" value="應用"/>
 		</node>
 		<node name="networkError">
-			<node name="title" value="網絡錯誤"/>
+			<node name="title" value="網路錯誤"/>
 			<node name="unknownErrorMessage" value="未知錯誤"/>
-			<node name="operationTimedOutMessage" value="操作逾時"/>
-			<node name="somethingWrongMessage" value="出錯&#10;%s"/>
-			<node name="couldntCreateDirectoryMessage" value="無法創建目錄&#10;%s"/>
-			<node name="couldntCreateFileMessage" value="無法創建檔案&#10;%s"/>
-			<node name="couldntConnectMessage" value="無法連接主機"/>
-			<node name="couldntResolveHostMessage" value="無法解析主機&#10;%s"/>
-			<node name="authenticationFailed" value="驗證失敗"/>
-			<node name="unsupportedProtocol" value="未支授的協議"/>
-			<node name="invalidURL" value="網址無效"/>
-			<node name="hostCantBeReached" value="未能連接主機 %s&#10;"/>
-			<node name="connectionRefused" value="連接被拒 &#10;%s"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
+			<node name="operationTimedOutMessage" value="操作超時"/>
+			<node name="somethingWrongMessage" value="%s出了問題"/>
+			<node name="couldntCreateDirectoryMessage" value="創建目錄%s失敗"/>
+			<node name="couldntCreateFileMessage" value="創建檔%s失敗"/>
+			<node name="couldntConnectMessage" value="連接到主機%s失敗"/>
+			<node name="couldntResolveHostMessage" value="未能解析主機%s"/>
+			<node name="authenticationFailed" value="身份驗證失敗"/>
+			<node name="unsupportedProtocol" value="不受支持的協議"/>
+			<node name="invalidURL" value="無效網址"/>
+			<node name="hostCantBeReached" value="無法訪問主機%s"/>
+			<node name="connectionRefused" value="連接被%s拒絕"/>
+			<node name="networkNotAvailable" value="網路不可用"/>
 		</node>
 	</node>
 	<node name="color">
@@ -32,59 +31,59 @@
 		<node name="blue" value="藍色"/>
 	</node>
 	<node name="language">
-		<node name="ar" value="Arabic" toBeTranslated="true"/>
-		<node name="be" value="Belarusian" toBeTranslated="true"/>
-		<node name="bg" value="Bulgarian" toBeTranslated="true"/>
-		<node name="ca" value="Catalan" toBeTranslated="true"/>
-		<node name="cs" value="Czech" toBeTranslated="true"/>
-		<node name="da" value="Danish" toBeTranslated="true"/>
-		<node name="de" value="German" toBeTranslated="true"/>
-		<node name="de-traditional" value="German (traditional orthography)"/>
-		<node name="el" value="Greek" toBeTranslated="true"/>
-		<node name="en" value="English" toBeTranslated="true"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
-		<node name="eo" value="Esperanto" toBeTranslated="true"/>
-		<node name="es" value="Spanish" toBeTranslated="true"/>
-		<node name="eu" value="Basque" toBeTranslated="true"/>
-		<node name="fa" value="Persian" toBeTranslated="true"/>
-		<node name="fi" value="Finnish" toBeTranslated="true"/>
-		<node name="fr" value="French" toBeTranslated="true"/>
-		<node name="gl" value="Galician" toBeTranslated="true"/>
-		<node name="he" value="Hebrew" toBeTranslated="true"/>
-		<node name="hu" value="Hungarian" toBeTranslated="true"/>
-		<node name="hy" value="Armenian" toBeTranslated="true"/>
-		<node name="id" value="Indonesian" toBeTranslated="true"/>
-		<node name="it" value="Italian" toBeTranslated="true"/>
-		<node name="ja" value="Japanese" toBeTranslated="true"/>
-		<node name="ka" value="Georgian" toBeTranslated="true"/>
-		<node name="ko" value="Korean" toBeTranslated="true"/>
-		<node name="lt" value="Lithuanian" toBeTranslated="true"/>
-		<node name="nb" value="Norwegian" toBeTranslated="true"/>
-		<node name="nl" value="Dutch" toBeTranslated="true"/>
-		<node name="pl" value="Polish" toBeTranslated="true"/>
-		<node name="pt" value="Portuguese" toBeTranslated="true"/>
-		<node name="ro" value="Romanian" toBeTranslated="true"/>
-		<node name="ru" value="Russian" toBeTranslated="true"/>
-		<node name="sr" value="Serbian" toBeTranslated="true"/>
-		<node name="sv" value="Swedish" toBeTranslated="true"/>
-		<node name="ta" value="Tamil" toBeTranslated="true"/>
-		<node name="th" value="Thai" toBeTranslated="true"/>
-		<node name="tr" value="Turkish" toBeTranslated="true"/>
-		<node name="uk" value="Ukrainian" toBeTranslated="true"/>
-		<node name="vi" value="Vietnamese" toBeTranslated="true"/>
-		<node name="zh" value="中文"/>
-		<node name="zh_TW" value="Chinese (traditional)" toBeTranslated="true"/>
-		<node name="any" value="Any" toBeTranslated="true"/>
+		<node name="ar" value="阿拉伯語"/>
+		<node name="be" value="白俄羅斯語"/>
+		<node name="bg" value="保加利亞語"/>
+		<node name="ca" value="加泰羅尼亞語"/>
+		<node name="cs" value="捷克語"/>
+		<node name="da" value="丹麥語"/>
+		<node name="de" value="德語"/>
+		<node name="de-traditional" value="德語(傳統拼寫)"/>
+		<node name="el" value="希臘語"/>
+		<node name="en" value="英語"/>
+		<node name="en_US" value="英語(美國)"/>
+		<node name="eo" value="世界語"/>
+		<node name="es" value="西班牙語"/>
+		<node name="eu" value="巴斯克語"/>
+		<node name="fa" value="波斯語"/>
+		<node name="fi" value="芬蘭語"/>
+		<node name="fr" value="法語"/>
+		<node name="gl" value="加利西亞語"/>
+		<node name="he" value="希伯來語"/>
+		<node name="hu" value="匈牙利語"/>
+		<node name="hy" value="亞美尼亞語"/>
+		<node name="id" value="印尼語"/>
+		<node name="it" value="義大利語"/>
+		<node name="ja" value="日本語"/>
+		<node name="ka" value="格魯吉亞語"/>
+		<node name="ko" value="韓國語"/>
+		<node name="lt" value="立陶宛語"/>
+		<node name="nb" value="挪威語"/>
+		<node name="nl" value="荷蘭語"/>
+		<node name="pl" value="波蘭語"/>
+		<node name="pt" value="葡萄牙語"/>
+		<node name="ro" value="羅馬尼亞語"/>
+		<node name="ru" value="俄語"/>
+		<node name="sr" value="塞爾維亞語"/>
+		<node name="sv" value="瑞典語"/>
+		<node name="ta" value="泰米爾語"/>
+		<node name="th" value="泰語"/>
+		<node name="tr" value="土耳其語"/>
+		<node name="uk" value="烏克蘭語"/>
+		<node name="vi" value="越南語"/>
+		<node name="zh" value="漢語"/>
+		<node name="zh_TW" value="漢語(繁體)"/>
+		<node name="any" value="任何"/>
 		<node name="other" value="其他"/>
-		<node name="multi" value="多種語言"/>
-		<node name="system" value="System" toBeTranslated="true"/>
+		<node name="multi" value="多語言"/>
+		<node name="system" value="系統"/>
 	</node>
 	<node name="boolean3">
 		<node name="on" value="開"/>
 		<node name="off" value="關"/>
-		<node name="unchanged" value="不變"/>
+		<node name="unchanged" value="未改變"/>
 	</node>
 	<node name="keyOptionView">
-		<node name="actionFor" value="按鍵動作"/>
+		<node name="actionFor" value="按鍵操作"/>
 	</node>
 </resources>
