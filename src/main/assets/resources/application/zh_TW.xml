@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Chinese (Traditional) FBReaderJ resources -->
+<!-- Chinese (Traditional) FBReaderJ resources, by He Zhihong (何志鸿) -->
 <resources>
 	<node name="library" value="FBReader書庫">
 		<node name="unknownAuthor" value="未知作者"/>
@@ -24,9 +24,9 @@
 			<node name="summary" value="我收藏的書籍"/>
 		</node>
 		<node name="chooseView" value="選擇視圖"/>
-		<node name="wideCardsView" value="寬的卡片"/>
-		<node name="smallCardsView" value="小的卡片"/>
-		<node name="tinyCardsView" value="微小卡片"/>
+		<node name="wideCardsView" value="寬型卡片"/>
+		<node name="smallCardsView" value="小型卡片"/>
+		<node name="tinyCardsView" value="微型卡片"/>
 		<node name="coversView" value="封面"/>
 		<node name="oldView" value="經典"/>
 		<node name="bookshelfView" value="書架視圖">
@@ -884,8 +884,8 @@
 			</node>
 		</node>
 		<node name="twitter" value="Twitter集成">
-			<node name="summary" value="如何從FBReader發微博"/>
-			<node name="enableTwitter" value="啟用微博">
+			<node name="summary" value="如何從FBReader發推文"/>
+			<node name="enableTwitter" value="啟用推文">
 				<node name="summaryOn" value="在書籍的末尾顯示twitter鏈接"/>
 				<node name="summaryOff" value="不顯示twitter鏈接"/>
 			</node>
@@ -987,7 +987,7 @@
 			<node name="markAsRead" value="標記已讀"/>
 			<node name="markAsUnread" value="標記未讀"/>
 			<node name="plugin" value="插件"/>
-			<node name="premium" value="高級"/>
+			<node name="premium" value="高級版"/>
 			<node name="clear" value="清除"/>
 		</node>
 		<node name="gotoPage" value="進入頁面"/>
@@ -1284,8 +1284,8 @@
 		<node name="noDictionarySelected" value="字典沒有選取;請調整Dictan設置"/>
 	</node>
 	<node name="premium" value="FBReader高級版">
-		<node name="shortTitle" value="FBReader高級"/>
-		<node name="conflict" value="FBReader和FBReader高級似乎都已安裝。您想運行哪一個?"/>
+		<node name="shortTitle" value="FBReader高級版"/>
+		<node name="conflict" value="FBReader和FBReader高級版似乎都已安裝。您想運行哪一個?"/>
 	</node>
 	<node name="widget">
 		<node name="simple">
