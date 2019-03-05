@@ -1212,11 +1212,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="エラー %s がネイティブコードで ('%s' を読み込み中に) 発生"/>
-		<node name="errorReadingFile" value="'%s' を読み込み中にエラーが発生"/>
-		<node name="errorReadingZip" value="'%s' を展開中にエラー発生"/>
-		<node name="pluginNotFound" value="形式 '%s' 用プラグインがありません"/>
-		<node name="unknownPluginType" value="不明なプラグイン形式: %s"/>
 		<node name="fileNotFound" value="ファイルがありません: %s"/>
 		<node name="unsupportedEncryptionMethod" value="ファイル %s は FBReader の対応しない方式で暗号化されています。読めないページがあります"/>
 		<node name="opfFileNotFound" value="OPF が %s にありません"/>
@@ -1248,10 +1243,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FBReader の問題"/>
 			<node name="text" value="FBReader のキャッシュディレクトリに書き込みアクセスができません。メモリカードを入れ忘れているか、アンマウントしているかもしれません。この問題を解決するか、別のディレクトリを指定してください"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FBReader の問題"/>
-			<node name="text" value="FBReader がネイティブライブラリを読み込めません。適切にインストールされていないのかもしれません。問題が続くようであれば、FBReader を再インストールしてみてください"/>
 		</node>
 	</node>
 	<node name="error">

@@ -1163,11 +1163,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'" toBeTranslated="true"/>
-		<node name="errorReadingFile" value="Der opstod en fejl under indlæsning af '%s'"/>
-		<node name="errorReadingZip" value="Der opstod en fejl under udpakning af '%s'"/>
-		<node name="pluginNotFound" value="Ingen plugin for '%s'"/>
-		<node name="unknownPluginType" value="Ukendt plugin-type  %s"/>
 		<node name="fileNotFound" value="Filen blev ikke fundet: %s"/>
 		<node name="unsupportedEncryptionMethod" value="File %s encryption method is not supported by FBReader. Some pages are not readable" toBeTranslated="true"/>
 		<node name="opfFileNotFound" value="OPF blev ikke fundet i %s"/>
@@ -1199,10 +1194,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FB-Læser problem"/>
 			<node name="text" value="Cannot write to FBReader cache. Please check that your memory card is inserted correctly, or select another directory." toBeTranslated="true"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FB-Læser problem"/>
-			<node name="text" value="FB-Læser kan ikke indlæse eget bibliotek. Måske er det ikke korrekt installeret. Hvis problemet fortsætter, bedes du prøve at geninstallere FB-Læser."/>
 		</node>
 	</node>
 	<node name="error">

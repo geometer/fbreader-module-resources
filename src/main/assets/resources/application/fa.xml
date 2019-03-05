@@ -1163,11 +1163,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="خطا %s در کد محلی در طول خواندن '%s'"/>
-		<node name="errorReadingFile" value="هنگام خواندن '%s' خطایی رخ داده است"/>
-		<node name="errorReadingZip" value="درهنگام استخراج '%s' خطایی رخ داده است"/>
-		<node name="pluginNotFound" value="پلاگینی وجود ندارد برای '%s'"/>
-		<node name="unknownPluginType" value="نوع پلاگین ناشناخته است: %s"/>
 		<node name="fileNotFound" value="فایل پیدا نشد: %s"/>
 		<node name="unsupportedEncryptionMethod" value="فایل %s با روشی که توسط اف بی ریدر پشتیبانی نمی گردد رمزگذاری شده است. بعضی از صفحات قابل خواندن نیست"/>
 		<node name="opfFileNotFound" value="OPF در %s پیدا نشد"/>
@@ -1199,10 +1194,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="مشکل اف بی ریدر"/>
 			<node name="text" value="Cannot write to FBReader cache. Please check that your memory card is inserted correctly, or select another directory." toBeTranslated="true"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="خطای اف بی ریدر"/>
-			<node name="text" value="اف بی ریدر نمیتواند کتابخانه محلی را بارگذاری کند. ممکن است نصب نشده باشد. اگر مشکل حل نشد برنامه را دوباره نصب کنید"/>
 		</node>
 	</node>
 	<node name="error">

@@ -1164,11 +1164,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Памылка %s у кодзе падчас чытання «%s»"/>
-		<node name="errorReadingFile" value="Адбылася памылка падчас чытання «%s»"/>
-		<node name="errorReadingZip" value="Адбылася памылка падчас вымання «%s»"/>
-		<node name="pluginNotFound" value="Няма ўбудовы для '%s'"/>
-		<node name="unknownPluginType" value="Невядомы тып убудовы: %s"/>
 		<node name="fileNotFound" value="Файл не знойдзены: %s"/>
 		<node name="unsupportedEncryptionMethod" value="Файл «%s» зашыфраваны спосабам, які не падтрымлівае FBReader. Некаторыя старонкі нечытальныя"/>
 		<node name="opfFileNotFound" value="OPF не знойдзены ў %s"/>
@@ -1200,10 +1195,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="Праблема FBReader"/>
 			<node name="text" value="Запіс у кэш FBReader. Калі ласка, пераканайцеся, што картка памяці ўстаўлена правільна, альбо абярыце іншы каталог."/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="Праблема FBReader"/>
-			<node name="text" value="FBReader не можа загрузіць родную бібліятэку. Калі праблема застаецца, калі ласка, паспрабуйце пераўсталяваць FBReader."/>
 		</node>
 	</node>
 	<node name="error">

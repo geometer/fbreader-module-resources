@@ -1169,11 +1169,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Fehler %s während des Lesens von '%s'"/>
-		<node name="errorReadingFile" value="Fehler beim Lesen von '%s'"/>
-		<node name="errorReadingZip" value="Fehler beim Entpacken von '%s'"/>
-		<node name="pluginNotFound" value="Kein Plugin für '%s'"/>
-		<node name="unknownPluginType" value="Unbekannter Plugin-Typ: %s"/>
 		<node name="fileNotFound" value="Datei nicht gefunden: %s"/>
 		<node name="unsupportedEncryptionMethod" value="Die Verschlüsselung der Datei %s wird von FBReader nicht unterstützt. Einige Seiten können nicht gelesen werden."/>
 		<node name="opfFileNotFound" value="OPF in %s nicht gefunden"/>
@@ -1205,10 +1200,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FBReader Problem"/>
 			<node name="text" value="Auf das FBReader Cache-Verzeichnis kann nicht schreibend zugegriffen werden. Möglicherweise haben sie ihre Speicherkarte entfernt oder sie ist nicht im Zugriff des Android-Systems. Bitte beheben sie das Problem oder geben Sie unten einen anderen Verzeichnisnamen ein."/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FBReader Problem"/>
-			<node name="text" value="FBReader kann die eigene Bibliothek nicht laden. Möglicherweise ist sie nicht korrekt installiert. Wenn das Problem weiterhin besteht, versuchen Sie bitte FBreader neu zu installieren."/>
 		</node>
 	</node>
 	<node name="error">

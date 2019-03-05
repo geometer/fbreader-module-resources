@@ -1157,11 +1157,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Eroare %s în codulul nativ în timpul lecturii '%s'"/>
-		<node name="errorReadingFile" value="A apărut o eroare în timpul citirii '%s'"/>
-		<node name="errorReadingZip" value="A apărut o eroare în timpul extragerii '%s'"/>
-		<node name="pluginNotFound" value="Nu este plugin pentru '%s'"/>
-		<node name="unknownPluginType" value="Tip plugin necunoscut: %s"/>
 		<node name="fileNotFound" value="Fișierul nu a fost gasit: %s"/>
 		<node name="unsupportedEncryptionMethod" value="Fișierul %s este criptat cu o metodă nesuportată de FBReader. Unele pagini nu pot fi citite"/>
 		<node name="opfFileNotFound" value="OPF nu se gaseste în %s"/>
@@ -1193,10 +1188,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="Eroare în aplicatie"/>
 			<node name="text" value="Directorul cache pentru aplicație nu este accesibil pentru scriere. Poate ați uitat să introduceți cardul de memorie. Vă rugăm să rezolvați această problemă sau selectați un alt director."/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="Problemă în aplicatie"/>
-			<node name="text" value="Aplicatia nu gaseste librăriile native. Poate nu a fost instalaă corect. Daca erorare persistă, va rugăm reinstalați aplicația"/>
 		</node>
 	</node>
 	<node name="error">

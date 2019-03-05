@@ -1170,11 +1170,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Грешка %s в кода по време на четене '%s'"/>
-		<node name="errorReadingFile" value="Грешка при четенето на '%s'"/>
-		<node name="errorReadingZip" value="Грешка при разархивирането на '%s'"/>
-		<node name="pluginNotFound" value="Няма плъгин за '%s'"/>
-		<node name="unknownPluginType" value="Неизвестен тип плъгин: %s"/>
 		<node name="fileNotFound" value="Липсващ файл: %s"/>
 		<node name="unsupportedEncryptionMethod" value="Файл %s е криптиран с метод, който не е поддържан от FBReader. Някои страници са нечетими"/>
 		<node name="opfFileNotFound" value="OPF файлът не е намерен в %s"/>
@@ -1206,10 +1201,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="Проблем с FBReader"/>
 			<node name="text" value="Кешовата директория на FBReader е недостъпна за запис. Може би сте забравили да поставите карта или да изключите от компютъра. Моля оправете го или изберете друга директория."/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="Проблем с FBReader"/>
-			<node name="text" value="FBReader библиотеката не може да се зареди. Вероятно FBReader не е инсталиран правилно. Ако съобщението не спре да се появява, преинсталирайте FBReader."/>
 		</node>
 	</node>
 	<node name="error">

@@ -1169,11 +1169,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'" toBeTranslated="true"/>
-		<node name="errorReadingFile" value="შეცდომა '%s'-ს კითხვისას"/>
-		<node name="errorReadingZip" value="შეცდომა '%s'-ს განარქივებისას"/>
-		<node name="pluginNotFound" value="ვერ მოიძებნა პლაგინი '%s'-სთვის"/>
-		<node name="unknownPluginType" value="უცნობი ტიპის პლაგინი: %s"/>
 		<node name="fileNotFound" value="არ მოიძებნა ფაილი: %s"/>
 		<node name="unsupportedEncryptionMethod" value="File %s encryption method is not supported by FBReader. Some pages are not readable" toBeTranslated="true"/>
 		<node name="opfFileNotFound" value="არ მოიძებნა OPF %s-ში"/>
@@ -1205,10 +1200,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FBReader-ის პრობლემა"/>
 			<node name="text" value="Cannot write to FBReader cache. Please check that your memory card is inserted correctly, or select another directory." toBeTranslated="true"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FBReader-ის პრობლემა"/>
-			<node name="text" value="ვერ ხერხდება ადგილობრივი ბიბლიოთეკის ჩატვირთვა. შეიძლება, FBReader არასწორედ არის დაყენებული. თუ ეს შეტყობინება მეორდება ყოველი გახსნის მცდელობისას, მაშინ სცადეთ გადააყენოთ FBReader ახლიდან."/>
 		</node>
 	</node>
 	<node name="error">

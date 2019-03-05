@@ -1164,11 +1164,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Fout %s in native code tijden lezen van '%s'"/>
-		<node name="errorReadingFile" value="Fout tijdens lezen van '%s'"/>
-		<node name="errorReadingZip" value="Fout tijdens uitpakken '%s'"/>
-		<node name="pluginNotFound" value="Geen plug-in voor '%s'"/>
-		<node name="unknownPluginType" value="Onbekend plug-in type: %s"/>
 		<node name="fileNotFound" value="Bestand niet gevonden: %s"/>
 		<node name="unsupportedEncryptionMethod" value="Bestand %s is versleuteld met een methode die niet ondersteund wordt door FBReader. Sommige pagina's zijn niet leesbaar"/>
 		<node name="opfFileNotFound" value="OPF is niet gevonden in %s"/>
@@ -1200,10 +1195,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FBReader probleem"/>
 			<node name="text" value="In de FBReader cache directory kan niet geschreven worden. Mogelijk ben je de geheugenkaart vergeten te plaatsen. Los dit probleem op of selecteer een andere map."/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FBReader probleem"/>
-			<node name="text" value="FBReader kan de native library niet laden. Het is waarschijnlijk niet goed geïnstalleerd. Als dit probleem blijft bestaan, probeer dan FBReader opnieuw te installeren."/>
 		</node>
 	</node>
 	<node name="error">

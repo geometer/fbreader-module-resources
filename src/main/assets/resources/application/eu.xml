@@ -1164,11 +1164,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="%s errorea jatorrizko kodean '%s' irakurtzerakoan"/>
-		<node name="errorReadingFile" value="Errorea gertatu da '%s' irakurtzerakoan"/>
-		<node name="errorReadingZip" value="Errorea gertatu da '%s' ateratzerakoan"/>
-		<node name="pluginNotFound" value="Ez dago pluginik '%s'(e)rako"/>
-		<node name="unknownPluginType" value="Plugin mota ezezaguna: %s"/>
 		<node name="fileNotFound" value="Fitxategia ez da aurkitu: %s"/>
 		<node name="unsupportedEncryptionMethod" value="FBReaderrek ez du onartzen %s fitxategiaren enkriptatze-metodoa. Orri batzuk ezin daitezke irakurri"/>
 		<node name="opfFileNotFound" value="Ezin da OPF aurkitu %s(e)n"/>
@@ -1200,10 +1195,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FBReader arazoa"/>
 			<node name="text" value="Ezin da idatzi FBReaderren cachean. Egiaztatu memoria-txartela egoki txertatuta dagoen edo beste direktorioren bat aukeratu."/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FBReader arazoa"/>
-			<node name="text" value="FBReaderrek ezin du kargatu jatorrizko liburutegia. Arazoa konpontzen ez bada instalatu berriro FBReader"/>
 		</node>
 	</node>
 	<node name="error">

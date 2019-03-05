@@ -1170,11 +1170,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Error %s en el código nativo al leer '%s'"/>
-		<node name="errorReadingFile" value="Se produjo un error durante la lectura de '%s'"/>
-		<node name="errorReadingZip" value="Se produjo un error durante la extracción de '%s'"/>
-		<node name="pluginNotFound" value="No hay plugin para '%s'"/>
-		<node name="unknownPluginType" value="Tipo desconocido de plugin: %s"/>
 		<node name="fileNotFound" value="No se encuentra el archivo: %s"/>
 		<node name="unsupportedEncryptionMethod" value="La encriptción del archivo %s no está soportada por FBReader. Algunas páginas no son legibles"/>
 		<node name="opfFileNotFound" value="OPF no se encuentra en %s"/>
@@ -1206,10 +1201,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="Problema de FBReader"/>
 			<node name="text" value="No se ha podido escribir en el caché de FBReader. Por favor, compruebe que su tarjeta de memoria está insertada correctamente, o seleccione otro directorio."/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="Problema de FBReader"/>
-			<node name="text" value="FBReader no puede cargar la biblioteca nativa. Tal vez no está instalada correctamente. Si el problema persiste, por favor, intente reinstalar FBReader."/>
 		</node>
 	</node>
 	<node name="error">

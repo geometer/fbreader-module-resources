@@ -1164,11 +1164,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="不能打开“%s”"/>
-		<node name="nativeCodeFailure" value="读取“%s”时本地代码中的错误%s"/>
-		<node name="errorReadingFile" value="读取“%s”时出错"/>
-		<node name="errorReadingZip" value="提取“%s”时出错"/>
-		<node name="pluginNotFound" value="没有“%s”的插件"/>
-		<node name="unknownPluginType" value="未知插件类型:%s"/>
 		<node name="fileNotFound" value="文件未找到:%s"/>
 		<node name="unsupportedEncryptionMethod" value="FBReader不支持文件%s加密方法。有些页面是不可读的"/>
 		<node name="opfFileNotFound" value="OPF在%s中不存在"/>
@@ -1200,10 +1195,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FBReader问题"/>
 			<node name="text" value="无法写入FBReader缓存。请检查您的存储卡是否正确插入，或者选择另一个目录。"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FBReader问题"/>
-			<node name="text" value="FBReader无法加载本机书库。如果问题仍然存在，请重新安装FBReader。"/>
 		</node>
 	</node>
 	<node name="error">

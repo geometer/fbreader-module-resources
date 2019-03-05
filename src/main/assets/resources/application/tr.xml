@@ -1164,11 +1164,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'" toBeTranslated="true"/>
-		<node name="errorReadingFile" value="'%s' okunurken hata oluştu"/>
-		<node name="errorReadingZip" value="'%s' çıkarılırken hata oluştu"/>
-		<node name="pluginNotFound" value="'%s' eklentisi yok"/>
-		<node name="unknownPluginType" value="Bilinmeyen eklenti tipi: %s"/>
 		<node name="fileNotFound" value="Dosya bulunamadı: %s"/>
 		<node name="unsupportedEncryptionMethod" value="File %s encryption method is not supported by FBReader. Some pages are not readable" toBeTranslated="true"/>
 		<node name="opfFileNotFound" value="OPF %s\'de bulunamadı"/>
@@ -1200,10 +1195,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FBReader sorunu"/>
 			<node name="text" value="Cannot write to FBReader cache. Please check that your memory card is inserted correctly, or select another directory." toBeTranslated="true"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FBReader sorunu"/>
-			<node name="text" value="FBReader yerel kitaplığı yükleyemedi. Yükleme sırasında hata oluşmuş olabilir. Sorun devam ederse FBReader\'i yeniden yüklemeyi deneyin."/>
 		</node>
 	</node>
 	<node name="error">

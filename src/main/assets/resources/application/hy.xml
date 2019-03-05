@@ -1171,11 +1171,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Սխալ %s առաջնային այլագրում՝ %s-ը կարդալիս"/>
-		<node name="errorReadingFile" value="Սխալ՝ %s-ը կարդալիս"/>
-		<node name="errorReadingZip" value="Սխալ՝ %s-ը ապապահարկելիս"/>
-		<node name="pluginNotFound" value="%s-ի համար խրվակ չկա"/>
-		<node name="unknownPluginType" value="%s խրվակի անհայտ տեսակ"/>
 		<node name="fileNotFound" value="%s նիշքը չգտնվեց"/>
 		<node name="unsupportedEncryptionMethod" value="%s նիշքն այլագրված է FBReader-ին անհայտ եղանակով։ Որոշ էջեր կամ գիրքն ամբողջությամբ չի ընթերցվի։"/>
 		<node name="opfFileNotFound" value="%s-ում OPF չգտնվեց"/>
@@ -1207,10 +1202,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="Խնդիր FBReader-ում"/>
 			<node name="text" value="FBReader-ը չի կարող պահել ժամանակավոր նիշքերը. հավանաբար մոռացել եք տեղադրել հիշողության քարտը կամ էլ այն անհասանելի է համակարգչին միացված լինելու պատճառով։ Փորձեք լուծել այս խնդիրը կամ էլ ընտրեք ժամանակավոր նիշքերի պահպանման այլ պանակ։"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="Խնդիր FBReader-ում"/>
-			<node name="text" value="Չի հաջողվում բեռնել գրադարանը. հավանաբար FBReader-ը ճիշտ չի տեղադրվել։ Եթե այս հաղորդագրությունը կրկնվում է ծրագրի մեկնարկի ժամանակ, փորձեք վերատեղադրել FBReader-ը։"/>
 		</node>
 	</node>
 	<node name="error">

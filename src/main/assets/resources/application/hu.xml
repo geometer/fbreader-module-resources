@@ -1154,11 +1154,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="%s hiba a natív kódban '%s' olvasása közben"/>
-		<node name="errorReadingFile" value="Hiba történt olvasás közben: '%s'"/>
-		<node name="errorReadingZip" value="Hiba történt a kicsomagoláskor: '%s'"/>
-		<node name="pluginNotFound" value="Nem található bővítmény '%s'"/>
-		<node name="unknownPluginType" value="Ismeretlen bővítmény típus: %s"/>
 		<node name="fileNotFound" value="A fájl nem található: %s"/>
 		<node name="unsupportedEncryptionMethod" value="File %s encryption method is not supported by FBReader. Some pages are not readable" toBeTranslated="true"/>
 		<node name="opfFileNotFound" value="OPF inem található %s"/>
@@ -1190,10 +1185,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="FBReader probléma"/>
 			<node name="text" value="Cannot write to FBReader cache. Please check that your memory card is inserted correctly, or select another directory." toBeTranslated="true"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="FBReader probléma"/>
-			<node name="text" value="Az FBReader nem tudta betölteni a helyi könyvtárat. Lehet, hogy nincs megfelelően telepítve. Ha a probléma nem szűnik meg, próbálja meg újratelepíteni az FBReadert."/>
 		</node>
 	</node>
 	<node name="error">

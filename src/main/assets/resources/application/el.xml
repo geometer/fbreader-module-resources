@@ -1162,11 +1162,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'" toBeTranslated="true"/>
-		<node name="errorReadingFile" value="Σφάλμα κατά την ανάγνωση στο '%s'"/>
-		<node name="errorReadingZip" value="Σφάλμα κατά την αποσυμπίεση στο '%s'"/>
-		<node name="pluginNotFound" value="Δεν υπάρχει Plug-In για '%s'"/>
-		<node name="unknownPluginType" value="Άγνωστος τύπος Plug-In: %s"/>
 		<node name="fileNotFound" value="Το αρχείο δεν βρέθηκε: %s"/>
 		<node name="unsupportedEncryptionMethod" value="File %s encryption method is not supported by FBReader. Some pages are not readable" toBeTranslated="true"/>
 		<node name="opfFileNotFound" value="Το OPF στο %s δεν βρέθηκε"/>
@@ -1198,10 +1193,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="Πρόβλημα FBReader"/>
 			<node name="text" value="Cannot write to FBReader cache. Please check that your memory card is inserted correctly, or select another directory." toBeTranslated="true"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="Πρόβλημα FBReader"/>
-			<node name="text" value="Το FBReader δεν μπορεί να φορτώσει την δικιά του βιβλιοθήκη. Πιθανόν να μην είναι εγκατεστημένη σωστά. Αν εξακολουθεί να υπάρχει το πρόβλημα, παρακαλώ εγκαταστήστε το FBReader ξανά."/>
 		</node>
 	</node>
 	<node name="error">

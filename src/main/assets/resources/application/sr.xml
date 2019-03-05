@@ -1164,11 +1164,6 @@
 	</node>
 	<node name="errorMessage">
 		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
-		<node name="nativeCodeFailure" value="Error %s in native code while reading '%s'" toBeTranslated="true"/>
-		<node name="errorReadingFile" value="Грешка при читању „%s“."/>
-		<node name="errorReadingZip" value="Грешка при отпакивању „%s“."/>
-		<node name="pluginNotFound" value="Нема додатка за „%s“."/>
-		<node name="unknownPluginType" value="Непозната врста додатка: %s."/>
 		<node name="fileNotFound" value="Не могу да пронађем датотеку: %s."/>
 		<node name="unsupportedEncryptionMethod" value="File %s encryption method is not supported by FBReader. Some pages are not readable" toBeTranslated="true"/>
 		<node name="opfFileNotFound" value="Не могу да пронађем OPF у „%s“."/>
@@ -1200,10 +1195,6 @@
 		<node name="fixBooksDirectory">
 			<node name="title" value="Проблем с FBReader-ом"/>
 			<node name="text" value="Cannot write to FBReader cache. Please check that your memory card is inserted correctly, or select another directory." toBeTranslated="true"/>
-		</node>
-		<node name="missingNativeLibrary">
-			<node name="title" value="Проблем с FBReader-ом"/>
-			<node name="text" value="Не могу да учитам матичну библиотеку. Можда није правилно инсталирана. Ако се грешка не исправи, пробајте да поново инсталирате FBReader."/>
 		</node>
 	</node>
 	<node name="error">
