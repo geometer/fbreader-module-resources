@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Chinese FBReaderJ resources, by He Zhihong (何志鸿) -->
 <resources>
 	<node name="library" value="FBReader书库">
@@ -856,6 +856,7 @@
 			</node>
 		</node>
 		<node name="tts" value="文本转语音">
+			<node name="summary" value="Reading aloud" toBeTranslated="true"/>
 			<node name="highlight" value="高亮句子">
 				<node name="summaryOn" value="高亮"/>
 				<node name="summaryOff" value="不要高亮"/>

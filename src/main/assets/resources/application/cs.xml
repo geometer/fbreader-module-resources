@@ -865,7 +865,8 @@
 			</node>
 		</node>
 		<node name="tts" value="Text to speech" toBeTranslated="true">
-			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
+			<node name="summary" value="Reading aloud" toBeTranslated="true"/>
+			<node name="highlight" value="Sentence highlighting" toBeTranslated="true">
 				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
 				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
 			</node>
@@ -873,7 +874,7 @@
 				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
 				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
 			</node>
-			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
+			<node name="paragraphPause" value="Pause after paragraph, msec" toBeTranslated="true"/>
 			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
 			<node name="byWords" value="Read by word" toBeTranslated="true">
 				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
