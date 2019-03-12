@@ -351,7 +351,7 @@
 		<node name="help" value="Помощь"/>
 		<node name="plugins" value="Дополнительные модули"/>
 		<node name="gotoPageNumber" value="На страницу…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
+		<node name="readAloud" value="Читать вслух…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Файл"/>
@@ -667,7 +667,7 @@
 				<node name="showAsFooterOldStyle" value="Подвал (старый стиль)"/>
 			</node>
 			<node name="footerHeight" value="Высота подвала"/>
-			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerExtraMargin" value="Горизонтальный отступ"/>
 			<node name="footerOldStyleColor" value="Цвет подвала (старый стиль)"/>
 			<node name="footerBackgroundColor" value="Цвет фона подвала"/>
 			<node name="footerForegroundColor" value="Цвет текста в подвале"/>
@@ -860,24 +860,25 @@
 				<node name="none" value="Ничего не делать"/>
 			</node>
 		</node>
-		<node name="tts" value="Text to speech" toBeTranslated="true">
-			<node name="highlight" value="Highlight sentences" toBeTranslated="true">
-				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+		<node name="tts" value="Синтез речи">
+			<node name="summary" value="Автоматическое чтение вслух"/>
+			<node name="highlight" value="Подстветка читаемого текста">
+				<node name="summaryOn" value="Подсвечивать"/>
+				<node name="summaryOff" value="Не подсвечивать"/>
 			</node>
-			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
-				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			<node name="stopUnplug" value="При отключении наушников">
+				<node name="summaryOn" value="Останавливать чтение"/>
+				<node name="summaryOff" value="Не останавливать чтение"/>
 			</node>
-			<node name="paragraphPause" value="Pause after paragraphs, msec" toBeTranslated="true"/>
-			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
-			<node name="byWords" value="Read by word" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			<node name="paragraphPause" value="Пауза в конце абзаца, мс"/>
+			<node name="sentencePause" value="Пауза в конце предложения, мс"/>
+			<node name="byWords" value="Читать по словам">
+				<node name="summaryOn" value="Да"/>
+				<node name="summaryOff" value="Нет"/>
 			</node>
-			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			<node name="wordsPause" value="… и делать паузу после каждого слова">
+				<node name="summaryOn" value="Да"/>
+				<node name="summaryOff" value="Нет"/>
 			</node>
 			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
 				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
@@ -993,7 +994,7 @@
 			<node name="markAsUnread" value="Пометить как непрочтённое"/>
 			<node name="plugin" value="Модуль"/>
 			<node name="premium" value="Premium"/>
-			<node name="clear" value="Clear" toBeTranslated="true"/>
+			<node name="clear" value="Очистить"/>
 		</node>
 		<node name="gotoPage" value="На страницу"/>
 		<node name="plugin">

@@ -856,7 +856,8 @@
 			</node>
 		</node>
 		<node name="tts" value="Text to speech">
-			<node name="highlight" value="Highlight sentences">
+			<node name="summary" value="Reading aloud"/>
+			<node name="highlight" value="Sentence highlighting">
 				<node name="summaryOn" value="Highlight"/>
 				<node name="summaryOff" value="Do not highlight"/>
 			</node>
@@ -864,7 +865,7 @@
 				<node name="summaryOn" value="Stop"/>
 				<node name="summaryOff" value="Do not stop"/>
 			</node>
-			<node name="paragraphPause" value="Pause after paragraphs, msec"/>
+			<node name="paragraphPause" value="Pause after paragraph, msec"/>
 			<node name="sentencePause" value="Pause after sentence, msec"/>
 			<node name="byWords" value="Read by word">
 				<node name="summaryOn" value="Yes"/>
