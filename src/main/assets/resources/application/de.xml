@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- German FBReaderJ resources, by Victor Massini -->
 <!-- Updated by Ingolf Kübler 2010/11/17 -->
 <!-- Updated by Ingolf Kübler 2011/06/26 -->
@@ -1263,15 +1263,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Vorher suchen"/>
 		<node name="findNext" value="Weitersuchen"/>
-		<node name="close" value="Schließen"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="In die Zwischenablage kopieren"/>
-		<node name="share" value="Text teilen"/>
-		<node name="openInDictionary" value="Im Wörterbuch nachschlagen"/>
-		<node name="translate" value="Übersetzen"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Lesezeichen hinzufügen"/>
 		<node name="close" value="Schließen"/>
 	</node>
 	<node name="dictanErrors">

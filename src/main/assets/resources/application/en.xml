@@ -1260,15 +1260,6 @@
 		<node name="findNext" value="Next occurence"/>
 		<node name="close" value="Close"/>
 	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Copy to clipboard"/>
-		<node name="share" value="Share text"/>
-		<node name="openInDictionary" value="Open in dictionary"/>
-		<node name="translate" value="Translate"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Bookmark"/>
-		<node name="close" value="Close"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Unknown error"/>
 		<node name="noArticle" value="No article found for “%s”"/>

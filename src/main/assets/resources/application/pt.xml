@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Portuguese (Portugal) FBReader translations -->
 <!-- Collaborative work from Bruno Ramalhete "bram.512@gmail.com", Tomé Mendes (www.tomemendes.com) , Paulo Pereira -->
 <resources>
@@ -1259,14 +1259,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Ocorrência anterior"/>
 		<node name="findNext" value="Ocorrência seguinte"/>
-		<node name="close" value="Fechar"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Copiar para a área de trabalho"/>
-		<node name="share" value="Partilhar texto"/>
-		<node name="openInDictionary" value="Abrir no dicionário"/>
-		<node name="translate" value="Traduzir"/>
-		<node name="bookmark" value="Marcar"/>
 		<node name="close" value="Fechar"/>
 	</node>
 	<node name="dictanErrors">

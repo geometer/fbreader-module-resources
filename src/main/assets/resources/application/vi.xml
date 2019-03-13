@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Vietnamese FBReaderJ resources, by Phạm Văn Hùng_Firestork -->
 <!-- Updated by Khánh Nguyễn Quốc, 8 May 2015 -->
 <resources>
@@ -1249,15 +1249,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Previous occurence" toBeTranslated="true"/>
 		<node name="findNext" value="Next occurence" toBeTranslated="true"/>
-		<node name="close" value="Close" toBeTranslated="true"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Chép vào Clipboard"/>
-		<node name="share" value="Share text" toBeTranslated="true"/>
-		<node name="openInDictionary" value="Mở trong Từ điển"/>
-		<node name="translate" value="Translate" toBeTranslated="true"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Bookmark" toBeTranslated="true"/>
 		<node name="close" value="Close" toBeTranslated="true"/>
 	</node>
 	<node name="dictanErrors">

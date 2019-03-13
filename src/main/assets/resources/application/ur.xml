@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Urdu FBReaderJ resources, by Waqar Ahmed -->
 <resources>
 	<node name="library" value="ایف بی ریڈر لائب ریری">
@@ -1258,14 +1258,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Previous occurence" toBeTranslated="true"/>
 		<node name="findNext" value="Next occurence" toBeTranslated="true"/>
-		<node name="close" value="بند کریں"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="کلپ بورڈ میں کاپی کریں"/>
-		<node name="share" value="متن کا اشتراک کریں"/>
-		<node name="openInDictionary" value="لغت میں کھولیں"/>
-		<node name="translate" value="ترجمہ کریں"/>
-		<node name="bookmark" value="بک مارک کریں"/>
 		<node name="close" value="بند کریں"/>
 	</node>
 	<node name="dictanErrors">

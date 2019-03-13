@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Armenian FBReaderJ resources, by Yavruhrat, Marat Yavrumyan -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2015/05/17 -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2016/12/13 -->
@@ -1265,15 +1265,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Գտնել նախորդը"/>
 		<node name="findNext" value="Գտնել հաջորդը"/>
-		<node name="close" value="Փակել"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Պատճենել սեղմատախտակում"/>
-		<node name="share" value="Տարածել"/>
-		<node name="openInDictionary" value="Նայել բառարանում"/>
-		<node name="translate" value="Թարգմանել"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Էջանշել"/>
 		<node name="close" value="Փակել"/>
 	</node>
 	<node name="dictanErrors">

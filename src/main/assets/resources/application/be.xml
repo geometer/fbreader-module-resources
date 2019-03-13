@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Belarusian FBReaderJ resources by Usievaład Čorny -->
 <resources>
 	<node name="library" value="Бібліятэка FBReader">
@@ -1258,15 +1258,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Папярэдняе супадзенне"/>
 		<node name="findNext" value="Наступнае супадзенне"/>
-		<node name="close" value="Закрыць"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Скапіраваць у буфер абмену"/>
-		<node name="share" value="Падзяліцца тэкстам"/>
-		<node name="openInDictionary" value="Адкрыць у слоўніку"/>
-		<node name="translate" value="Перакласці"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Закладка"/>
 		<node name="close" value="Закрыць"/>
 	</node>
 	<node name="dictanErrors">

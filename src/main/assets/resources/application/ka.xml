@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Georgian FBReaderJ resources, by Zurab Sebiskveradze, George Zautashvili -->
 <resources>
 	<node name="library" value="FBReader: ბიბლიოთეკა">
@@ -1263,15 +1263,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Previous occurence" toBeTranslated="true"/>
 		<node name="findNext" value="Next occurence" toBeTranslated="true"/>
-		<node name="close" value="Close" toBeTranslated="true"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="ბუფერში დაკოპირება"/>
-		<node name="share" value="Share text" toBeTranslated="true"/>
-		<node name="openInDictionary" value="ლექსიკონში ნახვა"/>
-		<node name="translate" value="Translate" toBeTranslated="true"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Bookmark" toBeTranslated="true"/>
 		<node name="close" value="Close" toBeTranslated="true"/>
 	</node>
 	<node name="dictanErrors">

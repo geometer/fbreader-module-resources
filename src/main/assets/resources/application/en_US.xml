@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- English FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader library">
@@ -1258,14 +1258,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Previous occurence"/>
 		<node name="findNext" value="Next occurence"/>
-		<node name="close" value="Close"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Copy to clipboard"/>
-		<node name="share" value="Share text"/>
-		<node name="openInDictionary" value="Open in dictionary"/>
-		<node name="translate" value="Translate"/>
-		<node name="bookmark" value="Bookmark"/>
 		<node name="close" value="Close"/>
 	</node>
 	<node name="dictanErrors">

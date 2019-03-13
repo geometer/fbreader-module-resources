@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Basque FBReaderJ resources, by Bixerdo for librezale.eus -->
 <resources>
 	<node name="library" value="FBReader Liburutegia">
@@ -1258,15 +1258,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Aurreko gertaldia"/>
 		<node name="findNext" value="Hurrengo gertaldia"/>
-		<node name="close" value="Itxi"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Kopiatu arbelera"/>
-		<node name="share" value="Partekatu testua"/>
-		<node name="openInDictionary" value="Ireki hiztegian"/>
-		<node name="translate" value="Itzuli"/>
-		<!-- adi, aditza: make a bookmark -->
-		<node name="bookmark" value="Egin laster-marka"/>
 		<node name="close" value="Itxi"/>
 	</node>
 	<node name="dictanErrors">

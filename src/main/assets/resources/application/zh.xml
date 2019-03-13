@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Chinese FBReaderJ resources, by He Zhihong (何志鸿) -->
 <resources>
 	<node name="library" value="FBReader书库">
@@ -1258,15 +1258,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="上一发现"/>
 		<node name="findNext" value="下一发现"/>
-		<node name="close" value="关闭"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="复制到剪贴板"/>
-		<node name="share" value="分享文本"/>
-		<node name="openInDictionary" value="打开字典"/>
-		<node name="translate" value="翻译"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="书签"/>
 		<node name="close" value="关闭"/>
 	</node>
 	<node name="dictanErrors">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Arabic FBReaderJ resources, by Ahmed Saidi (https://github.com/boussouira) -->
 <resources>
 	<node name="library" value="المكتبة">
@@ -1256,15 +1256,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Previous occurence" toBeTranslated="true"/>
 		<node name="findNext" value="Next occurence" toBeTranslated="true"/>
-		<node name="close" value="Close" toBeTranslated="true"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="نسخ الى الحافظ"/>
-		<node name="share" value="Share text" toBeTranslated="true"/>
-		<node name="openInDictionary" value="فتح في القاموس"/>
-		<node name="translate" value="Translate" toBeTranslated="true"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Bookmark" toBeTranslated="true"/>
 		<node name="close" value="Close" toBeTranslated="true"/>
 	</node>
 	<node name="dictanErrors">

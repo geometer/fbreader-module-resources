@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Czech FBReaderJ resources, by Marek Pavelka -->
 <resources>
 	<node name="library" value="Knihovna FBReaderu">
@@ -1267,15 +1267,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Předchozí výskyt"/>
 		<node name="findNext" value="Další výskyt"/>
-		<node name="close" value="Zavřít"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Kopírovat do schránky"/>
-		<node name="share" value="Sdílet text"/>
-		<node name="openInDictionary" value="Otevřít ve slovníku"/>
-		<node name="translate" value="Přeložit"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Přidat do záložek"/>
 		<node name="close" value="Zavřít"/>
 	</node>
 	<node name="dictanErrors">

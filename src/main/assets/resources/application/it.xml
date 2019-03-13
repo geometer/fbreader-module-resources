@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Italian FBReaderJ resources, by Vytek, Neoxx and OlapGirl from AndDev.it Translate Team -->
 <!-- 21.02 25/08/2011 -->
 <!-- Updated by Michelangelo Della Camera, last update: 13 Nov 2015 -->
@@ -1251,15 +1251,6 @@
 		<node name="findPrevious" value="Previous occurence" toBeTranslated="true"/>
 		<node name="findNext" value="Next occurence" toBeTranslated="true"/>
 		<node name="close" value="Close" toBeTranslated="true"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Copia negli Appunti"/>
-		<node name="share" value="Share text" toBeTranslated="true"/>
-		<node name="openInDictionary" value="Apri nel Dizionario"/>
-		<node name="translate" value="Translate" toBeTranslated="true"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Bookmark" toBeTranslated="true"/>
-		<node name="close" value="Cancella"/>
 	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Errore sconosciuto"/>

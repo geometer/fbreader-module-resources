@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Japanese FBReaderJ resources, by Tamo -->
 <resources>
 	<node name="library" value="FBReader ライブラリ">
@@ -1306,15 +1306,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="前の一致"/>
 		<node name="findNext" value="次の一致"/>
-		<node name="close" value="閉じる"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="クリップボードにコピー"/>
-		<node name="share" value="本文を共有"/>
-		<node name="openInDictionary" value="辞書で開く"/>
-		<node name="translate" value="翻訳"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="しおりを作成"/>
 		<node name="close" value="閉じる"/>
 	</node>
 	<node name="dictanErrors">

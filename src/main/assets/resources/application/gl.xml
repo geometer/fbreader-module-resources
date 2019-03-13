@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Galician FBReaderJ resources, by Miguel Anxo Bouzada mbouzada[at]gmail.com -->
 <resources>
 	<node name="library" value="FBReader library" toBeTranslated="true">
@@ -1248,15 +1248,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Previous occurence" toBeTranslated="true"/>
 		<node name="findNext" value="Next occurence" toBeTranslated="true"/>
-		<node name="close" value="Close" toBeTranslated="true"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Copiar no portapapeis"/>
-		<node name="share" value="Share text" toBeTranslated="true"/>
-		<node name="openInDictionary" value="Abrir no dicionario"/>
-		<node name="translate" value="Translate" toBeTranslated="true"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Bookmark" toBeTranslated="true"/>
 		<node name="close" value="Close" toBeTranslated="true"/>
 	</node>
 	<node name="dictanErrors">

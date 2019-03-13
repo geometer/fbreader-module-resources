@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Russian FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader: библиотека">
@@ -1267,14 +1267,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Найти раньше"/>
 		<node name="findNext" value="Найти дальше"/>
-		<node name="close" value="Закрыть"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Скопировать в буфер"/>
-		<node name="share" value="Поделиться"/>
-		<node name="openInDictionary" value="Посмотреть в словаре"/>
-		<node name="translate" value="Перевести"/>
-		<node name="bookmark" value="Оставить закладку"/>
 		<node name="close" value="Закрыть"/>
 	</node>
 	<node name="dictanErrors">

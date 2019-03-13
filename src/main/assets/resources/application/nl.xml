@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Dutch FBReader resources, by Frank Fesevur since 12-Jan-2011. Last update 02-Dec-2015 -->
 <resources>
 	<node name="library" value="FBReader bibliotheek">
@@ -1258,15 +1258,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Vorige"/>
 		<node name="findNext" value="Volgende"/>
-		<node name="close" value="Sluiten"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Kopieer naar klembord"/>
-		<node name="share" value="Deel tekst"/>
-		<node name="openInDictionary" value="Openen in woordenboek"/>
-		<node name="translate" value="Vertalen"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Bladwijzer maken"/>
 		<node name="close" value="Sluiten"/>
 	</node>
 	<node name="dictanErrors">

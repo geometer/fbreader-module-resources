@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Romanian FBReaderJ resources aplicatii.romanesti@gmail.com -->
 <!-- Updated by girlea_alex@yahoo.com, Jul 6 of 2014 -->
 <!-- Updated by aplicatii.romanesti@gmail.com, Nov 20 of 2014 -->
@@ -1251,15 +1251,6 @@
 	<node name="textSearchPopup">
 		<node name="findPrevious" value="Apariția precedenta"/>
 		<node name="findNext" value="Urmatoarea apariție"/>
-		<node name="close" value="Închide"/>
-	</node>
-	<node name="selectionPopup">
-		<node name="copyToClipboard" value="Copiați în clipboard"/>
-		<node name="share" value="Împărtășește textul"/>
-		<node name="openInDictionary" value="Deschide în dictionar"/>
-		<node name="translate" value="Tradu"/>
-		<!-- this is a verb: make a bookmark -->
-		<node name="bookmark" value="Crează un semn de carte"/>
 		<node name="close" value="Închide"/>
 	</node>
 	<node name="dictanErrors">
