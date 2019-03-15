@@ -299,7 +299,7 @@
 		<node name="openStartScreen" value="Стартовий екран"/>
 		<node name="preferences" value="Налаштування"/>
 		<node name="bookInfo" value="Про книгу"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
+		<node name="pickFile" value="Вибрати файл…"/>
 		<node name="library" value="Бібліотека"/>
 		<node name="toc" value="Зміст"/>
 		<node name="day" value="День"/>

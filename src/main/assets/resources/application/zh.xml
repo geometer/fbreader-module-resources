@@ -856,7 +856,7 @@
 			</node>
 		</node>
 		<node name="tts" value="文本转语音">
-			<node name="summary" value="Reading aloud" toBeTranslated="true"/>
+			<node name="summary" value="大声朗读"/>
 			<node name="highlight" value="高亮句子">
 				<node name="summaryOn" value="高亮"/>
 				<node name="summaryOff" value="不要高亮"/>
