@@ -879,14 +879,6 @@
 				<node name="summaryOn" value="Use" toBeTranslated="true"/>
 				<node name="summaryOff" value="Do not use" toBeTranslated="true"/>
 			</node>
-			<node name="useNetwork" value="如果可能的話，使用網路tts">
-				<node name="summaryOn" value="是"/>
-				<node name="summaryOff" value="否"/>
-			</node>
-			<node name="wifiOnly" value="僅在wifi">
-				<node name="summaryOn" value="是"/>
-				<node name="summaryOff" value="否"/>
-			</node>
 		</node>
 		<node name="twitter" value="Twitter集成">
 			<node name="summary" value="如何從FBReader發推文"/>

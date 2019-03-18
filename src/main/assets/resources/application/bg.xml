@@ -885,14 +885,6 @@
 				<node name="summaryOn" value="Use" toBeTranslated="true"/>
 				<node name="summaryOff" value="Do not use" toBeTranslated="true"/>
 			</node>
-			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
-			</node>
-			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
-			</node>
 		</node>
 		<node name="twitter" value="Twitter integration" toBeTranslated="true">
 			<node name="summary" value="How to tweet from FBReader" toBeTranslated="true"/>
