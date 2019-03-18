@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Polish FBReaderJ resources, by Tomasz Długosz and Maciej Bator-->
 <resources>
 	<node name="library" value="Biblioteka FBReadera">
@@ -864,6 +864,10 @@
 			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
 				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
 				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			</node>
+			<node name="useNetworkVoices" value="Voices that require a network connection" toBeTranslated="true">
+				<node name="summaryOn" value="Use" toBeTranslated="true"/>
+				<node name="summaryOff" value="Do not use" toBeTranslated="true"/>
 			</node>
 			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
 				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
