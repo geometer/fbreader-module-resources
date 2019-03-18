@@ -880,13 +880,9 @@
 				<node name="summaryOn" value="Да"/>
 				<node name="summaryOff" value="Нет"/>
 			</node>
-			<node name="useNetwork" value="Use network tts if possible" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
-			</node>
-			<node name="wifiOnly" value="Only on wifi" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			<node name="useNetworkVoices" value="Голоса, требующие сетевого подключения">
+				<node name="summaryOn" value="Использовать"/>
+				<node name="summaryOff" value="Не использовать"/>
 			</node>
 		</node>
 		<node name="twitter" value="Интеграция с Twitter">
