@@ -269,14 +269,6 @@
 			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Գրվածք"/>
-		<node name="style" value="Ոճ"/>
-		<node name="delete" value="Ջնջել"/>
-		<node name="deleteBookmark" value="Ջնջել էջանիշը"/>
-		<node name="saveText" value="Պահել գրվածքը"/>
-		<node name="editStyle" value="Փոխել ոճը..."/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Ավելին"/>
 		<node name="offline" value="Անցանց"/>

@@ -255,14 +255,6 @@
 			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Text"/>
-		<node name="style" value="Stil"/>
-		<node name="delete" value="Șterge"/>
-		<node name="deleteBookmark" value="Șterge marcaj"/>
-		<node name="saveText" value="Salvare text"/>
-		<node name="editStyle" value="Editează stilul…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Mai mult"/>
 		<node name="offline" value="Deconectat"/>

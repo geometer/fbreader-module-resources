@@ -262,14 +262,6 @@
 			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="텍스트"/>
-		<node name="style" value="형식"/>
-		<node name="delete" value="삭제"/>
-		<node name="deleteBookmark" value="책갈피 삭제"/>
-		<node name="saveText" value="텍스트 저장"/>
-		<node name="editStyle" value="형식 편집"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="더 많이"/>
 		<node name="offline" value="Offline" toBeTranslated="true"/>

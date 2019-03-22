@@ -262,14 +262,6 @@
 			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="メモ"/>
-		<node name="style" value="書式"/>
-		<node name="delete" value="削除"/>
-		<node name="deleteBookmark" value="しおりを削除"/>
-		<node name="saveText" value="メモを保存"/>
-		<node name="editStyle" value="書式を編集"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="続き"/>
 		<node name="offline" value="オフライン"/>

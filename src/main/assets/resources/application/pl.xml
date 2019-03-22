@@ -252,14 +252,6 @@
 			<node name="byPageNo" value="wg numeru strony"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Tekst"/>
-		<node name="style" value="Styl"/>
-		<node name="delete" value="Usuń"/>
-		<node name="deleteBookmark" value="Usuń zakładkę"/>
-		<node name="saveText" value="Zapisz tekst"/>
-		<node name="editStyle" value="Edytuj styl…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Więcej"/>
 		<node name="offline" value="Offline"/>

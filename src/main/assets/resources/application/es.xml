@@ -268,14 +268,6 @@
 			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Texto"/>
-		<node name="style" value="Estilo"/>
-		<node name="delete" value="Borrar"/>
-		<node name="deleteBookmark" value="Borrar marcador"/>
-		<node name="saveText" value="Guardar texto"/>
-		<node name="editStyle" value="Editar estilo…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Más"/>
 		<node name="offline" value="Offline" toBeTranslated="true"/>

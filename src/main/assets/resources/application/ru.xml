@@ -267,14 +267,6 @@
 			<node name="byPageNo" value="По номеру страницы"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Текст"/>
-		<node name="style" value="Стиль"/>
-		<node name="delete" value="Стереть"/>
-		<node name="deleteBookmark" value="Стереть закладку"/>
-		<node name="saveText" value="Сохранить текст"/>
-		<node name="editStyle" value="Изменить…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Дальше"/>
 		<node name="offline" value="Offline" toBeTranslated="true"/>

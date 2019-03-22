@@ -262,14 +262,6 @@
 			<node name="byPageNo" value="按照页码"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="文本"/>
-		<node name="style" value="样式"/>
-		<node name="delete" value="删除"/>
-		<node name="deleteBookmark" value="删除书签"/>
-		<node name="saveText" value="保存文本"/>
-		<node name="editStyle" value="编辑样式…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="更多"/>
 		<node name="offline" value="离线"/>

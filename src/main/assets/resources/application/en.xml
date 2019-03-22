@@ -262,14 +262,6 @@
 			<node name="byPageNo" value="By page number"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Text"/>
-		<node name="style" value="Style"/>
-		<node name="delete" value="Delete"/>
-		<node name="deleteBookmark" value="Delete the bookmark"/>
-		<node name="saveText" value="Save text"/>
-		<node name="editStyle" value="Edit style…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="More"/>
 		<node name="offline" value="Offline"/>

@@ -262,14 +262,6 @@
 			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Testua"/>
-		<node name="style" value="Estiloa"/>
-		<node name="delete" value="Ezabatu"/>
-		<node name="deleteBookmark" value="Ezabatu laster-marka"/>
-		<node name="saveText" value="Gorde testua"/>
-		<node name="editStyle" value="Editatu estiloa…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Gehiago"/>
 		<node name="offline" value="Lineaz kanpo"/>

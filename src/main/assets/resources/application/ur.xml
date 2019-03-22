@@ -262,14 +262,6 @@
 			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="متن"/>
-		<node name="style" value="سٹائل"/>
-		<node name="delete" value="حذف کریں"/>
-		<node name="deleteBookmark" value="بک مارک حذف کریں"/>
-		<node name="saveText" value="متن کو محفوظ کریں"/>
-		<node name="editStyle" value="سٹائل مدون کریں…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="مزید"/>
 		<node name="offline" value="آف لائن"/>

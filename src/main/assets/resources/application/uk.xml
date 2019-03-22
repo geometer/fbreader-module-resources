@@ -252,14 +252,6 @@
 			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Текст"/>
-		<node name="style" value="Стиль"/>
-		<node name="delete" value="Стерти"/>
-		<node name="deleteBookmark" value="Стерти закладку"/>
-		<node name="saveText" value="Зберегти текст"/>
-		<node name="editStyle" value="Редагувати стиль…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Більше"/>
 		<node name="offline" value="Поза мережею"/>

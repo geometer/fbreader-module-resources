@@ -262,14 +262,6 @@
 			<node name="byPageNo" value="Па нумару старонкі"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Тэкст"/>
-		<node name="style" value="Стыль"/>
-		<node name="delete" value="Выдаліць"/>
-		<node name="deleteBookmark" value="Выдаліць закладку"/>
-		<node name="saveText" value="Захаваць тэкст"/>
-		<node name="editStyle" value="Рэдагаваць стыль…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Больш"/>
 		<node name="offline" value="Па-за сецівам"/>

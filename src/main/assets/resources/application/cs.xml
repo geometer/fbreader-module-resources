@@ -271,14 +271,6 @@
 			<node name="byPageNo" value="Podle čísla stránky"/>
 		</node>
 	</node>
-	<node name="editBookmark">
-		<node name="text" value="Text"/>
-		<node name="style" value="Styl"/>
-		<node name="delete" value="Odstranit"/>
-		<node name="deleteBookmark" value="Odstranit záložku"/>
-		<node name="saveText" value="Uložit text"/>
-		<node name="editStyle" value="Upravit styl…"/>
-	</node>
 	<node name="toast">
 		<node name="more" value="Více"/>
 		<node name="offline" value="Offline"/>
