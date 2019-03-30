@@ -1025,6 +1025,7 @@
 			<node name="downloadingBook" value="Đang tải sách về %s"/>
 			<node name="search" value="Đang tìm, vui lòng chờ…"/>
 			<node name="loadInfo" value="Đang nạp thông tin, vui lòng chờ…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Đang mở sách, vui lòng chờ…"/>
 			<node name="loadingBookList" value="Đang mở thư viện, vui lòng chờ…"/>
 			<node name="creatingBooksDatabase" value="Đang tạo kho sách, vui lòng chờ…"/>

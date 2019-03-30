@@ -1032,6 +1032,7 @@
 			<node name="downloadingBook" value="تحميل كتاب %s"/>
 			<node name="search" value="جاري البحث..."/>
 			<node name="loadInfo" value="جاري جمع معلومات حول الكتاب..."/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="جاري فتح الكتاب..."/>
 			<node name="loadingBookList" value="جاري فتح المكتبة..."/>
 			<node name="creatingBooksDatabase" value="انشاء قاعدة بيانات الكتب..."/>

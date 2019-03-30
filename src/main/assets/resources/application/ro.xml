@@ -1027,6 +1027,7 @@
 			<node name="downloadingBook" value="Se descarcă cartea %s"/>
 			<node name="search" value="Cautărea a inceput. Vă rugăm așteptați…"/>
 			<node name="loadInfo" value="Se încărca informatiile necesare. Vă rugăm așteptați…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Se deschide cartea. Vă rugăm așteptați…"/>
 			<node name="loadingBookList" value="Se dechide biblioteca. Vă rugăm așteptați…"/>
 			<node name="creatingBooksDatabase" value="Se crează baza de date cu cărți. Vă rugăm așteptați…"/>

@@ -1082,6 +1082,7 @@
 			<node name="downloadingBook" value="ダウンロード中です (%s)"/>
 			<node name="search" value="検索中です。しばらくお待ちください…"/>
 			<node name="loadInfo" value="情報を読み込んでいます。しばらくお待ちください…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="本を開いています。しばらくお待ちください…"/>
 			<node name="loadingBookList" value="ライブラリを開いています。しばらくお待ちください…"/>
 			<node name="creatingBooksDatabase" value="本のデータベースを作成中です。しばらくお待ちください…"/>

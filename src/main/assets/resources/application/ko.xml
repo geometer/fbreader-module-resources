@@ -1034,6 +1034,7 @@
 			<node name="downloadingBook" value="책 다운로드중"/>
 			<node name="search" value="검색중입니다. 기다려 주세요"/>
 			<node name="loadInfo" value="정보를 불러오고 있습니다. 기다려 주세요."/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="책을 열고 있습니다. 기다려 주세요."/>
 			<node name="loadingBookList" value="라이브러리를 열고 있습니다. 기다려 주세요."/>
 			<node name="creatingBooksDatabase" value="책 데이터베이스를 생성하고 있습니다. 기다려 주세요."/>

@@ -1041,6 +1041,7 @@
 			<node name="downloadingBook" value="Բեռնվում է %s գիրքը"/>
 			<node name="search" value="Փնտրվում է, սպասեք..."/>
 			<node name="loadInfo" value="Տվյալները բեռնվում են, սպասեք..."/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Գիրքը բացվում է, սպասեք..."/>
 			<node name="loadingBookList" value="Գրադարանը բացվում է, սպասեք..."/>
 			<node name="creatingBooksDatabase" value="Գրքերի շտեմարանը ստեղծվում է, սպասեք..."/>

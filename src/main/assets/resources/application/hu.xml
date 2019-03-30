@@ -1024,6 +1024,7 @@
 			<node name="downloadingBook" value="Könyv letöltése %s"/>
 			<node name="search" value="Keresés. Egy kis türelmet…"/>
 			<node name="loadInfo" value="Információ letöltése. Egy kis türelmet…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Könyv megnyitása. Egy kis türelmet…"/>
 			<node name="loadingBookList" value="Könyvtár megnyitása. Egy kis türelmet…"/>
 			<node name="creatingBooksDatabase" value="Adatbázis létrehozása. Egy kis türelmet…"/>

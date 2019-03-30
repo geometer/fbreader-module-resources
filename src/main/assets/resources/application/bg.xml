@@ -1040,6 +1040,7 @@
 			<node name="downloadingBook" value="Сваляне на книгата %s"/>
 			<node name="search" value="Търсене. Моля, изчакайте…"/>
 			<node name="loadInfo" value="Зареждане. Моля, изчакайте…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Книгата се зарежда. Моля, изчакайте…"/>
 			<node name="loadingBookList" value="Зареждане на библиотеката. Моля, изчакайте…"/>
 			<node name="creatingBooksDatabase" value="Създаване на база с книги. Моля, изчакайте…"/>

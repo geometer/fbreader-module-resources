@@ -1034,6 +1034,7 @@
 			<node name="downloadingBook" value="Преузимам књигу „%s“…"/>
 			<node name="search" value="Тражим…"/>
 			<node name="loadInfo" value="Учитавам податке…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Отварам књигу…"/>
 			<node name="loadingBookList" value="Отварам библиотеку…"/>
 			<node name="creatingBooksDatabase" value="Правим базу књига…"/>

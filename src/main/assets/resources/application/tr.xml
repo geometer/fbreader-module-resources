@@ -1034,6 +1034,7 @@
 			<node name="downloadingBook" value="İndirilen kitap %s"/>
 			<node name="search" value="Aranıyor. Lütfen bekleyin…"/>
 			<node name="loadInfo" value="Bilgiler yükleniyor. Lütfen bekleyin…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Kitap açılıyor. Lütfen bekleyin…"/>
 			<node name="loadingBookList" value="Kitaplık açılıyor. Lütfen bekleyin…"/>
 			<node name="creatingBooksDatabase" value="Kitap veri tabanı oluşturuluyor. Lütfen bekleyin…"/>

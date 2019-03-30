@@ -1034,6 +1034,7 @@
 			<node name="downloadingBook" value="下載書籍“%s”"/>
 			<node name="search" value="正在搜索。請稍等…"/>
 			<node name="loadInfo" value="加載資訊。請稍等…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="打開書籍。請稍等…"/>
 			<node name="loadingBookList" value="打開書庫。請稍等…"/>
 			<node name="creatingBooksDatabase" value="創建書籍資料庫。請稍等…"/>

@@ -120,10 +120,10 @@
 		<node name="removeFromBasket" value="Remove from basket"/>
 		<node name="openBasket" value="Open basket"/>
 		<node name="clearBasket" value="Clear basket"/>
-		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
-		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
-		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
-		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
+		<node name="addToLiked" value="Add to favorites"/>
+		<node name="removeFromLiked" value="Remove from favorites"/>
+		<node name="openLiked" value="Open favorites"/>
+		<node name="clearLiked" value="Clear favorites"/>
 		<node name="buyAllBooks" value="Buy all books"/>
 		<node name="openInBrowser" value="Open in browser"/>
 		<node name="stopLoading" value="Stop loading"/>
@@ -138,7 +138,7 @@
 		<node name="authorisationMenuTitle" value="Select action"/>
 		<node name="topupSummary" value="Currently: %s"/>
 		<node name="basket" value="Basket"/>
-		<node name="liked" value="Favourites" toBeTranslated="true"/>
+		<node name="liked" value="Favorites"/>
 		<node name="basketSummaryEmpty" value="No books"/>
 		<node name="basketSummaryCountOnly" value="%0 books">
 			<node condition="value 1" value="%0 book"/>
@@ -188,7 +188,7 @@
 			<node name="refreshCatalogsList" value="Refresh catalogs"/>
 			<node name="manageCatalogs" value="Manage catalogs"/>
 			<node name="clearBasket" value="Clear basket"/>
-			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
+			<node name="clearLiked" value="Clear favorites"/>
 			<node name="buyAllBooks" value="Buy all books"/>
 		</node>
 	</node>
@@ -257,9 +257,9 @@
 		<node name="deleteBookmark" value="Delete bookmark"/>
 		<node name="search" value="Search"/>
 		<node name="order">
-			<node name="byCreationTime" value="By creation time" toBeTranslated="true"/>
-			<node name="byAccessTime" value="By access time" toBeTranslated="true"/>
-			<node name="byPageNo" value="By page number" toBeTranslated="true"/>
+			<node name="byCreationTime" value="By creation time"/>
+			<node name="byAccessTime" value="By access time"/>
+			<node name="byPageNo" value="By page number"/>
 		</node>
 	</node>
 	<node name="toast">
@@ -301,7 +301,7 @@
 		<node name="openStartScreen" value="Start screen"/>
 		<node name="preferences" value="Settings"/>
 		<node name="bookInfo" value="Book info"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
+		<node name="pickFile" value="Pick file…"/>
 		<node name="library" value="Library"/>
 		<node name="toc" value="Table of contents"/>
 		<node name="day" value="Day"/>
@@ -338,7 +338,7 @@
 		<node name="help" value="Help"/>
 		<node name="plugins" value="Install plugins"/>
 		<node name="gotoPageNumber" value="Go to page…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
+		<node name="readAloud" value="Read aloud…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="File name"/>
@@ -654,7 +654,7 @@
 				<node name="showAsFooterOldStyle" value="Horizontal footer (old style)"/>
 			</node>
 			<node name="footerHeight" value="Footer height"/>
-			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerExtraMargin" value="Footer horizontal margin"/>
 			<node name="footerOldStyleColor" value="Footer (old style) color"/>
 			<node name="footerBackgroundColor" value="Footer background color"/>
 			<node name="footerForegroundColor" value="Footer text color"/>
@@ -1034,6 +1034,7 @@
 			<node name="downloadingBook" value="Downloading book “%s”"/>
 			<node name="search" value="Searching. Please wait…"/>
 			<node name="loadInfo" value="Loading information. Please wait…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…"/>
 			<node name="loadingBook" value="Opening book. Please wait…"/>
 			<node name="loadingBookList" value="Opening library. Please wait…"/>
 			<node name="creatingBooksDatabase" value="Creating book database. Please wait…"/>

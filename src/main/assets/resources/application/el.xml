@@ -1032,6 +1032,7 @@
 			<node name="downloadingBook" value="Η λήψη του βιβλίου ξεκίνησε %s"/>
 			<node name="search" value="Η ανάζητηση εκτελείτε. Παρακαλώ περιμένετε…"/>
 			<node name="loadInfo" value="Η πληροφορία φορτώνεται. Παρακαλώ περιμένετε…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Το βιβλίο φορτώνεται. Παρακαλώ περιμένετε…"/>
 			<node name="loadingBookList" value="Η λίστα βιβλίων φορτώνεται. Παρακαλώ περιμένετε…"/>
 			<node name="creatingBooksDatabase" value="Erstelle Buch-Datenbank. Παρακαλώ περιμένετε…"/>

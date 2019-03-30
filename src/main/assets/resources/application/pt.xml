@@ -1035,6 +1035,7 @@
 			<node name="downloadingBook" value="A descarregar livro %s"/>
 			<node name="search" value="A pesquisar. Por favor, aguarde…"/>
 			<node name="loadInfo" value="A carregar informações. Por favor, aguarde…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="A abrir livro. Por favor, aguarde…"/>
 			<node name="loadingBookList" value="A abrir biblioteca. Por favor, aguarde…"/>
 			<node name="creatingBooksDatabase" value="A criar base de dados de livros. Por favor, aguarde…"/>

@@ -1034,6 +1034,7 @@
 			<node name="downloadingBook" value="Зладаваньне кнігі «%s»"/>
 			<node name="search" value="Пошук. Калі ласка, пачакайце…"/>
 			<node name="loadInfo" value="Ладаваньне інфармацыі. Калі ласка, пачакайце…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Адчыненьне кнігі. Калі ласка, пачакайце…"/>
 			<node name="loadingBookList" value="Адчыненьне бібліятэкі. Калі ласка, пачакайце…"/>
 			<node name="creatingBooksDatabase" value="Стварэньне кніжнай базы. Калі ласка, пачакайце…"/>

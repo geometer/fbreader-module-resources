@@ -1034,6 +1034,7 @@
 			<node name="downloadingBook" value="Laster ned boken %s"/>
 			<node name="search" value="Søker. Vennligst vent…"/>
 			<node name="loadInfo" value="Laster informasjon. Vennligst vent…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Åpner bok. Vennligst vent…"/>
 			<node name="loadingBookList" value="Åpner bibliotek. Vennligst vent…"/>
 			<node name="creatingBooksDatabase" value="Lager bokdatabase. Vennligst vent…"/>

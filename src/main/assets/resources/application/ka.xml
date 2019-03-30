@@ -1039,6 +1039,7 @@
 			<node name="downloadingBook" value="იტვირთება წიგნი %s"/>
 			<node name="search" value="მიმდინარეობს ძებნა. გთხოვთ, დაიცადოთ…"/>
 			<node name="loadInfo" value="იტვირთება ინფორმაცია. გთხოვთ, დაიცადოთ…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="იხსნება წიგნი. გთხოვთ, დაიცადოთ…"/>
 			<node name="loadingBookList" value="იხსნება ბიბლიოთეკა. გთხოვთ, დაიცადოთ…"/>
 			<node name="creatingBooksDatabase" value="იქმნება წიგნების ბაზა. გთხოვთ, დაიცადოთ…"/>

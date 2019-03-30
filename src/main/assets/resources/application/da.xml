@@ -1033,6 +1033,7 @@
 			<node name="downloadingBook" value="Overfør bog %s"/>
 			<node name="search" value="Søger. Vent venligst..."/>
 			<node name="loadInfo" value="Indlæser oplysninger. Vent venligst..."/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Åbner bog. Vent venligst..."/>
 			<node name="loadingBookList" value="Åbner bibliotek. Vent venligst..."/>
 			<node name="creatingBooksDatabase" value="Opretter bogdatabase. Vent venligst..."/>

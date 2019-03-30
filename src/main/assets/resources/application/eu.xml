@@ -1034,6 +1034,7 @@
 			<node name="downloadingBook" value="Deskargatzen “%s” liburua"/>
 			<node name="search" value="Bilatzen. Itxaron mesedez…"/>
 			<node name="loadInfo" value="Informazioa kargatzen. Itxaron mesedez…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Liburua irekitzen. Itxaron mesedez…"/>
 			<node name="loadingBookList" value="Liburutegia irekitzen. Itxaron mesedez…"/>
 			<node name="creatingBooksDatabase" value="Liburuen datu-basea sortzen. Itxaron mesedez…"/>

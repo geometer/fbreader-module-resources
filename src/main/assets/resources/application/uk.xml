@@ -1024,6 +1024,7 @@
 			<node name="downloadingBook" value="Триває завантаження книги «%s»"/>
 			<node name="search" value="Триває пошук. Зачекайте, будь ласка…"/>
 			<node name="loadInfo" value="Триває завантаження інформації. Зачекайте, будь ласка…"/>
+			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
 			<node name="loadingBook" value="Книга відкривається. Зачекайте, будь ласка…"/>
 			<node name="loadingBookList" value="Бібліотека відкривається. Зачекайте, будь ласка…"/>
 			<node name="creatingBooksDatabase" value="Створюється база книг. Зачекайте, будь ласка…"/>
