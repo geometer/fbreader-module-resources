@@ -194,6 +194,7 @@
 	</node>
 	<node name="buyBook">
 		<node name="title" value="Purchase book"/>
+		<node name="basketTitle" value="Add book to basket"/>
 		<node name="titleSeveralBooks" value="Purchase books"/>
 		<node name="confirm" value="Are you sure you want to buy &#10;“%s”?"/>
 		<node name="confirmSeveralBooks" value="Are you sure you want to buy %s books?"/>
@@ -1043,6 +1044,9 @@
 			<node name="authentication" value="Authenticating. Please wait…"/>
 			<node name="signOut" value="Signing out. Please wait…"/>
 			<node name="purchaseBook" value="Purchasing book. Please wait…"/>
+			<node name="addBookToBasket" value="Adding book to basket. Please wait…"/>
+			<node name="removeBookFromBasket" value="Removing book from basket. Please wait…"/>
+			<node name="clearBasket" value="Clearing basket. Please wait…"/>
 			<node name="loadingCatalogInfo" value="Loading catalogue information. Please wait…"/>
 			<node name="loadingNetworkBookInfo" value="Loading book information. Please wait…"/>
 			<node name="updatingCatalogsList" value="Updating catalogues list. Please wait…"/>
