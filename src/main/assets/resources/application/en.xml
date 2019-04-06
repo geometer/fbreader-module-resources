@@ -171,7 +171,7 @@
 			<node name="title" value="Add catalogue"/>
 			<node name="editUrl" value="Enter URL manually"/>
 		</node>
-		<node name="manageCatalogs" value="Manage catalogues">
+		<node name="manageCatalogs" value="All catalogues">
 			<node name="summary" value="Configure your catalogues"/>
 			<node name="enabled" value="Enabled"/>
 			<node name="disabled" value="Disabled"/>
@@ -186,7 +186,7 @@
 			<node name="topup" value="Top up account"/>
 			<node name="addCustomCatalog" value="Add catalogue"/>
 			<node name="refreshCatalogsList" value="Refresh catalogues"/>
-			<node name="manageCatalogs" value="Manage catalogues"/>
+			<node name="manageCatalogs" value="All catalogues"/>
 			<node name="clearBasket" value="Clear basket"/>
 			<node name="clearLiked" value="Clear favourites"/>
 			<node name="buyAllBooks" value="Buy all books"/>

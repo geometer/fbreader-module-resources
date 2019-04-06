@@ -167,7 +167,7 @@
 			<node name="title" value="Додати каталог"/>
 			<node name="editUrl" value="Увести URL вручну"/>
 		</node>
-		<node name="manageCatalogs" value="Керування каталогами">
+		<node name="manageCatalogs" value="Усі каталоги">
 			<node name="summary" value="Налаштуйте каталоги за своїм смаком"/>
 			<node name="enabled" value="Увімкнено"/>
 			<node name="disabled" value="Вимкнено"/>
@@ -182,7 +182,7 @@
 			<node name="topup" value="Поповнити рахунок"/>
 			<node name="addCustomCatalog" value="Додати каталог"/>
 			<node name="refreshCatalogsList" value="Оновити каталоги"/>
-			<node name="manageCatalogs" value="Керування каталогами"/>
+			<node name="manageCatalogs" value="Усі каталоги"/>
 			<node name="clearBasket" value="Очистити кошик"/>
 			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Купити всі книжки"/>
