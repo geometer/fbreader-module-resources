@@ -175,7 +175,7 @@
 			<node name="title" value="Добавление каталога"/>
 			<node name="editUrl" value="Ввести адрес вручную"/>
 		</node>
-		<node name="manageCatalogs" value="Управление каталогами">
+		<node name="manageCatalogs" value="Все каталоги">
 			<node name="summary" value="Настроить список библиотек и магазинов"/>
 			<node name="enabled" value="Включены"/>
 			<node name="disabled" value="Выключены"/>
@@ -190,7 +190,7 @@
 			<node name="topup" value="Пополнить счёт"/>
 			<node name="addCustomCatalog" value="Добавить каталог"/>
 			<node name="refreshCatalogsList" value="Обновить каталоги"/>
-			<node name="manageCatalogs" value="Управление каталогами"/>
+			<node name="manageCatalogs" value="Все каталоги"/>
 			<node name="clearBasket" value="Очистить корзину"/>
 			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Купить все книги"/>
