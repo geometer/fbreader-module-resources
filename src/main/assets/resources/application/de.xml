@@ -176,7 +176,7 @@
 			<node name="title" value="Katalog hinzufügen"/>
 			<node name="editUrl" value="URL eingeben"/>
 		</node>
-		<node name="manageCatalogs" value="Kataloge verwalten">
+		<node name="manageCatalogs" value="Alle Katalogen">
 			<node name="summary" value="Bearbeiten der Katalogliste"/>
 			<node name="enabled" value="Aktiviert"/>
 			<node name="disabled" value="Deaktiviert"/>
@@ -191,7 +191,7 @@
 			<node name="topup" value="Konto aufladen"/>
 			<node name="addCustomCatalog" value="Katalog hinzufügen"/>
 			<node name="refreshCatalogsList" value="Liste der Kataloge aktualisieren"/>
-			<node name="manageCatalogs" value="Kataloge verwalten"/>
+			<node name="manageCatalogs" value="Alle Katalogen"/>
 			<node name="clearBasket" value="Warenkorn leeren"/>
 			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Alle Bücher kaufen"/>

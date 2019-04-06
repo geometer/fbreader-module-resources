@@ -171,7 +171,7 @@
 			<node name="title" value="Katalog ekle"/>
 			<node name="editUrl" value="URL yaz"/>
 		</node>
-		<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true">
+		<node name="manageCatalogs" value="All catalogues" toBeTranslated="true">
 			<node name="summary" value="Configure your catalogues" toBeTranslated="true"/>
 			<node name="enabled" value="Enabled" toBeTranslated="true"/>
 			<node name="disabled" value="Disabled" toBeTranslated="true"/>
@@ -186,7 +186,7 @@
 			<node name="topup" value="Top up account"/>
 			<node name="addCustomCatalog" value="Katalog ekle"/>
 			<node name="refreshCatalogsList" value="Katalogları yenile"/>
-			<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true"/>
+			<node name="manageCatalogs" value="All catalogues" toBeTranslated="true"/>
 			<node name="clearBasket" value="Sepeti temizle"/>
 			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Tüm kitapları satın al"/>

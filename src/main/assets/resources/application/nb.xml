@@ -171,7 +171,7 @@
 			<node name="title" value="Legg til katalog"/>
 			<node name="editUrl" value="Skriv URL manuelt"/>
 		</node>
-		<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true">
+		<node name="manageCatalogs" value="All catalogues" toBeTranslated="true">
 			<node name="summary" value="Configure your catalogues" toBeTranslated="true"/>
 			<node name="enabled" value="Enabled" toBeTranslated="true"/>
 			<node name="disabled" value="Disabled" toBeTranslated="true"/>
@@ -186,7 +186,7 @@
 			<node name="topup" value="Topp opp konto"/>
 			<node name="addCustomCatalog" value="Legg til katalog"/>
 			<node name="refreshCatalogsList" value="Oppdater katalogene"/>
-			<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true"/>
+			<node name="manageCatalogs" value="All catalogues" toBeTranslated="true"/>
 			<node name="clearBasket" value="Tøm kurv"/>
 			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Kjøp alle bøkene"/>

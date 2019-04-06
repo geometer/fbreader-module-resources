@@ -167,7 +167,7 @@
 			<node name="title" value="Πρόσθεση καταλόγου"/>
 			<node name="editUrl" value="Πληκτρολογίστε URL"/>
 		</node>
-		<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true">
+		<node name="manageCatalogs" value="All catalogues" toBeTranslated="true">
 			<node name="summary" value="Configure your catalogues" toBeTranslated="true"/>
 			<node name="enabled" value="Enabled" toBeTranslated="true"/>
 			<node name="disabled" value="Disabled" toBeTranslated="true"/>
@@ -182,7 +182,7 @@
 			<node name="topup" value="Φόρτωση χρημάτων στον λογαρισμό"/>
 			<node name="addCustomCatalog" value="Προσθήκη καταλόγου"/>
 			<node name="refreshCatalogsList" value="Ενημέρωση λίστα καταλόγων"/>
-			<node name="manageCatalogs" value="Manage catalogues" toBeTranslated="true"/>
+			<node name="manageCatalogs" value="All catalogues" toBeTranslated="true"/>
 			<node name="clearBasket" value="Άδειασμα καλάθι αγοράς"/>
 			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
 			<node name="buyAllBooks" value="Αγορά όλων των βιβλίων"/>
