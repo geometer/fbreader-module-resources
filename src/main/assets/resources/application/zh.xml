@@ -171,7 +171,7 @@
 			<node name="title" value="添加目录"/>
 			<node name="editUrl" value="手动输入网址"/>
 		</node>
-		<node name="manageCatalogs" value="管理目录">
+		<node name="manageCatalogs" value="所有目录">
 			<node name="summary" value="配置您的目录"/>
 			<node name="enabled" value="启用"/>
 			<node name="disabled" value="禁用"/>
@@ -186,7 +186,7 @@
 			<node name="topup" value="充值账户"/>
 			<node name="addCustomCatalog" value="添加目录"/>
 			<node name="refreshCatalogsList" value="刷新目录"/>
-			<node name="manageCatalogs" value="管理目录"/>
+			<node name="manageCatalogs" value="所有目录"/>
 			<node name="clearBasket" value="清除篮子"/>
 			<node name="clearLiked" value="清除收藏"/>
 			<node name="buyAllBooks" value="购买所有书籍"/>
@@ -1034,7 +1034,7 @@
 			<node name="downloadingBook" value="下载书籍“%s”"/>
 			<node name="search" value="正在搜索。请稍等…"/>
 			<node name="loadInfo" value="加载信息。请稍等…"/>
-			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
+			<node name="preparingFile" value="准备文件。请稍等…"/>
 			<node name="loadingBook" value="打开书籍。请稍等…"/>
 			<node name="loadingBookList" value="打开书库。请稍等…"/>
 			<node name="creatingBooksDatabase" value="创建书籍数据库。请稍等…"/>

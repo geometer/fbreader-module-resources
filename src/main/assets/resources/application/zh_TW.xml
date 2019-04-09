@@ -171,7 +171,7 @@
 			<node name="title" value="添加目錄"/>
 			<node name="editUrl" value="手動輸入網址"/>
 		</node>
-		<node name="manageCatalogs" value="管理目錄">
+		<node name="manageCatalogs" value="所有目錄">
 			<node name="summary" value="配置您的目錄"/>
 			<node name="enabled" value="啟用"/>
 			<node name="disabled" value="禁用"/>
@@ -186,7 +186,7 @@
 			<node name="topup" value="充值帳戶"/>
 			<node name="addCustomCatalog" value="添加目錄"/>
 			<node name="refreshCatalogsList" value="刷新目錄"/>
-			<node name="manageCatalogs" value="管理目錄"/>
+			<node name="manageCatalogs" value="所有目錄"/>
 			<node name="clearBasket" value="清除籃子"/>
 			<node name="clearLiked" value="清除收藏"/>
 			<node name="buyAllBooks" value="購買所有書籍"/>
@@ -1034,7 +1034,7 @@
 			<node name="downloadingBook" value="下載書籍“%s”"/>
 			<node name="search" value="正在搜索。請稍等…"/>
 			<node name="loadInfo" value="加載資訊。請稍等…"/>
-			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
+			<node name="preparingFile" value="準備文件。請稍等…"/>
 			<node name="loadingBook" value="打開書籍。請稍等…"/>
 			<node name="loadingBookList" value="打開書庫。請稍等…"/>
 			<node name="creatingBooksDatabase" value="創建書籍資料庫。請稍等…"/>
