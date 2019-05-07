@@ -291,7 +291,7 @@
 		<node name="openStartScreen" value="Wprowadzenie"/>
 		<node name="preferences" value="Ustawienia"/>
 		<node name="bookInfo" value="Informacje o książce"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
+		<node name="pickFile" value="Wskaż plik…"/>
 		<node name="library" value="Biblioteka"/>
 		<node name="toc" value="Spis treści"/>
 		<node name="day" value="Dzień"/>
