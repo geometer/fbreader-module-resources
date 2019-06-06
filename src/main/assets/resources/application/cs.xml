@@ -120,10 +120,10 @@
 		<node name="removeFromBasket" value="Odebrat z košíku"/>
 		<node name="openBasket" value="Otevřít košík"/>
 		<node name="clearBasket" value="Vymazat košík"/>
-		<node name="addToLiked" value="Add to favourites" toBeTranslated="true"/>
-		<node name="removeFromLiked" value="Remove from favourites" toBeTranslated="true"/>
-		<node name="openLiked" value="Open favourites" toBeTranslated="true"/>
-		<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
+		<node name="addToLiked" value="Přidat do oblíbených"/>
+		<node name="removeFromLiked" value="Odebrat z oblíbených"/>
+		<node name="openLiked" value="Otevřít oblíbené"/>
+		<node name="clearLiked" value="Vymazat oblíbené"/>
 		<node name="buyAllBooks" value="Zakoupit všechny knihy"/>
 		<node name="openInBrowser" value="Otevřít v prohlížeči"/>
 		<node name="stopLoading" value="Zastavit načítání"/>
@@ -138,7 +138,7 @@
 		<node name="authorisationMenuTitle" value="Vybrat akci"/>
 		<node name="topupSummary" value="Aktuálně: %s"/>
 		<node name="basket" value="Košík"/>
-		<node name="liked" value="Favourites" toBeTranslated="true"/>
+		<node name="liked" value="Oblíbené"/>
 		<node name="basketSummaryEmpty" value="Žádné knihy"/>
 		<node name="basketSummaryCountOnly" value="%0 knih">
 			<node condition="value 1" value="%0 kniha"/>
@@ -194,7 +194,7 @@
 			<node name="refreshCatalogsList" value="Aktualizovat katalogy"/>
 			<node name="manageCatalogs" value="Spravovat katalogy"/>
 			<node name="clearBasket" value="Vymazat košík"/>
-			<node name="clearLiked" value="Clear favourites" toBeTranslated="true"/>
+			<node name="clearLiked" value="Vymazat oblíbené"/>
 			<node name="buyAllBooks" value="Zakoupit všechny knihy"/>
 		</node>
 	</node>
@@ -310,7 +310,7 @@
 		<node name="openStartScreen" value="Úvodní obrazovka"/>
 		<node name="preferences" value="Nastavení"/>
 		<node name="bookInfo" value="Informace o knize"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
+		<node name="pickFile" value="Vyberte soubor…"/>
 		<node name="library" value="Knihovna"/>
 		<node name="toc" value="Obsah"/>
 		<node name="day" value="Den"/>
@@ -663,7 +663,7 @@
 				<node name="showAsFooterOldStyle" value="Vodorovná patička (starý styl)"/>
 			</node>
 			<node name="footerHeight" value="Výška patičky"/>
-			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerExtraMargin" value="Vodorovný okraj patičky"/>
 			<node name="footerOldStyleColor" value="Barva patičky (starý styl)"/>
 			<node name="footerBackgroundColor" value="Barva pozadí patičky"/>
 			<node name="footerForegroundColor" value="Barva textu patičky"/>
@@ -856,29 +856,29 @@
 				<node name="none" value="Žádná akce"/>
 			</node>
 		</node>
-		<node name="tts" value="Text to speech" toBeTranslated="true">
-			<node name="summary" value="Reading aloud" toBeTranslated="true"/>
-			<node name="highlight" value="Sentence highlighting" toBeTranslated="true">
-				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+		<node name="tts" value="Převod textu na řeč">
+			<node name="summary" value="Čtení nahlas"/>
+			<node name="highlight" value="Zvýrazňování věty">
+				<node name="summaryOn" value="Zvýrazňovat"/>
+				<node name="summaryOff" value="Nezvýrazňovat"/>
 			</node>
-			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
-				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			<node name="stopUnplug" value="Zastavit při odpojení sluchátek nebo BT">
+				<node name="summaryOn" value="Zastavit"/>
+				<node name="summaryOff" value="Nezastavovat"/>
 			</node>
-			<node name="paragraphPause" value="Pause after paragraph, msec" toBeTranslated="true"/>
-			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
-			<node name="byWords" value="Read by word" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			<node name="paragraphPause" value="Pozastavit za odstavcem (ms)"/>
+			<node name="sentencePause" value="Pozastavit za větoum (ms)"/>
+			<node name="byWords" value="Číst po slovech">
+				<node name="summaryOn" value="Ano"/>
+				<node name="summaryOff" value="Ne"/>
 			</node>
-			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			<node name="wordsPause" value="… a pozastavit za každým slovem">
+				<node name="summaryOn" value="Ano"/>
+				<node name="summaryOff" value="Ne"/>
 			</node>
-			<node name="useNetworkVoices" value="Voices that require a network connection" toBeTranslated="true">
-				<node name="summaryOn" value="Use" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not use" toBeTranslated="true"/>
+			<node name="useNetworkVoices" value="Hlasy, které vyžadují připojení k síti">
+				<node name="summaryOn" value="Používat"/>
+				<node name="summaryOff" value="Nepoužívat"/>
 			</node>
 		</node>
 		<node name="twitter" value="Integrace Twitteru">
@@ -1043,7 +1043,7 @@
 			<node name="downloadingBook" value="Stahování knihy %s"/>
 			<node name="search" value="Vyhledávání. Čekejte…"/>
 			<node name="loadInfo" value="Načítání informací. Čekejte…"/>
-			<node name="preparingFile" value="Preparing file. Please wait…" toBeTranslated="true"/>
+			<node name="preparingFile" value="Příprava souboru. Čekejte…"/>
 			<node name="loadingBook" value="Otevírání knihy. Čekejte…"/>
 			<node name="loadingBookList" value="Otevírání knihovny. Čekejte…"/>
 			<node name="creatingBooksDatabase" value="Vytváření databáze knih. Čekejte…"/>
@@ -1162,7 +1162,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
-		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
+		<node name="cannotOpen" value="Nelze otevřít '%s'"/>
 		<node name="fileNotFound" value="Soubor nebyl nalezen: %s"/>
 		<node name="unsupportedEncryptionMethod" value="Soubor %s je šifrovaný metodou, kterou FBReader nepodporuje. Některé stránky nelze číst."/>
 		<node name="opfFileNotFound" value="OPF nebyl nalezen v %s"/>
@@ -1303,7 +1303,7 @@
 		<node name="syncServerFailure" value="Selhání připojení serveru. Zkuste to znovu později."/>
 	</node>
 	<node name="bookDownloadNotification">
-		<node name="title" value="FBReader" toBeTranslated="true"/>
-		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
+		<node name="title" value="FBReader"/>
+		<node name="text" value="Stahování knihy na pozadí"/>
 	</node>
 </resources>
