@@ -655,6 +655,7 @@
 			</node>
 			<node name="footerHeight" value="Hoogte onderbalk"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Kleur onderbalk (oude manier)"/>
 			<node name="footerBackgroundColor" value="Onderbalk achtergrondkleur"/>
 			<node name="footerForegroundColor" value="Onderbalk tekstkleur"/>

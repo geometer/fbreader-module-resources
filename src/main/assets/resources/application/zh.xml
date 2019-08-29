@@ -655,6 +655,7 @@
 			</node>
 			<node name="footerHeight" value="页脚高度"/>
 			<node name="footerExtraMargin" value="页脚水平边距"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="页脚(老式)颜色"/>
 			<node name="footerBackgroundColor" value="页脚背景颜色"/>
 			<node name="footerForegroundColor" value="页脚文本颜色"/>

@@ -645,6 +645,7 @@
 			</node>
 			<node name="footerHeight" value="Ύψος υποσέλιδου"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Footer (old style) colour" toBeTranslated="true"/>
 			<node name="footerBackgroundColor" value="Footer background colour" toBeTranslated="true"/>
 			<node name="footerForegroundColor" value="Footer text colour" toBeTranslated="true"/>

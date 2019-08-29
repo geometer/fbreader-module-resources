@@ -655,6 +655,7 @@
 			</node>
 			<node name="footerHeight" value="Вышыня прыпятка"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Колер прыпятка (стары выгляд)"/>
 			<node name="footerBackgroundColor" value="Колер фону прыяптка"/>
 			<node name="footerForegroundColor" value="Колер шрыфту прыпятка"/>

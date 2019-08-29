@@ -645,6 +645,7 @@
 			</node>
 			<node name="footerHeight" value="Wysokość stopki"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Kolor stopki (stary styl)"/>
 			<node name="footerBackgroundColor" value="Kolor tła stopki"/>
 			<node name="footerForegroundColor" value="Kolor tekstu stopki"/>

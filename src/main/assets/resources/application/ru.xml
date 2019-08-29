@@ -660,6 +660,7 @@
 			</node>
 			<node name="footerHeight" value="Высота подвала"/>
 			<node name="footerExtraMargin" value="Горизонтальный отступ"/>
+			<node name="footerBottomMargin" value="Отступ снизу"/>
 			<node name="footerOldStyleColor" value="Цвет подвала (старый стиль)"/>
 			<node name="footerBackgroundColor" value="Цвет фона подвала"/>
 			<node name="footerForegroundColor" value="Цвет текста в подвале"/>

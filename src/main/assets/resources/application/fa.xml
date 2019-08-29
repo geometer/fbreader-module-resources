@@ -654,6 +654,7 @@
 			</node>
 			<node name="footerHeight" value="ارتفاع زيربرگ"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="پاورقی (سبک قدیمی) رنگ"/>
 			<node name="footerBackgroundColor" value="رنگ پس زمینه پاورقی"/>
 			<node name="footerForegroundColor" value="پاورقی رنگ متن"/>

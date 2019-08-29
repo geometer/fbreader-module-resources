@@ -655,6 +655,7 @@
 			</node>
 			<node name="footerHeight" value="꼬리말 높이"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="꼬리말 (구식) 색상"/>
 			<node name="footerBackgroundColor" value="꼬리말 배경 색상"/>
 			<node name="footerForegroundColor" value="꼬리말 텍스트 색상"/>

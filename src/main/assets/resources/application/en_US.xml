@@ -655,6 +655,7 @@
 			</node>
 			<node name="footerHeight" value="Footer height"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin"/>
+			<node name="footerBottomMargin" value="Footer bottom margin"/>
 			<node name="footerOldStyleColor" value="Footer (old style) color"/>
 			<node name="footerBackgroundColor" value="Footer background color"/>
 			<node name="footerForegroundColor" value="Footer text color"/>

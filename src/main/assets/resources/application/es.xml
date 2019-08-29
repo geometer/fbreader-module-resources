@@ -661,6 +661,7 @@
 			</node>
 			<node name="footerHeight" value="Altura del pie de página"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Color del pie (estilo antiguo)"/>
 			<node name="footerBackgroundColor" value="Color de fondo del pie"/>
 			<node name="footerForegroundColor" value="Color del texto del pie"/>

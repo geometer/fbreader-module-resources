@@ -648,6 +648,7 @@
 			</node>
 			<node name="footerHeight" value="înaltime subsol"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Culoare subsol (stil clasic)"/>
 			<node name="footerBackgroundColor" value="Culoare fundal subsol"/>
 			<node name="footerForegroundColor" value="Culoare text subsol"/>

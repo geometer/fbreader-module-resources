@@ -655,6 +655,7 @@
 			</node>
 			<node name="footerHeight" value="Oin-oharraren altuera"/>
 			<node name="footerExtraMargin" value="Footer horizontal margin" toBeTranslated="true"/>
+			<node name="footerBottomMargin" value="Footer bottom margin" toBeTranslated="true"/>
 			<node name="footerOldStyleColor" value="Oin-oharraren kolorea (estilo zaharran)"/>
 			<node name="footerBackgroundColor" value="Oin-oharraren atzeko planoaren kolorea"/>
 			<node name="footerForegroundColor" value="Oin-oharraren testuaren kolorea"/>
