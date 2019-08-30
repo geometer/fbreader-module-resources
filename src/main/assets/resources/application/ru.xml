@@ -855,7 +855,7 @@
 		</node>
 		<node name="tts" value="Синтез речи">
 			<node name="summary" value="Автоматическое чтение вслух"/>
-			<node name="highlight" value="Подстветка читаемого текста">
+			<node name="highlight" value="Подсветка читаемого текста">
 				<node name="summaryOn" value="Подсвечивать"/>
 				<node name="summaryOff" value="Не подсвечивать"/>
 			</node>
