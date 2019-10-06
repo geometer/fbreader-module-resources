@@ -253,11 +253,7 @@ final class ZLTreeResource extends ZLResource {
 		public void readDocument(ZLTreeResource root, String path) {
 			myStack.clear();
 			myStack.add(root);
-			try {
-				XmlUtil.parseQuietly(this.context.getAssets().open(path), this);
-			} catch (Throwable t) {
-				// ignore
-			}
+			XmlUtil.parseQuietly(this.context, path, this);
 		}
 
 		@Override
