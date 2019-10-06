@@ -2,7 +2,7 @@
  * Copyright (C) 2004-2018 FBReader.ORG Limited <contact@fbreader.org>
  */
 
-package org.geometerplus.zlibrary.core.language;
+package org.fbreader.language;
 
 import java.util.Locale;
 

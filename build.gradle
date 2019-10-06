@@ -1,9 +1,9 @@
 apply plugin: 'com.android.library'
 
 dependencies {
-	implementation project(':fbreader_common')
 	implementation project(':fbreader_config_client')
 	implementation project(':fbreader_filesystem')
+	implementation project(':fbreader_language')
 }
 
 android {
