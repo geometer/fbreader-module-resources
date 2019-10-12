@@ -32,11 +32,6 @@
 			<node name="networkNotAvailable" value="La red no está disponible"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="Rojo"/>
-		<node name="green" value="Verde"/>
-		<node name="blue" value="Azul"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="Árabe"/>
 		<node name="be" value="Bielorruso"/>

@@ -25,11 +25,6 @@
 			<node name="networkNotAvailable" value="ネットワークが利用できません"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="赤"/>
-		<node name="green" value="緑"/>
-		<node name="blue" value="青"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="アラビア語"/>
 		<node name="be" value="ベラルーシ語"/>

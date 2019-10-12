@@ -25,11 +25,6 @@
 			<node name="networkNotAvailable" value="نیٹ ورک دستیاب نہیں ہے"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="سرخ"/>
-		<node name="green" value="سبز"/>
-		<node name="blue" value="نیلا"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="عربی"/>
 		<node name="be" value="بيلارشين"/>

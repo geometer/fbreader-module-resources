@@ -25,11 +25,6 @@
 			<node name="networkNotAvailable" value="네트워크를 사용할 수 없습니다"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="빨강"/>
-		<node name="green" value="초록"/>
-		<node name="blue" value="파랑"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="Arabic" toBeTranslated="true"/>
 		<node name="be" value="Belarusian" toBeTranslated="true"/>

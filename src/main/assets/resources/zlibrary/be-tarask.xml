@@ -25,11 +25,6 @@
 			<node name="networkNotAvailable" value="Сетка недаступная"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="Чырвоны"/>
-		<node name="green" value="Зялёны"/>
-		<node name="blue" value="Сіні"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="Арабская мова"/>
 		<node name="be" value="Беларуская мова"/>

@@ -25,11 +25,6 @@
 			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="წითელი"/>
-		<node name="green" value="მწვანე"/>
-		<node name="blue" value="ლურჟი"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="არაბული"/>
 		<node name="be" value="Belarusian" toBeTranslated="true"/>

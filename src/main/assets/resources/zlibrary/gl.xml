@@ -25,11 +25,6 @@
 			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="Vermello"/>
-		<node name="green" value="Verde"/>
-		<node name="blue" value="Azul"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="Arabe"/>
 		<node name="be" value="Belarusian" toBeTranslated="true"/>

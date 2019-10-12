@@ -25,11 +25,6 @@
 			<node name="networkNotAvailable" value="شبکه وجود ندارد"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="قرمز"/>
-		<node name="green" value="سبز"/>
-		<node name="blue" value="آبی"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="عربی"/>
 		<node name="be" value="بلاروس"/>

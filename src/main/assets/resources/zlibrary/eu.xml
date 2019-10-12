@@ -26,11 +26,6 @@
 			<node name="networkNotAvailable" value="Sarea ez dago erabilgarri"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="Gorria"/>
-		<node name="green" value="Berdea"/>
-		<node name="blue" value="Urdina"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="Arabiera"/>
 		<node name="be" value="Bielorrusiera"/>

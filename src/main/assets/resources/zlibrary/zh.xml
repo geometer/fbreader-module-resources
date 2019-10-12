@@ -25,11 +25,6 @@
 			<node name="networkNotAvailable" value="网络不可用"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="红色"/>
-		<node name="green" value="绿色"/>
-		<node name="blue" value="蓝色"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="阿拉伯语"/>
 		<node name="be" value="白俄罗斯语"/>

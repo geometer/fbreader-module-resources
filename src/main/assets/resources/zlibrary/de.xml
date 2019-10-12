@@ -31,11 +31,6 @@
 			<node name="networkNotAvailable" value="Keine Verbindung zu einem Netzwerk vorhanden"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="Rot"/>
-		<node name="green" value="Grün"/>
-		<node name="blue" value="Blau"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="العربية | Arabisch"/>
 		<node name="be" value="беларуская | Weissrussisch"/>

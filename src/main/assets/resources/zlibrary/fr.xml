@@ -30,11 +30,6 @@
 			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="color">
-		<node name="red" value="Rouge"/>
-		<node name="green" value="Vert"/>
-		<node name="blue" value="Bleu"/>
-	</node>
 	<node name="language">
 		<node name="ar" value="Arabe"/>
 		<node name="be" value="Biélorusse"/>
