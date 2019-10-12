@@ -1047,29 +1047,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Belső szerverhiba"/>
-			<node name="purchaseNotEnoughMoney" value="Nincs elegendő pénz a számláján"/>
-			<node name="purchaseMissingBook" value="Nincs ilyen könyv"/>
-			<node name="purchaseAlreadyPurchased" value="Már megvásárolta a könyvet"/>
-			<node name="bookNotPurchased" value="A könyv nincs megvásárolva"/>
-			<node name="downloadLimitExceeded" value="Túllépte a letöltési korlátot"/>
-			<node name="noUserForEmail" value="Nincs regisztrált felhasználónk&#10;ezzel az e-mail címmel"/>
-			<node name="unsupportedOperation" value="Nem támogatott művelet"/>
-			<node name="notAnOPDS" value="Ez nem OPSD formátumú katalógus"/>
-			<node name="noRequiredInformation" value="Szükséges információ nincs megadva a katalógusban"/>
-			<node name="cacheDirectoryError" value="Gyorsítótár létrehozása sikertelen"/>
-			<node name="usernameAlreadyInUse" value="Ez a felhasználónév már foglalt"/>
-			<node name="usernameNotSpecified" value="Adjon meg felhasználónevet"/>
-			<node name="passwordNotSpecified" value="Adjon meg jelszót"/>
-			<node name="passwordsDoNotMatch" value="A két jelszónak meg kell egyeznie."/>
-			<node name="emailNotSpecified" value="Adjon meg egy érvényes e-mail címet"/>
-			<node name="emailAlreadyInUse" value="A megadott e-mail cím már regisztrálva van"/>
-			<node name="invalidEMail" value="Érvénytelen e-mail cím"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Túl sok regisztrációs kérés erről az IP-címről;&#10;próbálja meg pár perc múlva ismét!"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Bejelentkezés"/>
 			<node name="unencryptedWarning" value="Jelszava titkosítatlanul lesz elküldve"/>

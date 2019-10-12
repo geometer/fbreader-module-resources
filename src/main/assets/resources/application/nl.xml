@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Interne serverfout"/>
-			<node name="purchaseNotEnoughMoney" value="Niet genoeg geld"/>
-			<node name="purchaseMissingBook" value="Ontbrekend boek"/>
-			<node name="purchaseAlreadyPurchased" value="Reeds aangeschaft"/>
-			<node name="bookNotPurchased" value="Boek was niet aangeschaft"/>
-			<node name="downloadLimitExceeded" value="Downloadlimiet bereikt"/>
-			<node name="noUserForEmail" value="Er is geen gebruik bekend met het opgegeven e-mailadres"/>
-			<node name="unsupportedOperation" value="Bewerking wordt niet ondersteund"/>
-			<node name="notAnOPDS" value="Dit is geen OPDS-catalogus"/>
-			<node name="noRequiredInformation" value="Aangevraagde informatie is niet beschikbaar in de catalogus"/>
-			<node name="cacheDirectoryError" value="Maken van de cache-map is mislukt"/>
-			<node name="usernameAlreadyInUse" value="Gebruikersnaam bestaat al"/>
-			<node name="usernameNotSpecified" value="Gebruikersnaam kan niet leeg zijn"/>
-			<node name="passwordNotSpecified" value="Wachtwoord kan niet leeg zijn"/>
-			<node name="passwordsDoNotMatch" value="De opgegeven wachtwoorden zijn niet gelijk"/>
-			<node name="emailNotSpecified" value="E-mailadres is leeg"/>
-			<node name="emailAlreadyInUse" value="E-mailadres bestaat al"/>
-			<node name="invalidEMail" value="Ongeldig e-mailadres"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Te veel registraties vanaf jouw IP;&#10;Probeer het nog een keer over een paar minuten"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Authenticatie"/>
 			<node name="unencryptedWarning" value="Je wachtwoord wordt niet versleuteld verstuurd"/>

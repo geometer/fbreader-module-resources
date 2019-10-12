@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Internal server error" toBeTranslated="true"/>
-			<node name="purchaseNotEnoughMoney" value="Not enough money" toBeTranslated="true"/>
-			<node name="purchaseMissingBook" value="Missing book" toBeTranslated="true"/>
-			<node name="purchaseAlreadyPurchased" value="Already purchased" toBeTranslated="true"/>
-			<node name="bookNotPurchased" value="Book was not purchased" toBeTranslated="true"/>
-			<node name="downloadLimitExceeded" value="Download limit exceeded" toBeTranslated="true"/>
-			<node name="noUserForEmail" value="No user is registered&#10;with specified email address" toBeTranslated="true"/>
-			<node name="unsupportedOperation" value="Unsupported operation" toBeTranslated="true"/>
-			<node name="notAnOPDS" value="This is not an OPDS catalogue" toBeTranslated="true"/>
-			<node name="noRequiredInformation" value="Required information is not specified in the catalogue" toBeTranslated="true"/>
-			<node name="cacheDirectoryError" value="Unable to create cache directory" toBeTranslated="true"/>
-			<node name="usernameAlreadyInUse" value="اسم صارف پہلے ہی زیر استعمال"/>
-			<node name="usernameNotSpecified" value="اسم صارف خالی نہیں ہونا چاہئے"/>
-			<node name="passwordNotSpecified" value="پاس ورڈ خالی نہیں ہونا چاہئے"/>
-			<node name="passwordsDoNotMatch" value="دونوں پاس ورڈ یکساں نہیں"/>
-			<node name="emailNotSpecified" value="ای میل پتہ خالی ہے"/>
-			<node name="emailAlreadyInUse" value="ای میل ایڈریس پہلے ہی زیر استعمال ہے"/>
-			<node name="invalidEMail" value="ناجائز ای میل پتہ"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes" toBeTranslated="true"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Authentication" toBeTranslated="true"/>
 			<node name="unencryptedWarning" value="Your password will be sent unencrypted" toBeTranslated="true"/>

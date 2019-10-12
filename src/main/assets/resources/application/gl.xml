@@ -1047,29 +1047,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Produciuse un erro interno no servidor"/>
-			<node name="purchaseNotEnoughMoney" value="Non hai diñeiro abondo"/>
-			<node name="purchaseMissingBook" value="Non se atopa o libro"/>
-			<node name="purchaseAlreadyPurchased" value="Xa foi comprado"/>
-			<node name="bookNotPurchased" value="O libro no foi comprado"/>
-			<node name="downloadLimitExceeded" value="Excedeu do límite de descarga"/>
-			<node name="noUserForEmail" value="O usuario non foi rexistrado&#10;co enderezo de correo indicado"/>
-			<node name="unsupportedOperation" value="Operación non admitida"/>
-			<node name="notAnOPDS" value="Este non é un catálogo OPDS"/>
-			<node name="noRequiredInformation" value="A información requirida non está indicada no catálogo"/>
-			<node name="cacheDirectoryError" value="Non é posíbel crear o cartafol da caché"/>
-			<node name="usernameAlreadyInUse" value="Username already in use" toBeTranslated="true"/>
-			<node name="usernameNotSpecified" value="Username should not be blank" toBeTranslated="true"/>
-			<node name="passwordNotSpecified" value="Password should not be blank" toBeTranslated="true"/>
-			<node name="passwordsDoNotMatch" value="The two passwords do not match" toBeTranslated="true"/>
-			<node name="emailNotSpecified" value="Email address is blank" toBeTranslated="true"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use" toBeTranslated="true"/>
-			<node name="invalidEMail" value="Invalid email address" toBeTranslated="true"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes" toBeTranslated="true"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Autenticación"/>
 			<node name="unencryptedWarning" value="Your password will be sent unencrypted" toBeTranslated="true"/>

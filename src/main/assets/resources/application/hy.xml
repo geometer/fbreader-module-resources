@@ -1064,29 +1064,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Սպասարկչի ներքին սխալ"/>
-			<node name="purchaseNotEnoughMoney" value="Հաշվին բավարար միջոցներ չկան"/>
-			<node name="purchaseMissingBook" value="Գիրքը վաճառքում չէ"/>
-			<node name="purchaseAlreadyPurchased" value="Գիրքն արդեն գնվել է"/>
-			<node name="bookNotPurchased" value="Գիրքը չի գնվել"/>
-			<node name="downloadLimitExceeded" value="Բեռնումների սահմանաչափը սպառվել է"/>
-			<node name="noUserForEmail" value="Նման էլ. հասցեով օգտատեր չկա"/>
-			<node name="unsupportedOperation" value="Գործողությունը չի աջակցվում"/>
-			<node name="notAnOPDS" value="Սա OPDS գրացուցակ չէ"/>
-			<node name="noRequiredInformation" value="Նման տվյալ գրացուցակում չկա"/>
-			<node name="cacheDirectoryError" value="Չի հաջողվում ստեղծել գրացուցակ"/>
-			<node name="usernameAlreadyInUse" value="Օգտանունն արդեն գրանցված է"/>
-			<node name="usernameNotSpecified" value="Մուտագրեք օգտանուն"/>
-			<node name="passwordNotSpecified" value="Մուտքագրեք գաղտնաբառ"/>
-			<node name="passwordsDoNotMatch" value="Մուտքագրված գաղտնաբառերը չեն համընկնում"/>
-			<node name="emailNotSpecified" value="Մուտքագրեք էլ. փոստի հասցե"/>
-			<node name="emailAlreadyInUse" value="Էլ. փոստի հասցեն արդեն գրանցված է"/>
-			<node name="invalidEMail" value="Անվավեր էլ. փոստի հասցե"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Գրանցման կրկնվող փորձեր Ձեր IP հասցեից, փորձեք մի քանի րոպեից։"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Հեղինակացում"/>
 			<node name="unencryptedWarning" value="Գաղտնաբառը չի այլագրվելու"/>

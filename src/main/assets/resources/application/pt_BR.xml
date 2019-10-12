@@ -1060,29 +1060,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError" value="Erro de ligação">
-			<node name="internalError" value="Erro interno do servidor"/>
-			<node name="purchaseNotEnoughMoney" value="Dinheiro não suficiente"/>
-			<node name="purchaseMissingBook" value="Livro está em falta"/>
-			<node name="purchaseAlreadyPurchased" value="Já comprado"/>
-			<node name="bookNotPurchased" value="Livro não foi comprado"/>
-			<node name="downloadLimitExceeded" value="Limite excedido de download"/>
-			<node name="noUserForEmail" value="Nenhum utilizador foi registrado&#10; com o email especificado"/>
-			<node name="unsupportedOperation" value="Operação não suportada"/>
-			<node name="notAnOPDS" value="Este não é um catálogo OPDS"/>
-			<node name="noRequiredInformation" value="Informação necessária não está especificada no catálogo"/>
-			<node name="cacheDirectoryError" value="Não foi possível criar diretório de cache"/>
-			<node name="usernameAlreadyInUse" value="Utilizador já existe"/>
-			<node name="usernameNotSpecified" value="Utilizador não pode estar vazio"/>
-			<node name="passwordNotSpecified" value="Senha não pode estar vazia"/>
-			<node name="passwordsDoNotMatch" value="A senha introduzida não corresponde"/>
-			<node name="emailNotSpecified" value="Endereço de Email vazio"/>
-			<node name="emailAlreadyInUse" value="Endereço de Email já existe"/>
-			<node name="invalidEMail" value="Endereço de Email inválido"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Demasiados registos vindos do seu IP;&#10;tente novamente daqui a uns minutos"/>
-		</node>
 		<node name="AuthenticationDialog" value="Autenticação">
 			<node name="title" value="Autenticação"/>
 			<node name="unencryptedWarning" value="A sua senha será enviada sem criptografia"/>

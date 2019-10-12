@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Sunucu hatası"/>
-			<node name="purchaseNotEnoughMoney" value="Paranız yetersiz"/>
-			<node name="purchaseMissingBook" value="Eksik kitap"/>
-			<node name="purchaseAlreadyPurchased" value="Satın alınmış"/>
-			<node name="bookNotPurchased" value="Kitap satın alınamadı"/>
-			<node name="downloadLimitExceeded" value="İndirme sınırı aşıldı"/>
-			<node name="noUserForEmail" value="No user was registered&#10;with specified e-mail address"/>
-			<node name="unsupportedOperation" value="Desteklenmeyen işlem"/>
-			<node name="notAnOPDS" value="Bu bir OPDS kataloğu değil"/>
-			<node name="noRequiredInformation" value="Gerekli bilgi katalogda belirtilmemiş"/>
-			<node name="cacheDirectoryError" value="Önbellek dizini oluşturulamıyor"/>
-			<node name="usernameAlreadyInUse" value="Username already in use" toBeTranslated="true"/>
-			<node name="usernameNotSpecified" value="Username should not be blank" toBeTranslated="true"/>
-			<node name="passwordNotSpecified" value="Password should not be blank" toBeTranslated="true"/>
-			<node name="passwordsDoNotMatch" value="The two passwords do not match" toBeTranslated="true"/>
-			<node name="emailNotSpecified" value="Email address is blank" toBeTranslated="true"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use" toBeTranslated="true"/>
-			<node name="invalidEMail" value="Invalid email address" toBeTranslated="true"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes" toBeTranslated="true"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Kontrol"/>
 			<node name="unencryptedWarning" value="Parolanız gönderilecek"/>

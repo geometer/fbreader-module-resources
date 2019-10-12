@@ -1048,29 +1048,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Lỗi mạng nội bộ "/>
-			<node name="purchaseNotEnoughMoney" value="Thiếu tiền :)"/>
-			<node name="purchaseMissingBook" value="Mất sách"/>
-			<node name="purchaseAlreadyPurchased" value="Đã mua"/>
-			<node name="bookNotPurchased" value="Sách chưa được mua"/>
-			<node name="downloadLimitExceeded" value="Quá giới hạn tải về"/>
-			<node name="noUserForEmail" value="Không người nào đang ký&#10;với địa chỉ email xác định"/>
-			<node name="unsupportedOperation" value="Thao tác không được hỗ trợ"/>
-			<node name="notAnOPDS" value="Đây không phải là một kho OPDS"/>
-			<node name="noRequiredInformation" value="Thông tin yêu cầu không định vị được trong catalo"/>
-			<node name="cacheDirectoryError" value="Không thể tạo thư mục đệm"/>
-			<node name="usernameAlreadyInUse" value="Tài khoản đã có thể dùng"/>
-			<node name="usernameNotSpecified" value="Hãy nhập tên người dùng"/>
-			<node name="passwordNotSpecified" value="Hãy nhập mật khẩu"/>
-			<node name="passwordsDoNotMatch" value="Mật khẩu và mật khẩu xác nhận phải giống nhau."/>
-			<node name="emailNotSpecified" value="Hãy nhập địa chỉ email"/>
-			<node name="emailAlreadyInUse" value="Địa chỉ email đã được sử dụng"/>
-			<node name="invalidEMail" value="Địa chỉ email sai"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Có quá nhiều đăng ký từ IP của bạn;&#10;thử lại sau vài phút"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Xác thực"/>
 			<node name="unencryptedWarning" value="Mật khẩu không được mã hóa khi gửi đi"/>

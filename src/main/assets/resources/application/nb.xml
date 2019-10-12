@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Intern feil i tjenesten"/>
-			<node name="purchaseNotEnoughMoney" value="Ikke nok penger"/>
-			<node name="purchaseMissingBook" value="Manglende bok"/>
-			<node name="purchaseAlreadyPurchased" value="Allerede kjøpt"/>
-			<node name="bookNotPurchased" value="Boken ble ikke kjøpt"/>
-			<node name="downloadLimitExceeded" value="Nedlastingsgrensen er overskredet"/>
-			<node name="noUserForEmail" value="Ingen bruker var registrert&#10;med oppgitte e-postadresse"/>
-			<node name="unsupportedOperation" value="Handlingen er ikke støttet"/>
-			<node name="notAnOPDS" value="Dette er ikke en OPDS-katalog"/>
-			<node name="noRequiredInformation" value="Påkrevet informasjon er ikke oppgitt i katalogen"/>
-			<node name="cacheDirectoryError" value="Kan ikke lage mellomlagringskatalog"/>
-			<node name="usernameAlreadyInUse" value="Username already in use" toBeTranslated="true"/>
-			<node name="usernameNotSpecified" value="Username should not be blank" toBeTranslated="true"/>
-			<node name="passwordNotSpecified" value="Password should not be blank" toBeTranslated="true"/>
-			<node name="passwordsDoNotMatch" value="The two passwords do not match" toBeTranslated="true"/>
-			<node name="emailNotSpecified" value="Email address is blank" toBeTranslated="true"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use" toBeTranslated="true"/>
-			<node name="invalidEMail" value="Invalid email address" toBeTranslated="true"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes" toBeTranslated="true"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Autentisering"/>
 			<node name="unencryptedWarning" value="Passordet ditt vil bli sent ukryptert"/>

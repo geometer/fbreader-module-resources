@@ -1063,29 +1063,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Error interno de servidor"/>
-			<node name="purchaseNotEnoughMoney" value="No hay dinero suficiente"/>
-			<node name="purchaseMissingBook" value="No se encuentra el libro"/>
-			<node name="purchaseAlreadyPurchased" value="Ya fue comprado"/>
-			<node name="bookNotPurchased" value="El libro no fue comprado"/>
-			<node name="downloadLimitExceeded" value="Se ha excedido el límite de descarga"/>
-			<node name="noUserForEmail" value="Ningún usuario ha sido registrado&#10;con la dirección de correo electrónico especificada"/>
-			<node name="unsupportedOperation" value="Operación no admitida"/>
-			<node name="notAnOPDS" value="Este no es un catálogo OPDS"/>
-			<node name="noRequiredInformation" value="La información requerida no está especificada en el catálogo"/>
-			<node name="cacheDirectoryError" value="No es posible crear el directorio de caché"/>
-			<node name="usernameAlreadyInUse" value="El nombre de usuario ya está en uso"/>
-			<node name="usernameNotSpecified" value="El nombre de usuario no puede estar en blanco"/>
-			<node name="passwordNotSpecified" value="La contraseña no puede estar en blanco"/>
-			<node name="passwordsDoNotMatch" value="Las dos contraseñas no son iguales"/>
-			<node name="emailNotSpecified" value="La dirección de correo electrónico está en blanco"/>
-			<node name="emailAlreadyInUse" value="La dirección de correo electrónico ya está en uso"/>
-			<node name="invalidEMail" value="Dirección de correo electrónico inválida"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Ha habido demasiados registros desde su dirección IP;&#10; por favor, pruebe de nuevo en unos minutos"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Autenticación"/>
 			<node name="unencryptedWarning" value="Su contraseña se enviará sin encriptar"/>

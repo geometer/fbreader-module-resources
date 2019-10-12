@@ -1055,29 +1055,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Εσωτερικό σφάλμα διακομιστή."/>
-			<node name="purchaseNotEnoughMoney" value="Πολύ λίγα χρήματα."/>
-			<node name="purchaseMissingBook" value="Το βιβλίο λύπει."/>
-			<node name="purchaseAlreadyPurchased" value="Το βιβλίο έχει ήδη αγοραστεί."/>
-			<node name="bookNotPurchased" value="Το βιβλίο δεν αγοράστηκε."/>
-			<node name="downloadLimitExceeded" value="Το όριο λήψης υπερβάστηκε."/>
-			<node name="noUserForEmail" value="Δεν υπάρχει εγεγγραμένο μέλος με αυτό το Email&#10;"/>
-			<node name="unsupportedOperation" value="Η λειτουργία δεν υποστηρίζεται."/>
-			<node name="notAnOPDS" value="Αυτός είναι ένας κατάλογος OPDS."/>
-			<node name="noRequiredInformation" value="Η πληροφορίες που απαιτούνται δεν αναφέρονται στον κατάλογο."/>
-			<node name="cacheDirectoryError" value="Δεν μπορεί να δημιουργιθεί αρχείο Cache."/>
-			<node name="usernameAlreadyInUse" value="Username already in use" toBeTranslated="true"/>
-			<node name="usernameNotSpecified" value="Username should not be blank" toBeTranslated="true"/>
-			<node name="passwordNotSpecified" value="Password should not be blank" toBeTranslated="true"/>
-			<node name="passwordsDoNotMatch" value="The two passwords do not match" toBeTranslated="true"/>
-			<node name="emailNotSpecified" value="Email address is blank" toBeTranslated="true"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use" toBeTranslated="true"/>
-			<node name="invalidEMail" value="Invalid email address" toBeTranslated="true"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes" toBeTranslated="true"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Πιστοποίηση"/>
 			<node name="unencryptedWarning" value="Ο κωδικάς προσβασή σας μεταφέρεται χωρίς κωδικοποίηση."/>

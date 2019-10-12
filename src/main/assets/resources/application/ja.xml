@@ -1105,29 +1105,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="サーバ内部エラー"/>
-			<node name="purchaseNotEnoughMoney" value="所持金不足"/>
-			<node name="purchaseMissingBook" value="欠品"/>
-			<node name="purchaseAlreadyPurchased" value="すでに購入済み"/>
-			<node name="bookNotPurchased" value="購入が済んでいません"/>
-			<node name="downloadLimitExceeded" value="ダウンロード制限を超えました"/>
-			<node name="noUserForEmail" value="ご指定のメールアドレスでは&#10;ユーザ登録がありません"/>
-			<node name="unsupportedOperation" value="未対応な動作"/>
-			<node name="notAnOPDS" value="これは OPDS カタログではありません"/>
-			<node name="noRequiredInformation" value="カタログ中に、必要な情報が欠けています"/>
-			<node name="cacheDirectoryError" value="キャッシュディレクトリを作成できません"/>
-			<node name="usernameAlreadyInUse" value="ユーザ名が既に使われています"/>
-			<node name="usernameNotSpecified" value="ユーザ名は空にできません"/>
-			<node name="passwordNotSpecified" value="パスワードは空にできません"/>
-			<node name="passwordsDoNotMatch" value="入力されたパスワードが一致していません"/>
-			<node name="emailNotSpecified" value="メールアドレスが空です"/>
-			<node name="emailAlreadyInUse" value="メールアドレスが既に使われています"/>
-			<node name="invalidEMail" value="不正なメールアドレスです"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="お使いの IP からの登録が多すぎます;&#10;数分後に再度お試しください"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="認証"/>
 			<node name="unencryptedWarning" value="パスワードが暗号化せずに送信されます"/>

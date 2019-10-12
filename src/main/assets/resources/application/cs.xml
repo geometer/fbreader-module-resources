@@ -1066,29 +1066,6 @@
 				<node name="disable" value="Zakázat písma ke stažení"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Vnitřní chyba serveru"/>
-			<node name="purchaseNotEnoughMoney" value="Nemáte dost peněz"/>
-			<node name="purchaseMissingBook" value="Chybějící kniha"/>
-			<node name="purchaseAlreadyPurchased" value="Již zakoupena"/>
-			<node name="bookNotPurchased" value="Kniha nebyla zakoupena"/>
-			<node name="downloadLimitExceeded" value="Překročen limit stahování"/>
-			<node name="noUserForEmail" value="Žádný uživatel nebyl zaregistrován&#10;se zadanou e-mailovou adresou"/>
-			<node name="unsupportedOperation" value="Nepodporovaná operace"/>
-			<node name="notAnOPDS" value="Toto není OPDS katalog"/>
-			<node name="noRequiredInformation" value="Požadovaná informace není uvedena v katalogu"/>
-			<node name="cacheDirectoryError" value="Nelze vytvořit adresář mezipaměti"/>
-			<node name="usernameAlreadyInUse" value="Uživatelské jméno se již používá"/>
-			<node name="usernameNotSpecified" value="Zadejte uživatelské jméno"/>
-			<node name="passwordNotSpecified" value="Zadejte neprázdné heslo"/>
-			<node name="passwordsDoNotMatch" value="Heslo a potvrzení hesla se musí shodovat."/>
-			<node name="emailNotSpecified" value="Zadejte e-mailovou adresu"/>
-			<node name="emailAlreadyInUse" value="E-mailová adresa se již používá"/>
-			<node name="invalidEMail" value="Neplatná e-mailová adresa"/>
-			<node name="birthdateNotSpecified" value="Datum narození je prázdné"/>
-			<node name="invalidBirthdate" value="Neplatné datum narození"/>
-			<node name="tooManyRegistrations" value="Příliš mnoho registrací z vaší IP;&#10;zkuste to znovu za pár minut"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Ověřování"/>
 			<node name="unencryptedWarning" value="Vaše heslo bude odesláno nešifrovaně"/>

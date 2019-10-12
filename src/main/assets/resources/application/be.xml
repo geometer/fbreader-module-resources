@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Унутраная памылка сервера"/>
-			<node name="purchaseNotEnoughMoney" value="Не хапае грошай"/>
-			<node name="purchaseMissingBook" value="Адсутнічае кніга"/>
-			<node name="purchaseAlreadyPurchased" value="Ужо набыта"/>
-			<node name="bookNotPurchased" value="Кніга не набытая"/>
-			<node name="downloadLimitExceeded" value="Перавышаны ліміт спампоўкі"/>
-			<node name="noUserForEmail" value="Няма зарэгістраванага карыстальніка з такім адрасам"/>
-			<node name="unsupportedOperation" value="Непадтрымліваемая аперацыя"/>
-			<node name="notAnOPDS" value="Гэта не каталог OPDS (адкрытай сістэмы дастаўкі публікацый)"/>
-			<node name="noRequiredInformation" value="Патрэбная інфармацыя не азначаная ў каталозе"/>
-			<node name="cacheDirectoryError" value="Немагчыма стварыць католог кэшу"/>
-			<node name="usernameAlreadyInUse" value="Імя карытсальніка ўжо занятае"/>
-			<node name="usernameNotSpecified" value="Імя карытсальніка не павінна быць пустым"/>
-			<node name="passwordNotSpecified" value="Пароль не павінен быць пустым"/>
-			<node name="passwordsDoNotMatch" value="Паролі не супадаюць"/>
-			<node name="emailNotSpecified" value="Электронны адрас пусты"/>
-			<node name="emailAlreadyInUse" value="Электронны адрас ужо выкарыстоўваецца"/>
-			<node name="invalidEMail" value="Хібны электронны адрас"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Зашмат рэгсітрацый з Вашага адраса IP;&#10;калі ласка, паспрабуйце праз некалькі хвілін"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Праверка"/>
 			<node name="unencryptedWarning" value="Ваш пароль будзе адпраўлены незашыфраваным"/>

@@ -1047,29 +1047,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="เซิร์ฟเวอร์ภายในเกิดขัดข้อง"/>
-			<node name="purchaseNotEnoughMoney" value="เงินไม่พอจ่าย"/>
-			<node name="purchaseMissingBook" value="ไม่พบหยังสือ"/>
-			<node name="purchaseAlreadyPurchased" value="ซื้อเรียบร้อยแล้ว"/>
-			<node name="bookNotPurchased" value="ไม่ได้ซื้อหนังสือ"/>
-			<node name="downloadLimitExceeded" value="เกินขีดจำกัดการดาวน์โหลด"/>
-			<node name="noUserForEmail" value="ไม่มีชื่อผู้ใช้งานที่ลงทะเบียนด้วยอีเมลล์ได้ระบุไว้ "/>
-			<node name="unsupportedOperation" value="ไม่รองรับการทำงานนี้"/>
-			<node name="notAnOPDS" value="ไม่ใช่ OPDS แคตตาล็อก"/>
-			<node name="noRequiredInformation" value="ข้อมูลที่ต้องการไม่ได้ระบุในแคตตาล็อก"/>
-			<node name="cacheDirectoryError" value="ไม่สามารถสร้างแคชสำหรับไดเรคทอรี"/>
-			<node name="usernameAlreadyInUse" value="Username already in use" toBeTranslated="true"/>
-			<node name="usernameNotSpecified" value="Username should not be blank" toBeTranslated="true"/>
-			<node name="passwordNotSpecified" value="Password should not be blank" toBeTranslated="true"/>
-			<node name="passwordsDoNotMatch" value="The two passwords do not match" toBeTranslated="true"/>
-			<node name="emailNotSpecified" value="Email address is blank" toBeTranslated="true"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use" toBeTranslated="true"/>
-			<node name="invalidEMail" value="Invalid email address" toBeTranslated="true"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes" toBeTranslated="true"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="การตรวจสอบสิทธิ์"/>
 			<node name="unencryptedWarning" value="Your password will be sent unencrypted" toBeTranslated="true"/>

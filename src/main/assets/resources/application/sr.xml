@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Грешка у унутрашњем серверу."/>
-			<node name="purchaseNotEnoughMoney" value="Немате довољно новца."/>
-			<node name="purchaseMissingBook" value="Недостаје књига."/>
-			<node name="purchaseAlreadyPurchased" value="Већ сте купили."/>
-			<node name="bookNotPurchased" value="Књига није купљена."/>
-			<node name="downloadLimitExceeded" value="Ограничење за преузимање је прекорачено."/>
-			<node name="noUserForEmail" value="Не постоји корисник&#10;с наведеном е-адресом."/>
-			<node name="unsupportedOperation" value="Неподржана радња."/>
-			<node name="notAnOPDS" value="Ово није OPDS каталог."/>
-			<node name="noRequiredInformation" value="Нису наведени потребни подаци у каталогу."/>
-			<node name="cacheDirectoryError" value="Не могу да направим фасциклу за привремене датотеке."/>
-			<node name="usernameAlreadyInUse" value="Username already in use" toBeTranslated="true"/>
-			<node name="usernameNotSpecified" value="Username should not be blank" toBeTranslated="true"/>
-			<node name="passwordNotSpecified" value="Password should not be blank" toBeTranslated="true"/>
-			<node name="passwordsDoNotMatch" value="The two passwords do not match" toBeTranslated="true"/>
-			<node name="emailNotSpecified" value="Email address is blank" toBeTranslated="true"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use" toBeTranslated="true"/>
-			<node name="invalidEMail" value="Invalid email address" toBeTranslated="true"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes" toBeTranslated="true"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Провера идентитета"/>
 			<node name="unencryptedWarning" value="Ваша лозинка ће бити послата нешифрована."/>

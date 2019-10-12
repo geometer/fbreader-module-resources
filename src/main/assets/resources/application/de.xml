@@ -1062,29 +1062,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Interner Server-Fehler"/>
-			<node name="purchaseNotEnoughMoney" value="Zu wenig Geld."/>
-			<node name="purchaseMissingBook" value="Das Buch fehlt."/>
-			<node name="purchaseAlreadyPurchased" value="Das Buch wurde bereits gekauft."/>
-			<node name="bookNotPurchased" value="Das Buch wurde nicht gekauft."/>
-			<node name="downloadLimitExceeded" value="Download-Limit ist überschritten."/>
-			<node name="noUserForEmail" value="Es gibt keinen registrierten Nutzer mit dieser E-Mail-Adresse&#10;"/>
-			<node name="unsupportedOperation" value="Operation wird nicht unterstützt."/>
-			<node name="notAnOPDS" value="Dies ist kein OPDS Katalog."/>
-			<node name="noRequiredInformation" value="Die benötigte Information ist in dem Katalog nicht spezifiziert."/>
-			<node name="cacheDirectoryError" value="Es kann kein Cache-Verzeichnis angelegt werden."/>
-			<node name="usernameAlreadyInUse" value="Benutzername wird bereits verwendet."/>
-			<node name="usernameNotSpecified" value="Bitte den Benutzernamen eingeben."/>
-			<node name="passwordNotSpecified" value="Bitte ein Passwort eingeben."/>
-			<node name="passwordsDoNotMatch" value="Passwort und Passwortbestätigung müssen identisch sein."/>
-			<node name="emailNotSpecified" value="Bitte eine E-Mail-Adresse eingeben."/>
-			<node name="emailAlreadyInUse" value="Die E-Mail-Adresse ist bereits verwendet."/>
-			<node name="invalidEMail" value="Ungültige E-Mail-Adresse."/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Zu viele Registrierungen von Ihrer IP-Adresse.;&#10;Bitte in einigen Minuten noch einmal versuchen."/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Authentifizierung"/>
 			<node name="unencryptedWarning" value="Ihr Passwort wird unverschlüsselt übertragen."/>

@@ -1050,29 +1050,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Eroare internă pe server"/>
-			<node name="purchaseNotEnoughMoney" value="Nu sunt suficienți bani"/>
-			<node name="purchaseMissingBook" value="Lipsește cartea"/>
-			<node name="purchaseAlreadyPurchased" value="Deja achiziționate"/>
-			<node name="bookNotPurchased" value="Cartea nu a fost cumpărată"/>
-			<node name="downloadLimitExceeded" value="Ați depășit limita de descărcari"/>
-			<node name="noUserForEmail" value="Nici s-a găsit nici un utilizator înregistrat&#10;cu e-mail-ul specificat"/>
-			<node name="unsupportedOperation" value="Operatiune neacceptată"/>
-			<node name="notAnOPDS" value="Acesta nu este un catalog OPDS"/>
-			<node name="noRequiredInformation" value="Informația solicitată nu există în catalog"/>
-			<node name="cacheDirectoryError" value="Nu se poate crea un director de cache"/>
-			<node name="usernameAlreadyInUse" value="Nume utilizator deja în uz"/>
-			<node name="usernameNotSpecified" value="Numele de utilizator nu ar trebui să fie gol"/>
-			<node name="passwordNotSpecified" value="Parola nu trebuie să fie goală"/>
-			<node name="passwordsDoNotMatch" value="Cele două parole nu se potrivesc"/>
-			<node name="emailNotSpecified" value="Adresa de e-mail este necompletată"/>
-			<node name="emailAlreadyInUse" value="Adresa de e-mail este deja în uz"/>
-			<node name="invalidEMail" value="Adresa de e-mail este invalidă"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Prea multe înregistrări de la adresa dumneavoastră de IP;&#10;vă rugăm să încercați din nou în câteva minute"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Autentificare"/>
 			<node name="unencryptedWarning" value="Parola dvs. va fi trimisă necriptată"/>

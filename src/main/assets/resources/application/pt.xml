@@ -1058,29 +1058,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Erro interno do servidor"/>
-			<node name="purchaseNotEnoughMoney" value="Dinheiro insuficiente"/>
-			<node name="purchaseMissingBook" value="Livro está desaparecido"/>
-			<node name="purchaseAlreadyPurchased" value="Já comprado"/>
-			<node name="bookNotPurchased" value="Livro não foi comprado"/>
-			<node name="downloadLimitExceeded" value="Limite de download excedido"/>
-			<node name="noUserForEmail" value="Nenhum utilizador foi registado&#10; com o email especificado"/>
-			<node name="unsupportedOperation" value="Operação não suportada"/>
-			<node name="notAnOPDS" value="Este não é um catálogo OPDS válido"/>
-			<node name="noRequiredInformation" value="Informação necessária não está especificada no catálogo"/>
-			<node name="cacheDirectoryError" value="Não foi possível criar diretório de cache"/>
-			<node name="usernameAlreadyInUse" value="Nome de utilizador já existe"/>
-			<node name="usernameNotSpecified" value="Nome de utilizador não pode estar vazio"/>
-			<node name="passwordNotSpecified" value="Senha não pode estar vazia"/>
-			<node name="passwordsDoNotMatch" value="A senha introduzida não corresponde"/>
-			<node name="emailNotSpecified" value="Endereço de email vazio"/>
-			<node name="emailAlreadyInUse" value="Endereço de email já existe"/>
-			<node name="invalidEMail" value="Endereço de email inválido"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Demasiados registos originados do seu IP;&#10;tente novamente daqui a uns minutos"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Autenticação"/>
 			<node name="unencryptedWarning" value="A sua senha será enviada sem criptografia"/>

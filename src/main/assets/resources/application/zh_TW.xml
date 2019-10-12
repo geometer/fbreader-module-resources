@@ -1057,29 +1057,6 @@
 				<node name="disable" value="禁用下載字體"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="內部伺服器錯誤"/>
-			<node name="purchaseNotEnoughMoney" value="沒有足夠的錢"/>
-			<node name="purchaseMissingBook" value="缺失書籍"/>
-			<node name="purchaseAlreadyPurchased" value="已經購買"/>
-			<node name="bookNotPurchased" value="書籍沒有購買"/>
-			<node name="downloadLimitExceeded" value="超過下載限制"/>
-			<node name="noUserForEmail" value="沒有註冊用戶&#10;指定電郵地址"/>
-			<node name="unsupportedOperation" value="不支持的操作"/>
-			<node name="notAnOPDS" value="這不是OPDS目錄"/>
-			<node name="noRequiredInformation" value="所需資料未列於目錄內"/>
-			<node name="cacheDirectoryError" value="無法創建緩存目錄"/>
-			<node name="usernameAlreadyInUse" value="已使用的用戶名"/>
-			<node name="usernameNotSpecified" value="用戶名不能為空"/>
-			<node name="passwordNotSpecified" value="密碼不能為空"/>
-			<node name="passwordsDoNotMatch" value="這兩個密碼不匹配"/>
-			<node name="emailNotSpecified" value="電子郵件地址為空"/>
-			<node name="emailAlreadyInUse" value="電子郵件地址已經在使用中"/>
-			<node name="invalidEMail" value="無效的電子郵件地址"/>
-			<node name="birthdateNotSpecified" value="出生日期不詳"/>
-			<node name="invalidBirthdate" value="出生日期無效"/>
-			<node name="tooManyRegistrations" value="您的IP地址註冊過多;&#10;請幾分鐘後再試一次"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="認證"/>
 			<node name="unencryptedWarning" value="您的密碼將發送未加密"/>

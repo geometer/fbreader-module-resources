@@ -1047,29 +1047,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Внутрішня помилка сервера"/>
-			<node name="purchaseNotEnoughMoney" value="Не достатньо коштів на рахунку"/>
-			<node name="purchaseMissingBook" value="Книга відсутня у продажу"/>
-			<node name="purchaseAlreadyPurchased" value="Книгу уже придбано"/>
-			<node name="bookNotPurchased" value="Книгу не було придбано"/>
-			<node name="downloadLimitExceeded" value="Вичерпано ліміт завантажень"/>
-			<node name="noUserForEmail" value="Нема користувача з такою адресою"/>
-			<node name="unsupportedOperation" value="Непідтримувана операція"/>
-			<node name="notAnOPDS" value="Це не OPDS каталог"/>
-			<node name="noRequiredInformation" value="Необхідна інформація не знайдена в каталозі"/>
-			<node name="cacheDirectoryError" value="Не вдається створити каталог для кеша"/>
-			<node name="usernameAlreadyInUse" value="Це ім’я користувача зайняте"/>
-			<node name="usernameNotSpecified" value="Введіть ім’я користувача"/>
-			<node name="passwordNotSpecified" value="Введіть пароль"/>
-			<node name="passwordsDoNotMatch" value="Ви ввели 2 різних паролі"/>
-			<node name="emailNotSpecified" value="Введіть поштову адресу"/>
-			<node name="emailAlreadyInUse" value="Email-адреса уже використовується"/>
-			<node name="invalidEMail" value="Некоректна поштова адреса"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Занадто багато реєстрацій з вашого IP;&#10;спробуйте ще раз через декілька хвилин"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Авторизація"/>
 			<node name="unencryptedWarning" value="Ваш пароль буде відправлено незашифрованим"/>

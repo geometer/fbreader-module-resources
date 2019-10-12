@@ -1050,29 +1050,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Erreur interne du serveur"/>
-			<node name="purchaseNotEnoughMoney" value="Pas assez de crédit"/>
-			<node name="purchaseMissingBook" value="Livre manquant"/>
-			<node name="purchaseAlreadyPurchased" value="Déjà acheté"/>
-			<node name="bookNotPurchased" value="Le livre n'a pas été acheté"/>
-			<node name="downloadLimitExceeded" value="Limite de téléchargement atteinte"/>
-			<node name="noUserForEmail" value="Aucun utilisateur n'est inscrit&#10;avec l'adresse email indiquée"/>
-			<node name="unsupportedOperation" value="Opération non supportée"/>
-			<node name="notAnOPDS" value="Il ne s'agit pas d'un catalogue OPDS"/>
-			<node name="noRequiredInformation" value="Certaines informations requises sont absentes du catalogue"/>
-			<node name="cacheDirectoryError" value="Impossible de créer le répertoire contenant le cache"/>
-			<node name="usernameAlreadyInUse" value="Identifiant déjà utilisé"/>
-			<node name="usernameNotSpecified" value="Veuillez entrer un identifiant"/>
-			<node name="passwordNotSpecified" value="Veuillez entrer un mot de passe non vide"/>
-			<node name="passwordsDoNotMatch" value="Les deux mots de passe indiqués doivent être les mêmes."/>
-			<node name="emailNotSpecified" value="Veuillez entrer une adresse email"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use" toBeTranslated="true"/>
-			<node name="invalidEMail" value="Adresse email invalide"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Trop d'inscriptions depuis votre IP ;&#10;essayer à nouvea dans quelques minutes"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Authentification"/>
 			<node name="unencryptedWarning" value="Votre mot de passe va être envoyé en clair"/>

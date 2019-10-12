@@ -1063,29 +1063,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Грешка на сървъра"/>
-			<node name="purchaseNotEnoughMoney" value="Недостатъчна наличност по сметката"/>
-			<node name="purchaseMissingBook" value="Книгата липсва"/>
-			<node name="purchaseAlreadyPurchased" value="Книгата е вече купена"/>
-			<node name="bookNotPurchased" value="Книгата още не е купена"/>
-			<node name="downloadLimitExceeded" value="Изчерпан лимит на сваляне"/>
-			<node name="noUserForEmail" value="Няма потребител с такъв адрес"/>
-			<node name="unsupportedOperation" value="Операцията не се поддържа"/>
-			<node name="notAnOPDS" value="Това не е OPDS каталог"/>
-			<node name="noRequiredInformation" value="Информацията не е налична в каталога"/>
-			<node name="cacheDirectoryError" value="Невъзможно създаване на кеш директория"/>
-			<node name="usernameAlreadyInUse" value="Username already in use" toBeTranslated="true"/>
-			<node name="usernameNotSpecified" value="Username should not be blank" toBeTranslated="true"/>
-			<node name="passwordNotSpecified" value="Password should not be blank" toBeTranslated="true"/>
-			<node name="passwordsDoNotMatch" value="The two passwords do not match" toBeTranslated="true"/>
-			<node name="emailNotSpecified" value="Email address is blank" toBeTranslated="true"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use" toBeTranslated="true"/>
-			<node name="invalidEMail" value="Invalid email address" toBeTranslated="true"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes" toBeTranslated="true"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Оторизация"/>
 			<node name="unencryptedWarning" value="Паролата Ви се изпраща некриптирана"/>

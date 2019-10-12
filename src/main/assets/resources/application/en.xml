@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Internal server error"/>
-			<node name="purchaseNotEnoughMoney" value="Not enough money"/>
-			<node name="purchaseMissingBook" value="Missing book"/>
-			<node name="purchaseAlreadyPurchased" value="Already purchased"/>
-			<node name="bookNotPurchased" value="Book was not purchased"/>
-			<node name="downloadLimitExceeded" value="Download limit exceeded"/>
-			<node name="noUserForEmail" value="No user is registered&#10;with specified email address"/>
-			<node name="unsupportedOperation" value="Unsupported operation"/>
-			<node name="notAnOPDS" value="This is not an OPDS catalogue"/>
-			<node name="noRequiredInformation" value="Required information is not specified in the catalogue"/>
-			<node name="cacheDirectoryError" value="Unable to create cache directory"/>
-			<node name="usernameAlreadyInUse" value="Username already in use"/>
-			<node name="usernameNotSpecified" value="Username should not be blank"/>
-			<node name="passwordNotSpecified" value="Password should not be blank"/>
-			<node name="passwordsDoNotMatch" value="The two passwords do not match"/>
-			<node name="emailNotSpecified" value="Email address is blank"/>
-			<node name="emailAlreadyInUse" value="Email address is already in use"/>
-			<node name="invalidEMail" value="Invalid email address"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank"/>
-			<node name="invalidBirthdate" value="Invalid date of birth"/>
-			<node name="tooManyRegistrations" value="Too many registrations from your IP address;&#10;please try again in a few minutes"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Authentication"/>
 			<node name="unencryptedWarning" value="Your password will be sent unencrypted"/>

@@ -1056,29 +1056,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="خطاي سرور داخلي"/>
-			<node name="purchaseNotEnoughMoney" value="عدم حافظه كافي"/>
-			<node name="purchaseMissingBook" value="از دست دادن كتاب"/>
-			<node name="purchaseAlreadyPurchased" value="قبلا خريداري شده"/>
-			<node name="bookNotPurchased" value="كتاب خريداري نشده "/>
-			<node name="downloadLimitExceeded" value="دانلود بيش از حد مجاز"/>
-			<node name="noUserForEmail" value="هيچ كاربري با ايميل مشخص شده ثبت نام نكرده است"/>
-			<node name="unsupportedOperation" value="اجراي غيرقابل پشتيباني"/>
-			<node name="notAnOPDS" value="اين كاتالوگ OPDS نيست"/>
-			<node name="noRequiredInformation" value="اطلاعات مورد نياز در كاتالوگ مشخص نشده"/>
-			<node name="cacheDirectoryError" value="عدم توانايي در ايجاد فهرست راهنماي مخفي"/>
-			<node name="usernameAlreadyInUse" value="نام کاربری قبلا استفاده شده"/>
-			<node name="usernameNotSpecified" value="نام کاربری نباید خالی باشد"/>
-			<node name="passwordNotSpecified" value="گذرواژه نباید خالی باشد"/>
-			<node name="passwordsDoNotMatch" value="کلمه عبور وارد مطابقت ندارند"/>
-			<node name="emailNotSpecified" value="آدرس ایمیل نباید خالی باشد"/>
-			<node name="emailAlreadyInUse" value="ایمیل قبلا استفاده شده"/>
-			<node name="invalidEMail" value="آدرس ایمیل نامعتبر است"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="ثبت نام بیش از حد از IP شما;&#10;چند دقیقه بعد دوباره امتحان کنید"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="تاييد"/>
 			<node name="unencryptedWarning" value="رمز عبورتان مخفي فرستاده خواهد شد"/>

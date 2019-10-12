@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Zerbitzariaren barneko errorea"/>
-			<node name="purchaseNotEnoughMoney" value="Ez dago diru nahikorik"/>
-			<node name="purchaseMissingBook" value="Ezin izan da liburua aurkitu"/>
-			<node name="purchaseAlreadyPurchased" value="Dagoeneko erosita"/>
-			<node name="bookNotPurchased" value="Ez da liburua erosi"/>
-			<node name="downloadLimitExceeded" value="Deskarga muga gaindituta"/>
-			<node name="noUserForEmail" value="Ez dago helbide elektroniko horrekin izena eman&#10; duen erabiltzailerik"/>
-			<node name="unsupportedOperation" value="Onartu gabeko eragiketa"/>
-			<node name="notAnOPDS" value="Hau ez da OPDS motako katalogo bat"/>
-			<node name="noRequiredInformation" value="Eskatutako informazioa ez dago katalogoan zehaztuta"/>
-			<node name="cacheDirectoryError" value="Ezin izan da cacheko direktorioa sortu"/>
-			<node name="usernameAlreadyInUse" value="Erabiltzaile-izen hori badago dagoeneko"/>
-			<node name="usernameNotSpecified" value="Ezin da erabiltzaile-izena hutsik utzi"/>
-			<node name="passwordNotSpecified" value="Ezin da pasahitza hutsik utzi"/>
-			<node name="passwordsDoNotMatch" value="Pasahitz biek ez dute bat egiten"/>
-			<node name="emailNotSpecified" value="Posta elektronikoa hutsik utzi duzu"/>
-			<node name="emailAlreadyInUse" value="Posta elektroniko hori badago dagoeneko"/>
-			<node name="invalidEMail" value="Baliogabeko posta elektronikoa"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Izen-emate saiakera gehiegi IP helbide horretatik;&#10; saiatu berriro minutu batzu barru"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Egiaztatzea"/>
 			<node name="unencryptedWarning" value="Pasahitza zifratu gabe bidaliko da"/>

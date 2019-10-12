@@ -1047,29 +1047,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Wewnętrzny błąd serwera"/>
-			<node name="purchaseNotEnoughMoney" value="Za mało pieniędzy"/>
-			<node name="purchaseMissingBook" value="Brak książki"/>
-			<node name="purchaseAlreadyPurchased" value="Książka już została kupiona"/>
-			<node name="bookNotPurchased" value="Nie zakupiono książki"/>
-			<node name="downloadLimitExceeded" value="Wyczerpany limit pobierania"/>
-			<node name="noUserForEmail" value="Nie ma użytkownika o takim&#10;adresie e-mail"/>
-			<node name="unsupportedOperation" value="Niewspierana operacja"/>
-			<node name="notAnOPDS" value="To nie jest katalog OPDS"/>
-			<node name="noRequiredInformation" value="Wymagana informacja nie jest podana w katalogu"/>
-			<node name="cacheDirectoryError" value="Nie udało się stworzyć katalogu pamięci cache"/>
-			<node name="usernameAlreadyInUse" value="Nazwa użytkownika jest już używana"/>
-			<node name="usernameNotSpecified" value="Nazwa użytkownika nie może być pusta"/>
-			<node name="passwordNotSpecified" value="Hasło nie może być puste"/>
-			<node name="passwordsDoNotMatch" value="Hasła nie zgadzają się"/>
-			<node name="emailNotSpecified" value="Adres Email jest pusty"/>
-			<node name="emailAlreadyInUse" value="Adres Email jest już używany"/>
-			<node name="invalidEMail" value="Nieprawidłowy adres email"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Zbyt dużo rejestracji z tego adresu IP;&#10;Spróbuj ponownie za kilka minut"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Uwierzytelnianie"/>
 			<node name="unencryptedWarning" value="Hasło będzie przesłane w formie niezaszyfrowanej"/>

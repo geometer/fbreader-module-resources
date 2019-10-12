@@ -1049,29 +1049,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="Errore Server Interno"/>
-			<node name="purchaseNotEnoughMoney" value="Credito non sufficiente"/>
-			<node name="purchaseMissingBook" value="Libro mancante"/>
-			<node name="purchaseAlreadyPurchased" value="Già acquistato"/>
-			<node name="bookNotPurchased" value="Il libro non è stato acquistato"/>
-			<node name="downloadLimitExceeded" value="Limite di scaricamento superato"/>
-			<node name="noUserForEmail" value="Nessun utente è registrato&#10;con questo indirizzo e-mail"/>
-			<node name="unsupportedOperation" value="Operazione non supportata"/>
-			<node name="notAnOPDS" value="Questo non è un catalogo OPDS"/>
-			<node name="noRequiredInformation" value="Le informazioni richieste non sono specificate nel catalogo"/>
-			<node name="cacheDirectoryError" value="Impossibile creare la cartella della cache"/>
-			<node name="usernameAlreadyInUse" value="Il nome utente è già in uso"/>
-			<node name="usernameNotSpecified" value="Perfavore, inserisci il tuo nome utente"/>
-			<node name="passwordNotSpecified" value="Perfavore, inserisci una password non vuota"/>
-			<node name="passwordsDoNotMatch" value="La Password e la Conferma Password devono essere le stesse."/>
-			<node name="emailNotSpecified" value="Perfavore, inserisci un indirizzo e-mail"/>
-			<node name="emailAlreadyInUse" value="L'indirizzo email è già in uso"/>
-			<node name="invalidEMail" value="Indirizzo e-mail non valido"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="Troppe registrazioni dal tuo IP;&#10;riprova fra qualche minuto"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="Autenticazione"/>
 			<node name="unencryptedWarning" value="La tua password verrà inviata in chiaro"/>

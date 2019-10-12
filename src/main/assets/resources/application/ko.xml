@@ -1057,29 +1057,6 @@
 				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
 			</node>
 		</node>
-		<node name="networkError">
-			<node name="internalError" value="내부 서버 오류"/>
-			<node name="purchaseNotEnoughMoney" value="보유 금액이 충분하지 않음"/>
-			<node name="purchaseMissingBook" value="책을 찾을 수 없음"/>
-			<node name="purchaseAlreadyPurchased" value="이미 구매함"/>
-			<node name="bookNotPurchased" value="책이 구매되지 않음"/>
-			<node name="downloadLimitExceeded" value="다운로드 제한 초과"/>
-			<node name="noUserForEmail" value="지정한 이메일로 등록된&#10;사용자 없음"/>
-			<node name="unsupportedOperation" value="지원되지 않은 작업"/>
-			<node name="notAnOPDS" value="이것은 OPDS 카탈로그가 아닙니다"/>
-			<node name="noRequiredInformation" value="요구된 정보가 카탈로그에 지정되어 있지 않습니다"/>
-			<node name="cacheDirectoryError" value="캐시(cache) 폴더를 만들 수 없습니다"/>
-			<node name="usernameAlreadyInUse" value="사용자 이름이 이미 사용중입니다"/>
-			<node name="usernameNotSpecified" value="사용자 이름을 반드시 입력해야 합니다"/>
-			<node name="passwordNotSpecified" value="암호를 반드시 입력해야 합니다"/>
-			<node name="passwordsDoNotMatch" value="입력된 암호가 일치하지 않습니다"/>
-			<node name="emailNotSpecified" value="이메일 주소가 비어있습니다"/>
-			<node name="emailAlreadyInUse" value="이메일 주소가 이미 사용중입니다"/>
-			<node name="invalidEMail" value="잘못된 이메일 주소"/>
-			<node name="birthdateNotSpecified" value="Date of birth is blank" toBeTranslated="true"/>
-			<node name="invalidBirthdate" value="Invalid date of birth" toBeTranslated="true"/>
-			<node name="tooManyRegistrations" value="당신의 IP로부터 너무 많은 등록이 진행되고 있습니다;&#10;몇 분 후에 다시 시도하세요"/>
-		</node>
 		<node name="AuthenticationDialog">
 			<node name="title" value="인증"/>
 			<node name="unencryptedWarning" value="당신의 암호는 암호화되지 않은 상태로 전송됩니다"/>
