@@ -976,7 +976,6 @@
 			<node name="pay" value="Pagar"/>
 			<node name="refresh" value="Recargar"/>
 			<node name="authorise" value="Autorizar"/>
-			<node name="resetPosition" value="Restablecer posición"/>
 			<node name="sendReport" value="Enviar reporte"/>
 			<node name="addToFavorites" value="Agregar a favoritos"/>
 			<node name="removeFromFavorites" value="Borrar de favoritos"/>

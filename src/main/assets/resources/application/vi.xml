@@ -961,7 +961,6 @@
 			<node name="pay" value="Pay" toBeTranslated="true"/>
 			<node name="refresh" value="Refresh" toBeTranslated="true"/>
 			<node name="authorise" value="Authorise" toBeTranslated="true"/>
-			<node name="resetPosition" value="Về vị trí cũ"/>
 			<node name="sendReport" value="Gửi phản hồi"/>
 			<node name="addToFavorites" value="Thêm vào yêu thích"/>
 			<node name="removeFromFavorites" value="Xóa khỏi yêu thích"/>

@@ -968,7 +968,6 @@
 			<node name="pay" value="دفع"/>
 			<node name="refresh" value="إعادة التحميل"/>
 			<node name="authorise" value="Authorise" toBeTranslated="true"/>
-			<node name="resetPosition" value="الصفحة السابقة"/>
 			<node name="sendReport" value="إرسال التقرير"/>
 			<node name="addToFavorites" value="اضافة الى المفضلة"/>
 			<node name="removeFromFavorites" value="حذف من المفضلة"/>

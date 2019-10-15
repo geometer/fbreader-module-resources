@@ -975,7 +975,6 @@
 			<node name="pay" value="Bezahlen"/>
 			<node name="refresh" value="Aktualsieren"/>
 			<node name="authorise" value="Autorisieren"/>
-			<node name="resetPosition" value="Position zurücksetzen"/>
 			<node name="sendReport" value="Report senden"/>
 			<node name="addToFavorites" value="Buch zu den Favoriten hinzufügen"/>
 			<node name="removeFromFavorites" value="Buch aus der Favoritenliste löschen"/>

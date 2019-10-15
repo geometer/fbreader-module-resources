@@ -963,7 +963,6 @@
 			<node name="pay" value="Platește"/>
 			<node name="refresh" value="Actualizare"/>
 			<node name="authorise" value="Autorizează"/>
-			<node name="resetPosition" value="Resetează pozitia"/>
 			<node name="sendReport" value="Trimite raport"/>
 			<node name="addToFavorites" value="Adaugă la favorite"/>
 			<node name="removeFromFavorites" value="Șterge din favorite"/>

@@ -970,7 +970,6 @@
 			<node name="pay" value="Ordaindu"/>
 			<node name="refresh" value="Freskatu"/>
 			<node name="authorise" value="Baimendu"/>
-			<node name="resetPosition" value="Berrezarri posizioa"/>
 			<node name="sendReport" value="Bidali txostena"/>
 			<node name="addToFavorites" value="Gehitu gogokoetara"/>
 			<node name="removeFromFavorites" value="Kendu gogokoetatik"/>

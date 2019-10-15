@@ -970,7 +970,6 @@
 			<node name="pay" value="付款"/>
 			<node name="refresh" value="刷新"/>
 			<node name="authorise" value="授权"/>
-			<node name="resetPosition" value="复位位置"/>
 			<node name="sendReport" value="发送报告"/>
 			<node name="addToFavorites" value="加入收藏"/>
 			<node name="removeFromFavorites" value="从收藏中删除"/>

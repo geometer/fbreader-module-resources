@@ -979,7 +979,6 @@
 			<node name="pay" value="Zaplatit"/>
 			<node name="refresh" value="Aktualizovat"/>
 			<node name="authorise" value="Autorizovat"/>
-			<node name="resetPosition" value="Obnovit pozici"/>
 			<node name="sendReport" value="Odeslat zprávu"/>
 			<node name="addToFavorites" value="Přidat do oblíbených"/>
 			<node name="removeFromFavorites" value="Odebrat z oblíbených"/>

@@ -962,7 +962,6 @@
 			<node name="pay" value="Paga"/>
 			<node name="refresh" value="Ricarica"/>
 			<node name="authorise" value="Autori"/>
-			<node name="resetPosition" value="Azzera posizione"/>
 			<node name="sendReport" value="Manda una segnalazione"/>
 			<node name="addToFavorites" value="Aggiungi a preferiti"/>
 			<node name="removeFromFavorites" value="Rimuovi da preferiti"/>

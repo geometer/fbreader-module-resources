@@ -960,7 +960,6 @@
 			<node name="pay" value="Zapłać"/>
 			<node name="refresh" value="Odśwież"/>
 			<node name="authorise" value="Autoryzuj"/>
-			<node name="resetPosition" value="Zresetuj pozycję"/>
 			<node name="sendReport" value="Wyślij raport"/>
 			<node name="addToFavorites" value="Dodaj do ulubionych"/>
 			<node name="removeFromFavorites" value="Usuń z ulubionych"/>

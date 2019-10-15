@@ -970,7 +970,6 @@
 			<node name="pay" value="지불"/>
 			<node name="refresh" value="새로고침"/>
 			<node name="authorise" value="허가"/>
-			<node name="resetPosition" value="위치 초기화"/>
 			<node name="sendReport" value="보고서 보내기"/>
 			<node name="addToFavorites" value="즐겨찾기에 추가"/>
 			<node name="removeFromFavorites" value="즐겨찾기에서 제거"/>

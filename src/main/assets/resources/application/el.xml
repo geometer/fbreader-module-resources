@@ -968,7 +968,6 @@
 			<node name="pay" value="Πλήρωσε"/>
 			<node name="refresh" value="Ενημέρωσε"/>
 			<node name="authorise" value="Εξουσιοδότησε"/>
-			<node name="resetPosition" value="Αναίρεση θέσης"/>
 			<node name="sendReport" value="στείλε αναφορά"/>
 			<node name="addToFavorites" value="Τοποθέτησε βιβλίο στα αγαπημένα"/>
 			<node name="removeFromFavorites" value="Διάγραψε βιβλίο απο τα αγαπημένα"/>

@@ -970,7 +970,6 @@
 			<node name="pay" value="Заплаціць"/>
 			<node name="refresh" value="Абнавіць"/>
 			<node name="authorise" value="Аўтарызавацца"/>
-			<node name="resetPosition" value="Скінуць пазіцыю"/>
 			<node name="sendReport" value="Даслаць справаздачу"/>
 			<node name="addToFavorites" value="Дадаць да ўпадабанага"/>
 			<node name="removeFromFavorites" value="Прыбраць з упадабанага"/>

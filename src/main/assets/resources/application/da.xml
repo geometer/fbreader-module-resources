@@ -969,7 +969,6 @@
 			<node name="pay" value="Betal"/>
 			<node name="refresh" value="Opdater"/>
 			<node name="authorise" value="Godkend"/>
-			<node name="resetPosition" value="Nulstil stilling"/>
 			<node name="sendReport" value="Send rapport"/>
 			<node name="addToFavorites" value="Føj til Foretrukne"/>
 			<node name="removeFromFavorites" value="Fjern fra foretrukne"/>

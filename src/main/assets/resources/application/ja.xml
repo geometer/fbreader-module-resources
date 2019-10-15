@@ -1018,7 +1018,6 @@
 			<node name="pay" value="支払"/>
 			<node name="refresh" value="再表示"/>
 			<node name="authorise" value="ログイン"/>
-			<node name="resetPosition" value="元の位置に戻す"/>
 			<node name="sendReport" value="レポートを送信"/>
 			<node name="addToFavorites" value="お気に入りに追加"/>
 			<node name="removeFromFavorites" value="お気に入りから削除"/>
