@@ -1228,11 +1228,6 @@
 		<node name="duration60" value="1 րոպե"/>
 		<node name="duration300" value="5 րոպե"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Գտնել նախորդը"/>
-		<node name="findNext" value="Գտնել հաջորդը"/>
-		<node name="close" value="Փակել"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="անհայտ սխալ"/>
 		<node name="noArticle" value="«%s» բառահոդված չկա"/>

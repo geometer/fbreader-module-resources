@@ -1230,11 +1230,6 @@
 		<node name="duration60" value="1 minutu"/>
 		<node name="duration300" value="5 minut"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Předchozí výskyt"/>
-		<node name="findNext" value="Další výskyt"/>
-		<node name="close" value="Zavřít"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Neznámá chyba"/>
 		<node name="noArticle" value="Nenalezen žádný článek pro „%s“"/>

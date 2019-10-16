@@ -1269,11 +1269,6 @@
 		<node name="duration60" value="1 分"/>
 		<node name="duration300" value="5 分"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="前の一致"/>
-		<node name="findNext" value="次の一致"/>
-		<node name="close" value="閉じる"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="不明なエラー"/>
 		<node name="noArticle" value="記事がありません: “%s”"/>

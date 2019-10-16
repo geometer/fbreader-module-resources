@@ -1230,11 +1230,6 @@
 		<node name="duration60" value="1 минута"/>
 		<node name="duration300" value="5 минут"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Найти раньше"/>
-		<node name="findNext" value="Найти дальше"/>
-		<node name="close" value="Закрыть"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="неизвестная ошибка"/>
 		<node name="noArticle" value="нет статьи для «%s»"/>

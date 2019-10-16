@@ -1221,11 +1221,6 @@
 		<node name="duration60" value="minutu 1"/>
 		<node name="duration300" value="5 minutu"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Aurreko gertaldia"/>
-		<node name="findNext" value="Hurrengo gertaldia"/>
-		<node name="close" value="Itxi"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Errore ezezaguna"/>
 		<node name="noArticle" value="Ez da artikulurik aurkitu “%s”(r)entzat"/>

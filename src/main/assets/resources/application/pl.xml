@@ -1211,11 +1211,6 @@
 		<node name="duration60" value="1 minutę"/>
 		<node name="duration300" value="5 minut"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Poprzednie"/>
-		<node name="findNext" value="Następne"/>
-		<node name="close" value="Zamknij"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Nieznany błąd"/>
 		<node name="noArticle" value="Nie znaleziono artykułu „%s”"/>

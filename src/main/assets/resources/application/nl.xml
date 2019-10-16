@@ -1221,11 +1221,6 @@
 		<node name="duration60" value="1 minuut"/>
 		<node name="duration300" value="5 minuten"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Vorige"/>
-		<node name="findNext" value="Volgende"/>
-		<node name="close" value="Sluiten"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Onbekende fout"/>
 		<node name="noArticle" value="Geen artikel gevonden voor “%s”"/>

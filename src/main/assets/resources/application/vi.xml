@@ -1212,11 +1212,6 @@
 		<node name="duration60" value="1 phút"/>
 		<node name="duration300" value="5 phút"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Previous occurence" toBeTranslated="true"/>
-		<node name="findNext" value="Next occurence" toBeTranslated="true"/>
-		<node name="close" value="Close" toBeTranslated="true"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Unknown error" toBeTranslated="true"/>
 		<node name="noArticle" value="No article found for “%s”" toBeTranslated="true"/>

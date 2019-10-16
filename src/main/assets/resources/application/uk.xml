@@ -1211,11 +1211,6 @@
 		<node name="duration60" value="1 хвилина"/>
 		<node name="duration300" value="5 хвилин"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Попереднє співпадіння"/>
-		<node name="findNext" value="Наступну співпадіння"/>
-		<node name="close" value="Закрити"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Невідома помилка"/>
 		<node name="noArticle" value="Жодної статті не знайдено за запитому “%s”"/>

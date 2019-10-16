@@ -1214,11 +1214,6 @@
 		<node name="duration60" value="1 minut"/>
 		<node name="duration300" value="5 minute"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Apariția precedenta"/>
-		<node name="findNext" value="Urmatoarea apariție"/>
-		<node name="close" value="Închide"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Eroare necunoscută"/>
 		<node name="noArticle" value="Nu s-au gasit articole pentru “%s”"/>

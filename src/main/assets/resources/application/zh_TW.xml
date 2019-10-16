@@ -1221,11 +1221,6 @@
 		<node name="duration60" value="1分鐘"/>
 		<node name="duration300" value="5分鐘"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="上一發現"/>
-		<node name="findNext" value="下一發現"/>
-		<node name="close" value="關閉"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="未知錯誤"/>
 		<node name="noArticle" value="“%s”未找到文章"/>

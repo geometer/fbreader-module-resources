@@ -1221,11 +1221,6 @@
 		<node name="duration60" value="۱ منٹ"/>
 		<node name="duration300" value="۵ منٹ"/>
 	</node>
-	<node name="textSearchPopup">
-		<node name="findPrevious" value="Previous occurence" toBeTranslated="true"/>
-		<node name="findNext" value="Next occurence" toBeTranslated="true"/>
-		<node name="close" value="بند کریں"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="نامعلوم مسائل"/>
 		<node name="noArticle" value="No article found for “%s”" toBeTranslated="true"/>
