@@ -274,10 +274,6 @@
 		</node>
 		<node name="bgColor" value="Kolor tła"/>
 	</node>
-	<node name="selection" value="Zaznaczenie">
-		<node name="quoteFrom" value="Cytat z %s"/>
-		<node name="textInBuffer" value="Skopiowano do schowka:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Udostępnione z &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>

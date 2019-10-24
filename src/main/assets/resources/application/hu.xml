@@ -274,10 +274,6 @@
 		</node>
 		<node name="bgColor" value="Háttérszín"/>
 	</node>
-	<node name="selection" value="Kijelölés">
-		<node name="quoteFrom" value="Idézet innen: %s"/>
-		<node name="textInBuffer" value="Vágólapra másolva:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Megosztva az &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;ből"/>
 	</node>

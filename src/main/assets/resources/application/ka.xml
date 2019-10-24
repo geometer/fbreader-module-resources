@@ -289,10 +289,6 @@
 		</node>
 		<node name="bgColor" value="Background colour" toBeTranslated="true"/>
 	</node>
-	<node name="selection" value="ნიშნული">
-		<node name="quoteFrom" value="ციტატა %sდან"/>
-		<node name="textInBuffer" value="ტექსტი გაცვლის ბუფერში:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="გამოგზავნილია &lt;a href=&quot;https://ru.fbreader.org/&quot;&gt;FBReader&lt;/a&gt;-დან"/>
 	</node>

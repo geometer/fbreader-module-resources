@@ -290,10 +290,6 @@
 		</node>
 		<node name="bgColor" value="Фонов цвят"/>
 	</node>
-	<node name="selection" value="Етикет">
-		<node name="quoteFrom" value="Цитат от %s"/>
-		<node name="textInBuffer" value="Текст в буфера:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Изпратено от &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>

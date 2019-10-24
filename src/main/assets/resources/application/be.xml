@@ -284,10 +284,6 @@
 		</node>
 		<node name="bgColor" value="Колер фону"/>
 	</node>
-	<node name="selection" value="Вылучэнне">
-		<node name="quoteFrom" value="Цытата з %s"/>
-		<node name="textInBuffer" value="Скапіравана ў буфер абмену:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Вы падзяліліся праз &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>

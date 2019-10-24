@@ -277,10 +277,6 @@
 		</node>
 		<node name="bgColor" value="Culoarea de fundal"/>
 	</node>
-	<node name="selection" value="Selecție">
-		<node name="quoteFrom" value="Citat de la %s"/>
-		<node name="textInBuffer" value="Copiat în clipboard:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Împartășit de la &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>

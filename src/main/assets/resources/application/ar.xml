@@ -282,10 +282,6 @@
 		</node>
 		<node name="bgColor" value="لون الخلفية"/>
 	</node>
-	<node name="selection" value="Selection">
-		<node name="quoteFrom" value="اقتباس من %s"/>
-		<node name="textInBuffer" value="تم نسخ: %s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Shared from &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;" toBeTranslated="true"/>
 	</node>

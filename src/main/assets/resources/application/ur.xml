@@ -284,10 +284,6 @@
 		</node>
 		<node name="bgColor" value="پس منظر کا رنگ"/>
 	</node>
-	<node name="selection" value="انتخاب">
-		<node name="quoteFrom" value="Quote from %s" toBeTranslated="true"/>
-		<node name="textInBuffer" value="Copied to clipboard:&#10;%s" toBeTranslated="true"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Shared from &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;" toBeTranslated="true"/>
 	</node>

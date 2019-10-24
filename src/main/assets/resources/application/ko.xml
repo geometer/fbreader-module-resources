@@ -284,10 +284,6 @@
 		</node>
 		<node name="bgColor" value="배경 색상"/>
 	</node>
-	<node name="selection" value="선택">
-		<node name="quoteFrom" value="%s 에서 인용"/>
-		<node name="textInBuffer" value="클립보드로 복사됨:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="&lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt; 로부터 공유됨"/>
 	</node>

@@ -275,10 +275,6 @@
 		</node>
 		<node name="bgColor" value="Màu nền"/>
 	</node>
-	<node name="selection" value="Lựa chọn">
-		<node name="quoteFrom" value="Quote from %s" toBeTranslated="true"/>
-		<node name="textInBuffer" value="Đã chép vào bộ nhớ tạm:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Được chia sẻ từ &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>

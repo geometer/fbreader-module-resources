@@ -291,10 +291,6 @@
 		</node>
 		<node name="bgColor" value="Ետնաշերտի գունավորում"/>
 	</node>
-	<node name="selection" value="Նշում">
-		<node name="quoteFrom" value="Մեջբերում %s-ից"/>
-		<node name="textInBuffer" value="Պատճենվեց սեղմատախտակում՝ %s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Ուղարկվել է &lt;a href=&quot;https://ru.fbreader.org/&quot;&gt;FBReader&lt;/a&gt;-ից"/>
 	</node>

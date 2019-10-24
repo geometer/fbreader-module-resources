@@ -284,10 +284,6 @@
 		</node>
 		<node name="bgColor" value="Background colour" toBeTranslated="true"/>
 	</node>
-	<node name="selection" value="Utvalg">
-		<node name="quoteFrom" value="Sitér fra %s"/>
-		<node name="textInBuffer" value="Kopiert til utklippstavle:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Delt fra &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>

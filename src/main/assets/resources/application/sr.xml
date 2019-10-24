@@ -284,10 +284,6 @@
 		</node>
 		<node name="bgColor" value="Background colour" toBeTranslated="true"/>
 	</node>
-	<node name="selection" value="Одабир">
-		<node name="quoteFrom" value="Цитирај из „%s“"/>
-		<node name="textInBuffer" value="Умножено:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Поделио &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;."/>
 	</node>

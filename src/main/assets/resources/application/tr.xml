@@ -284,10 +284,6 @@
 		</node>
 		<node name="bgColor" value="Background colour" toBeTranslated="true"/>
 	</node>
-	<node name="selection" value="Seçenekler">
-		<node name="quoteFrom" value="%s den alıntı yap"/>
-		<node name="textInBuffer" value="Panoya kopyalanan:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Shared from &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;" toBeTranslated="true"/>
 	</node>

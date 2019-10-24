@@ -284,10 +284,6 @@
 		</node>
 		<node name="bgColor" value="Atzeko planoko kolorea"/>
 	</node>
-	<node name="selection" value="Aukeraketa">
-		<node name="quoteFrom" value="Honen zita: %s"/>
-		<node name="textInBuffer" value="&#10;%s paperontzira kopiatuta"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="&lt;a href=&quot;http://fbreader.org/&quot;&gt;FBReader&lt;/a&gt; (e)tik partekatua"/>
 	</node>

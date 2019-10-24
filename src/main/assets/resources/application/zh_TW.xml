@@ -284,10 +284,6 @@
 		</node>
 		<node name="bgColor" value="背景顏色"/>
 	</node>
-	<node name="selection" value="選擇">
-		<node name="quoteFrom" value="引用%s"/>
-		<node name="textInBuffer" value="複製到剪貼板:&#10;%s"/>
-	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="分享從&lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
 	</node>
