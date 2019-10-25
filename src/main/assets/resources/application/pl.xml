@@ -1185,9 +1185,6 @@
 			<node name="summary" value="Czytaj komiksy (CBR, CBZ)"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="Sekcja szyfrowania"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="Obróć urządzenie na drugą stronę aby przeczytać książkę. Aby przywrócić tekst na ten ekran naciśnij przycisk poniżej."/>
 		<node name="frontScreenButton" value="Czytaj na tym ekranie"/>
@@ -1240,12 +1237,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="Tweetnij co przeczytałeś!"/>
 		<node name="tweet" value="Przeczytałem „%title%” z #FBReader"/>
 		<node name="missingApp" value="Aplikacja Twitter nie jest zainstalowana"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="Udostępnij swoje doświadczenia czytelnicze na Goodreads!"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Sieć jest niedostępna. Sprawdź połączenie i spróbuj ponownie"/>

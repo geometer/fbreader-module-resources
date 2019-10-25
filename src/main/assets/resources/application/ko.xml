@@ -1195,9 +1195,6 @@
 			<node name="summary" value="만화책 읽기 (CBR, CBZ)"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="암호화된 구역"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="책을 읽으려면 기기를 뒤집으세요. 이 화면으로 텍스트를 되돌리려면 아래 버튼을 누르세요."/>
 		<node name="frontScreenButton" value="이 화면으로 전환"/>
@@ -1250,12 +1247,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="Tweet what you have read!" toBeTranslated="true"/>
 		<node name="tweet" value="I've read “%title%” in #FBReader" toBeTranslated="true"/>
 		<node name="missingApp" value="Twitter app is not installed" toBeTranslated="true"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>

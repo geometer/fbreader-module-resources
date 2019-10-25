@@ -1243,9 +1243,6 @@
 			<node name="summary" value="CBR, CBZ 形式のマンガを読む"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="暗号化されたセクション"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="本体を裏返して本をお読みください。この画面に本文を戻すには下のボタンを押してください"/>
 		<node name="frontScreenButton" value="この画面に切替"/>
@@ -1298,12 +1295,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="読んだことをツイートしましょう!"/>
 		<node name="tweet" value="“%title%” を #FBReader で読みました"/>
 		<node name="missingApp" value="Twitter アプリがインストールされていません"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="ネットワークが利用できません。 接続を確認してもう一度やり直してください"/>

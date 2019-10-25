@@ -1196,9 +1196,6 @@
 			<node name="summary" value="Ler novelas gráficas (CBR, CBZ)"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="Secção encriptada"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="Rode o dispositivo para ler o seu livro. Para regressar a este ecrã, pressione o botão abaixo."/>
 		<node name="frontScreenButton" value="Mudar para este ecrã"/>
@@ -1251,12 +1248,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="Tweet o que leu!"/>
 		<node name="tweet" value="Li “%title%” no #FBReader"/>
 		<node name="missingApp" value="Aplicação Twitter não instalada"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Rede não disponível. Verifique a sua liagação e tente novamente"/>

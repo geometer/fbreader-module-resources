@@ -1195,9 +1195,6 @@
 			<node name="summary" value="Чытаць коміксы (CBR, CBZ)"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="Зашыфраваная частка"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="Перавярніце прыладу, каб чытаць кнігу. Каб вярнуць тэкст на гэты экран, націсніце на кнопку знізу."/>
 		<node name="frontScreenButton" value="Пераключыцца на гэты экран"/>
@@ -1250,12 +1247,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="Ціўт пра тое, что я чытаю!"/>
 		<node name="tweet" value="Я чытаю “%title%” у #FBReader"/>
 		<node name="missingApp" value="Дадатак для Twitter не ўсталяваны"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="Падзяліцца сваім вопытам чытання на Goodreads!"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Сетка недаступна. Калі ласка, праверце злучэнне і паспрабуйце зноў."/>

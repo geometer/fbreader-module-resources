@@ -1204,9 +1204,6 @@
 			<node name="summary" value="Čte knihy komiksů (CBR, CBZ)"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="Šifrovaná část"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="Pro čtení knihy obraťte zařízení. Pro navrácení textu na tento displej stiskněte tlačítko dole."/>
 		<node name="frontScreenButton" value="Přepnout na tento displej"/>
@@ -1259,12 +1256,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="Tweetujte, co máte dočteno!"/>
 		<node name="tweet" value="Dočtena kniha „%title%“ v #FBReader"/>
 		<node name="missingApp" value="Aplikace Twitter není nainstalována"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="Sdílejte svůj dojem ze čtení na Goodreads!"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Síť není dostupná. Zkontrolujte své připojení a zkuste to znovu."/>

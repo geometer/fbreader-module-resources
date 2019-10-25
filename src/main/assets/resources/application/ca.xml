@@ -1201,9 +1201,6 @@
 			<node name="summary" value="Read comic books (CBR, CBZ)" toBeTranslated="true"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="Encrypted section" toBeTranslated="true"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="Turn the device over to read your book. To return text to this screen, press the button below." toBeTranslated="true"/>
 		<node name="frontScreenButton" value="Switch to this screen" toBeTranslated="true"/>
@@ -1256,12 +1253,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="Tweet what you have read!" toBeTranslated="true"/>
 		<node name="tweet" value="I've read “%title%” in #FBReader" toBeTranslated="true"/>
 		<node name="missingApp" value="Twitter app is not installed" toBeTranslated="true"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>

@@ -1194,9 +1194,6 @@
 			<node name="summary" value="کتاب های کمیک را بخوانید (CBR, CBZ)"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="بخش رمزگذاری شده"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="به خواندن کتاب هایتان بپردازید.برای بازگشت به این صفحه دکمه زیر را بزنید."/>
 		<node name="frontScreenButton" value="تغییر به این صفحه"/>
@@ -1249,12 +1246,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="Tweet what you have read!" toBeTranslated="true"/>
 		<node name="tweet" value="I've read “%title%” in #FBReader" toBeTranslated="true"/>
 		<node name="missingApp" value="Twitter app is not installed" toBeTranslated="true"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="Share your reading experience on Goodreads!" toBeTranslated="true"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again" toBeTranslated="true"/>

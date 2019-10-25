@@ -1195,9 +1195,6 @@
 			<node name="summary" value="閱讀漫畫書(CBR, CBZ)"/>
 		</node>
 	</node>
-	<node name="drm">
-		<node name="encryptedSection" value="加密部分"/>
-	</node>
 	<node name="yota">
 		<node name="frontScreenMessage" value="把設備翻過來讀您的書籍。要將文本返回到此螢幕，請按下麵的按鍵。"/>
 		<node name="frontScreenButton" value="切換到這個螢幕"/>
@@ -1250,12 +1247,8 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="link" value="把您讀到的東西發到Twitter上!"/>
 		<node name="tweet" value="我在FBReader中讀過“%標題%”"/>
 		<node name="missingApp" value="沒有安裝Twitter應用程式"/>
-	</node>
-	<node name="goodreads">
-		<node name="link" value="在Goodreads上分享您的閱讀體驗吧!"/>
 	</node>
 	<node name="networkError">
 		<node name="noNetworkConnection" value="網路不可用。請檢查您的連接並重試"/>
