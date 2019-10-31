@@ -1196,16 +1196,6 @@
 		<node name="length" value="E.g.: -2px, 10pt, -0.8em, 1.1ex, -40%" toBeTranslated="true"/>
 		<node name="percent" value="E.g.: 125%" toBeTranslated="true"/>
 	</node>
-	<node name="duration">
-		<node name="duration1" value="1 secondo"/>
-		<node name="duration3" value="3 secondi"/>
-		<node name="duration5" value="5 secondi"/>
-		<node name="duration10" value="10 secondi"/>
-		<node name="duration20" value="20 secondi"/>
-		<node name="duration40" value="40 secondi"/>
-		<node name="duration60" value="1 minuto"/>
-		<node name="duration300" value="5 minuti"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Errore sconosciuto"/>
 		<node name="noArticle" value="No article found for “%s”" toBeTranslated="true"/>

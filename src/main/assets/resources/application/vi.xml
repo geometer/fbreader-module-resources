@@ -1195,16 +1195,6 @@
 		<node name="length" value="VD: -2px, 10pt, -0.8em, 1.1ex, -40%"/>
 		<node name="percent" value="VD: 125%"/>
 	</node>
-	<node name="duration">
-		<node name="duration1" value="1 giây"/>
-		<node name="duration3" value="3 giây"/>
-		<node name="duration5" value="5 giây"/>
-		<node name="duration10" value="10 giây"/>
-		<node name="duration20" value="20 giây"/>
-		<node name="duration40" value="40 giây"/>
-		<node name="duration60" value="1 phút"/>
-		<node name="duration300" value="5 phút"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Unknown error" toBeTranslated="true"/>
 		<node name="noArticle" value="No article found for “%s”" toBeTranslated="true"/>

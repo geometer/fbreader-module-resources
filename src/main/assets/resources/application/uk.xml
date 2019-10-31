@@ -1194,16 +1194,6 @@
 		<node name="length" value="Кшталту: -2px, 10pt, -0.8em, 1.1ex, -40%"/>
 		<node name="percent" value="Кшталту: 125%"/>
 	</node>
-	<node name="duration">
-		<node name="duration1" value="1 секунда"/>
-		<node name="duration3" value="3 секунди"/>
-		<node name="duration5" value="5 секунд"/>
-		<node name="duration10" value="10 секунд"/>
-		<node name="duration20" value="20 секунд"/>
-		<node name="duration40" value="40 секунд"/>
-		<node name="duration60" value="1 хвилина"/>
-		<node name="duration300" value="5 хвилин"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Невідома помилка"/>
 		<node name="noArticle" value="Жодної статті не знайдено за запитому “%s”"/>

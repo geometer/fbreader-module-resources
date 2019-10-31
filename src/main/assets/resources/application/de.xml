@@ -1209,16 +1209,6 @@
 		<node name="length" value="z.B.: -2px, 10pt, -0.8em, 1.1ex, -40%"/>
 		<node name="percent" value="z.B.: 125%"/>
 	</node>
-	<node name="duration">
-		<node name="duration1" value="1 Sekunde"/>
-		<node name="duration3" value="3 Sekunden"/>
-		<node name="duration5" value="5 Sekunden"/>
-		<node name="duration10" value="10 Sekunden"/>
-		<node name="duration20" value="20 Sekunden"/>
-		<node name="duration40" value="40 Sekunden"/>
-		<node name="duration60" value="1 Minute"/>
-		<node name="duration300" value="5 Minuten"/>
-	</node>
 	<node name="dictanErrors">
 		<node name="unknown" value="Unbekannter Fehler"/>
 		<node name="noArticle" value="Kein Artikel für “%s” gefunden"/>
