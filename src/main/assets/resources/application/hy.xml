@@ -310,8 +310,6 @@
 		<node name="day" value="Ցերեկային ռեժիմ"/>
 		<node name="night" value="Գիշերային ռեժիմ"/>
 		<node name="dayNight" value="Ցերեկ/Գիշեր"/>
-		<node name="yotaSwitchToBackScreen" value="Կարդալ դարձէկրանին"/>
-		<node name="yotaSwitchToFrontScreen" value="Կարդալ դիմէկրանին"/>
 		<node name="networkLibrary" value="Ցանցային գրադարան"/>
 		<node name="navigate" value="Ընտրել էջը">
 			<node name="toc" value="Բովանդակություն"/>
@@ -1201,10 +1199,6 @@
 		<node name="cbr" value="Կոմիքսներ">
 			<node name="summary" value="Ընթերցել CBR, CBZ գրքեր (կոմիքսներ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Գիրքը տեսնելու համար շրջեք սարքը։ Եթե ուզում եք կարդալ այս էկրանին, սեղմեք T ստեղնը։"/>
-		<node name="frontScreenButton" value="Կարդալ այս էկրանին"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="Օր.՝ 20px, 10pt, 0.8em, 1ex, 120%"/>

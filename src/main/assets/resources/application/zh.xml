@@ -303,8 +303,6 @@
 		<node name="day" value="白天"/>
 		<node name="night" value="夜间"/>
 		<node name="dayNight" value="白天/夜间"/>
-		<node name="yotaSwitchToBackScreen" value="切到后一屏幕"/>
-		<node name="yotaSwitchToFrontScreen" value="切到前一屏幕"/>
 		<node name="networkLibrary" value="网络书库"/>
 		<node name="navigate" value="导览">
 			<node name="toc" value="目录"/>
@@ -1194,10 +1192,6 @@
 		<node name="cbr" value="漫画书">
 			<node name="summary" value="阅读漫画书(CBR, CBZ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="把设备翻过来读您的书籍。要将文本返回到此屏幕，请按下面的按键。"/>
-		<node name="frontScreenButton" value="切换到这个屏幕"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="E.g.: 20px, 10pt, 0.8em, 1ex, 120%"/>

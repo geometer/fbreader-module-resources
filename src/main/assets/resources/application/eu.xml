@@ -303,8 +303,6 @@
 		<node name="day" value="Eguna"/>
 		<node name="night" value="Gaua"/>
 		<node name="dayNight" value="Eguna/Gaua"/>
-		<node name="yotaSwitchToBackScreen" value="Aldatu atzeko pantailara"/>
-		<node name="yotaSwitchToFrontScreen" value="Aldatu aurreko pantailara"/>
 		<node name="networkLibrary" value="Sareko liburutegia"/>
 		<node name="navigate" value="Nabigatu">
 			<node name="toc" value="Aurkibidea"/>
@@ -1194,10 +1192,6 @@
 		<node name="cbr" value="Comic Books">
 			<node name="summary" value="Irakurri komikiak (CBR, CBZ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Eman buelta gailuari liburua irakurtzeko. Testua berriro pantailaratzeko sakatu beheko botoia."/>
-		<node name="frontScreenButton" value="Aldatu pantaila honetara"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="Adib.: 20px, 10pt, 0.8em, 1ex, 120%"/>

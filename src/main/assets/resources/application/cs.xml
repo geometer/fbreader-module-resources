@@ -312,8 +312,6 @@
 		<node name="day" value="Den"/>
 		<node name="night" value="Noc"/>
 		<node name="dayNight" value="Den/Noc"/>
-		<node name="yotaSwitchToBackScreen" value="Přepnout na zadní displej"/>
-		<node name="yotaSwitchToFrontScreen" value="Přepnout na přední displej"/>
 		<node name="networkLibrary" value="Síťová knihovna"/>
 		<node name="navigate" value="Navigace">
 			<node name="toc" value="Obsah"/>
@@ -1203,10 +1201,6 @@
 		<node name="cbr" value="Komiksy">
 			<node name="summary" value="Čte knihy komiksů (CBR, CBZ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Pro čtení knihy obraťte zařízení. Pro navrácení textu na tento displej stiskněte tlačítko dole."/>
-		<node name="frontScreenButton" value="Přepnout na tento displej"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="Např.: 20px, 10pt, 0.8em, 1ex, 120%"/>

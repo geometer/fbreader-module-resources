@@ -303,8 +303,6 @@
 		<node name="day" value="日中モード"/>
 		<node name="night" value="夜間モード"/>
 		<node name="dayNight" value="日中/夜間"/>
-		<node name="yotaSwitchToBackScreen" value="背面スクリーンに切替"/>
-		<node name="yotaSwitchToFrontScreen" value="前面スクリーンに切替"/>
 		<node name="networkLibrary" value="ネットワークライブラリ"/>
 		<node name="navigate" value="移動">
 			<node name="toc" value="目次"/>
@@ -1242,10 +1240,6 @@
 		<node name="cbr" value="ComicBooks">
 			<node name="summary" value="CBR, CBZ 形式のマンガを読む"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="本体を裏返して本をお読みください。この画面に本文を戻すには下のボタンを押してください"/>
-		<node name="frontScreenButton" value="この画面に切替"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="例: 20px, 10pt, 0.8em, 1ex, 120%"/>

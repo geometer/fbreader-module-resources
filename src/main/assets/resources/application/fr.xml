@@ -296,8 +296,6 @@
 		<node name="day" value="Jour"/>
 		<node name="night" value="Nuit"/>
 		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="yotaSwitchToBackScreen" value="Passer à l'écran arrière"/>
-		<node name="yotaSwitchToFrontScreen" value="Passer à l'écran frontal"/>
 		<node name="networkLibrary" value="Bibliothèque réseau"/>
 		<node name="navigate" value="Naviguer">
 			<node name="toc" value="Table des Matières"/>
@@ -1187,10 +1185,6 @@
 		<node name="cbr" value="Comic Books" toBeTranslated="true">
 			<node name="summary" value="Read comic books (CBR, CBZ)" toBeTranslated="true"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Tournez l'appareil pour lire le livre. Pour renvoyer du texte à l'écran, toucher le bouton ci-dessous."/>
-		<node name="frontScreenButton" value="Passer à cet écran"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="i.e.: 20px, 10pt, 0.8em, 1ex, 120%"/>

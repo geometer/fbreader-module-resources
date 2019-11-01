@@ -293,8 +293,6 @@
 		<node name="day" value="Nappali"/>
 		<node name="night" value="Éjjeli"/>
 		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="yotaSwitchToBackScreen" value="Váltás a hátsó képernyőre"/>
-		<node name="yotaSwitchToFrontScreen" value="Váltás az első képernyőre"/>
 		<node name="networkLibrary" value="Internetes könyvtár"/>
 		<node name="navigate" value="Navigáció">
 			<node name="toc" value="Tartalomjegyzék"/>
@@ -1184,10 +1182,6 @@
 		<node name="cbr" value="Comic Books" toBeTranslated="true">
 			<node name="summary" value="Read comic books (CBR, CBZ)" toBeTranslated="true"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Fordítsa meg az eszközt az olvasáshoz. Ehhez a képernyőhöz való visszatéréshez nyomja meg az alsó gombot."/>
-		<node name="frontScreenButton" value="Váltás erre a kijelzőre"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="E.g.: 20px, 10pt, 0.8em, 1ex, 120%" toBeTranslated="true"/>

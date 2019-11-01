@@ -303,8 +303,6 @@
 		<node name="day" value="Дзень"/>
 		<node name="night" value="Ноч"/>
 		<node name="dayNight" value="Дзень/ноч"/>
-		<node name="yotaSwitchToBackScreen" value="Пераключыцца на задні экран"/>
-		<node name="yotaSwitchToFrontScreen" value="Пераключыцца на пярэдні экран"/>
 		<node name="networkLibrary" value="Сеціўная бібліятэка"/>
 		<node name="navigate" value="Перайсці">
 			<node name="toc" value="Змест"/>
@@ -1194,10 +1192,6 @@
 		<node name="cbr" value="Коміксы">
 			<node name="summary" value="Чытаць коміксы (CBR, CBZ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Перавярніце прыладу, каб чытаць кнігу. Каб вярнуць тэкст на гэты экран, націсніце на кнопку знізу."/>
-		<node name="frontScreenButton" value="Пераключыцца на гэты экран"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="Напрыклад: 20px, 10pt, 0.8em, 1ex, 120%"/>

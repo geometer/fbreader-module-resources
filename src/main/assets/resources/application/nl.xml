@@ -303,8 +303,6 @@
 		<node name="day" value="Dag"/>
 		<node name="night" value="Nacht"/>
 		<node name="dayNight" value="Dag/Nacht"/>
-		<node name="yotaSwitchToBackScreen" value="Schakel naar achter-scherm"/>
-		<node name="yotaSwitchToFrontScreen" value="Schakel naar voor-scherm"/>
 		<node name="networkLibrary" value="Netwerkbibliotheek"/>
 		<node name="navigate" value="Navigeer">
 			<node name="toc" value="Inhoudsopgave"/>
@@ -1194,10 +1192,6 @@
 		<node name="cbr" value="Stripboeken">
 			<node name="summary" value="Lees stripboeken (CBR, CBZ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Draai het apparaat om om je boek te lezen. Om terug te gaan naar dit scherm, druk op de knop hieronder."/>
-		<node name="frontScreenButton" value="Schakel naar dit scherm"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="Bijv.: 20px, 10pt, 0.8em, 1ex, 120%"/>

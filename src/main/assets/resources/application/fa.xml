@@ -302,8 +302,6 @@
 		<node name="day" value="حالت روز"/>
 		<node name="night" value="حالت شب"/>
 		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="yotaSwitchToBackScreen" value="سویچ به پشت صفحه"/>
-		<node name="yotaSwitchToFrontScreen" value="سویچ به صفحه جلویی"/>
 		<node name="networkLibrary" value="کتابخانه شبکه"/>
 		<node name="navigate" value="هدایت کردن">
 			<node name="toc" value="فهرست مطالب"/>
@@ -1193,10 +1191,6 @@
 		<node name="cbr" value="کتاب های کمیک">
 			<node name="summary" value="کتاب های کمیک را بخوانید (CBR, CBZ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="به خواندن کتاب هایتان بپردازید.برای بازگشت به این صفحه دکمه زیر را بزنید."/>
-		<node name="frontScreenButton" value="تغییر به این صفحه"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="E.g.: 20px, 10pt, 0.8em, 1ex, 120%" toBeTranslated="true"/>

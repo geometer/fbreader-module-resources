@@ -296,8 +296,6 @@
 		<node name="day" value="Mod Zi"/>
 		<node name="night" value="Mod Noapte"/>
 		<node name="dayNight" value="Zi/Noapte"/>
-		<node name="yotaSwitchToBackScreen" value="Treci la ecranul din spate"/>
-		<node name="yotaSwitchToFrontScreen" value="Treci la ecranul din față"/>
 		<node name="networkLibrary" value="Biblioteca din rețea"/>
 		<node name="navigate" value="Navigați">
 			<node name="toc" value="Cuprins"/>
@@ -1187,10 +1185,6 @@
 		<node name="cbr" value="Cărți de benzi desenate">
 			<node name="summary" value="Citire cărți cu benzi desenate (CBR, CBZ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Întoarceti aparatul pe pentru a citi cartea. Pentru a reveni la acest ecran, apasati butonul de mai jos."/>
-		<node name="frontScreenButton" value="Comutare la acest ecran"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="E.g.: 20px, 10pt, 0.8em, 1ex, 120%"/>

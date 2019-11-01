@@ -303,8 +303,6 @@
 		<node name="day" value="주간"/>
 		<node name="night" value="야간"/>
 		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="yotaSwitchToBackScreen" value="후면으로 전환"/>
-		<node name="yotaSwitchToFrontScreen" value="전면으로 전환"/>
 		<node name="networkLibrary" value="네트워크 라이브러리"/>
 		<node name="navigate" value="탐색">
 			<node name="toc" value="목차"/>
@@ -1194,10 +1192,6 @@
 		<node name="cbr" value="만화책">
 			<node name="summary" value="만화책 읽기 (CBR, CBZ)"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="책을 읽으려면 기기를 뒤집으세요. 이 화면으로 텍스트를 되돌리려면 아래 버튼을 누르세요."/>
-		<node name="frontScreenButton" value="이 화면으로 전환"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="예시: 20px, 10pt, 0.8em, 1ex, 120%"/>

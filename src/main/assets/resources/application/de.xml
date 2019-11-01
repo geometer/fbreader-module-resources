@@ -308,8 +308,6 @@
 		<node name="day" value="Tag Modus"/>
 		<node name="night" value="Nacht Modus"/>
 		<node name="dayNight" value="Tag/Nacht"/>
-		<node name="yotaSwitchToBackScreen" value="Auf den Rückseitenbildschirm umschalten"/>
-		<node name="yotaSwitchToFrontScreen" value="Auf den Frontseitenbildschirm umschalten"/>
 		<node name="networkLibrary" value="Netzwerk-Bibliothek"/>
 		<node name="navigate" value="Seite auswählen">
 			<node name="toc" value="Inhaltsverzeichnis zeigen"/>
@@ -1199,10 +1197,6 @@
 		<node name="cbr" value="Comic">
 			<node name="summary" value="Bücher im Comic Format (CBR, CBZ) lesen"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Bitte das Gerät wenden um das Buch zu lesen. Um auf diesen Bildschirm zurückzukehren, die untere Schaltfläche betätigen."/>
-		<node name="frontScreenButton" value="Auf diesen Bildschirm wechseln"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="z.B.: 20px, 10pt, 0.8em, 1ex, 120%"/>

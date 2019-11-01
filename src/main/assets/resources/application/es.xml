@@ -309,8 +309,6 @@
 		<node name="day" value="Día"/>
 		<node name="night" value="Noche"/>
 		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="yotaSwitchToBackScreen" value="Cambiar a pantalla trasera"/>
-		<node name="yotaSwitchToFrontScreen" value="Cambiar a pantalla frontal"/>
 		<node name="networkLibrary" value="Biblioteca en red"/>
 		<node name="navigate" value="Navegar">
 			<node name="toc" value="Tabla de contenido"/>
@@ -1200,10 +1198,6 @@
 		<node name="cbr" value="Cómics">
 			<node name="summary" value="Lea cómics en CBR, CBZ"/>
 		</node>
-	</node>
-	<node name="yota">
-		<node name="frontScreenMessage" value="Dé la vuelta a su dispositivo para leer su libro. Para volver a esta pantalla, presione el botón de abajo."/>
-		<node name="frontScreenButton" value="Volver a esta pantalla"/>
 	</node>
 	<node name="hint">
 		<node name="positiveLength" value="Ej.: 20px, 10pt, 0.8em, 1ex, 120%"/>
