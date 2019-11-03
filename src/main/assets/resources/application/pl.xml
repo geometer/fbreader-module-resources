@@ -1221,7 +1221,6 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="tweet" value="Przeczytałem „%title%” z #FBReader"/>
 		<node name="missingApp" value="Aplikacja Twitter nie jest zainstalowana"/>
 	</node>
 	<node name="networkError">

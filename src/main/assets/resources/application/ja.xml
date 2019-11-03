@@ -1279,7 +1279,6 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="tweet" value="“%title%” を #FBReader で読みました"/>
 		<node name="missingApp" value="Twitter アプリがインストールされていません"/>
 	</node>
 	<node name="networkError">

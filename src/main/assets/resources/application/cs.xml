@@ -1240,7 +1240,6 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="tweet" value="Dočtena kniha „%title%“ v #FBReader"/>
 		<node name="missingApp" value="Aplikace Twitter není nainstalována"/>
 	</node>
 	<node name="networkError">

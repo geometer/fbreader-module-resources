@@ -1240,7 +1240,6 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="tweet" value="«%title%» Прочитано в #FBReader"/>
 		<node name="missingApp" value="Приложение Twitter не установлено"/>
 	</node>
 	<node name="networkError">

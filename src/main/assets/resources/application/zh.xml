@@ -1231,7 +1231,6 @@
 		</node>
 	</node>
 	<node name="twitter">
-		<node name="tweet" value="我在FBReader中读过“%标题%”"/>
 		<node name="missingApp" value="没有安装Twitter应用程序"/>
 	</node>
 	<node name="networkError">
