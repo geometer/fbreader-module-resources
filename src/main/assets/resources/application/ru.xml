@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Russian FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader: библиотека">
@@ -291,53 +291,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Отправлено из &lt;a href=&quot;https://ru.fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Перейти на Premium"/>
-		<node name="openPremium" value="Открыть Premium"/>
-		<node name="premium" value="FBReader Premium"/>
-		<node name="yoWindow" value="Точная Погода"/>
-		<node name="ads" value="Рекомендуемое приложение"/>
-		<node name="whatsnew" value="Что нового"/>
-		<node name="openStartScreen" value="Стартовый экран"/>
-		<node name="preferences" value="Настройки"/>
-		<node name="bookInfo" value="О книге"/>
-		<node name="pickFile" value="Выбор файла…"/>
-		<node name="library" value="Библиотека"/>
-		<node name="toc" value="Оглавление"/>
-		<node name="day" value="День"/>
-		<node name="night" value="Ночь"/>
-		<node name="dayNight" value="День/ночь"/>
-		<node name="networkLibrary" value="Сетевая библиотека"/>
-		<node name="navigate" value="Переход">
-			<node name="toc" value="Оглавление"/>
-			<node name="gotoHome" value="В начало книги"/>
-			<node name="gotoSectionStart" value="В начало раздела"/>
-			<node name="gotoSectionEnd" value="В конец раздела"/>
-			<node name="nextTOCSection" value="К следующей главе"/>
-			<node name="previousTOCSection" value="К предыдущей главе"/>
-			<node name="undo" value="Назад"/>
-			<node name="redo" value="Вперед"/>
-		</node>
-		<node name="shareBook" value="Поделиться книгой"/>
-		<node name="search" value="Поиск"/>
-		<node name="rotate" value="Повернуть"/>
-		<node name="screenOrientation" value="Ориентация экрана"/>
-		<node name="screenOrientationSystem" value="системная"/>
-		<node name="screenOrientationSensor" value="зависит от ориентации устройства"/>
-		<node name="screenOrientationPortrait" value="вертикальная"/>
-		<node name="screenOrientationLandscape" value="горизонтальная"/>
-		<node name="screenOrientationReversePortrait" value="перевёрнутая вертикальная"/>
-		<node name="screenOrientationReverseLandscape" value="перевёрнутая горизонтальная"/>
-		<node name="increaseFont" value="Увеличить шрифт"/>
-		<node name="decreaseFont" value="Уменьшить шрифт"/>
-		<node name="changeFontSize" value="Размер шрифта"/>
-		<node name="toggleFullscreen" value="На весь экран"/>
-		<node name="bookmarks" value="Закладки"/>
-		<node name="help" value="Помощь"/>
-		<node name="plugins" value="Дополнительные модули"/>
-		<node name="gotoPageNumber" value="На страницу…"/>
-		<node name="readAloud" value="Читать вслух…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Файл"/>

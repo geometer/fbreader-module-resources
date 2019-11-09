@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Vietnamese FBReaderJ resources, by Phạm Văn Hùng_Firestork -->
 <!-- Updated by Khánh Nguyễn Quốc, 8 May 2015 -->
 <resources>
@@ -277,53 +277,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Được chia sẻ từ &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="Cài đặt"/>
-		<node name="bookInfo" value="Thông tin sách"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Thư viện"/>
-		<node name="toc" value="Mục lục"/>
-		<node name="day" value="Sáng"/>
-		<node name="night" value="Tối"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="Thư viện mạng"/>
-		<node name="navigate" value="Định hướng">
-			<node name="toc" value="Mục Lục"/>
-			<node name="gotoHome" value="Đến đầu Tài liệu"/>
-			<node name="gotoSectionStart" value="Đến Đầu Chương"/>
-			<node name="gotoSectionEnd" value="Đến Cuối Chương"/>
-			<node name="nextTOCSection" value="Đến Phần tiếp của ML"/>
-			<node name="previousTOCSection" value="Đến Phần trước của ML"/>
-			<node name="undo" value="Quay Lại"/>
-			<node name="redo" value="Đi Tiếp"/>
-		</node>
-		<node name="shareBook" value="Chia sẻ sách"/>
-		<node name="search" value="Tìm kiếm"/>
-		<node name="rotate" value="Xoay màn hình"/>
-		<node name="screenOrientation" value="Hướng màn hình"/>
-		<node name="screenOrientationSystem" value="Theo hệ thống"/>
-		<node name="screenOrientationSensor" value="Xoay tự động"/>
-		<node name="screenOrientationPortrait" value="Dọc"/>
-		<node name="screenOrientationLandscape" value="Ngang"/>
-		<node name="screenOrientationReversePortrait" value="Dọc: lộn đầu"/>
-		<node name="screenOrientationReverseLandscape" value="Ngang: lộn đầu"/>
-		<node name="increaseFont" value="Chữ to hơn"/>
-		<node name="decreaseFont" value="Chữ nhỏ hơn"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="Choán hết màn hình "/>
-		<node name="bookmarks" value="Đánh dấu"/>
-		<node name="help" value="Trợ giúp"/>
-		<node name="plugins" value="Cài phần bổ sung"/>
-		<node name="gotoPageNumber" value="Đến trang…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Tên tập tin"/>

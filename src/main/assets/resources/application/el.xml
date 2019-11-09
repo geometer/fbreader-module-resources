@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Greek FBReaderJ resources, by Alex Doulamis -->
 <resources>
 	<node name="library" value="βιβλιοθήκη FBReader">
@@ -276,53 +276,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Παρέχεται από &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Οθόνη Έναρξης"/>
-		<node name="preferences" value="Ρυθμίσεις"/>
-		<node name="bookInfo" value="Πληροφορίες βιβλίου"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Βιβλιοθήκη"/>
-		<node name="toc" value="Ευρετήριο"/>
-		<node name="day" value="Μέρα"/>
-		<node name="night" value="Νύχτα"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="Δικτυακή βιβλιοθήκη"/>
-		<node name="navigate" value="Επιλογή σελίδας">
-			<node name="toc" value="Προβολή ευρετηρίου"/>
-			<node name="gotoHome" value="Μεταβιβασμός στην αρχή"/>
-			<node name="gotoSectionStart" value="Πήγαινε στην αρχή του αποσπάσματος"/>
-			<node name="gotoSectionEnd" value="Πήγαινε στο τέλος του αποσπάσματος"/>
-			<node name="nextTOCSection" value="Πήγαινε στο επόμενο κεφάλαιο"/>
-			<node name="previousTOCSection" value="Πήγαινε στο προηγούμενο κεφάλαιο"/>
-			<node name="undo" value="πίσω"/>
-			<node name="redo" value="επανάληψη"/>
-		</node>
-		<node name="shareBook" value="Μοιράσου το βιβλίο"/>
-		<node name="search" value="Εύρεση"/>
-		<node name="rotate" value="Συστροφή όψης"/>
-		<node name="screenOrientation" value="Προσανατολισμός οθόνης"/>
-		<node name="screenOrientationSystem" value="Σύστημα"/>
-		<node name="screenOrientationSensor" value="Αισθητήρας"/>
-		<node name="screenOrientationPortrait" value="κατακόρυφα"/>
-		<node name="screenOrientationLandscape" value="πλάγια"/>
-		<node name="screenOrientationReversePortrait" value="κατακόρυφα ανάποδα"/>
-		<node name="screenOrientationReverseLandscape" value="πλάγια αναάποδα"/>
-		<node name="increaseFont" value="Αύξηση μέγεθους γραμματοσειράς"/>
-		<node name="decreaseFont" value="Μείωση μέγεθους γραμματοσειράς"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="Αλλαγή πλήρης οθόνης"/>
-		<node name="bookmarks" value="Σελιδοδείκτες"/>
-		<node name="help" value="Help" toBeTranslated="true"/>
-		<node name="plugins" value="Install plugins" toBeTranslated="true"/>
-		<node name="gotoPageNumber" value="Πήγαινε στην σελίδα…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Όνομα αρχείου"/>

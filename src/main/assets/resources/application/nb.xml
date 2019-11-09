@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Norwegian bokmål FBReaderJ resources, by Haakon Meland Eriksen -->
 <resources>
 	<node name="library" value="FBReader bibliotek">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Delt fra &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="Innstillinger"/>
-		<node name="bookInfo" value="Bokinformasjon"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Bibliotek"/>
-		<node name="toc" value="Innhold"/>
-		<node name="day" value="Dag"/>
-		<node name="night" value="Natt"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="Nettverksbibliotek"/>
-		<node name="navigate" value="Navigér">
-			<node name="toc" value="Innholdsfortegnelse"/>
-			<node name="gotoHome" value="Gå til begynnelsen av dokumentet"/>
-			<node name="gotoSectionStart" value="Gå til starten av tekstdelen"/>
-			<node name="gotoSectionEnd" value="Gå til slutten av tekstdelen"/>
-			<node name="nextTOCSection" value="Gå til neste punkt i innholdsfortegnelsen"/>
-			<node name="previousTOCSection" value="Gå til forrige punkt i innholdsfortegnelsen"/>
-			<node name="undo" value="Gå tilbake"/>
-			<node name="redo" value="Gå framover"/>
-		</node>
-		<node name="shareBook" value="Del bok"/>
-		<node name="search" value="Søk"/>
-		<node name="rotate" value="Rotér visning"/>
-		<node name="screenOrientation" value="Visningsretning"/>
-		<node name="screenOrientationSystem" value="System"/>
-		<node name="screenOrientationSensor" value="Følger retningen til enheten"/>
-		<node name="screenOrientationPortrait" value="Portrett"/>
-		<node name="screenOrientationLandscape" value="Landskap"/>
-		<node name="screenOrientationReversePortrait" value="Motsatt portrett"/>
-		<node name="screenOrientationReverseLandscape" value="Motsatt landskap"/>
-		<node name="increaseFont" value="Zoom inn"/>
-		<node name="decreaseFont" value="Zoom ut"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="Full skjerm"/>
-		<node name="bookmarks" value="Bokmerker"/>
-		<node name="help" value="Help" toBeTranslated="true"/>
-		<node name="plugins" value="Install plugins" toBeTranslated="true"/>
-		<node name="gotoPageNumber" value="Gå til side…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Filnavn"/>

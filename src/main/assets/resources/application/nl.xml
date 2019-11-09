@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Dutch FBReader resources, by Frank Fesevur since 12-Jan-2011. Last update 02-Dec-2015 -->
 <resources>
 	<node name="library" value="FBReader bibliotheek">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Gedeeld van &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade naar Premium"/>
-		<node name="openPremium" value="FBReader Premium openen"/>
-		<node name="premium" value="FBReader Premium scherm"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="Wat is er nieuw"/>
-		<node name="openStartScreen" value="Startscherm"/>
-		<node name="preferences" value="Instellingen"/>
-		<node name="bookInfo" value="Boekinformatie"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Bibliotheek"/>
-		<node name="toc" value="Inhoud"/>
-		<node name="day" value="Dag"/>
-		<node name="night" value="Nacht"/>
-		<node name="dayNight" value="Dag/Nacht"/>
-		<node name="networkLibrary" value="Netwerkbibliotheek"/>
-		<node name="navigate" value="Navigeer">
-			<node name="toc" value="Inhoudsopgave"/>
-			<node name="gotoHome" value="Begin van document"/>
-			<node name="gotoSectionStart" value="Ga naar het begin van de sectie"/>
-			<node name="gotoSectionEnd" value="Ga naar het einde van de sectie"/>
-			<node name="nextTOCSection" value="Ga naar het volgende hoofdstuk"/>
-			<node name="previousTOCSection" value="Ga naar het vorige hoofdstuk"/>
-			<node name="undo" value="Terug"/>
-			<node name="redo" value="Verder"/>
-		</node>
-		<node name="shareBook" value="Boek delen"/>
-		<node name="search" value="Zoeken"/>
-		<node name="rotate" value="Scherm draaien"/>
-		<node name="screenOrientation" value="Schermoriëntatie"/>
-		<node name="screenOrientationSystem" value="Systeem"/>
-		<node name="screenOrientationSensor" value="Afhankelijk van stand apparaat"/>
-		<node name="screenOrientationPortrait" value="Staand"/>
-		<node name="screenOrientationLandscape" value="Liggend"/>
-		<node name="screenOrientationReversePortrait" value="Omgekeerd staand"/>
-		<node name="screenOrientationReverseLandscape" value="Omgekeerd liggend"/>
-		<node name="increaseFont" value="Inzoomen"/>
-		<node name="decreaseFont" value="Uitzoomen"/>
-		<node name="changeFontSize" value="In- en uitzoomen"/>
-		<node name="toggleFullscreen" value="Volledig scherm"/>
-		<node name="bookmarks" value="Bladwijzers"/>
-		<node name="help" value="Help"/>
-		<node name="plugins" value="Plug-ins"/>
-		<node name="gotoPageNumber" value="Ga naar pagina…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Bestandsnaam"/>

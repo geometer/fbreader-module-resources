@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Polish FBReaderJ resources, by Tomasz Długosz and Maciej Bator-->
 <resources>
 	<node name="library" value="Biblioteka FBReadera">
@@ -276,53 +276,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Udostępnione z &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Zainstaluj wersję Premium"/>
-		<node name="openPremium" value="Otwórz FBReader Premium"/>
-		<node name="premium" value="FBReader Premium"/>
-		<node name="yoWindow" value="Najlepsza Pogoda"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="Nowości"/>
-		<node name="openStartScreen" value="Wprowadzenie"/>
-		<node name="preferences" value="Ustawienia"/>
-		<node name="bookInfo" value="Informacje o książce"/>
-		<node name="pickFile" value="Wskaż plik…"/>
-		<node name="library" value="Biblioteka"/>
-		<node name="toc" value="Spis treści"/>
-		<node name="day" value="Dzień"/>
-		<node name="night" value="Noc"/>
-		<node name="dayNight" value="Dzień/Noc"/>
-		<node name="networkLibrary" value="Biblioteka sieciowa"/>
-		<node name="navigate" value="Nawigacja">
-			<node name="toc" value="Spis treści"/>
-			<node name="gotoHome" value="Początek książki"/>
-			<node name="gotoSectionStart" value="Początek rozdziału"/>
-			<node name="gotoSectionEnd" value="Koniec rozdziału"/>
-			<node name="nextTOCSection" value="Następna pozycja spisu treści"/>
-			<node name="previousTOCSection" value="Poprzednia pozycja spisu treści"/>
-			<node name="undo" value="Powrót"/>
-			<node name="redo" value="Naprzód"/>
-		</node>
-		<node name="shareBook" value="Udostępnij książkę"/>
-		<node name="search" value="Wyszukaj"/>
-		<node name="rotate" value="Obróć ekran"/>
-		<node name="screenOrientation" value="Orientacja ekranu"/>
-		<node name="screenOrientationSystem" value="System"/>
-		<node name="screenOrientationSensor" value="Autoobracanie"/>
-		<node name="screenOrientationPortrait" value="Pionowa"/>
-		<node name="screenOrientationLandscape" value="Pozioma"/>
-		<node name="screenOrientationReversePortrait" value="Odwrócona pionowa"/>
-		<node name="screenOrientationReverseLandscape" value="Odwrócona pozioma"/>
-		<node name="increaseFont" value="Powiększ"/>
-		<node name="decreaseFont" value="Pomniejsz"/>
-		<node name="changeFontSize" value="Powiększenie"/>
-		<node name="toggleFullscreen" value="Pełny ekran"/>
-		<node name="bookmarks" value="Zakładki"/>
-		<node name="help" value="Pomoc"/>
-		<node name="plugins" value="Zainstaluj wtyczki"/>
-		<node name="gotoPageNumber" value="Idź do strony…"/>
-		<node name="readAloud" value="Czytaj na głos…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Nazwa pliku"/>

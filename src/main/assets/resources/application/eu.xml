@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Basque FBReaderJ resources, by Bixerdo for librezale.eus -->
 <resources>
 	<node name="library" value="FBReader Liburutegia">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="&lt;a href=&quot;http://fbreader.org/&quot;&gt;FBReader&lt;/a&gt; (e)tik partekatua"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Eguneratu Premium-era"/>
-		<node name="openPremium" value="Ireki FBReader Premium"/>
-		<node name="premium" value="FBReader Premium elkarrizketa-koadroa"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="Zer berri"/>
-		<node name="openStartScreen" value="Hasiera pantaila"/>
-		<node name="preferences" value="Hobespenak"/>
-		<node name="bookInfo" value="Liburuaren infoa"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Liburutegia"/>
-		<node name="toc" value="Aurkibidea"/>
-		<node name="day" value="Eguna"/>
-		<node name="night" value="Gaua"/>
-		<node name="dayNight" value="Eguna/Gaua"/>
-		<node name="networkLibrary" value="Sareko liburutegia"/>
-		<node name="navigate" value="Nabigatu">
-			<node name="toc" value="Aurkibidea"/>
-			<node name="gotoHome" value="Joan Dokumentuaren Hasierara"/>
-			<node name="gotoSectionStart" value="Joan testu-sekzioaren hasierara"/>
-			<node name="gotoSectionEnd" value="Joan testu-sekzioaren bukaerara"/>
-			<node name="nextTOCSection" value="Joan Aurkibidearen hurrengo elementura"/>
-			<node name="previousTOCSection" value="Joan Aurkibidearen aurreko elementura"/>
-			<node name="undo" value="Desegin"/>
-			<node name="redo" value="Berregin"/>
-		</node>
-		<node name="shareBook" value="Partekatu liburua"/>
-		<node name="search" value="Bilatu"/>
-		<node name="rotate" value="Biratu pantaila"/>
-		<node name="screenOrientation" value="Pantailaren orientazioa"/>
-		<node name="screenOrientationSystem" value="Sistema"/>
-		<node name="screenOrientationSensor" value="Automatikoki biratu"/>
-		<node name="screenOrientationPortrait" value="Bertikala"/>
-		<node name="screenOrientationLandscape" value="Horizontala"/>
-		<node name="screenOrientationReversePortrait" value="Alderantzizko bertikala"/>
-		<node name="screenOrientationReverseLandscape" value="Alderantzizko horizontala"/>
-		<node name="increaseFont" value="Handitu letra-tipoa"/>
-		<node name="decreaseFont" value="Txikitu letra-tipoa"/>
-		<node name="changeFontSize" value="Handitu/Txikitu letra-tipoa"/>
-		<node name="toggleFullscreen" value="Pantaila osoan"/>
-		<node name="bookmarks" value="Laster-markak"/>
-		<node name="help" value="Laguntza"/>
-		<node name="plugins" value="Instalatu pluginak"/>
-		<node name="gotoPageNumber" value="Orri honetara joan…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Fitxategiaren izena"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- English FBReaderJ resources, by FBReader.ORG Limited -->
 <resources>
 	<node name="library" value="FBReader 라이브러리">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="&lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt; 로부터 공유됨"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="시작 화면"/>
-		<node name="preferences" value="설정"/>
-		<node name="bookInfo" value="책 정보"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="라이브러리"/>
-		<node name="toc" value="Table of contents" toBeTranslated="true"/>
-		<node name="day" value="주간"/>
-		<node name="night" value="야간"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="네트워크 라이브러리"/>
-		<node name="navigate" value="탐색">
-			<node name="toc" value="목차"/>
-			<node name="gotoHome" value="문서 처음으로 가기"/>
-			<node name="gotoSectionStart" value="텍스트 부분 처음으로 가기"/>
-			<node name="gotoSectionEnd" value="텍스트 부분 끝으로 가기"/>
-			<node name="nextTOCSection" value="다음 ToC 항목으로 가기"/>
-			<node name="previousTOCSection" value="이전 ToC 항목으로 가기"/>
-			<node name="undo" value="뒤로 가기"/>
-			<node name="redo" value="앞으로 가기"/>
-		</node>
-		<node name="shareBook" value="책 공유"/>
-		<node name="search" value="검색"/>
-		<node name="rotate" value="화면 회전"/>
-		<node name="screenOrientation" value="화면 방향"/>
-		<node name="screenOrientationSystem" value="시스템 설정"/>
-		<node name="screenOrientationSensor" value="기기 방향 센서"/>
-		<node name="screenOrientationPortrait" value="세로"/>
-		<node name="screenOrientationLandscape" value="가로"/>
-		<node name="screenOrientationReversePortrait" value="뒤집어진 세로"/>
-		<node name="screenOrientationReverseLandscape" value="뒤집어진 가로"/>
-		<node name="increaseFont" value="확대"/>
-		<node name="decreaseFont" value="축소"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="전체화면"/>
-		<node name="bookmarks" value="책갈피"/>
-		<node name="help" value="도움말"/>
-		<node name="plugins" value="플러그인 설치"/>
-		<node name="gotoPageNumber" value="페이지로 가기"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="파일명"/>

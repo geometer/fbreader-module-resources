@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- French FBReaderJ resources; 
      Initial work: Sébastien Rodriguez; 
      Maintainer: Mathias Monnerville <mathias@monnerville.com> 
@@ -279,53 +279,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Partagé depuis l'application &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt; pour Android"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Météo Précise"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Écran de départ"/>
-		<node name="preferences" value="Paramètres"/>
-		<node name="bookInfo" value="Information sur le livre"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Bibliothèque"/>
-		<node name="toc" value="Table des matières"/>
-		<node name="day" value="Jour"/>
-		<node name="night" value="Nuit"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="Bibliothèque réseau"/>
-		<node name="navigate" value="Naviguer">
-			<node name="toc" value="Table des Matières"/>
-			<node name="gotoHome" value="Aller au début du document"/>
-			<node name="gotoSectionStart" value="Aller au début de la section de texte"/>
-			<node name="gotoSectionEnd" value="Aller à la fin de la section de texte"/>
-			<node name="nextTOCSection" value="Aller au prochain élément de la table des matières"/>
-			<node name="previousTOCSection" value="Aller au précédent élément de la table de s matières"/>
-			<node name="undo" value="Revenir en arrière"/>
-			<node name="redo" value="Refaire l'action"/>
-		</node>
-		<node name="shareBook" value="Partager ce livre"/>
-		<node name="search" value="Rechercher"/>
-		<node name="rotate" value="Orienter l'écran"/>
-		<node name="screenOrientation" value="Orientation de l'écran"/>
-		<node name="screenOrientationSystem" value="Système"/>
-		<node name="screenOrientationSensor" value="Détectée par les capteurs"/>
-		<node name="screenOrientationPortrait" value="Portrait"/>
-		<node name="screenOrientationLandscape" value="Paysage"/>
-		<node name="screenOrientationReversePortrait" value="Portrait inversé"/>
-		<node name="screenOrientationReverseLandscape" value="Paysage inversé"/>
-		<node name="increaseFont" value="Augmenter la taille"/>
-		<node name="decreaseFont" value="Diminuer la taille"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="Plein écran"/>
-		<node name="bookmarks" value="Marque-pages"/>
-		<node name="help" value="Aide"/>
-		<node name="plugins" value="Installer des plugins"/>
-		<node name="gotoPageNumber" value="Aller à la Page…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Nom du fichier"/>

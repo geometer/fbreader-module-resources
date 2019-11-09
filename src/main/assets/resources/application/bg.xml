@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Bulgarian FBReaderJ resources, by Ники Арсов -->
 <!-- Updated by Георги Георгиев, 22.07.2014 -->
 <resources>
@@ -292,53 +292,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Изпратено от &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="Настройки"/>
-		<node name="bookInfo" value="За книгата"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Библиотека"/>
-		<node name="toc" value="Съдържание"/>
-		<node name="day" value="Ден"/>
-		<node name="night" value="Нощ"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="Мрежова библиотека"/>
-		<node name="navigate" value="Напред">
-			<node name="toc" value="Заглавие"/>
-			<node name="gotoHome" value="Начало на книгата"/>
-			<node name="gotoSectionStart" value="Начало на раздела"/>
-			<node name="gotoSectionEnd" value="Край на раздела"/>
-			<node name="nextTOCSection" value="Следваща глава"/>
-			<node name="previousTOCSection" value="Предишна глава"/>
-			<node name="undo" value="Назад"/>
-			<node name="redo" value="Напред"/>
-		</node>
-		<node name="shareBook" value="Сподели книгaта"/>
-		<node name="search" value="Търсене"/>
-		<node name="rotate" value="Завърти"/>
-		<node name="screenOrientation" value="Ориентация на екрана"/>
-		<node name="screenOrientationSystem" value="системна"/>
-		<node name="screenOrientationSensor" value="зависи от ориентацията на устройството"/>
-		<node name="screenOrientationPortrait" value="вертикална"/>
-		<node name="screenOrientationLandscape" value="хоризонтална"/>
-		<node name="screenOrientationReversePortrait" value="обърната вертикално"/>
-		<node name="screenOrientationReverseLandscape" value="обърната хоризонтално"/>
-		<node name="increaseFont" value="Увеличи шрифта"/>
-		<node name="decreaseFont" value="Намали шрифта"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="На цял екран"/>
-		<node name="bookmarks" value="Отбелязани"/>
-		<node name="help" value="Помощ"/>
-		<node name="plugins" value="Допълнителни модули"/>
-		<node name="gotoPageNumber" value="Страница…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Файл"/>

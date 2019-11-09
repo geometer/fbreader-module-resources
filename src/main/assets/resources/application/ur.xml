@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Urdu FBReaderJ resources, by Waqar Ahmed -->
 <resources>
 	<node name="library" value="ایف بی ریڈر لائب ریری">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Shared from &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;" toBeTranslated="true"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="پریمیم پر اپ گریڈ کریں"/>
-		<node name="openPremium" value="ایف بی ریڈر پریمیم کھولیں"/>
-		<node name="premium" value="ایف بی ریڈر پریمیم ڈائیلاگ"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="نیا کیا ہے"/>
-		<node name="openStartScreen" value="شروعاتی سکرین"/>
-		<node name="preferences" value="ترتیبات"/>
-		<node name="bookInfo" value="کتاب کی معلومات"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="لائبریری"/>
-		<node name="toc" value="فہرست"/>
-		<node name="day" value="دن"/>
-		<node name="night" value="رات"/>
-		<node name="dayNight" value="دن/ رات"/>
-		<node name="networkLibrary" value="نیٹ ورک لائبریری"/>
-		<node name="navigate" value="Navigate" toBeTranslated="true">
-			<node name="toc" value="Table of Contents" toBeTranslated="true"/>
-			<node name="gotoHome" value="Go to Start of Document" toBeTranslated="true"/>
-			<node name="gotoSectionStart" value="Go to start of text section" toBeTranslated="true"/>
-			<node name="gotoSectionEnd" value="Go to end of text section" toBeTranslated="true"/>
-			<node name="nextTOCSection" value="Go to next ToC item" toBeTranslated="true"/>
-			<node name="previousTOCSection" value="Go to previous ToC item" toBeTranslated="true"/>
-			<node name="undo" value="پیچھے جائیں"/>
-			<node name="redo" value="آگے جائیں"/>
-		</node>
-		<node name="shareBook" value="کتاب بھیجیں"/>
-		<node name="search" value="تلاش کریں"/>
-		<node name="rotate" value="سکرین گھمائیں"/>
-		<node name="screenOrientation" value="اسکرین سمت بندی"/>
-		<node name="screenOrientationSystem" value="سسٹم"/>
-		<node name="screenOrientationSensor" value="خودکار-گھمائیں"/>
-		<node name="screenOrientationPortrait" value="عمودی انداز"/>
-		<node name="screenOrientationLandscape" value="افقی انداز"/>
-		<node name="screenOrientationReversePortrait" value="Reverse portrait" toBeTranslated="true"/>
-		<node name="screenOrientationReverseLandscape" value="Reverse landscape" toBeTranslated="true"/>
-		<node name="increaseFont" value="زوم اندر"/>
-		<node name="decreaseFont" value="زوم باہر"/>
-		<node name="changeFontSize" value="زوم اندر/باہر"/>
-		<node name="toggleFullscreen" value="پوری سکرین موڈ"/>
-		<node name="bookmarks" value="بک مارک"/>
-		<node name="help" value="ہدایات"/>
-		<node name="plugins" value="پلگ ان انسٹال کریں"/>
-		<node name="gotoPageNumber" value="جائیں بطرف صفحہ…"/>
-		<node name="readAloud" value="باآواز پڑھیں…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="فائل کا نام"/>

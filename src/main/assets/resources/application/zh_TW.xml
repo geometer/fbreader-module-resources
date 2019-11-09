@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Chinese (Traditional) FBReaderJ resources, by He Zhihong (何志鸿) -->
 <resources>
 	<node name="library" value="FBReader書庫">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="分享從&lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="升級到高級版"/>
-		<node name="openPremium" value="打開高級版"/>
-		<node name="premium" value="FBReader高級版對話框"/>
-		<node name="yoWindow" value="實景天氣"/>
-		<node name="ads" value="推薦應用"/>
-		<node name="whatsnew" value="更新日誌"/>
-		<node name="openStartScreen" value="開始螢幕"/>
-		<node name="preferences" value="設置"/>
-		<node name="bookInfo" value="書籍資訊"/>
-		<node name="pickFile" value="選擇檔…"/>
-		<node name="library" value="書庫"/>
-		<node name="toc" value="目錄"/>
-		<node name="day" value="白天"/>
-		<node name="night" value="夜間"/>
-		<node name="dayNight" value="白天/夜間"/>
-		<node name="networkLibrary" value="網路書庫"/>
-		<node name="navigate" value="導覽">
-			<node name="toc" value="目錄"/>
-			<node name="gotoHome" value="轉到文檔開始"/>
-			<node name="gotoSectionStart" value="轉到文本部分開始"/>
-			<node name="gotoSectionEnd" value="轉到文本部分末尾"/>
-			<node name="nextTOCSection" value="轉到下一個ToC項"/>
-			<node name="previousTOCSection" value="轉到上一個ToC項"/>
-			<node name="undo" value="後退"/>
-			<node name="redo" value="前進"/>
-		</node>
-		<node name="shareBook" value="分享書籍"/>
-		<node name="search" value="搜索"/>
-		<node name="rotate" value="旋轉螢幕"/>
-		<node name="screenOrientation" value="螢幕方向"/>
-		<node name="screenOrientationSystem" value="系統"/>
-		<node name="screenOrientationSensor" value="自動旋轉"/>
-		<node name="screenOrientationPortrait" value="縱向"/>
-		<node name="screenOrientationLandscape" value="橫向"/>
-		<node name="screenOrientationReversePortrait" value="反向縱向"/>
-		<node name="screenOrientationReverseLandscape" value="反向橫向"/>
-		<node name="increaseFont" value="放大"/>
-		<node name="decreaseFont" value="縮小"/>
-		<node name="changeFontSize" value="放大/縮小"/>
-		<node name="toggleFullscreen" value="全屏模式"/>
-		<node name="bookmarks" value="書簽"/>
-		<node name="help" value="幫助"/>
-		<node name="plugins" value="安裝插件"/>
-		<node name="gotoPageNumber" value="進入頁面…"/>
-		<node name="readAloud" value="大聲朗讀…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="檔案名稱"/>

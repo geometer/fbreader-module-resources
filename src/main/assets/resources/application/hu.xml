@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Hungarian FBReaderJ resources, by L. B. Szabó.  -->
 <resources>
 	<node name="library" value="FBReader könyvtár">
@@ -276,53 +276,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Megosztva az &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;ből"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="Beállítások"/>
-		<node name="bookInfo" value="Könyv adatai"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Könyvtár"/>
-		<node name="toc" value="Tartalom"/>
-		<node name="day" value="Nappali"/>
-		<node name="night" value="Éjjeli"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="Internetes könyvtár"/>
-		<node name="navigate" value="Navigáció">
-			<node name="toc" value="Tartalomjegyzék"/>
-			<node name="gotoHome" value="A dokumentum elejére"/>
-			<node name="gotoSectionStart" value="Ugrás a szövegrész elejére"/>
-			<node name="gotoSectionEnd" value="Ugrás a szövegrész végére"/>
-			<node name="nextTOCSection" value="Ugrás a tartalomjegyzék következő elemére"/>
-			<node name="previousTOCSection" value="Ugrás a tartalomjegyzék előző elemére"/>
-			<node name="undo" value="Vissza"/>
-			<node name="redo" value="Előre"/>
-		</node>
-		<node name="shareBook" value="Könyv megosztása"/>
-		<node name="search" value="Keresés"/>
-		<node name="rotate" value="Kijelző elforgatása"/>
-		<node name="screenOrientation" value="Kijelző iránya"/>
-		<node name="screenOrientationSystem" value="Rendszerbeállítás"/>
-		<node name="screenOrientationSensor" value="Készülék irányától függ"/>
-		<node name="screenOrientationPortrait" value="Álló"/>
-		<node name="screenOrientationLandscape" value="Fekvő"/>
-		<node name="screenOrientationReversePortrait" value="Fordított álló"/>
-		<node name="screenOrientationReverseLandscape" value="Fordított fekvő"/>
-		<node name="increaseFont" value="Nagyítás"/>
-		<node name="decreaseFont" value="Kicsinyítés"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="Teljes kijelző"/>
-		<node name="bookmarks" value="Könyvjelzők"/>
-		<node name="help" value="Súgó"/>
-		<node name="plugins" value="Bővítmények telepítése"/>
-		<node name="gotoPageNumber" value="Ugrás oldalszámra…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Fájlnév"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Japanese FBReaderJ resources, by Tamo -->
 <resources>
 	<node name="library" value="FBReader ライブラリ">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="共有元: &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="プレミアムにアップグレード"/>
-		<node name="openPremium" value="FBReader プレミアムを開く"/>
-		<node name="premium" value="FBReader プレミアムダイアログ"/>
-		<node name="yoWindow" value="正確な天気"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="新着情報"/>
-		<node name="openStartScreen" value="スタート画面"/>
-		<node name="preferences" value="設定"/>
-		<node name="bookInfo" value="本の情報"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="ライブラリ"/>
-		<node name="toc" value="目次"/>
-		<node name="day" value="日中モード"/>
-		<node name="night" value="夜間モード"/>
-		<node name="dayNight" value="日中/夜間"/>
-		<node name="networkLibrary" value="ネットワークライブラリ"/>
-		<node name="navigate" value="移動">
-			<node name="toc" value="目次"/>
-			<node name="gotoHome" value="文書の冒頭"/>
-			<node name="gotoSectionStart" value="セクションの冒頭"/>
-			<node name="gotoSectionEnd" value="セクションの末尾"/>
-			<node name="nextTOCSection" value="次の項目"/>
-			<node name="previousTOCSection" value="前の項目"/>
-			<node name="undo" value="戻る"/>
-			<node name="redo" value="進む"/>
-		</node>
-		<node name="shareBook" value="本を共有"/>
-		<node name="search" value="検索"/>
-		<node name="rotate" value="画面を回転"/>
-		<node name="screenOrientation" value="画面の向き"/>
-		<node name="screenOrientationSystem" value="システム"/>
-		<node name="screenOrientationSensor" value="本体の向きに合わせる"/>
-		<node name="screenOrientationPortrait" value="タテ向き"/>
-		<node name="screenOrientationLandscape" value="ヨコ向き"/>
-		<node name="screenOrientationReversePortrait" value="逆タテ向き"/>
-		<node name="screenOrientationReverseLandscape" value="逆ヨコ向き"/>
-		<node name="increaseFont" value="拡大"/>
-		<node name="decreaseFont" value="縮小"/>
-		<node name="changeFontSize" value="拡大/縮小"/>
-		<node name="toggleFullscreen" value="全画面"/>
-		<node name="bookmarks" value="しおり"/>
-		<node name="help" value="ヘルプ"/>
-		<node name="plugins" value="プラグインをインストール"/>
-		<node name="gotoPageNumber" value="ページ番号を指定"/>
-		<node name="readAloud" value="読み上げ…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="ファイル名"/>

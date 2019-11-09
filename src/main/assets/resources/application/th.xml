@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Thai FBReaderJ resources, by Samphan Pojanasophanakul -->
 <resources>
 	<node name="library" value="FBReader library" toBeTranslated="true">
@@ -276,53 +276,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Shared from &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;" toBeTranslated="true"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="การตั้งค่า"/>
-		<node name="bookInfo" value="ข้อมูลหนังสือ"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="คลังหนังสือ"/>
-		<node name="toc" value="สารบัญ"/>
-		<node name="day" value="กลางวัน"/>
-		<node name="night" value="กลางคืน"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="คลังหนังสือบนระบบเครือข่าย"/>
-		<node name="navigate" value="ตัวนำทาง">
-			<node name="toc" value="สารบัญ"/>
-			<node name="gotoHome" value="ไปที่จุดเริ่มต้น"/>
-			<node name="gotoSectionStart" value="ไปที่จุดเริ่มต้นของข้อความส่วนนี้"/>
-			<node name="gotoSectionEnd" value="ไปที่จุดสุดท้ายของข้อความส่วนนี้"/>
-			<node name="nextTOCSection" value="ไปที่บทถัดไปในสารบัญ"/>
-			<node name="previousTOCSection" value="ไปที่บทก่อนหน้าในสารบัญ"/>
-			<node name="undo" value="ย้อนกลับ"/>
-			<node name="redo" value="ไปข้างหน้า"/>
-		</node>
-		<node name="shareBook" value="Share book" toBeTranslated="true"/>
-		<node name="search" value="ค้นหา"/>
-		<node name="rotate" value="หมุนหน้าจอ"/>
-		<node name="screenOrientation" value="Screen orientation" toBeTranslated="true"/>
-		<node name="screenOrientationSystem" value="System" toBeTranslated="true"/>
-		<node name="screenOrientationSensor" value="Auto-rotate" toBeTranslated="true"/>
-		<node name="screenOrientationPortrait" value="Portrait" toBeTranslated="true"/>
-		<node name="screenOrientationLandscape" value="Landscape" toBeTranslated="true"/>
-		<node name="screenOrientationReversePortrait" value="Reverse portrait" toBeTranslated="true"/>
-		<node name="screenOrientationReverseLandscape" value="Reverse landscape" toBeTranslated="true"/>
-		<node name="increaseFont" value="ซูมเข้า"/>
-		<node name="decreaseFont" value="ซูมออก"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="เต็มจอ"/>
-		<node name="bookmarks" value="บุ๊คมาร์ค"/>
-		<node name="help" value="Help" toBeTranslated="true"/>
-		<node name="plugins" value="Install plugins" toBeTranslated="true"/>
-		<node name="gotoPageNumber" value="ไปที่หน้า…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="ชื่อไฟล์"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Georgian FBReaderJ resources, by Zurab Sebiskveradze, George Zautashvili -->
 <resources>
 	<node name="library" value="FBReader: ბიბლიოთეკა">
@@ -291,53 +291,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="გამოგზავნილია &lt;a href=&quot;https://ru.fbreader.org/&quot;&gt;FBReader&lt;/a&gt;-დან"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="პარამეტრები"/>
-		<node name="bookInfo" value="წიგნის შესახებ"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="ბიბლიოთეკა"/>
-		<node name="toc" value="სარჩევი"/>
-		<node name="day" value="დღე"/>
-		<node name="night" value="ღამე"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="ქსელური ბიბლიოთეკა"/>
-		<node name="navigate" value="გადასვლა">
-			<node name="toc" value="სარჩევი"/>
-			<node name="gotoHome" value="წიგნის დასაწყისში"/>
-			<node name="gotoSectionStart" value="ნაწილის დასაწყისში"/>
-			<node name="gotoSectionEnd" value="ნაწილის ბოლოს"/>
-			<node name="nextTOCSection" value="შემდეგ თავზე"/>
-			<node name="previousTOCSection" value="წინა თავზე"/>
-			<node name="undo" value="უკან"/>
-			<node name="redo" value="წინ"/>
-		</node>
-		<node name="shareBook" value="წიგნის გაზიარება"/>
-		<node name="search" value="ძებნა"/>
-		<node name="rotate" value="მოტრიალება"/>
-		<node name="screenOrientation" value="ეკრანის ორიენტაცია"/>
-		<node name="screenOrientationSystem" value="სისტემური"/>
-		<node name="screenOrientationSensor" value="დამოკიდებულია მოწყობილობის ორიენტაციაზე"/>
-		<node name="screenOrientationPortrait" value="ვერტიკალური"/>
-		<node name="screenOrientationLandscape" value="ჰორიზონტალური"/>
-		<node name="screenOrientationReversePortrait" value="შებრუნებული ვერტიკალური"/>
-		<node name="screenOrientationReverseLandscape" value="შებრუნებული ჰორიზონტალური"/>
-		<node name="increaseFont" value="შრიფტის გაზრდა"/>
-		<node name="decreaseFont" value="შრიფტის შემცირება"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="მთლიან ეკრანზე"/>
-		<node name="bookmarks" value="სანიშნეები"/>
-		<node name="help" value="Help" toBeTranslated="true"/>
-		<node name="plugins" value="Install plugins" toBeTranslated="true"/>
-		<node name="gotoPageNumber" value="გვერდზე…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="ფაილი"/>

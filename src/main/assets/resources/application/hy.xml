@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Armenian FBReaderJ resources, by Yavruhrat, Marat Yavrumyan -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2015/05/17 -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2016/12/13 -->
@@ -293,53 +293,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Ուղարկվել է &lt;a href=&quot;https://ru.fbreader.org/&quot;&gt;FBReader&lt;/a&gt;-ից"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Անցնել Premium տարբերակի"/>
-		<node name="openPremium" value="Բացել FBReader Premium-ը"/>
-		<node name="premium" value="FBReader Premium"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="Նորույթները"/>
-		<node name="openStartScreen" value="Հիմնական էկրան"/>
-		<node name="preferences" value="Կարգավորումներ"/>
-		<node name="bookInfo" value="Գրքի մասին"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Գրադարան"/>
-		<node name="toc" value="Բովանդակություն"/>
-		<node name="day" value="Ցերեկային ռեժիմ"/>
-		<node name="night" value="Գիշերային ռեժիմ"/>
-		<node name="dayNight" value="Ցերեկ/Գիշեր"/>
-		<node name="networkLibrary" value="Ցանցային գրադարան"/>
-		<node name="navigate" value="Ընտրել էջը">
-			<node name="toc" value="Բովանդակություն"/>
-			<node name="gotoHome" value="Թերթել մինչև գրքի սկիզբ"/>
-			<node name="gotoSectionStart" value="Թերթել մինչև գլխի սկիզբ"/>
-			<node name="gotoSectionEnd" value="Թերթել մինչև գլխի վերջ"/>
-			<node name="nextTOCSection" value="Հաջորդ գլուխը"/>
-			<node name="previousTOCSection" value="Նախորդ գլուխը"/>
-			<node name="undo" value="Ետ"/>
-			<node name="redo" value="Առաջ"/>
-		</node>
-		<node name="shareBook" value="Տարածել գիրքը"/>
-		<node name="search" value="Որոնել"/>
-		<node name="rotate" value="Շրջել"/>
-		<node name="screenOrientation" value="Էկրանի ուղղությունը"/>
-		<node name="screenOrientationSystem" value="համակարգային"/>
-		<node name="screenOrientationSensor" value="կախված սարքից"/>
-		<node name="screenOrientationPortrait" value="ուղղաձիգ"/>
-		<node name="screenOrientationLandscape" value="հորիզոնական"/>
-		<node name="screenOrientationReversePortrait" value="շրջված ուղղաձիգ"/>
-		<node name="screenOrientationReverseLandscape" value="շրջված հորիզոնական"/>
-		<node name="increaseFont" value="Մեծացնել տառատեսակը"/>
-		<node name="decreaseFont" value="Փոքրացնել տառատեսակը"/>
-		<node name="changeFontSize" value="Տառաչափը"/>
-		<node name="toggleFullscreen" value="Ամբողջ էկրանով"/>
-		<node name="bookmarks" value="Էջանիշեր"/>
-		<node name="help" value="Օգնություն"/>
-		<node name="plugins" value="Խրվակներ"/>
-		<node name="gotoPageNumber" value="Գնալ էջ…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Նիշք"/>

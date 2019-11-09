@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Czech FBReaderJ resources, by Marek Pavelka -->
 <resources>
 	<node name="library" value="Knihovna FBReaderu">
@@ -295,53 +295,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Sdíleno z &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgradovat na Premium"/>
-		<node name="openPremium" value="Otevřít FBReader Premium"/>
-		<node name="premium" value="Dialogové okno FBReader Premium"/>
-		<node name="yoWindow" value="Přesné počasí"/>
-		<node name="ads" value="Doporučená aplikace"/>
-		<node name="whatsnew" value="Co je nového"/>
-		<node name="openStartScreen" value="Úvodní obrazovka"/>
-		<node name="preferences" value="Nastavení"/>
-		<node name="bookInfo" value="Informace o knize"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Knihovna"/>
-		<node name="toc" value="Obsah"/>
-		<node name="day" value="Den"/>
-		<node name="night" value="Noc"/>
-		<node name="dayNight" value="Den/Noc"/>
-		<node name="networkLibrary" value="Síťová knihovna"/>
-		<node name="navigate" value="Navigace">
-			<node name="toc" value="Obsah"/>
-			<node name="gotoHome" value="Přejít na začátek dokumentu"/>
-			<node name="gotoSectionStart" value="Přejít na začátek textové části"/>
-			<node name="gotoSectionEnd" value="Přejít na konec textové části"/>
-			<node name="nextTOCSection" value="Přejít na další položku obsahu"/>
-			<node name="previousTOCSection" value="Přejít na předchozí položku obsahu"/>
-			<node name="undo" value="Přejít zpět"/>
-			<node name="redo" value="Přejít vpřed"/>
-		</node>
-		<node name="shareBook" value="Sdílet knihu"/>
-		<node name="search" value="Hledat"/>
-		<node name="rotate" value="Otočit displej"/>
-		<node name="screenOrientation" value="Orientace displeje"/>
-		<node name="screenOrientationSystem" value="Systém"/>
-		<node name="screenOrientationSensor" value="Podle orientace zařízení"/>
-		<node name="screenOrientationPortrait" value="Na výšku"/>
-		<node name="screenOrientationLandscape" value="Na šířku"/>
-		<node name="screenOrientationReversePortrait" value="Převráceně na výšku"/>
-		<node name="screenOrientationReverseLandscape" value="Převráceně na šířku"/>
-		<node name="increaseFont" value="Zvětšit"/>
-		<node name="decreaseFont" value="Zmenšit"/>
-		<node name="changeFontSize" value="Zvětšit/Zmenšit"/>
-		<node name="toggleFullscreen" value="Na celou obrazovku"/>
-		<node name="bookmarks" value="Záložky"/>
-		<node name="help" value="Nápověda"/>
-		<node name="plugins" value="Doplňky"/>
-		<node name="gotoPageNumber" value="Přejít na stránku…"/>
-		<node name="readAloud" value="Číst nahlas…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Název souboru"/>

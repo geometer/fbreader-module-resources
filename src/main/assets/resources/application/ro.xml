@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Romanian FBReaderJ resources aplicatii.romanesti@gmail.com -->
 <!-- Updated by girlea_alex@yahoo.com, Jul 6 of 2014 -->
 <!-- Updated by aplicatii.romanesti@gmail.com, Nov 20 of 2014 -->
@@ -279,53 +279,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Împartășit de la &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Instalează varianta Premium"/>
-		<node name="openPremium" value="Deschide FBReader Premium"/>
-		<node name="premium" value="Dialog FBReader Premium"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="Ce este nou"/>
-		<node name="openStartScreen" value="Ecranul de start"/>
-		<node name="preferences" value="Setări"/>
-		<node name="bookInfo" value="Informații despre carte"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Biblioteca"/>
-		<node name="toc" value="Cuprins"/>
-		<node name="day" value="Mod Zi"/>
-		<node name="night" value="Mod Noapte"/>
-		<node name="dayNight" value="Zi/Noapte"/>
-		<node name="networkLibrary" value="Biblioteca din rețea"/>
-		<node name="navigate" value="Navigați">
-			<node name="toc" value="Cuprins"/>
-			<node name="gotoHome" value="Du-te la începutul documentului"/>
-			<node name="gotoSectionStart" value="Du-te la începutul textului"/>
-			<node name="gotoSectionEnd" value="Du-te la sfârșitul textului"/>
-			<node name="nextTOCSection" value="Du-te la următoarea intrare din cuprins"/>
-			<node name="previousTOCSection" value="Du-te la intrarea anterioara din cuprins"/>
-			<node name="undo" value="Mergeți înapoi"/>
-			<node name="redo" value="Mergeți înainte"/>
-		</node>
-		<node name="shareBook" value="Împărtășește cartea"/>
-		<node name="search" value="Caută"/>
-		<node name="rotate" value="Rotire ecran"/>
-		<node name="screenOrientation" value="Orientarea ecranului"/>
-		<node name="screenOrientationSystem" value="Sistem"/>
-		<node name="screenOrientationSensor" value="În functie de senzorul de rotatie"/>
-		<node name="screenOrientationPortrait" value="Portret"/>
-		<node name="screenOrientationLandscape" value="Orizontal (Peisaj)"/>
-		<node name="screenOrientationReversePortrait" value="Portret inversat"/>
-		<node name="screenOrientationReverseLandscape" value="Orizontal (Peisaj) inversat"/>
-		<node name="increaseFont" value="Măreste"/>
-		<node name="decreaseFont" value="Micsorează"/>
-		<node name="changeFontSize" value="Măreste/Micsorează"/>
-		<node name="toggleFullscreen" value="Pe intreg ecranul"/>
-		<node name="bookmarks" value="Favorite"/>
-		<node name="help" value="Ajutor"/>
-		<node name="plugins" value="Instalează plugin-uri"/>
-		<node name="gotoPageNumber" value="Du-te la pagina…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Nume de fișier"/>

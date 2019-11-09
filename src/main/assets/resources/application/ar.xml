@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Arabic FBReaderJ resources, by Ahmed Saidi (https://github.com/boussouira) -->
 <resources>
 	<node name="library" value="المكتبة">
@@ -284,53 +284,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Shared from &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;" toBeTranslated="true"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="اعدادات"/>
-		<node name="bookInfo" value="معلومات حول الكتاب"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="المكتبة"/>
-		<node name="toc" value="الفهرس"/>
-		<node name="day" value="مضيء"/>
-		<node name="night" value="مظلم"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="مكتبة الشبكة"/>
-		<node name="navigate" value="التنقل بين الصفحات">
-			<node name="toc" value="فهرس الكتاب"/>
-			<node name="gotoHome" value="انتقل الى البداية"/>
-			<node name="gotoSectionStart" value="انتقل الى بداية الصفحة"/>
-			<node name="gotoSectionEnd" value="انتقل الى نهاية الصفحة"/>
-			<node name="nextTOCSection" value="Go to next ToC item" toBeTranslated="true"/>
-			<node name="previousTOCSection" value="Go to previous ToC item" toBeTranslated="true"/>
-			<node name="undo" value="الى الخلف"/>
-			<node name="redo" value="الى الأمام"/>
-		</node>
-		<node name="shareBook" value="مشاركة الكتاب"/>
-		<node name="search" value="بحث"/>
-		<node name="rotate" value="قلب الشاشة"/>
-		<node name="screenOrientation" value="اتجاه الشاشة"/>
-		<node name="screenOrientationSystem" value="حسب النظام"/>
-		<node name="screenOrientationSensor" value="حسب الجهاز"/>
-		<node name="screenOrientationPortrait" value="طول"/>
-		<node name="screenOrientationLandscape" value="عرض"/>
-		<node name="screenOrientationReversePortrait" value="طول معكوس"/>
-		<node name="screenOrientationReverseLandscape" value="عرض معكوس"/>
-		<node name="increaseFont" value="تكبير الخط"/>
-		<node name="decreaseFont" value="تصغير الخط"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="كل الشاشة"/>
-		<node name="bookmarks" value="العلامات المرجعية"/>
-		<node name="help" value="مساعدة"/>
-		<node name="plugins" value="تنصيب اضافة"/>
-		<node name="gotoPageNumber" value="انتقل الى الصفحة..."/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="اسم الملف"/>

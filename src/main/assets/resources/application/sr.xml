@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Serbian FBReaderJ resources, by Rancher -->
 <resources>
 	<node name="library" value="FBReader библиотека">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Поделио &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;."/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="Подешавања"/>
-		<node name="bookInfo" value="Подаци о књизи"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Библиотека"/>
-		<node name="toc" value="Садржај"/>
-		<node name="day" value="Дан"/>
-		<node name="night" value="Ноћ"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="Мрежна библиотека"/>
-		<node name="navigate" value="Навигација">
-			<node name="toc" value="Садржај"/>
-			<node name="gotoHome" value="Иди на почетак документа"/>
-			<node name="gotoSectionStart" value="Иди на почетак одељка с текстом"/>
-			<node name="gotoSectionEnd" value="Иди на крај одељка с текстом"/>
-			<node name="nextTOCSection" value="Иди на следећу ставку садржаја"/>
-			<node name="previousTOCSection" value="Иди на претходну ставку садржаја"/>
-			<node name="undo" value="Иди назад"/>
-			<node name="redo" value="Иди напред"/>
-		</node>
-		<node name="shareBook" value="Дели књигу"/>
-		<node name="search" value="Претражи"/>
-		<node name="rotate" value="Обрни екран"/>
-		<node name="screenOrientation" value="Усмерење екрана"/>
-		<node name="screenOrientationSystem" value="Системско"/>
-		<node name="screenOrientationSensor" value="Осетљивост на усмерење"/>
-		<node name="screenOrientationPortrait" value="Усправно"/>
-		<node name="screenOrientationLandscape" value="Положено"/>
-		<node name="screenOrientationReversePortrait" value="Обрнуто усправно"/>
-		<node name="screenOrientationReverseLandscape" value="Обрнуто положено"/>
-		<node name="increaseFont" value="Увећај"/>
-		<node name="decreaseFont" value="Умањи"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="Цео екран"/>
-		<node name="bookmarks" value="Обележивачи"/>
-		<node name="help" value="Help" toBeTranslated="true"/>
-		<node name="plugins" value="Install plugins" toBeTranslated="true"/>
-		<node name="gotoPageNumber" value="Иди на страницу…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Име датотеке"/>

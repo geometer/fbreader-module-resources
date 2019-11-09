@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Belarusian FBReaderJ resources by Usievaład Čorny -->
 <resources>
 	<node name="library" value="Бібліятэка FBReader">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Вы падзяліліся праз &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Палепшыць да прэміўм-версіі"/>
-		<node name="openPremium" value="Адкрыць FBReader прэміўм"/>
-		<node name="premium" value="Акно FBReader Прэміўм"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="Што новага"/>
-		<node name="openStartScreen" value="Пачатковы экран"/>
-		<node name="preferences" value="Налады"/>
-		<node name="bookInfo" value="Інфармацыя пра кнігу"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Бібліятэка"/>
-		<node name="toc" value="Змест"/>
-		<node name="day" value="Дзень"/>
-		<node name="night" value="Ноч"/>
-		<node name="dayNight" value="Дзень/ноч"/>
-		<node name="networkLibrary" value="Сеціўная бібліятэка"/>
-		<node name="navigate" value="Перайсці">
-			<node name="toc" value="Змест"/>
-			<node name="gotoHome" value="Перайсці ў пачатак дакумента"/>
-			<node name="gotoSectionStart" value="Перайсці ў пачатак раздзела тэксту"/>
-			<node name="gotoSectionEnd" value="Перайсці ў канец раздзела тэксту"/>
-			<node name="nextTOCSection" value="Да наступнага элемента зместу"/>
-			<node name="previousTOCSection" value="Да папярэдняга элемента зместу"/>
-			<node name="undo" value="Назад"/>
-			<node name="redo" value="Наперад"/>
-		</node>
-		<node name="shareBook" value="Падзяліцца кнігай"/>
-		<node name="search" value="Пошук"/>
-		<node name="rotate" value="Павярнуць экран"/>
-		<node name="screenOrientation" value="Арыентацыя экрана"/>
-		<node name="screenOrientationSystem" value="Сістэмная"/>
-		<node name="screenOrientationSensor" value="Аўтаматычнае паварочванне"/>
-		<node name="screenOrientationPortrait" value="Вертыкальная"/>
-		<node name="screenOrientationLandscape" value="Гарызантальная"/>
-		<node name="screenOrientationReversePortrait" value="Перавернутая вертыкальная"/>
-		<node name="screenOrientationReverseLandscape" value="Перавернутая гарызантальная"/>
-		<node name="increaseFont" value="Наблізіць"/>
-		<node name="decreaseFont" value="Аддаліць"/>
-		<node name="changeFontSize" value="Набліжэнне"/>
-		<node name="toggleFullscreen" value="Поўнаэкранны рэжым"/>
-		<node name="bookmarks" value="Закладкі"/>
-		<node name="help" value="Дапамога"/>
-		<node name="plugins" value="Усталяваць убудовы"/>
-		<node name="gotoPageNumber" value="Перайсці да старонкі…"/>
-		<node name="readAloud" value="Чытаць услых…"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Назва файла"/>

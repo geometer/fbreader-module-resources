@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- German FBReaderJ resources, by Victor Massini -->
 <!-- Updated by Ingolf Kübler 2010/11/17 -->
 <!-- Updated by Ingolf Kübler 2011/06/26 -->
@@ -291,53 +291,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Bereitgestellt von &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade auf Premium"/>
-		<node name="openPremium" value="Premium öffnen"/>
-		<node name="premium" value="FBReader Premium"/>
-		<node name="yoWindow" value="Genaues Wetter"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="Was ist neu"/>
-		<node name="openStartScreen" value="Startbildschirm"/>
-		<node name="preferences" value="Einstellungen"/>
-		<node name="bookInfo" value="Buchinformation"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Bibliothek"/>
-		<node name="toc" value="Inhaltsverzeichnis"/>
-		<node name="day" value="Tag Modus"/>
-		<node name="night" value="Nacht Modus"/>
-		<node name="dayNight" value="Tag/Nacht"/>
-		<node name="networkLibrary" value="Netzwerk-Bibliothek"/>
-		<node name="navigate" value="Seite auswählen">
-			<node name="toc" value="Inhaltsverzeichnis zeigen"/>
-			<node name="gotoHome" value="Zum Anfang gehen"/>
-			<node name="gotoSectionStart" value="Zum Anfang des Abschnitts gehen"/>
-			<node name="gotoSectionEnd" value="Zum Ende des Abschnitts gehen"/>
-			<node name="nextTOCSection" value="Zum nächsten Kapitel gehen"/>
-			<node name="previousTOCSection" value="Zum vorherigen Kapitel gehen"/>
-			<node name="undo" value="zurück"/>
-			<node name="redo" value="wiederholen"/>
-		</node>
-		<node name="shareBook" value="Buch teilen"/>
-		<node name="search" value="Suche"/>
-		<node name="rotate" value="Ansicht drehen"/>
-		<node name="screenOrientation" value="Bildschirmausrichtung"/>
-		<node name="screenOrientationSystem" value="System"/>
-		<node name="screenOrientationSensor" value="Sensor"/>
-		<node name="screenOrientationPortrait" value="Hochkant"/>
-		<node name="screenOrientationLandscape" value="Querformat"/>
-		<node name="screenOrientationReversePortrait" value="Hochkant kopfüber"/>
-		<node name="screenOrientationReverseLandscape" value="Querformat kopfüber"/>
-		<node name="increaseFont" value="Schriftgröße vergrößern"/>
-		<node name="decreaseFont" value="Schriftgröße verkleinern"/>
-		<node name="changeFontSize" value="Zoom vergrößern/verkleinern"/>
-		<node name="toggleFullscreen" value="Vollbildmodus umschalten"/>
-		<node name="bookmarks" value="Lesezeichen"/>
-		<node name="help" value="Hilfe"/>
-		<node name="plugins" value="Plugins"/>
-		<node name="gotoPageNumber" value="Gehe zur Seite…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Dateiname"/>

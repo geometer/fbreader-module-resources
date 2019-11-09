@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Ukrainian FBReaderJ resources, by Dmytro Shevchenko, Nazariy Makarenko, Maksym Lyashuk -->
 <resources>
 	<node name="library" value="Бібліотека FBReader">
@@ -276,53 +276,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Поширено з &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Підняти до Преміум"/>
-		<node name="openPremium" value="Відкрити FBReader Преміум"/>
-		<node name="premium" value="Діалог FBReader Преміум"/>
-		<node name="yoWindow" value="Точна Погода"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="Що нового"/>
-		<node name="openStartScreen" value="Стартовий екран"/>
-		<node name="preferences" value="Налаштування"/>
-		<node name="bookInfo" value="Про книгу"/>
-		<node name="pickFile" value="Вибрати файл…"/>
-		<node name="library" value="Бібліотека"/>
-		<node name="toc" value="Зміст"/>
-		<node name="day" value="День"/>
-		<node name="night" value="Ніч"/>
-		<node name="dayNight" value="День/Ніч"/>
-		<node name="networkLibrary" value="Мережева бібліотека"/>
-		<node name="navigate" value="Перехід">
-			<node name="toc" value="Зміст"/>
-			<node name="gotoHome" value="На початок книги"/>
-			<node name="gotoSectionStart" value="На початок разділу"/>
-			<node name="gotoSectionEnd" value="В кінець розділу"/>
-			<node name="nextTOCSection" value="До наступної глави"/>
-			<node name="previousTOCSection" value="До попередньої глави"/>
-			<node name="undo" value="Назад"/>
-			<node name="redo" value="Вперед"/>
-		</node>
-		<node name="shareBook" value="Поділитись книгою"/>
-		<node name="search" value="Пошук"/>
-		<node name="rotate" value="Повернути"/>
-		<node name="screenOrientation" value="Орієнтація екрану"/>
-		<node name="screenOrientationSystem" value="Системна"/>
-		<node name="screenOrientationSensor" value="Положення пристрою в просторі"/>
-		<node name="screenOrientationPortrait" value="Портретна"/>
-		<node name="screenOrientationLandscape" value="Ландшафтна"/>
-		<node name="screenOrientationReversePortrait" value="Перевернута портретна"/>
-		<node name="screenOrientationReverseLandscape" value="Перевернута ландшафтна"/>
-		<node name="increaseFont" value="Збільшити шрифт"/>
-		<node name="decreaseFont" value="Зменшити шрифт"/>
-		<node name="changeFontSize" value="Збільшити/зменшити"/>
-		<node name="toggleFullscreen" value="На весь екран"/>
-		<node name="bookmarks" value="Закладки"/>
-		<node name="help" value="Допомога"/>
-		<node name="plugins" value="Встановити доповнення"/>
-		<node name="gotoPageNumber" value="На сторінку…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Файл"/>

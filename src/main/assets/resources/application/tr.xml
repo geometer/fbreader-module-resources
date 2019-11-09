@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Turkish FBReaderJ resources, by jericho 1200 -->
 <resources>
 	<node name="library" value="FBReader Kitaplığı">
@@ -286,53 +286,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Shared from &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;" toBeTranslated="true"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Doğru Hava Durumu"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Start screen" toBeTranslated="true"/>
-		<node name="preferences" value="Ayarlar"/>
-		<node name="bookInfo" value="Kitabın künyesi"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Kitaplık"/>
-		<node name="toc" value="İçindekiler"/>
-		<node name="day" value="Gündüz"/>
-		<node name="night" value="Gece"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="Ağ kitaplığı"/>
-		<node name="navigate" value="Git">
-			<node name="toc" value="İçindekiler Tablosu"/>
-			<node name="gotoHome" value="Kitabın başlangıcına git"/>
-			<node name="gotoSectionStart" value="Metnin başladığı kısma git"/>
-			<node name="gotoSectionEnd" value="Metnin sonuna git"/>
-			<node name="nextTOCSection" value="Sonraki bölüme geç"/>
-			<node name="previousTOCSection" value="Önceki bölüme geç"/>
-			<node name="undo" value="Geri al"/>
-			<node name="redo" value="İleri al"/>
-		</node>
-		<node name="shareBook" value="Kitabı paylaş"/>
-		<node name="search" value="Ara"/>
-		<node name="rotate" value="Ekranı döndür"/>
-		<node name="screenOrientation" value="Ekran Yönü"/>
-		<node name="screenOrientationSystem" value="Sistem"/>
-		<node name="screenOrientationSensor" value="Cihaz sensör hassasiyeti"/>
-		<node name="screenOrientationPortrait" value="Dikey"/>
-		<node name="screenOrientationLandscape" value="Yatay"/>
-		<node name="screenOrientationReversePortrait" value="Ters dikey"/>
-		<node name="screenOrientationReverseLandscape" value="Ters yatay"/>
-		<node name="increaseFont" value="Büyüt"/>
-		<node name="decreaseFont" value="Küçült"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="Tam ekran"/>
-		<node name="bookmarks" value="Yer imleri"/>
-		<node name="help" value="Help" toBeTranslated="true"/>
-		<node name="plugins" value="Install plugins" toBeTranslated="true"/>
-		<node name="gotoPageNumber" value="Sayfa…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Dosya adı"/>

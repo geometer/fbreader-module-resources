@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<node name="library" value="کتابخانه اف بی ریدر">
 		<node name="unknownAuthor" value="نویسنده نامشخص"/>
@@ -285,53 +285,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="به اشتراک گذاري شده توسط &lt;a href=&quot;https://fbreader.org/&quot;&gt;parsireader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Accurate Weather" toBeTranslated="true"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="صفحه شروع"/>
-		<node name="preferences" value="تنظیمات"/>
-		<node name="bookInfo" value="اطلاعات کتاب"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="کتابخانه"/>
-		<node name="toc" value="فهرست مطالب"/>
-		<node name="day" value="حالت روز"/>
-		<node name="night" value="حالت شب"/>
-		<node name="dayNight" value="Day/Night" toBeTranslated="true"/>
-		<node name="networkLibrary" value="کتابخانه شبکه"/>
-		<node name="navigate" value="هدایت کردن">
-			<node name="toc" value="فهرست مطالب"/>
-			<node name="gotoHome" value="برو به ابتدای سند"/>
-			<node name="gotoSectionStart" value="برو به ابتدای متن"/>
-			<node name="gotoSectionEnd" value="برو به انتهای متن"/>
-			<node name="nextTOCSection" value="برو به فهرست"/>
-			<node name="previousTOCSection" value="برو به فهرست قبلی"/>
-			<node name="undo" value="برگرد"/>
-			<node name="redo" value="برو جلو"/>
-		</node>
-		<node name="shareBook" value="اشتراک گذاری کتاب"/>
-		<node name="search" value="جستجو"/>
-		<node name="rotate" value="چرخش صفحه"/>
-		<node name="screenOrientation" value="جهت گیری صفحه"/>
-		<node name="screenOrientationSystem" value="سیستم"/>
-		<node name="screenOrientationSensor" value="حساسیت جهت گیری دستگاه"/>
-		<node name="screenOrientationPortrait" value="عمودی"/>
-		<node name="screenOrientationLandscape" value="افقی"/>
-		<node name="screenOrientationReversePortrait" value="حالت عمودی برعکس"/>
-		<node name="screenOrientationReverseLandscape" value="حالت افقی برعکس"/>
-		<node name="increaseFont" value="بزرگنمایی"/>
-		<node name="decreaseFont" value="کوچکنمایی"/>
-		<node name="changeFontSize" value="Zoom in/out" toBeTranslated="true"/>
-		<node name="toggleFullscreen" value="تمام صفحه"/>
-		<node name="bookmarks" value="نشانه گذاری"/>
-		<node name="help" value="کمک"/>
-		<node name="plugins" value="نصب افزونه ها"/>
-		<node name="gotoPageNumber" value="برو به صفحه..."/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="نام فایل"/>

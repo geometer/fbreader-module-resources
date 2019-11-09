@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Italian FBReaderJ resources, by Vytek, Neoxx and OlapGirl from AndDev.it Translate Team -->
 <!-- 21.02 25/08/2011 -->
 <!-- Updated by Michelangelo Della Camera, last update: 13 Nov 2015 -->
@@ -278,53 +278,6 @@
 	</node>
 	<node name="sharing">
 		<node name="sharedFrom" value="Condivi da &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;"/>
-	</node>
-	<node name="menu">
-		<node name="installPremium" value="Upgrade to Premium" toBeTranslated="true"/>
-		<node name="openPremium" value="Open Premium" toBeTranslated="true"/>
-		<node name="premium" value="FBReader Premium dialog" toBeTranslated="true"/>
-		<node name="yoWindow" value="Meteo Accurato"/>
-		<node name="ads" value="Recommended app" toBeTranslated="true"/>
-		<node name="whatsnew" value="What's new" toBeTranslated="true"/>
-		<node name="openStartScreen" value="Schermata iniziale"/>
-		<node name="preferences" value="Configurazioni"/>
-		<node name="bookInfo" value="Info libro"/>
-		<node name="pickFile" value="Pick file…" toBeTranslated="true"/>
-		<node name="library" value="Biblioteca"/>
-		<node name="toc" value="Indice"/>
-		<node name="day" value="Giorno"/>
-		<node name="night" value="Notte"/>
-		<node name="dayNight" value="Giorno/Notte"/>
-		<node name="networkLibrary" value="Biblioteca di rete"/>
-		<node name="navigate" value="Naviga">
-			<node name="toc" value="Indice"/>
-			<node name="gotoHome" value="Vai all'inizio del Documento"/>
-			<node name="gotoSectionStart" value="Vai all'inizio della Sezione"/>
-			<node name="gotoSectionEnd" value="Vai alla fine della Sezione"/>
-			<node name="nextTOCSection" value="Vai alla successiva voce ToC"/>
-			<node name="previousTOCSection" value="Vai alla precedente voce ToC"/>
-			<node name="undo" value="Torna indietro"/>
-			<node name="redo" value="Vai avanti"/>
-		</node>
-		<node name="shareBook" value="Condividi libro"/>
-		<node name="search" value="Cerca"/>
-		<node name="rotate" value="Ruota schermata"/>
-		<node name="screenOrientation" value="Orientazione schermata"/>
-		<node name="screenOrientationSystem" value="Sistema"/>
-		<node name="screenOrientationSensor" value="Autorotazione"/>
-		<node name="screenOrientationPortrait" value="Portrait" toBeTranslated="true"/>
-		<node name="screenOrientationLandscape" value="Landscape" toBeTranslated="true"/>
-		<node name="screenOrientationReversePortrait" value="Reverse portrait" toBeTranslated="true"/>
-		<node name="screenOrientationReverseLandscape" value="Reverse landscape" toBeTranslated="true"/>
-		<node name="increaseFont" value="Zoom +"/>
-		<node name="decreaseFont" value="Zoom -"/>
-		<node name="changeFontSize" value="Zoom in/out"/>
-		<node name="toggleFullscreen" value="Schermo intero"/>
-		<node name="bookmarks" value="Segnalibri"/>
-		<node name="help" value="Aiuto"/>
-		<node name="plugins" value="Installa plugins"/>
-		<node name="gotoPageNumber" value="Vai a Pagina…"/>
-		<node name="readAloud" value="Read aloud…" toBeTranslated="true"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Nome file"/>
