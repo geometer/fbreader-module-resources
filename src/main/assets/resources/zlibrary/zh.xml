@@ -8,22 +8,6 @@
 			<node name="no" value="否"/>
 			<node name="apply" value="应用"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="网络错误"/>
-			<node name="unknownErrorMessage" value="未知错误"/>
-			<node name="operationTimedOutMessage" value="操作超时"/>
-			<node name="somethingWrongMessage" value="%s出了问题"/>
-			<node name="couldntCreateDirectoryMessage" value="创建目录%s失败"/>
-			<node name="couldntCreateFileMessage" value="创建文件%s失败"/>
-			<node name="couldntConnectMessage" value="连接到主机%s失败"/>
-			<node name="couldntResolveHostMessage" value="未能解析主机%s"/>
-			<node name="authenticationFailed" value="身份验证失败"/>
-			<node name="unsupportedProtocol" value="不受支持的协议"/>
-			<node name="invalidURL" value="无效网址"/>
-			<node name="hostCantBeReached" value="无法访问主机%s"/>
-			<node name="connectionRefused" value="连接被%s拒绝"/>
-			<node name="networkNotAvailable" value="网络不可用"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="阿拉伯语"/>

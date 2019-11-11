@@ -8,22 +8,6 @@
 			<node name="no" value="نه"/>
 			<node name="apply" value="اعمال"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="اخطار شبکه"/>
-			<node name="unknownErrorMessage" value="اخطار ناشناخته"/>
-			<node name="operationTimedOutMessage" value="زمان عملیات به پایان رسید"/>
-			<node name="somethingWrongMessage" value="برای %s موردی مشکل دارد"/>
-			<node name="couldntCreateDirectoryMessage" value="نمیتواند یک پوشه %s ایجاد کند"/>
-			<node name="couldntCreateFileMessage" value="نمیتواند یک فایل %s ایجاد کند"/>
-			<node name="couldntConnectMessage" value="نمیتواند به میزبان %s وصل شود"/>
-			<node name="couldntResolveHostMessage" value="نمیتواند هاست %s را حل کند"/>
-			<node name="authenticationFailed" value="تائید اعتبار ناموفق بود"/>
-			<node name="unsupportedProtocol" value="پرتکل پشتیبانی نمیشود"/>
-			<node name="invalidURL" value="آدرس اشتباه است"/>
-			<node name="hostCantBeReached" value="میزبان %s قابل دسترسی نیست"/>
-			<node name="connectionRefused" value="اتصال توسط %s رد شد"/>
-			<node name="networkNotAvailable" value="شبکه وجود ندارد"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="عربی"/>

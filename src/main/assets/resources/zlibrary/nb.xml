@@ -8,22 +8,6 @@
 			<node name="no" value="Nei"/>
 			<node name="apply" value="Bruk"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Nettverksfeil"/>
-			<node name="unknownErrorMessage" value="Ukjent feil"/>
-			<node name="operationTimedOutMessage" value="Handlingen tok for lang tid"/>
-			<node name="somethingWrongMessage" value="Noe gikk galt med %s"/>
-			<node name="couldntCreateDirectoryMessage" value="Kan ikke lage katalogen %s"/>
-			<node name="couldntCreateFileMessage" value="Kan ikke lage filen %s"/>
-			<node name="couldntConnectMessage" value="Kan ikke koble til tjeneren %s"/>
-			<node name="couldntResolveHostMessage" value="Kan ikke slå opp tjeneren %s"/>
-			<node name="authenticationFailed" value="Autentisering mislyktes"/>
-			<node name="unsupportedProtocol" value="Protokollen er ikke støttet"/>
-			<node name="invalidURL" value="Ugyldig URL"/>
-			<node name="hostCantBeReached" value="Tjeneren %s kan ikke nås"/>
-			<node name="connectionRefused" value="Koblingen ble avslått av %s"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Arabisk"/>

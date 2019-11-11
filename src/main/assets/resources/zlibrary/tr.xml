@@ -8,22 +8,6 @@
 			<node name="no" value="Hayır"/>
 			<node name="apply" value="Uygula"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Bağlantı sorunu"/>
-			<node name="unknownErrorMessage" value="Bilinmeyen hata"/>
-			<node name="operationTimedOutMessage" value="İşlem zaman aşımına uğradı"/>
-			<node name="somethingWrongMessage" value="%s de bir sorun var"/>
-			<node name="couldntCreateDirectoryMessage" value="%s dizini oluşturulamadı"/>
-			<node name="couldntCreateFileMessage" value="%s dosyası oluşturulamadı"/>
-			<node name="couldntConnectMessage" value="%s sunucuya bağlanılamadı"/>
-			<node name="couldntResolveHostMessage" value="%s çözümlenemiyor"/>
-			<node name="authenticationFailed" value="Kimlik doğrulanamadı"/>
-			<node name="unsupportedProtocol" value="Desteklenmeyen protokol"/>
-			<node name="invalidURL" value="Geçersiz URL"/>
-			<node name="hostCantBeReached" value="%s ulaşılamıyor"/>
-			<node name="connectionRefused" value="Bağlantı isteği %s tarafından reddedildi"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Arabic" toBeTranslated="true"/>

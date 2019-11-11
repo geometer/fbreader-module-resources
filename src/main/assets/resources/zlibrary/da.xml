@@ -8,22 +8,6 @@
 			<node name="no" value="Nej"/>
 			<node name="apply" value="Anvend"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Netværksfejl"/>
-			<node name="unknownErrorMessage" value="Ukendt fejl"/>
-			<node name="operationTimedOutMessage" value="Operationen er tidsafbrudt."/>
-			<node name="somethingWrongMessage" value="Noget går galt for %s"/>
-			<node name="couldntCreateDirectoryMessage" value="Kunne ikke oprette en mappe %s"/>
-			<node name="couldntCreateFileMessage" value="Kunne ikke oprette en fil %s"/>
-			<node name="couldntConnectMessage" value="Kunne ikke få forbindelse til vært %s"/>
-			<node name="couldntResolveHostMessage" value="Kunne ikke løse problem med vært %s"/>
-			<node name="authenticationFailed" value="Godkendelse mislykkedes"/>
-			<node name="unsupportedProtocol" value="Protokol understøttes ikke"/>
-			<node name="invalidURL" value="Ugyldig URL"/>
-			<node name="hostCantBeReached" value="Vært %s kan ikke nås"/>
-			<node name="connectionRefused" value="Forbindelse blev afvist af %s"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Arabisk"/>

@@ -8,22 +8,6 @@
 			<node name="no" value="Não"/>
 			<node name="apply" value="Aplicar"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Erro de rede"/>
-			<node name="unknownErrorMessage" value="Erro desconhecido"/>
-			<node name="operationTimedOutMessage" value="O tempo de operação esgotou"/>
-			<node name="somethingWrongMessage" value="Aconteceu um erro com %s"/>
-			<node name="couldntCreateDirectoryMessage" value="Não foi possível criar o diretório %s"/>
-			<node name="couldntCreateFileMessage" value="Não foi possível criar o ficheiro %s"/>
-			<node name="couldntConnectMessage" value="Não foi possível ligar ao servidor %s"/>
-			<node name="couldntResolveHostMessage" value="Não foi possível mapear o IP do servidor %s"/>
-			<node name="authenticationFailed" value="Falha na autenticação"/>
-			<node name="unsupportedProtocol" value="Protocolo não suportado"/>
-			<node name="invalidURL" value="URL inválido"/>
-			<node name="hostCantBeReached" value="Não foi possível alcançar o servidor %s"/>
-			<node name="connectionRefused" value="A ligação foi recusada por %s"/>
-			<node name="networkNotAvailable" value="Rede não disponível"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Árabe"/>

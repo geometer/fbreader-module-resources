@@ -9,22 +9,6 @@
 			<node name="no" value="Ez"/>
 			<node name="apply" value="Aplikatu"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Sare-errorea"/>
-			<node name="unknownErrorMessage" value="Errore ezezaguna"/>
-			<node name="operationTimedOutMessage" value="Eragiketa honek denbora-muga gainditu du"/>
-			<node name="somethingWrongMessage" value="Arazoren bat izan da %s(e)rekin"/>
-			<node name="couldntCreateDirectoryMessage" value="Ezin izan da %s direktorioa sortu"/>
-			<node name="couldntCreateFileMessage" value="Ezin izan da %s fitxategia sortu"/>
-			<node name="couldntConnectMessage" value="Ezin izan da %s ostalarira konektatu"/>
-			<node name="couldntResolveHostMessage" value="Ezin izan da %s ostalaria ebatzi"/>
-			<node name="authenticationFailed" value="Autentifikazioak huts egin du"/>
-			<node name="unsupportedProtocol" value="Ez da onartzen protokoloa"/>
-			<node name="invalidURL" value="URL baliogabea"/>
-			<node name="hostCantBeReached" value="Ezin da %s ostalaria atzitu"/>
-			<node name="connectionRefused" value="Konexioa ukatu egin da %s(e)gaitik"/>
-			<node name="networkNotAvailable" value="Sarea ez dago erabilgarri"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Arabiera"/>

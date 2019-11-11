@@ -14,22 +14,6 @@
 			<node name="no" value="No"/>
 			<node name="apply" value="Aplica"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Error de xarxa"/>
-			<node name="unknownErrorMessage" value="Error desconegut"/>
-			<node name="operationTimedOutMessage" value="El temps per a l'operació ha expirat"/>
-			<node name="somethingWrongMessage" value="Alguna cosa ha fallat per&#10;%s"/>
-			<node name="couldntCreateDirectoryMessage" value="No s'ha pogut crear el directori&#10;%s"/>
-			<node name="couldntCreateFileMessage" value="No s'ha pogut crear el fitxer&#10;%s"/>
-			<node name="couldntConnectMessage" value="No s'ha pogut connectar al servidor&#10;%s"/>
-			<node name="couldntResolveHostMessage" value="No s'ha pogut resoldre el servidor&#10;%s"/>
-			<node name="authenticationFailed" value="L'autenticació ha fallat"/>
-			<node name="unsupportedProtocol" value="Protocol no suportat"/>
-			<node name="invalidURL" value="URL no vàlida"/>
-			<node name="hostCantBeReached" value="No es pot connectar al servidor&#10;%s"/>
-			<node name="connectionRefused" value="Connexió refusada per&#10;%s"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Àrab"/>

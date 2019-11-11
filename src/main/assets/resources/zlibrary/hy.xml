@@ -11,22 +11,6 @@
 			<node name="no" value="Ոչ"/>
 			<node name="apply" value="Գործադրել"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Սխալ՝ ցանցի հետ աշխատելիս"/>
-			<node name="unknownErrorMessage" value="Անհայտ սխալ"/>
-			<node name="operationTimedOutMessage" value="Ժամանակը սպառվեց"/>
-			<node name="somethingWrongMessage" value="Սխալ %s-ի հետ աշխատելիս"/>
-			<node name="couldntCreateDirectoryMessage" value="Չհաջողվեց ստեղծել %s գրացուցակը"/>
-			<node name="couldntCreateFileMessage" value="Չհաջողվեց ստեղծել %s նիշքը"/>
-			<node name="couldntConnectMessage" value="Չհաջողվեց կապ հաստատել %s կայքի հետ"/>
-			<node name="couldntResolveHostMessage" value="%s կայքը չգտնվեց"/>
-			<node name="authenticationFailed" value="Հեղինակացման սխալ"/>
-			<node name="unsupportedProtocol" value="Անհայտ հաղորդակարգ"/>
-			<node name="invalidURL" value="Սխալ URL"/>
-			<node name="hostCantBeReached" value="%s կայքն անհասանելի է"/>
-			<node name="connectionRefused" value="%s կայքի հետ կապն ավարտվեց"/>
-			<node name="networkNotAvailable" value="Ցանցն անհասանելի է"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="արաբերեն"/>

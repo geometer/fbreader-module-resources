@@ -9,22 +9,6 @@
 			<node name="no" value="Όχι"/>
 			<node name="apply" value="Εφαρμογή"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="σφάλμα δικτύου"/>
-			<node name="unknownErrorMessage" value="Άγνωστο σφάλμα."/>
-			<node name="operationTimedOutMessage" value="Υπέρβαση χρονικού ορίου."/>
-			<node name="somethingWrongMessage" value="Σφάλμα διακομιστή στο &#10;%s"/>
-			<node name="couldntCreateDirectoryMessage" value="Ο φάκελος&#10;%s δεν μπόρεσε να δημιουργηθεί."/>
-			<node name="couldntCreateFileMessage" value="Το αρχείο&#10;%s δεν μπόρεσε να δημιουργηθεί."/>
-			<node name="couldntConnectMessage" value="Δεν υπάρχει σύνδεση στον διακομιστή&#10;%s"/>
-			<node name="couldntResolveHostMessage" value="Το όνομα του διακομιστή&#10;%s δεν μπόρεσε να αφαιρεθεί."/>
-			<node name="authenticationFailed" value="Η πιστοποίηση απέτυχε."/>
-			<node name="unsupportedProtocol" value="Το πρότοκολλο δεν υποστιρίζεται."/>
-			<node name="invalidURL" value="Μή έγκυρο URL."/>
-			<node name="hostCantBeReached" value="η σύνδεση με τον διακομιστή %s&#10; δεν είναι δυνατή."/>
-			<node name="connectionRefused" value="Η σύνδεση στο&#10;%s&#10;απορήφθηκε."/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Αραβικά"/>

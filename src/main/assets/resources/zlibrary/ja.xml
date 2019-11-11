@@ -8,22 +8,6 @@
 			<node name="no" value="いいえ"/>
 			<node name="apply" value="適用"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="ネットワークエラー"/>
-			<node name="unknownErrorMessage" value="不明なエラー"/>
-			<node name="operationTimedOutMessage" value="動作が時間切れ"/>
-			<node name="somethingWrongMessage" value="どこかがおかしいようです: %s"/>
-			<node name="couldntCreateDirectoryMessage" value="ディレクトリ %s を作成できませんでした"/>
-			<node name="couldntCreateFileMessage" value="ファイル %s を作成できませんでした"/>
-			<node name="couldntConnectMessage" value="ホスト %s に接続できませんでした"/>
-			<node name="couldntResolveHostMessage" value="ホスト名 %s が解決できませんでした"/>
-			<node name="authenticationFailed" value="認証失敗"/>
-			<node name="unsupportedProtocol" value="対応していないプロトコル"/>
-			<node name="invalidURL" value="不正な URL"/>
-			<node name="hostCantBeReached" value="ホスト %s に到達できません"/>
-			<node name="connectionRefused" value="接続が %s に拒否されました"/>
-			<node name="networkNotAvailable" value="ネットワークが利用できません"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="アラビア語"/>

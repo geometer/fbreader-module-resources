@@ -8,22 +8,6 @@
 			<node name="no" value="否"/>
 			<node name="apply" value="應用"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="網路錯誤"/>
-			<node name="unknownErrorMessage" value="未知錯誤"/>
-			<node name="operationTimedOutMessage" value="操作超時"/>
-			<node name="somethingWrongMessage" value="%s出了問題"/>
-			<node name="couldntCreateDirectoryMessage" value="創建目錄%s失敗"/>
-			<node name="couldntCreateFileMessage" value="創建檔%s失敗"/>
-			<node name="couldntConnectMessage" value="連接到主機%s失敗"/>
-			<node name="couldntResolveHostMessage" value="未能解析主機%s"/>
-			<node name="authenticationFailed" value="身份驗證失敗"/>
-			<node name="unsupportedProtocol" value="不受支持的協議"/>
-			<node name="invalidURL" value="無效網址"/>
-			<node name="hostCantBeReached" value="無法訪問主機%s"/>
-			<node name="connectionRefused" value="連接被%s拒絕"/>
-			<node name="networkNotAvailable" value="網路不可用"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="阿拉伯語"/>

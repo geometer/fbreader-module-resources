@@ -1186,10 +1186,6 @@
 	<node name="twitter">
 		<node name="missingApp" value="Twitter app is not installed"/>
 	</node>
-	<node name="networkError">
-		<node name="noNetworkConnection" value="Network is not available. Please check your connection and try again"/>
-		<node name="syncServerFailure" value="Server connection failure. Please try again later"/>
-	</node>
 	<node name="bookDownloadNotification">
 		<node name="title" value="FBReader"/>
 		<node name="text" value="Downloading book in background"/>

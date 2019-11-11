@@ -13,22 +13,6 @@
 			<node name="no" value="Non"/>
 			<node name="apply" value="Appliquer"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Erreur réseau"/>
-			<node name="unknownErrorMessage" value="Erreur inconnue"/>
-			<node name="operationTimedOutMessage" value="Le délai réseau a expiré"/>
-			<node name="somethingWrongMessage" value="Il y a un problème avec&#10;%s"/>
-			<node name="couldntCreateDirectoryMessage" value="Impossible de créer un répertoire&#10;%s"/>
-			<node name="couldntCreateFileMessage" value="Impossible de créer un fichier&#10;%s"/>
-			<node name="couldntConnectMessage" value="Impossible de se connecter à l'hôte %s"/>
-			<node name="couldntResolveHostMessage" value="Résolution du nom %s impossible"/>
-			<node name="authenticationFailed" value="Authentification échouée"/>
-			<node name="unsupportedProtocol" value="Protocole non supporté"/>
-			<node name="invalidURL" value="URL invalide"/>
-			<node name="hostCantBeReached" value="L'hôte %s&#10;ne peut être joint"/>
-			<node name="connectionRefused" value="La connexion a été refusée par&#10;%s"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Arabe"/>

@@ -8,22 +8,6 @@
 			<node name="no" value="No"/>
 			<node name="apply" value="Apply"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Network error"/>
-			<node name="unknownErrorMessage" value="Unknown error"/>
-			<node name="operationTimedOutMessage" value="Operation has timed out"/>
-			<node name="somethingWrongMessage" value="Something went wrong with %s"/>
-			<node name="couldntCreateDirectoryMessage" value="Failed to create directory %s"/>
-			<node name="couldntCreateFileMessage" value="Failed to create file %s"/>
-			<node name="couldntConnectMessage" value="Failed to connect to host %s"/>
-			<node name="couldntResolveHostMessage" value="Failed to resolve host %s"/>
-			<node name="authenticationFailed" value="Authentication failed"/>
-			<node name="unsupportedProtocol" value="Unsupported protocol"/>
-			<node name="invalidURL" value="Invalid URL"/>
-			<node name="hostCantBeReached" value="Host %s cannot be reached"/>
-			<node name="connectionRefused" value="Connection was refused by %s"/>
-			<node name="networkNotAvailable" value="Network is not available"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Arabic"/>

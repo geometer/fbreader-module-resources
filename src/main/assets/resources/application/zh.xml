@@ -1186,10 +1186,6 @@
 	<node name="twitter">
 		<node name="missingApp" value="没有安装Twitter应用程序"/>
 	</node>
-	<node name="networkError">
-		<node name="noNetworkConnection" value="网络不可用。请检查您的连接并重试"/>
-		<node name="syncServerFailure" value="服务器连接失败。请稍后再试"/>
-	</node>
 	<node name="bookDownloadNotification">
 		<node name="title" value="FBReader"/>
 		<node name="text" value="后台下载书籍"/>

@@ -9,22 +9,6 @@
 			<node name="no" value="Не"/>
 			<node name="apply" value="Примени"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Мрежна грешка"/>
-			<node name="unknownErrorMessage" value="Непозната грешка."/>
-			<node name="operationTimedOutMessage" value="Радња је истекла."/>
-			<node name="somethingWrongMessage" value="Нешто је кренуло по злу за „%s“."/>
-			<node name="couldntCreateDirectoryMessage" value="Не могу да направим фасциклу „%s“."/>
-			<node name="couldntCreateFileMessage" value="Не могу да направим датотеку „%s“."/>
-			<node name="couldntConnectMessage" value="Не могу да се повежем са домаћином „%s“."/>
-			<node name="couldntResolveHostMessage" value="Не могу да препознам домаћина „%s“."/>
-			<node name="authenticationFailed" value="Не могу да проверим идентитет."/>
-			<node name="unsupportedProtocol" value="Неподржан протокол."/>
-			<node name="invalidURL" value="Неисправна адреса."/>
-			<node name="hostCantBeReached" value="Не могу да достигнем домаћина „%s“."/>
-			<node name="connectionRefused" value="Везу је одбио „%s“."/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="арапски"/>

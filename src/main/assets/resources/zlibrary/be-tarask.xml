@@ -8,22 +8,6 @@
 			<node name="no" value="Не"/>
 			<node name="apply" value="Ужыць"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Памылка сеткі"/>
-			<node name="unknownErrorMessage" value="Невядомая памылка"/>
-			<node name="operationTimedOutMessage" value="Апэрацыя пратэрмінаваная"/>
-			<node name="somethingWrongMessage" value="Нешта пайшло ня так з «%s»"/>
-			<node name="couldntCreateDirectoryMessage" value="Не ўдалося стварыць тэчку «%s»"/>
-			<node name="couldntCreateFileMessage" value="Не ўдалося стварыць файл «%s»"/>
-			<node name="couldntConnectMessage" value="Не ўдалося злучыцца з вузлом «%s»"/>
-			<node name="couldntResolveHostMessage" value="Не ўдалося знайсьці вузел «%s»"/>
-			<node name="authenticationFailed" value="Спраўджаньне няўдалае"/>
-			<node name="unsupportedProtocol" value="Непадтрыманы пратакол"/>
-			<node name="invalidURL" value="Хібны адрас"/>
-			<node name="hostCantBeReached" value="Вузел %s недаступны"/>
-			<node name="connectionRefused" value="Злучэньне скінутае %s"/>
-			<node name="networkNotAvailable" value="Сетка недаступная"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Арабская мова"/>

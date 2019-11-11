@@ -12,22 +12,6 @@
 			<node name="no" value="Nu"/>
 			<node name="apply" value="Aplică"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Eroare conexiune"/>
-			<node name="unknownErrorMessage" value="Eroare necunoscută"/>
-			<node name="operationTimedOutMessage" value="Timpul alocat operațiunii a expirat"/>
-			<node name="somethingWrongMessage" value="Ceva nu a mers bine pentru&#10;%s"/>
-			<node name="couldntCreateDirectoryMessage" value="Crearea directorului &#10;%s a eșuat"/>
-			<node name="couldntCreateFileMessage" value="Crearea fișierului &#10;%s a eșuat"/>
-			<node name="couldntConnectMessage" value="Conexiunea la serverul &#10;%s a eșuat"/>
-			<node name="couldntResolveHostMessage" value="Eroare DNS către serverul &#10;%s"/>
-			<node name="authenticationFailed" value="Eroare autentificare"/>
-			<node name="unsupportedProtocol" value="Protocol neacceptat"/>
-			<node name="invalidURL" value="URL Invalid"/>
-			<node name="hostCantBeReached" value="Serverul %s&#10; nu poate fi contactat"/>
-			<node name="connectionRefused" value="Conexiunea a fost refuzată de &#10;%s"/>
-			<node name="networkNotAvailable" value="Rețeaua nu este disponibilă"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Arabă"/>

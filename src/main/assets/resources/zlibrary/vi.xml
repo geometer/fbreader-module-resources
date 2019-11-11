@@ -9,22 +9,6 @@
 			<node name="no" value="Không"/>
 			<node name="apply" value="Đồng ý"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Lỗi mạng"/>
-			<node name="unknownErrorMessage" value="Lỗi chưa rõ"/>
-			<node name="operationTimedOutMessage" value="Hết thời gian thao tác"/>
-			<node name="somethingWrongMessage" value="Vài thứ bị lỗi vì&#10;%s"/>
-			<node name="couldntCreateDirectoryMessage" value="Không thể tạo thư mục&#10;%s"/>
-			<node name="couldntCreateFileMessage" value="Không thể tạo tập tin&#10;%s"/>
-			<node name="couldntConnectMessage" value="Không thể kết nối máy chủ&#10;%s"/>
-			<node name="couldntResolveHostMessage" value="Không thể phân giải máy chủ&#10;%s"/>
-			<node name="authenticationFailed" value="Xác thực thất bại"/>
-			<node name="unsupportedProtocol" value="Giao thức không hỗ trợ"/>
-			<node name="invalidURL" value="Địa chỉ sai"/>
-			<node name="hostCantBeReached" value="Máy chủ %s&#10;không thể truy cập"/>
-			<node name="connectionRefused" value="Kết nối bị từ chối bởi&#10;%s"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Tiếng Ả Rập"/>

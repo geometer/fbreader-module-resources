@@ -9,22 +9,6 @@
 			<node name="no" value="Nem"/>
 			<node name="apply" value="Alkalmaz"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="Hálózati hiba"/>
-			<node name="unknownErrorMessage" value="Ismeretlen hiba"/>
-			<node name="operationTimedOutMessage" value="Időtúllépés"/>
-			<node name="somethingWrongMessage" value="Valami hiba történt&#10;%s"/>
-			<node name="couldntCreateDirectoryMessage" value="Könyvtár létrhozása sikertelen&#10;%s"/>
-			<node name="couldntCreateFileMessage" value="Fájl létrehozása sikertelen&#10;%s"/>
-			<node name="couldntConnectMessage" value="Csatlakozás sikertelen&#10;%s"/>
-			<node name="couldntResolveHostMessage" value="A(z) %s gépnév nem felismerhető"/>
-			<node name="authenticationFailed" value="Hitelesítés sikertelen"/>
-			<node name="unsupportedProtocol" value="Nem támogatott protokoll"/>
-			<node name="invalidURL" value="Érvénytelen URL"/>
-			<node name="hostCantBeReached" value="%s&#10;kiszolgáló nem elérhető"/>
-			<node name="connectionRefused" value="%s&#10;bontotta a kapcsolatot"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="Arab"/>

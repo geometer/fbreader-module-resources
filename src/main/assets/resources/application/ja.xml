@@ -1234,10 +1234,6 @@
 	<node name="twitter">
 		<node name="missingApp" value="Twitter アプリがインストールされていません"/>
 	</node>
-	<node name="networkError">
-		<node name="noNetworkConnection" value="ネットワークが利用できません。 接続を確認してもう一度やり直してください"/>
-		<node name="syncServerFailure" value="サーバ接続に失敗しました。 後でもう一度やり直してください"/>
-	</node>
 	<node name="bookDownloadNotification">
 		<node name="title" value="FBReader" toBeTranslated="true"/>
 		<node name="text" value="Downloading book in background" toBeTranslated="true"/>

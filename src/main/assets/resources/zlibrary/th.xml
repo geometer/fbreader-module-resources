@@ -9,22 +9,6 @@
 			<node name="no" value="ไม่"/>
 			<node name="apply" value="นำไปใช้"/>
 		</node>
-		<node name="networkError">
-			<node name="title" value="ข้อผิดพลาดเกี่ยวกับเครือข่าย"/>
-			<node name="unknownErrorMessage" value="ข้อผิดพลาดที่ไม่สามารถระบุได้"/>
-			<node name="operationTimedOutMessage" value="หมดเวลาการดำเนินการ"/>
-			<node name="somethingWrongMessage" value="พบข้อผิดพลาดเกี่ยวกับ&#10;%s"/>
-			<node name="couldntCreateDirectoryMessage" value=" ไม่สามารถสร้างไดเรคทอรี&#10;%s"/>
-			<node name="couldntCreateFileMessage" value="ไม่สามารถสร้างไฟล์&#10;%s"/>
-			<node name="couldntConnectMessage" value="ไม่สามารถเชื่อมต่อไปยังโฮสต์&#10;%s"/>
-			<node name="couldntResolveHostMessage" value="ไม่สามารถตรวจเจอโฮสต์&#10;%s"/>
-			<node name="authenticationFailed" value="ไม่ผ่านการตรวจสอบสิทธิ์"/>
-			<node name="unsupportedProtocol" value="ไม่สนับสนุนโปรโตคอลนี้"/>
-			<node name="invalidURL" value="URL ไมถูกต้องุ"/>
-			<node name="hostCantBeReached" value="โฮสต์ %s&#10;ไม่สามารถเข้าถึงได้"/>
-			<node name="connectionRefused" value="การเชื่อมต่อถูกปฏิเสธโดย&#10;%s"/>
-			<node name="networkNotAvailable" value="Network is not available" toBeTranslated="true"/>
-		</node>
 	</node>
 	<node name="language">
 		<node name="ar" value="อารบิค"/>
