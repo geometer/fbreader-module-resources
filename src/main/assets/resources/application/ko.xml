@@ -1084,7 +1084,6 @@
 		<node name="unsupportedFileFormat" value="파일 포맷이 '%s'를 지원하지 않음"/>
 		<node name="errorParsingRtf" value="Rtf parsing 오류: %s"/>
 		<node name="cannotRunAndroidMarket" value="Google Play Store에 접속할 수 없습니다. %s 을(를) 수동으로 설치하세요."/>
-		<node name="textNotFound" value="이 책에는 적합한 텍스트가 없습니다"/>
 		<node name="bookNotFound" value="이 라이브러리에는 적합한 책이 없습니다"/>
 		<node name="bookmarkNotFound" value="적합한 책갈피가 없습니다"/>
 		<node name="cannotOpenBook" value="지금 이 책을 열 수 없습니다"/>

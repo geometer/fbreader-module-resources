@@ -57,12 +57,4 @@
 		<node name="multi" value="Flersproget"/>
 		<node name="system" value="System"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="til"/>
-		<node name="off" value="fra"/>
-		<node name="unchanged" value="uændret"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Handling for tast"/>
-	</node>
 </resources>

@@ -60,12 +60,4 @@
 		<node name="multi" value="բազմալեզու"/>
 		<node name="system" value="Սարքում ընտրված լեզվով"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="միացնել"/>
-		<node name="off" value="անջատել"/>
-		<node name="unchanged" value="անփոփոխ"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Գործողություն %s-ի համար"/>
-	</node>
 </resources>

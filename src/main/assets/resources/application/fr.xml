@@ -1077,7 +1077,6 @@
 		<node name="unsupportedFileFormat" value="Format de fichier non supporté '%s'"/>
 		<node name="errorParsingRtf" value="Rtf: erreur de paring dans: %s"/>
 		<node name="cannotRunAndroidMarket" value="Impossible d'accéder à Android Market. Veuillez installer %s manuellement"/>
-		<node name="textNotFound" value="Aucune occurence dans le livre"/>
 		<node name="bookNotFound" value="Aucun livre correspondant dans la bibliothèque"/>
 		<node name="bookmarkNotFound" value="Aucun marque-page correspondant"/>
 		<node name="cannotOpenBook" value="Impossible d'ouvrir le livre"/>

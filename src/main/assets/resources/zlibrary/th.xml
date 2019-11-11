@@ -58,12 +58,4 @@
 		<node name="multi" value="หลายภาษา"/>
 		<node name="system" value="System" toBeTranslated="true"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="เปิด"/>
-		<node name="off" value="ปิด"/>
-		<node name="unchanged" value="ไม่เปลี่บน"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="การกระทำสำหรับปุ่ม"/>
-	</node>
 </resources>

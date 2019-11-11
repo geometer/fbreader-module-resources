@@ -1084,7 +1084,6 @@
 		<node name="unsupportedFileFormat" value="Ez da onartzen fitxategi-formatua '%s'(e)rako"/>
 		<node name="errorParsingRtf" value="Rtf analizatzerakoan errorea hemen: %s"/>
 		<node name="cannotRunAndroidMarket" value="Ezin da Google Play atzitu. Instalatu %s eskuz"/>
-		<node name="textNotFound" value="Ez da aurkitu bat datorren testurik"/>
 		<node name="bookNotFound" value="Ez dago bat datorren libururik liburutegian"/>
 		<node name="bookmarkNotFound" value="Ez dago bat datorren laster-markarik"/>
 		<node name="cannotOpenBook" value="Ezin da liburua ireki momentu honetan"/>

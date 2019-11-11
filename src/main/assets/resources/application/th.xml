@@ -1074,7 +1074,6 @@
 		<node name="unsupportedFileFormat" value="File format is not supported for '%s'" toBeTranslated="true"/>
 		<node name="errorParsingRtf" value="Rtf parsing error in: %s" toBeTranslated="true"/>
 		<node name="cannotRunAndroidMarket" value="ไม่สามารถเชื่อมต่อกับ Android Market ได้ กรุณาติดตั้ง %s ด้วยตัวเอง"/>
-		<node name="textNotFound" value="ขออภัย, ไม่พบหนังสือที่ต้องการค้นหา "/>
 		<node name="bookNotFound" value="ขออภัย, ไม่พบหนังสือที่ต้องการค้นหาในคลังหนังสือ "/>
 		<node name="bookmarkNotFound" value="ขออภัย, ไม่พบบุ๊คมาร์คที่ต้องการค้นหาในคลังหนังสือ "/>
 		<node name="cannotOpenBook" value="ขออภัย, ไม่สามารถเปิดหนังสือเล่มนี้ได้ในขณะนี้ "/>

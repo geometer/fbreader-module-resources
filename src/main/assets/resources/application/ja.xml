@@ -1132,7 +1132,6 @@
 		<node name="unsupportedFileFormat" value="ファイル形式 '%s' には対応していません"/>
 		<node name="errorParsingRtf" value="Rtf パースエラー: %s"/>
 		<node name="cannotRunAndroidMarket" value="Android Market にアクセスできません。ご自身で %s をインストールしてください"/>
-		<node name="textNotFound" value="申し訳ありませんが、本の中に合致する文が見当たりません"/>
 		<node name="bookNotFound" value="申し訳ありませんが、ライブラリには合致する本が見当たりません"/>
 		<node name="bookmarkNotFound" value="申し訳ありませんが、合致するしおりが見当たりません"/>
 		<node name="cannotOpenBook" value="申し訳ありませんが、現在この本を開くことができません"/>

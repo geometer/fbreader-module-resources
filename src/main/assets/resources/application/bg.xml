@@ -1090,7 +1090,6 @@
 		<node name="unsupportedFileFormat" value="Файловият формат '%s' не се поддържа"/>
 		<node name="errorParsingRtf" value="Грешка при четенето на RTF файла %s"/>
 		<node name="cannotRunAndroidMarket" value="Android Market е недостъпен. Опитайте да инсталирате %s ръчно"/>
-		<node name="textNotFound" value="Няма такъв текст в книгата"/>
 		<node name="bookNotFound" value="Няма такива книги в библиотеката"/>
 		<node name="bookmarkNotFound" value="Не съществува в добавени"/>
 		<node name="cannotOpenBook" value="Книгата не се зарежда"/>

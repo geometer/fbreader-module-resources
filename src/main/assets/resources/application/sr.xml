@@ -1084,7 +1084,6 @@
 		<node name="unsupportedFileFormat" value="Формат датотеке није подржан за „%s“."/>
 		<node name="errorParsingRtf" value="Грешка при рашчлањивању RTF-а у: %s."/>
 		<node name="cannotRunAndroidMarket" value="Не могу да приступим Гугл плеју. Ручно инсталирајте „%s“."/>
-		<node name="textNotFound" value="Нема траженог текста у књизи."/>
 		<node name="bookNotFound" value="Нема тражених књига у библиотеци."/>
 		<node name="bookmarkNotFound" value="Нема тражених обележивача."/>
 		<node name="cannotOpenBook" value="Не могу да отворим ову књигу."/>

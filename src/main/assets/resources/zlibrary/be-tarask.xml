@@ -57,12 +57,4 @@
 		<node name="multi" value="Некалькі моваў"/>
 		<node name="system" value="Сыстэмная"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="Уключана"/>
-		<node name="off" value="Выключана"/>
-		<node name="unchanged" value="Ня зьменена"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Дзеяньне клявішы"/>
-	</node>
 </resources>

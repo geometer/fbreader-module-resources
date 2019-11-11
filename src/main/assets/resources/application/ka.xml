@@ -1089,7 +1089,6 @@
 		<node name="unsupportedFileFormat" value="'%s' ფაილის ფორმატი არ არის მხარდაჭერილი"/>
 		<node name="errorParsingRtf" value="შეცდომა RTF-ფაილის %s კითხვისას"/>
 		<node name="cannotRunAndroidMarket" value="არ ხერხდება Android Market-ის ჩართვა. სცადეთ დააყენოთ %s ხელით"/>
-		<node name="textNotFound" value="ამ წიგნში არ არის მასეთი ტექსტი"/>
 		<node name="bookNotFound" value="არ მოიძებნა შესაფერისი წიგნი"/>
 		<node name="bookmarkNotFound" value="არ არის შესატყვისი სანიშნე"/>
 		<node name="cannotOpenBook" value="არ ხერხდება წიგნის გახსნა"/>

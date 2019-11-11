@@ -1084,7 +1084,6 @@
 		<node name="unsupportedFileFormat" value="Фармат файла не падтрымліваецца для «%s»"/>
 		<node name="errorParsingRtf" value="Памылка разбору rtf у: %s"/>
 		<node name="cannotRunAndroidMarket" value="Няма доступу да Google Play. Калі ласка, усталюйце %s уручную"/>
-		<node name="textNotFound" value="Адпаведны тэкст ня знойдзены"/>
 		<node name="bookNotFound" value="Няма адпаведных кніг у бібліятэцы"/>
 		<node name="bookmarkNotFound" value="Няма адпаведных закладак"/>
 		<node name="cannotOpenBook" value="Немагчыма адчыніць гэтую кнігу зараз"/>

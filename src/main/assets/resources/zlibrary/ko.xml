@@ -57,12 +57,4 @@
 		<node name="multi" value="다중 언어"/>
 		<node name="system" value="시스템 설정"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="켜짐"/>
-		<node name="off" value="꺼짐"/>
-		<node name="unchanged" value="변화 없음"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="키 동작"/>
-	</node>
 </resources>

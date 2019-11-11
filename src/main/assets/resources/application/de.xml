@@ -1089,7 +1089,6 @@
 		<node name="unsupportedFileFormat" value="Dateiformat für '%s' wird nicht unterstützt"/>
 		<node name="errorParsingRtf" value="Rtf-Parsing Fehler in: %s"/>
 		<node name="cannotRunAndroidMarket" value="Es kann nicht auf den Android Market zugegriffen werden. Bitte, installieren Sie %s manuell."/>
-		<node name="textNotFound" value="Es wurde kein passender Text im Buch gefunden."/>
 		<node name="bookNotFound" value="Es wurden keine passenden Bücher in der Bibliothek gefunden."/>
 		<node name="bookmarkNotFound" value="Es wurden kein passenden Lesezeichen gefunden."/>
 		<node name="cannotOpenBook" value="Das Buch kann zur Zeit nicht geöffnet werden."/>

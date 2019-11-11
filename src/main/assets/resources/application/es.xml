@@ -1090,7 +1090,6 @@
 		<node name="unsupportedFileFormat" value="El formato de archivo no es admitido para '%s'"/>
 		<node name="errorParsingRtf" value="Error de análisis RTF en: %s"/>
 		<node name="cannotRunAndroidMarket" value="No es posible acceder a Google Play. Por favor, instale %s manualmente "/>
-		<node name="textNotFound" value="No hay texto que coincida en el libro"/>
 		<node name="bookNotFound" value="No hay libros que coincidan en la biblioteca"/>
 		<node name="bookmarkNotFound" value="No hay marcadores coincidentes"/>
 		<node name="cannotOpenBook" value="No se puede abrir este libro en este momento"/>

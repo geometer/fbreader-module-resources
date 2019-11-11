@@ -57,12 +57,4 @@
 		<node name="multi" value="многоязычный"/>
 		<node name="system" value="системный"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="включить"/>
-		<node name="off" value="выключить"/>
-		<node name="unchanged" value="не менять"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Действие для"/>
-	</node>
 </resources>

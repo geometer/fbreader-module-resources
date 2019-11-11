@@ -57,12 +57,4 @@
 		<node name="multi" value="Некалькі моў"/>
 		<node name="system" value="Сістэмная"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="Уключана"/>
-		<node name="off" value="Выключана"/>
-		<node name="unchanged" value="Не зменена"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Дзеянне клавішы"/>
-	</node>
 </resources>

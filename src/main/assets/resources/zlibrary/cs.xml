@@ -58,12 +58,4 @@
 		<node name="multi" value="Vícejazyčná"/>
 		<node name="system" value="Systémový"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="zap"/>
-		<node name="off" value="vyp"/>
-		<node name="unchanged" value="nezměněno"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Akce pro klávesu"/>
-	</node>
 </resources>

@@ -1074,7 +1074,6 @@
 		<node name="unsupportedFileFormat" value="Nem támogatott fájlformátum: '%s'"/>
 		<node name="errorParsingRtf" value="Rtf feldolgozási hiba: %s"/>
 		<node name="cannotRunAndroidMarket" value="A Play Store elérése sikertelen. Kérjük, telepítse manuálisan a következőt: %s "/>
-		<node name="textNotFound" value="A keresett szöveg nem található a könyvben"/>
 		<node name="bookNotFound" value="A keresett könyv nem található meg a könyvtárban"/>
 		<node name="bookmarkNotFound" value="Sajnos nem találhatóak könyvjelzők"/>
 		<node name="cannotOpenBook" value="A könyv sajnos jelenleg nem nyitható meg"/>

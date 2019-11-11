@@ -58,12 +58,4 @@
 		<node name="multi" value="Meertalig"/>
 		<node name="system" value="Systeem"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="aan"/>
-		<node name="off" value="uit"/>
-		<node name="unchanged" value="ongewijzigd"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Actie voor toets"/>
-	</node>
 </resources>

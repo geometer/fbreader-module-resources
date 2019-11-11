@@ -1082,7 +1082,6 @@
 		<node name="unsupportedFileFormat" value="Ο τύπος αρχείου '%s' δεν υποστιρίζεται"/>
 		<node name="errorParsingRtf" value="Λάθος στο Rtf-Parsing: %s"/>
 		<node name="cannotRunAndroidMarket" value="Δεν υπάρχει πρόσβαση στο Android Market. Παρακαλώ, εγκαταστείστε %s χειροκίνητα."/>
-		<node name="textNotFound" value="Δεν βρέθηκε κατάλληλο κείμενο στο βιβλίο."/>
 		<node name="bookNotFound" value="Δεν βρέθηλαν κατάλληλα βιβλία στην βιβλιοθήκη."/>
 		<node name="bookmarkNotFound" value="Δεν βρέθηκαν κατάλληλοι σελιδοδείκτες."/>
 		<node name="cannotOpenBook" value="Το βιβλίο δεν μπορεί να ανοίξει αυτήν την στιγμή."/>

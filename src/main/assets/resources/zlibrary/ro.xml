@@ -61,12 +61,4 @@
 		<node name="multi" value="Mai multe limbi"/>
 		<node name="system" value="Sistem"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="deschis"/>
-		<node name="off" value="închis"/>
-		<node name="unchanged" value="neschimbat"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Funcționalitatea Tastei"/>
-	</node>
 </resources>

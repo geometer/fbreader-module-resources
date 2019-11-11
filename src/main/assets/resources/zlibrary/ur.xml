@@ -57,12 +57,4 @@
 		<node name="multi" value="Multilanguage" toBeTranslated="true"/>
 		<node name="system" value="سسٹم"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="آن"/>
-		<node name="off" value="آف"/>
-		<node name="unchanged" value="Unchanged" toBeTranslated="true"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Action for Key" toBeTranslated="true"/>
-	</node>
 </resources>

@@ -57,12 +57,4 @@
 		<node name="multi" value="多言語"/>
 		<node name="system" value="システム"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="オン"/>
-		<node name="off" value="オフ"/>
-		<node name="unchanged" value="変更なし"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="キー動作"/>
-	</node>
 </resources>

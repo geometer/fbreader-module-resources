@@ -1077,7 +1077,6 @@
 		<node name="unsupportedFileFormat" value="Formatul de fișier nu este acceptat pentru '%s'"/>
 		<node name="errorParsingRtf" value="Rtf - eroare de analiză în: %s"/>
 		<node name="cannotRunAndroidMarket" value="Nu pot accesa Android Market. Vă rugăm instalați %s manual"/>
-		<node name="textNotFound" value="Nu există nici un text adecvat în carte, îmi pare rău"/>
 		<node name="bookNotFound" value="Nu există cărți adecvate în biblioteca, îmi pare raău"/>
 		<node name="bookmarkNotFound" value="Nu există marcaje adecvate, îmi pare rău"/>
 		<node name="cannotOpenBook" value="Nu pot deschide această carte în acest moment, îmi pare rău"/>

@@ -1084,7 +1084,6 @@
 		<node name="unsupportedFileFormat" value="Filformatet er ikke støttet for '%s'"/>
 		<node name="errorParsingRtf" value="Rtf analysingsfeil i: %s"/>
 		<node name="cannotRunAndroidMarket" value="Ikke tilgang til Android Market. Vennligst installer %s manuelt"/>
-		<node name="textNotFound" value="Det er ingen passende tekst i boken, beklager"/>
 		<node name="bookNotFound" value="Det er ingen passende bøker i biblioteket, beklager"/>
 		<node name="bookmarkNotFound" value="Det er ingen passende bokmerker, beklager"/>
 		<node name="cannotOpenBook" value="Kan for øyeblikket ikke åpne denne boken, beklager"/>

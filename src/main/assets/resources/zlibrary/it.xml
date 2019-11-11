@@ -59,12 +59,4 @@
 		<node name="multi" value="Multilingua"/>
 		<node name="system" value="Sistema"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="on"/>
-		<node name="off" value="off"/>
-		<node name="unchanged" value="Immutato"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Azione per tasto"/>
-	</node>
 </resources>

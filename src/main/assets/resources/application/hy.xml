@@ -1091,7 +1091,6 @@
 		<node name="unsupportedFileFormat" value="%s նիշքերը չեն աջակցվում'"/>
 		<node name="errorParsingRtf" value="Սխալ %s RTF-նիշքը կարդալիս"/>
 		<node name="cannotRunAndroidMarket" value="Չհաջողվեց գործարկել Android Market-ը։ Փորձեք տեղադրել %s-ը ձեռքով։"/>
-		<node name="textNotFound" value="Գրքում նման հատված չկա"/>
 		<node name="bookNotFound" value="Համապատասխան գրքեր չկան"/>
 		<node name="bookmarkNotFound" value="Համապատասխան էջանիշեր չկան"/>
 		<node name="cannotOpenBook" value="Չհաջողվեց բացել գիրքը"/>

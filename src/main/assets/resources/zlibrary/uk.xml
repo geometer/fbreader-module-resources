@@ -58,12 +58,4 @@
 		<node name="multi" value="мультимовна"/>
 		<node name="system" value="системна"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="увімкнути"/>
-		<node name="off" value="вимкнути"/>
-		<node name="unchanged" value="не міняти"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Дія для"/>
-	</node>
 </resources>

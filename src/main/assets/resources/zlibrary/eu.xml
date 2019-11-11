@@ -58,12 +58,4 @@
 		<node name="multi" value="Hizkuntza-aniztuna"/>
 		<node name="system" value="Sistema"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="On"/>
-		<node name="off" value="Off"/>
-		<node name="unchanged" value="Aldatu gabe"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Ekintza teklarako"/>
-	</node>
 </resources>

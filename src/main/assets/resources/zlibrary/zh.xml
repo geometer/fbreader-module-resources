@@ -57,12 +57,4 @@
 		<node name="multi" value="多语言"/>
 		<node name="system" value="系统"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="开"/>
-		<node name="off" value="关"/>
-		<node name="unchanged" value="未改变"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="按键操作"/>
-	</node>
 </resources>

@@ -57,12 +57,4 @@
 		<node name="multi" value="Wielojęzyczny"/>
 		<node name="system" value="wg systemu"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="włączone"/>
-		<node name="off" value="wyłączone"/>
-		<node name="unchanged" value="bez zmian"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Akcja przypisana klawiszowi"/>
-	</node>
 </resources>

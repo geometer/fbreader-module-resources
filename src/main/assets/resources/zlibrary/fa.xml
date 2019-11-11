@@ -57,12 +57,4 @@
 		<node name="multi" value="چند زبانه"/>
 		<node name="system" value="سیستم"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="روشن"/>
-		<node name="off" value="خاموش"/>
-		<node name="unchanged" value="عوض نشد"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="عمل کلید"/>
-	</node>
 </resources>

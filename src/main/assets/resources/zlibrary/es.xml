@@ -64,12 +64,4 @@
 		<node name="multi" value="Multilingüe"/>
 		<node name="system" value="Sistema"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="Encendido"/>
-		<node name="off" value="Apagado"/>
-		<node name="unchanged" value="Sin cambios"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Acción para tecla"/>
-	</node>
 </resources>

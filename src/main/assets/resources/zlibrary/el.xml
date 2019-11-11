@@ -58,12 +58,4 @@
 		<node name="multi" value="πολλαπλές γλώσσες"/>
 		<node name="system" value="System" toBeTranslated="true"/>
 	</node>
-	<node name="boolean3">
-		<node name="on" value="ενεργοποιημένο"/>
-		<node name="off" value="απενεργοποιημένο"/>
-		<node name="unchanged" value="αμετάβλητο"/>
-	</node>
-	<node name="keyOptionView">
-		<node name="actionFor" value="Ενέργεια για πλήκτρο"/>
-	</node>
 </resources>

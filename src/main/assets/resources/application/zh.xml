@@ -1084,7 +1084,6 @@
 		<node name="unsupportedFileFormat" value="“%s”不支持文件格式"/>
 		<node name="errorParsingRtf" value="Rtf解析错误为:%s"/>
 		<node name="cannotRunAndroidMarket" value="无法访问Google商店。请手动安装%s"/>
-		<node name="textNotFound" value="未找到匹配文本"/>
 		<node name="bookNotFound" value="书库里没有相匹配的书籍"/>
 		<node name="bookmarkNotFound" value="没有匹配的书签"/>
 		<node name="cannotOpenBook" value="现在不能打开这本书籍"/>

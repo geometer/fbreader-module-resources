@@ -1074,7 +1074,6 @@
 		<node name="unsupportedFileFormat" value="Формат файлу не підтримується для '%s'"/>
 		<node name="errorParsingRtf" value="Помилка обробки Rtf в: %s"/>
 		<node name="cannotRunAndroidMarket" value="Немає доступу до Android Market. Будь-ласка, встановіть %s вручну"/>
-		<node name="textNotFound" value="У цій книзі нема такого тексту"/>
 		<node name="bookNotFound" value="Немає відповідних книг"/>
 		<node name="bookmarkNotFound" value="Нема відповідних закладок"/>
 		<node name="cannotOpenBook" value="Невдається відкрити книгу"/>

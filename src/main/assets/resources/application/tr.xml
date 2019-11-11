@@ -1084,7 +1084,6 @@
 		<node name="unsupportedFileFormat" value="'%s' dosya türü desteklenmiyor"/>
 		<node name="errorParsingRtf" value="Rtf parsing error in: %s" toBeTranslated="true"/>
 		<node name="cannotRunAndroidMarket" value="Android Markete ulaşılamıyor. Lütfen %s elle indirin"/>
-		<node name="textNotFound" value="Kitapta buna uyan metin yok, üzgünüm"/>
 		<node name="bookNotFound" value="Kitaplıkta buna uyan kitap yok, üzgünüm"/>
 		<node name="bookmarkNotFound" value="Buna uyan yer imi yok"/>
 		<node name="cannotOpenBook" value="Bu kitap şu anda açılamıyor, üzgünüm"/>

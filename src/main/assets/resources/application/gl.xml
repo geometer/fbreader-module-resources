@@ -1074,7 +1074,6 @@
 		<node name="unsupportedFileFormat" value="File format is not supported for '%s'" toBeTranslated="true"/>
 		<node name="errorParsingRtf" value="Rtf parsing error in: %s" toBeTranslated="true"/>
 		<node name="cannotRunAndroidMarket" value="Non é posíbel acceder ao Android Market. Instale %s manualmente "/>
-		<node name="textNotFound" value="Non hai texto coincidente no libro"/>
 		<node name="bookNotFound" value="Non hai libros coincidentes na biblioteca"/>
 		<node name="bookmarkNotFound" value="Non hai marcadores coincidentes"/>
 		<node name="cannotOpenBook" value="Neste momento non se pode abrir este libro"/>

@@ -1083,7 +1083,6 @@
 		<node name="unsupportedFileFormat" value="فرمت فایل پشتیبانی نمیشود برای '%s'"/>
 		<node name="errorParsingRtf" value="خطای تجزیه RTF در: %s"/>
 		<node name="cannotRunAndroidMarket" value="عدم قابليت دسترسي به بازار آندرويد. لطفا %s را بصورت دستي نصب كنيد"/>
-		<node name="textNotFound" value="متاسفانه متن مناسبي در كتاب موجود نيست"/>
 		<node name="bookNotFound" value="متاسفانه كتاب مناسبي در كتابخانه موجود نيست"/>
 		<node name="bookmarkNotFound" value="متاسفانه بوكمارك هاي مناسبي موجود نيست"/>
 		<node name="cannotOpenBook" value="متاسفانه در حال حاضر قادر به بازكردن كتاب نيست"/>
