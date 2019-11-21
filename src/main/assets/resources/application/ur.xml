@@ -23,15 +23,6 @@
 		<node name="favorites" value="پسندیدہ">
 			<node name="summary" value="میری پسندیدہ کتب"/>
 		</node>
-		<node name="chooseView" value="منظر منتخب کریں"/>
-		<node name="wideCardsView" value="چوڑے کارڈ"/>
-		<node name="smallCardsView" value="چھوٹے کارڈ"/>
-		<node name="tinyCardsView" value="بلکل چھوٹے کارڈ"/>
-		<node name="coversView" value="کو٘ر"/>
-		<node name="oldView" value="کلاسیک"/>
-		<node name="bookshelfView" value="'کتب کی الماری' والا منظر">
-			<node name="summary" value="تھمب نیل والے منظر پہ بدلیں"/>
-		</node>
 		<node name="found" value="پایا گیا">
 			<node name="summary" value="تلاش کے نتائج برائے: %s"/>
 		</node>

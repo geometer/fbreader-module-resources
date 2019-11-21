@@ -23,15 +23,6 @@
 		<node name="favorites" value="Улюблені">
 			<node name="summary" value="Мої вибрані книги"/>
 		</node>
-		<node name="chooseView" value="Оберіть вигляд"/>
-		<node name="wideCardsView" value="Широкі картки"/>
-		<node name="smallCardsView" value="Малі картки"/>
-		<node name="tinyCardsView" value="Крихітні картки"/>
-		<node name="coversView" value="Обкладинки"/>
-		<node name="oldView" value="Класичний"/>
-		<node name="bookshelfView" value="Книжкова полиця">
-			<node name="summary" value="Перейти до перегляду мініатюр"/>
-		</node>
 		<node name="found" value="Знайдено">
 			<node name="summary" value="Результати пошуку для: %s"/>
 		</node>

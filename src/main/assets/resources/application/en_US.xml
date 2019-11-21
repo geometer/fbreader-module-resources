@@ -23,15 +23,6 @@
 		<node name="favorites" value="Favorites">
 			<node name="summary" value="My favorite books"/>
 		</node>
-		<node name="chooseView" value="Choose view"/>
-		<node name="wideCardsView" value="Wide cards"/>
-		<node name="smallCardsView" value="Small cards"/>
-		<node name="tinyCardsView" value="Tiny cards"/>
-		<node name="coversView" value="Covers"/>
-		<node name="oldView" value="Classic"/>
-		<node name="bookshelfView" value="Bookshelf view">
-			<node name="summary" value="Switch to thumbnail view"/>
-		</node>
 		<node name="found" value="Found">
 			<node name="summary" value="Search results for: %s"/>
 		</node>

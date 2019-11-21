@@ -25,15 +25,6 @@
 		<node name="favorites" value="Ընտրված">
 			<node name="summary" value="Իմ նախընտրած գրքերը"/>
 		</node>
-		<node name="chooseView" value="Ընտրել գրադարանի տեսքը"/>
-		<node name="wideCardsView" value="Լայն քարտեր"/>
-		<node name="smallCardsView" value="Փոքր քարտեր"/>
-		<node name="tinyCardsView" value="Մանր քարտեր"/>
-		<node name="coversView" value="Կազմեր"/>
-		<node name="oldView" value="Դասական"/>
-		<node name="bookshelfView" value="Գրադարակ">
-			<node name="summary" value="Գրադարանը «նյութական» տեսքով"/>
-		</node>
 		<node name="found" value="Գտնվել է">
 			<node name="summary" value="%s-ով որոնման արդյունքները"/>
 		</node>

@@ -23,15 +23,6 @@
 		<node name="favorites" value="Oblíbené">
 			<node name="summary" value="Mé oblíbené knihy"/>
 		</node>
-		<node name="chooseView" value="Zvolte zobrazení"/>
-		<node name="wideCardsView" value="Široké karty"/>
-		<node name="smallCardsView" value="Malé karty"/>
-		<node name="tinyCardsView" value="Malinké karty"/>
-		<node name="coversView" value="Obálky"/>
-		<node name="oldView" value="Clasické"/>
-		<node name="bookshelfView" value="Zobrazení Poličky knih">
-			<node name="summary" value="Moderní (styl Material designu) zobrazení knihovny"/>
-		</node>
 		<node name="found" value="Nalezené">
 			<node name="summary" value="Hledat výsledky pro: %s"/>
 		</node>

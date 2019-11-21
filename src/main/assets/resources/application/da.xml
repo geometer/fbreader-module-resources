@@ -22,15 +22,6 @@
 		<node name="favorites" value="Foretrukne">
 			<node name="summary" value="Mine udvalgte bøger"/>
 		</node>
-		<node name="chooseView" value="Choose view" toBeTranslated="true"/>
-		<node name="wideCardsView" value="Wide cards" toBeTranslated="true"/>
-		<node name="smallCardsView" value="Small cards" toBeTranslated="true"/>
-		<node name="tinyCardsView" value="Tiny cards" toBeTranslated="true"/>
-		<node name="coversView" value="Covers" toBeTranslated="true"/>
-		<node name="oldView" value="Classic" toBeTranslated="true"/>
-		<node name="bookshelfView" value="Bookshelf view" toBeTranslated="true">
-			<node name="summary" value="Switch to thumbnail view" toBeTranslated="true"/>
-		</node>
 		<node name="found" value="Fundet">
 			<node name="summary" value="Søgeresultater for: %s"/>
 		</node>

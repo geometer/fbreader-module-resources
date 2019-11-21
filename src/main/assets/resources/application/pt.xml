@@ -24,15 +24,6 @@
 		<node name="favorites" value="Favoritos">
 			<node name="summary" value="A minha seleção de livros"/>
 		</node>
-		<node name="chooseView" value="Escolher vista"/>
-		<node name="wideCardsView" value="Capas grandes"/>
-		<node name="smallCardsView" value="Capas pequenas"/>
-		<node name="tinyCardsView" value="Capas minúsculas"/>
-		<node name="coversView" value="Capas"/>
-		<node name="oldView" value="Clássico"/>
-		<node name="bookshelfView" value="Vista de estante">
-			<node name="summary" value="Alterar para vista de miniaturas"/>
-		</node>
 		<node name="found" value="Encontrado">
 			<node name="summary" value="Resultados da pesquisa por:%s"/>
 		</node>

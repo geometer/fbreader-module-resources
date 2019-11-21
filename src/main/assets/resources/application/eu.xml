@@ -23,15 +23,6 @@
 		<node name="favorites" value="Gogokoak">
 			<node name="summary" value="Nire libururik gogokoenak"/>
 		</node>
-		<node name="chooseView" value="Aukeratu ikuspegia"/>
-		<node name="wideCardsView" value="Txartel zabalak"/>
-		<node name="smallCardsView" value="Txartel txikiak"/>
-		<node name="tinyCardsView" value="Txartel oso txikiak"/>
-		<node name="coversView" value="Azalak"/>
-		<node name="oldView" value="Ikuspegi klasikoa"/>
-		<node name="bookshelfView" value="Apalategi ikuspegia">
-			<node name="summary" value="Aldatu koadro txikien ikuspegira"/>
-		</node>
 		<node name="found" value="Aurkituta">
 			<node name="summary" value="%s bilaketaren emaitzak"/>
 		</node>

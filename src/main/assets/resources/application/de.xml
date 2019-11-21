@@ -28,15 +28,6 @@
 		<node name="favorites" value="Favoriten">
 			<node name="summary" value="Meine Lieblingsbücher"/>
 		</node>
-		<node name="chooseView" value="Ansicht wählen"/>
-		<node name="wideCardsView" value="Breite Karten"/>
-		<node name="smallCardsView" value="Schmale Karten"/>
-		<node name="tinyCardsView" value="Winzige Karten"/>
-		<node name="coversView" value="Titelseiten"/>
-		<node name="oldView" value="Klassisch"/>
-		<node name="bookshelfView" value="Wechseln zur Buchregalansicht">
-			<node name="summary" value="Moderne (Material Design) Bibliotheksansicht"/>
-		</node>
 		<node name="found" value="Gefunden">
 			<node name="summary" value="Suchergebnisse für: %s"/>
 		</node>

@@ -26,15 +26,6 @@
 		<node name="favorites" value="Favoritele mele">
 			<node name="summary" value="Cărțile mele favorite"/>
 		</node>
-		<node name="chooseView" value="Alegeti vizualizarea"/>
-		<node name="wideCardsView" value="Cărți mari"/>
-		<node name="smallCardsView" value="Cărți mici"/>
-		<node name="tinyCardsView" value="Cărți foarte mici"/>
-		<node name="coversView" value="Coperți"/>
-		<node name="oldView" value="Clssic"/>
-		<node name="bookshelfView" value="Vizualizare raft">
-			<node name="summary" value="Comutați la vizualizarea de miniaturi"/>
-		</node>
 		<node name="found" value="S-au găsit">
 			<node name="summary" value="Rezultatele căutării pentru: %s"/>
 		</node>

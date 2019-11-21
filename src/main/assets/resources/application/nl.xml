@@ -23,15 +23,6 @@
 		<node name="favorites" value="Favorieten">
 			<node name="summary" value="Mijn geselecteerde boeken"/>
 		</node>
-		<node name="chooseView" value="Kies uiterlijk"/>
-		<node name="wideCardsView" value="Brede kaarten"/>
-		<node name="smallCardsView" value="Kleine kaarten"/>
-		<node name="tinyCardsView" value="Zeer kleine kaarten"/>
-		<node name="coversView" value="Covers"/>
-		<node name="oldView" value="Klassiek"/>
-		<node name="bookshelfView" value="Boekenplank">
-			<node name="summary" value="Moderne (material design) bibliotheek"/>
-		</node>
 		<node name="found" value="Gevonden">
 			<node name="summary" value="Zoekresultaten voor: %s"/>
 		</node>

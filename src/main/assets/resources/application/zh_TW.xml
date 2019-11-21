@@ -23,15 +23,6 @@
 		<node name="favorites" value="收藏">
 			<node name="summary" value="我收藏的書籍"/>
 		</node>
-		<node name="chooseView" value="選擇視圖"/>
-		<node name="wideCardsView" value="寬型卡片"/>
-		<node name="smallCardsView" value="小型卡片"/>
-		<node name="tinyCardsView" value="微型卡片"/>
-		<node name="coversView" value="封面"/>
-		<node name="oldView" value="經典"/>
-		<node name="bookshelfView" value="書架視圖">
-			<node name="summary" value="切換到縮略圖視圖"/>
-		</node>
 		<node name="found" value="搜索">
 			<node name="summary" value="搜索結果:%s"/>
 		</node>

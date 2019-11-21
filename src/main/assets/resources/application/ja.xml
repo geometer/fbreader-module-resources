@@ -23,15 +23,6 @@
 		<node name="favorites" value="お気に入り">
 			<node name="summary" value="自分で選んだ本"/>
 		</node>
-		<node name="chooseView" value="ビューを選択"/>
-		<node name="wideCardsView" value="広いカード"/>
-		<node name="smallCardsView" value="小さなカード"/>
-		<node name="tinyCardsView" value="極小のカード"/>
-		<node name="coversView" value="表紙"/>
-		<node name="oldView" value="クラシック"/>
-		<node name="bookshelfView" value="本棚ビュー">
-			<node name="summary" value="現代的な (マテリアルデザインの) ライブラリ表示"/>
-		</node>
 		<node name="found" value="検索結果">
 			<node name="summary" value="検索した文字: %s"/>
 		</node>
