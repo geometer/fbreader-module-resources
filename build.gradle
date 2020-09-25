@@ -6,8 +6,8 @@ dependencies {
 }
 
 android {
-	compileSdkVersion 28
-	buildToolsVersion '28.0.3'
+	compileSdkVersion project.compile_sdk_version
+	buildToolsVersion project.build_tools_version
 
 	lintOptions {
 		abortOnError false
