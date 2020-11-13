@@ -1067,9 +1067,6 @@
 			</node>
 			<node name="permissionDenied" value="Մուտքը մերժվեց"/>
 		</node>
-		<node name="licensing" value="Արտոնագիրը բացակայում է">
-			<node name="message" value="%s-ը արտոնագրված չէ։ Գնե՞լ Google Play-ում։"/>
-		</node>
 		<node name="retryLicensing" value="Արտոնագիրը ստուգվում է">
 			<node name="message" value="Չհաջողվեց ստուգել արտոնագիրը։ Կրկին փորձե՞լ։"/>
 		</node>

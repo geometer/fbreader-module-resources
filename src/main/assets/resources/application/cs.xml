@@ -1069,9 +1069,6 @@
 			</node>
 			<node name="permissionDenied" value="Přístup byl odepřen"/>
 		</node>
-		<node name="licensing" value="Nelicencováno">
-			<node name="message" value="%s není licencovaný. Zakoupit nyní na Google Play?"/>
-		</node>
 		<node name="retryLicensing" value="Ověření licence">
 			<node name="message" value="Nelze ověřit licenci %s. Zkusit znovu?"/>
 		</node>

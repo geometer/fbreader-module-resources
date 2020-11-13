@@ -1061,9 +1061,6 @@
 			</node>
 			<node name="permissionDenied" value="Permissão negada"/>
 		</node>
-		<node name="licensing" value="Não licenciado">
-			<node name="message" value="%s não está licenciado. Comprar no Google Play agora?"/>
-		</node>
 		<node name="retryLicensing" value="Verificação de licença">
 			<node name="message" value="Não foi possível verificar a licença %s. Tentar novamente?"/>
 		</node>

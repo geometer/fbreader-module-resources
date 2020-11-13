@@ -1070,9 +1070,6 @@
 			</node>
 			<node name="permissionDenied" value="Нет доступа"/>
 		</node>
-		<node name="licensing" value="Нет лицензии">
-			<node name="message" value="%s не лицензирован. Купить на Google Play?"/>
-		</node>
 		<node name="retryLicensing" value="Проверка лицензии">
 			<node name="message" value="Не удалось проверить лицензию %s. Попробовать ещё раз?"/>
 		</node>

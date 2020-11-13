@@ -1050,9 +1050,6 @@
 			</node>
 			<node name="permissionDenied" value="У доступі відмовлено"/>
 		</node>
-		<node name="licensing" value="Не ліцензовано">
-			<node name="message" value="%s не ліцензовано. Придбати на Google Play зараз?"/>
-		</node>
 		<node name="retryLicensing" value="Перевірка ліцензії">
 			<node name="message" value="Помилка перевірки ліцензії %s. Спробувати знову?"/>
 		</node>

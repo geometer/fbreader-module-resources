@@ -1060,9 +1060,6 @@
 			</node>
 			<node name="permissionDenied" value="Toegang geweigerd"/>
 		</node>
-		<node name="licensing" value="Geen licentie">
-			<node name="message" value="Geen licentie voor %s. Nu op Google Play kopen?"/>
-		</node>
 		<node name="retryLicensing" value="Licentieverificatie">
 			<node name="message" value="Kan licentie voor %s niet controleren. Nogmaals proberen?"/>
 		</node>

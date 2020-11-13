@@ -1108,9 +1108,6 @@
 			</node>
 			<node name="permissionDenied" value="許可がありません"/>
 		</node>
-		<node name="licensing" value="ライセンスされていません">
-			<node name="message" value="%s はライセンスされていません。今すぐ Google Play で購入しますか?"/>
-		</node>
 		<node name="retryLicensing" value="ライセンス確認">
 			<node name="message" value="%s ライセンスを確認できませんでした。もう一度やり直しますか?"/>
 		</node>

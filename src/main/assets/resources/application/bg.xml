@@ -1066,9 +1066,6 @@
 			</node>
 			<node name="permissionDenied" value="Няма достъп"/>
 		</node>
-		<node name="licensing" value="Not licensed" toBeTranslated="true">
-			<node name="message" value="%s is not licensed. Purchase on Google Play now?" toBeTranslated="true"/>
-		</node>
 		<node name="retryLicensing" value="Licence verification" toBeTranslated="true">
 			<node name="message" value="Cannot verify %s licence. Try again?" toBeTranslated="true"/>
 		</node>

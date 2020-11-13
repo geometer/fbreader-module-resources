@@ -1060,9 +1060,6 @@
 			</node>
 			<node name="permissionDenied" value="Не дазволена"/>
 		</node>
-		<node name="licensing" value="Не ліцэнзавана">
-			<node name="message" value="%s не ліцэнзавана. Купіць зараз на Google Play?"/>
-		</node>
 		<node name="retryLicensing" value="Праверка ліцэнзіі">
 			<node name="message" value="Немагчыма праверыць ліцэнзію %s. Паспрабаваць зноў?"/>
 		</node>

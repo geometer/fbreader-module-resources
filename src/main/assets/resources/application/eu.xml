@@ -1060,9 +1060,6 @@
 			</node>
 			<node name="permissionDenied" value="Baimena ukatu da"/>
 		</node>
-		<node name="licensing" value="Lizentziarik gabe">
-			<node name="message" value="%s lizentziarik gabe dago. Erosi Google Playn orain?"/>
-		</node>
 		<node name="retryLicensing" value="Lizentzia egiaztatu">
 			<node name="message" value="Ezin da %s lizentzia egiaztatu. Saiatu berriro?"/>
 		</node>

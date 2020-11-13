@@ -1050,9 +1050,6 @@
 			</node>
 			<node name="permissionDenied" value="Brak uprawnień"/>
 		</node>
-		<node name="licensing" value="Brak licencji">
-			<node name="message" value="%s jest bez licencji. Dokonać zakupu w sklepie Google Play teraz?"/>
-		</node>
 		<node name="retryLicensing" value="Weryfikacja licencji">
 			<node name="message" value="Nie można zweryfikować licencji %s. Spróbować ponownie?"/>
 		</node>

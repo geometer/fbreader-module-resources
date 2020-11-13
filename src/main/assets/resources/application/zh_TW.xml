@@ -1060,9 +1060,6 @@
 			</node>
 			<node name="permissionDenied" value="沒有許可權"/>
 		</node>
-		<node name="licensing" value="沒有許可">
-			<node name="message" value="%s沒有許可。現在到Google商店購買？"/>
-		</node>
 		<node name="retryLicensing" value="許可證驗證">
 			<node name="message" value="無法驗證%s許可證。再試一次嗎?"/>
 		</node>

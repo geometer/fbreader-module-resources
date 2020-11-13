@@ -1053,9 +1053,6 @@
 			</node>
 			<node name="permissionDenied" value="Acces interzis"/>
 		</node>
-		<node name="licensing" value="Fară licentă">
-			<node name="message" value="%s nu este licențiat. Cumpărati acum pe Google Play?"/>
-		</node>
 		<node name="retryLicensing" value="Verificarea licentei">
 			<node name="message" value="Nu se poate verifica licenta %s. Încercați din nou?"/>
 		</node>
