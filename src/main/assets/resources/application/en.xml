@@ -435,6 +435,7 @@
 				<node name="summaryOn" value="By dragging finger up/down the left side of the screen"/>
 				<node name="summaryOff" value="Disabled"/>
 			</node>
+			<node name="minimumBrightnessLevel" value="Minimum brightness level"/>
 			<node name="dontTurnScreenOff" value="Prevent screen from sleeping">
 				<node name="0" value="Always"/>
 				<node name="25" value="While battery level is above 25%%"/>

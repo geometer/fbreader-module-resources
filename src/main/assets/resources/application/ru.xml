@@ -440,6 +440,7 @@
 				<node name="summaryOn" value="Движением пальца вверх/вниз по левому краю экрана"/>
 				<node name="summaryOff" value="Выключена"/>
 			</node>
+			<node name="minimumBrightnessLevel" value="Минимальная яркость экрана"/>
 			<node name="dontTurnScreenOff" value="Не выключать экран во время чтения">
 				<node name="0" value="Никогда не выключать"/>
 				<node name="25" value="Пока батарея заряжена хотя бы на четверть"/>
