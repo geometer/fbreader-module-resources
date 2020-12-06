@@ -916,11 +916,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Authentication required" toBeTranslated="true"/>
 		</node>
-		<node name="missingDictionary" value="Missing %s" toBeTranslated="true">
-			<node name="install" value="Install %s" toBeTranslated="true"/>
-			<node name="configure" value="Configure translation" toBeTranslated="true"/>
-			<node name="skip" value="Skip" toBeTranslated="true"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="ติดตั้งพจนานุกรม"/>
 			<node name="message" value="คุณต้องการที่จะติดตั้ง %s หรือไม่?"/>

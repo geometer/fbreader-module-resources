@@ -927,11 +927,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Autenticação necessária"/>
 		</node>
-		<node name="missingDictionary" value="%s em falta">
-			<node name="install" value="Instalar %s"/>
-			<node name="configure" value="Configurar tradução"/>
-			<node name="skip" value="Saltar"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Instalar dicionário"/>
 			<node name="message" value="Gostaria de instalar %s?"/>

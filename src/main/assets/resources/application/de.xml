@@ -931,11 +931,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Anmeldedaten benötigt"/>
 		</node>
-		<node name="missingDictionary" value="Fehlend %s">
-			<node name="install" value="Installieren %s"/>
-			<node name="configure" value="Einstellungen"/>
-			<node name="skip" value="Überspringen"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Installationsverzeichnis"/>
 			<node name="message" value="Möchten Sie %s installieren?"/>

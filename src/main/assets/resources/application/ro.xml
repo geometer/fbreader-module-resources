@@ -919,11 +919,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Este necesară autentificarea"/>
 		</node>
-		<node name="missingDictionary" value="Disparut %s">
-			<node name="install" value="Instalare %s"/>
-			<node name="configure" value="Configurare traducere"/>
-			<node name="skip" value="Sari"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Instalați dictionar"/>
 			<node name="message" value="Doriți să instalați %s?"/>

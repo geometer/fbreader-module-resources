@@ -918,11 +918,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Autenticazione richiesta"/>
 		</node>
-		<node name="missingDictionary" value="Manca %s">
-			<node name="install" value="Installa %s"/>
-			<node name="configure" value="Configura la traduzione"/>
-			<node name="skip" value="Tralascia"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Installa dizionario"/>
 			<node name="message" value="Vuoi installare %s?"/>

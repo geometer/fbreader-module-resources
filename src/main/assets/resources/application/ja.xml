@@ -974,11 +974,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="認証が必要"/>
 		</node>
-		<node name="missingDictionary" value="%s が見つかりません">
-			<node name="install" value="%s をインストール"/>
-			<node name="configure" value="翻訳を構成"/>
-			<node name="skip" value="スキップ"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="辞書をインストール"/>
 			<node name="message" value="辞書 %s をインストールしますか?"/>

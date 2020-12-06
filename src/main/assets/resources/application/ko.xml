@@ -926,11 +926,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="인증이 필요합니다"/>
 		</node>
-		<node name="missingDictionary" value="Missing %s" toBeTranslated="true">
-			<node name="install" value="Install %s" toBeTranslated="true"/>
-			<node name="configure" value="Configure translation" toBeTranslated="true"/>
-			<node name="skip" value="Skip" toBeTranslated="true"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="사전 설치"/>
 			<node name="message" value="%s 을(를) 설치할까요?"/>

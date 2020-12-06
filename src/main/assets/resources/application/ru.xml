@@ -932,11 +932,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Требуется авторизация"/>
 		</node>
-		<node name="missingDictionary" value="%s не найден">
-			<node name="install" value="Установить %s"/>
-			<node name="configure" value="Настройки перевода"/>
-			<node name="skip" value="Пропустить"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Установка словаря"/>
 			<node name="message" value="Установить %s?"/>

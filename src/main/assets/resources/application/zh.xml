@@ -926,11 +926,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="认证要求"/>
 		</node>
-		<node name="missingDictionary" value="缺失%s">
-			<node name="install" value="安装%s"/>
-			<node name="configure" value="配置翻译"/>
-			<node name="skip" value="跳过"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="安装词典"/>
 			<node name="message" value="要安装%s吗?"/>

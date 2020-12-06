@@ -926,11 +926,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Патрабуецца спраўджаньне"/>
 		</node>
-		<node name="missingDictionary" value="Адсутнічае %s">
-			<node name="install" value="Усталяваць %s"/>
-			<node name="configure" value="Наладзіць пераклад"/>
-			<node name="skip" value="Прапусьціць"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Усталяваць слоўнік"/>
 			<node name="message" value="Жадаеце ўсталяваць %s?"/>

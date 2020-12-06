@@ -933,11 +933,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Պահանջվում է հեղինակացում"/>
 		</node>
-		<node name="missingDictionary" value="%s-ը բացակայում է">
-			<node name="install" value="Տեղադրել %s-ը"/>
-			<node name="configure" value="Թարգմանության կարգավորումներ"/>
-			<node name="skip" value="Բաց թողնել"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Տեղադրել բառարան"/>
 			<node name="message" value="Տեղադրե՞լ %s-ը"/>

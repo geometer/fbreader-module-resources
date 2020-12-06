@@ -926,11 +926,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Authenticatie vereist"/>
 		</node>
-		<node name="missingDictionary" value="%s ontbreekt">
-			<node name="install" value="Installeer %s"/>
-			<node name="configure" value="Vertaling instellen"/>
-			<node name="skip" value="Overslaan"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Installeer woordenboek"/>
 			<node name="message" value="Wil je %s installeren?"/>

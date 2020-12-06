@@ -926,11 +926,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Autentifikatu egin behar da"/>
 		</node>
-		<node name="missingDictionary" value="%s falta da">
-			<node name="install" value="Instalatu %s"/>
-			<node name="configure" value="Konfiguratu itzulpena"/>
-			<node name="skip" value="Saltatu"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Instalatu hiztegia"/>
 			<node name="message" value="Nahi al duzu %s instalatu?"/>

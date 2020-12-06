@@ -916,11 +916,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Необхідна авторизація"/>
 		</node>
-		<node name="missingDictionary" value="%s відсутній">
-			<node name="install" value="Встановити %s"/>
-			<node name="configure" value="Налаштувати переклад"/>
-			<node name="skip" value="Пропустити"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Встановити словник"/>
 			<node name="message" value="Ви хочете встановити %s?"/>

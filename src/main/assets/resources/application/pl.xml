@@ -916,11 +916,6 @@
 		<node name="backgroundAuthentication">
 			<node name="message" value="Wymagana autoryzacja"/>
 		</node>
-		<node name="missingDictionary" value="Brak %s">
-			<node name="install" value="Zainstaluj %s"/>
-			<node name="configure" value="Skonfiguruj słownik"/>
-			<node name="skip" value="Pomiń"/>
-		</node>
 		<node name="installDictionary">
 			<node name="title" value="Zainstaluj słownik"/>
 			<node name="message" value="Czy chcesz zainstalować %s?"/>
