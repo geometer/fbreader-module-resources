@@ -1080,12 +1080,6 @@
 		<node name="browser" value="Navigateur"/>
 		<node name="defaultBrowser" value="Navigateur par défaut"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="Problème FBReader"/>
-			<node name="text" value="Le répertoire de cache de FBReader n'est pas accessible en écriture. Vous avez peut-être oublié d'insérer ou de démonter votre carte mémoire. Veuillez corriger ce problème ou sélectionner un autre répertoire."/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="Problème FBReader"/>

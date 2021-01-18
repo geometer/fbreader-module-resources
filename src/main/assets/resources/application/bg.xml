@@ -1093,12 +1093,6 @@
 		<node name="browser" value="Браузер"/>
 		<node name="defaultBrowser" value="Браузер по подразбиране"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="Проблем с FBReader"/>
-			<node name="text" value="Кешовата директория на FBReader е недостъпна за запис. Може би сте забравили да поставите карта или да изключите от компютъра. Моля оправете го или изберете друга директория."/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="Проблем с FBReader"/>

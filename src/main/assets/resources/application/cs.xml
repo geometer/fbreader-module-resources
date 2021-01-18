@@ -1096,12 +1096,6 @@
 		<node name="browser" value="Prohlížeč"/>
 		<node name="defaultBrowser" value="Výchozí prohlížeč"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="Problém FBReaderu"/>
-			<node name="text" value="Adresář mezipaměti FBReaderu není přístupný pro zápis. Možná jste zapomněli vložit nebo odpojit paměťovou kartu. Opravte tento problém nebo vyberte jiný adresář."/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="Problém FBReaderu"/>

@@ -1085,12 +1085,6 @@
 		<node name="browser" value="Browser" toBeTranslated="true"/>
 		<node name="defaultBrowser" value="Default browser" toBeTranslated="true"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="FBReader issue" toBeTranslated="true"/>
-			<node name="text" value="Cannot write to FBReader cache. Please check that your memory card is inserted correctly, or select another directory." toBeTranslated="true"/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="FBReader issue" toBeTranslated="true"/>

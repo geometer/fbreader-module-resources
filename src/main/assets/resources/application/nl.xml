@@ -1087,12 +1087,6 @@
 		<node name="browser" value="Browser"/>
 		<node name="defaultBrowser" value="Standaardbrowser"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="FBReader probleem"/>
-			<node name="text" value="In de FBReader cache directory kan niet geschreven worden. Mogelijk ben je de geheugenkaart vergeten te plaatsen. Los dit probleem op of selecteer een andere map."/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="FBReader probleem"/>

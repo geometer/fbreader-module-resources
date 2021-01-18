@@ -1087,12 +1087,6 @@
 		<node name="browser" value="Аглядальнік"/>
 		<node name="defaultBrowser" value="Стандартны аглядальнік"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="Праблема FBReader"/>
-			<node name="text" value="Запіс у кэш FBReader. Калі ласка, пераканайцеся, што карта памяці ўстаўлена правільна, альбо выберыце іншую тэчку."/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="Праблема FBReader"/>

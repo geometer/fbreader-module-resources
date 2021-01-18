@@ -1087,12 +1087,6 @@
 		<node name="browser" value="Nabigatzailea"/>
 		<node name="defaultBrowser" value="Lehenetsitako nabigatzailea"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="FBReader arazoa"/>
-			<node name="text" value="Ezin da idatzi FBReaderren cachean. Egiaztatu memoria-txartela egoki txertatuta dagoen edo beste direktorioren bat aukeratu."/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="FBReader arazoa"/>

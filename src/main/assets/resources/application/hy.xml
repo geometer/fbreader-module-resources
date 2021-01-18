@@ -1094,12 +1094,6 @@
 		<node name="browser" value="դիտարկիչ"/>
 		<node name="defaultBrowser" value="հիմնական դիտարկիչ"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="Խնդիր FBReader-ում"/>
-			<node name="text" value="FBReader-ը չի կարող պահել ժամանակավոր նիշքերը. հավանաբար մոռացել եք տեղադրել հիշողության քարտը կամ էլ այն անհասանելի է համակարգչին միացված լինելու պատճառով։ Փորձեք լուծել այս խնդիրը կամ էլ ընտրեք ժամանակավոր նիշքերի պահպանման այլ պանակ։"/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="Խնդիր FBReader-ում"/>

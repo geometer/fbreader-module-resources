@@ -1092,12 +1092,6 @@
 		<node name="browser" value="Browser"/>
 		<node name="defaultBrowser" value="Standard-Browser"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="FBReader Problem"/>
-			<node name="text" value="Auf das FBReader Cache-Verzeichnis kann nicht schreibend zugegriffen werden. Möglicherweise haben sie ihre Speicherkarte entfernt oder sie ist nicht im Zugriff des Android-Systems. Bitte beheben sie das Problem oder geben Sie unten einen anderen Verzeichnisnamen ein."/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="FBReader Problem"/>

@@ -1080,12 +1080,6 @@
 		<node name="browser" value="Browser"/>
 		<node name="defaultBrowser" value="Browser prestabilit"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="Eroare în aplicatie"/>
-			<node name="text" value="Directorul cache pentru aplicație nu este accesibil pentru scriere. Poate ați uitat să introduceți cardul de memorie. Vă rugăm să rezolvați această problemă sau selectați un alt director."/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="Problema FBReader"/>

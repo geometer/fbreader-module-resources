@@ -1087,12 +1087,6 @@
 		<node name="browser" value="流覽器"/>
 		<node name="defaultBrowser" value="默認流覽器"/>
 	</node>
-	<node name="crash">
-		<node name="fixBooksDirectory">
-			<node name="title" value="FBReader問題"/>
-			<node name="text" value="無法寫入FBReader緩存。請檢查您的存儲卡是否正確插入，或者選擇另一個目錄。"/>
-		</node>
-	</node>
 	<node name="error">
 		<node name="bookReading">
 			<node name="title" value="FBReader問題"/>
