@@ -1014,8 +1014,8 @@
 			<node name="catalogUrl" value="URL"/>
 			<node name="catalogSummary" value="Описание"/>
 			<node name="catalogTitleExample" value="Напр.: Epub Books"/>
-			<node name="catalogUrlExample" value="Напр.: http://www.epubbooks.ru/index.xml"/>
-			<node name="catalogSummaryExample" value="Напр.: Книги на русском языке"/>
+			<node name="catalogUrlExample" value="Напр.: https://gutenberg.org/ebooks.opds/"/>
+			<node name="catalogSummaryExample" value="Напр.: Проект Гутенберг"/>
 			<node name="titleIsEmpty" value="Название не может быть пустым"/>
 			<node name="urlIsEmpty" value="URL не может быть пустым"/>
 			<node name="invalidUrl" value="Неверный URL"/>

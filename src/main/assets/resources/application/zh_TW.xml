@@ -1004,7 +1004,7 @@
 			<node name="catalogUrl" value="網址"/>
 			<node name="catalogSummary" value="概要"/>
 			<node name="catalogTitleExample" value="E.g.: Project Gutenberg catalogue"/>
-			<node name="catalogUrlExample" value="E.g.: http://m.gutenberg.org/"/>
+			<node name="catalogUrlExample" value="E.g.: https://gutenberg.org/ebooks.opds/"/>
 			<node name="catalogSummaryExample" value="E.g.: Public domain books"/>
 			<node name="titleIsEmpty" value="標題不能為空"/>
 			<node name="urlIsEmpty" value="網址不能為空"/>
