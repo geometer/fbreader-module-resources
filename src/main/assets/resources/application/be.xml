@@ -1095,7 +1095,7 @@
 			<node name="catalogUrl" value="Адрас"/>
 			<node name="catalogSummary" value="Падсумаванне"/>
 			<node name="catalogTitleExample" value="Узор: Каталог праекту Гутэнберг"/>
-			<node name="catalogUrlExample" value="Узор: http://m.gutenberg.org/"/>
+			<node name="catalogUrlExample" value="Узор: https://gutenberg.org/ebooks.opds/"/>
 			<node name="catalogSummaryExample" value="Прыклад: Агульнадаступныя кнігі"/>
 			<node name="titleIsEmpty" value="Назва не павінна быць пустой"/>
 			<node name="urlIsEmpty" value="Адрас не можа быць пустым"/>

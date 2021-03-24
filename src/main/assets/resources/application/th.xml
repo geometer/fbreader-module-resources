@@ -1085,7 +1085,7 @@
 			<node name="catalogUrl" value="URL"/>
 			<node name="catalogSummary" value="สรุป"/>
 			<node name="catalogTitleExample" value="เช่น: Project Gutenberg catalog"/>
-			<node name="catalogUrlExample" value="เช่น: http://m.gutenberg.org/"/>
+			<node name="catalogUrlExample" value="เช่น: https://gutenberg.org/ebooks.opds/"/>
 			<node name="catalogSummaryExample" value="เช่น: Public domain books"/>
 			<node name="titleIsEmpty" value="กรุณาใส่ชื่อแคตตาล็อก"/>
 			<node name="urlIsEmpty" value="กรุณาใส่ URL"/>

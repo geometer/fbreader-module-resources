@@ -1095,7 +1095,7 @@
 			<node name="catalogUrl" value="URL"/>
 			<node name="catalogSummary" value="خلاصہ"/>
 			<node name="catalogTitleExample" value="مثلا: Project Gutenberg کیٹا لاگ"/>
-			<node name="catalogUrlExample" value="مثلا: /http://m.gutenberg.org"/>
+			<node name="catalogUrlExample" value="مثلا: https://gutenberg.org/ebooks.opds/"/>
 			<node name="catalogSummaryExample" value="E.g.: Public domain books"/>
 			<node name="titleIsEmpty" value="عنوان خالی نہیں ہونا چاہئے"/>
 			<node name="urlIsEmpty" value="URL خالی نہیں ہونا چاہئے"/>
