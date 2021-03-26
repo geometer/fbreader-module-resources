@@ -233,11 +233,6 @@
 		<node name="cannotCreateDirectory" value="قادر به ایجاد پوشه %s نیست"/>
 		<node name="cannotCreateFile" value="قادر به ایجاد فایل %s نیست"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="کسترش شاخه"/>
-		<node name="collapseTree" value="بستن شاخه"/>
-		<node name="readText" value="خواندن متن کتاب"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="این کتاب"/>
 		<node name="allBooks" value="همه کتابها"/>

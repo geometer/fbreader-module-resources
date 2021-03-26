@@ -234,11 +234,6 @@
 		<node name="cannotCreateDirectory" value="%s dizini oluşturulamadı"/>
 		<node name="cannotCreateFile" value="%s dosyası oluşturulamadı"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Ağacı genişlet"/>
-		<node name="collapseTree" value="Ağacı Daralt"/>
-		<node name="readText" value="Kitabı okuyun"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Bu kitap"/>
 		<node name="allBooks" value="Tüm kitaplar"/>

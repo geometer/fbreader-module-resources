@@ -239,11 +239,6 @@
 		<node name="cannotCreateDirectory" value="შეუძლებელია კატალოგის %s შექმნა"/>
 		<node name="cannotCreateFile" value="შეუძლებელია ფაილის %s შექმნა"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="სტრუქტურული ხის გაშლა"/>
-		<node name="collapseTree" value="სტრუქტურული ხის დახურვა"/>
-		<node name="readText" value="თავის კითხვა"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="ეს წიგნი"/>
 		<node name="allBooks" value="ყველა წიგნი"/>

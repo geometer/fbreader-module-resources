@@ -234,11 +234,6 @@
 		<node name="cannotCreateDirectory" value="%s 폴더를 만들 수 없습니다"/>
 		<node name="cannotCreateFile" value="%s 파일을 만들 수 없습니다"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="트리 펼치기"/>
-		<node name="collapseTree" value="트리 접기"/>
-		<node name="readText" value="책 텍스트 읽기"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="이 책"/>
 		<node name="allBooks" value="모든 책"/>

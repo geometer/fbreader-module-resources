@@ -224,11 +224,6 @@
 		<node name="cannotCreateDirectory" value="Το ευρετήριο %s δεν μπορεί να δημιουργηθεί."/>
 		<node name="cannotCreateFile" value="Το αρχείο %s δεν μπορεί να δημιουργηθεί."/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Επέκταση ευρετηρίου"/>
-		<node name="collapseTree" value="Μείωση ευρετηρίου"/>
-		<node name="readText" value="Ανάγνωση κειμένου"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Αυτό το βιβλίο"/>
 		<node name="allBooks" value="Όλα τα βιβλία"/>

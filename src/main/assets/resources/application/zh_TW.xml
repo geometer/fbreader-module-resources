@@ -234,11 +234,6 @@
 		<node name="cannotCreateDirectory" value="無法創建目錄%s"/>
 		<node name="cannotCreateFile" value="無法創建檔%s"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="展開目錄"/>
-		<node name="collapseTree" value="折疊目錄"/>
-		<node name="readText" value="閱讀書籍文本"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="這本書籍"/>
 		<node name="allBooks" value="所有書籍"/>

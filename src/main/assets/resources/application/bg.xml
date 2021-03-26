@@ -240,11 +240,6 @@
 		<node name="cannotCreateDirectory" value="Невъзможно създаване на каталога %s"/>
 		<node name="cannotCreateFile" value="Невъзможно създаване на файла %s"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Разгъни дървото"/>
-		<node name="collapseTree" value="Свий дъвото"/>
-		<node name="readText" value="Прочети главата"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Тази книга"/>
 		<node name="allBooks" value="Всички книги"/>

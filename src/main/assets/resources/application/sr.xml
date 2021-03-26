@@ -234,11 +234,6 @@
 		<node name="cannotCreateDirectory" value="Не могу да направим фасциклу „%s“."/>
 		<node name="cannotCreateFile" value="Не могу да направим датотеку „%s“."/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Прошири стабло"/>
-		<node name="collapseTree" value="Скупи стабло"/>
-		<node name="readText" value="Прочитај текст књиге"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Ова књига"/>
 		<node name="allBooks" value="Све књиге"/>

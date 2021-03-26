@@ -224,11 +224,6 @@
 		<node name="cannotCreateDirectory" value="Non foi posíbel crear o cartafol %s"/>
 		<node name="cannotCreateFile" value="Non foi posíbel crear o ficheiro %s"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Expandir a árbore"/>
-		<node name="collapseTree" value="Contraer a árbore"/>
-		<node name="readText" value="Ler libros en texto"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Este libro"/>
 		<node name="allBooks" value="Todos os libros"/>

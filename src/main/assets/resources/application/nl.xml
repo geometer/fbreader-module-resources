@@ -234,11 +234,6 @@
 		<node name="cannotCreateDirectory" value="Aanmaken map %s mislukt"/>
 		<node name="cannotCreateFile" value="Aanmaken bestand %s mislukt"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Hoofdstukken tonen"/>
-		<node name="collapseTree" value="Hoofdstukken verbergen"/>
-		<node name="readText" value="Lees tekst"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Dit boek"/>
 		<node name="allBooks" value="Alle boeken"/>

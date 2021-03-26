@@ -227,11 +227,6 @@
 		<node name="cannotCreateDirectory" value="Nu se poate crea directorul %s"/>
 		<node name="cannotCreateFile" value="Nu se poate crea fișierul %s"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Deschide arbore"/>
-		<node name="collapseTree" value="Închide arbore"/>
-		<node name="readText" value="Citiți textul cărții"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Aceasta carte"/>
 		<node name="allBooks" value="Toate cărțile"/>

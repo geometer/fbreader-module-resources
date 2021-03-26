@@ -224,11 +224,6 @@
 		<node name="cannotCreateDirectory" value="Неможливо створити теку %s"/>
 		<node name="cannotCreateFile" value="Неможливо створити файл %s"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Розгорнути гілку дерева"/>
-		<node name="collapseTree" value="Згорнути гілку дерева"/>
-		<node name="readText" value="Читати главу"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Ця книга"/>
 		<node name="allBooks" value="Усі книги"/>

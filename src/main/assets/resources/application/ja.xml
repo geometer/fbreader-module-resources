@@ -234,11 +234,6 @@
 		<node name="cannotCreateDirectory" value="ディレクトリ %s を作成できません"/>
 		<node name="cannotCreateFile" value="ファイル %s を作成できません"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="ツリーを展開"/>
-		<node name="collapseTree" value="ツリーをたたむ"/>
-		<node name="readText" value="本文を読む"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="この本"/>
 		<node name="allBooks" value="すべての本"/>

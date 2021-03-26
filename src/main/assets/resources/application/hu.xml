@@ -224,11 +224,6 @@
 		<node name="cannotCreateDirectory" value="%s mappa létrehozása sikertelen"/>
 		<node name="cannotCreateFile" value="%s fájl létrehozása sikertelen"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Kibontás"/>
-		<node name="collapseTree" value="Összecsukás"/>
-		<node name="readText" value="Könyv olvasása"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Ez a könyv"/>
 		<node name="allBooks" value="Minden könyv"/>

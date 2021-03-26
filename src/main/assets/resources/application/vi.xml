@@ -225,11 +225,6 @@
 		<node name="cannotCreateDirectory" value="Unable to create directory %s" toBeTranslated="true"/>
 		<node name="cannotCreateFile" value="Không tạo được file %s"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Mở rộng cây"/>
-		<node name="collapseTree" value="Thu hẹp cây"/>
-		<node name="readText" value="Đọc sách"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Quyển này"/>
 		<node name="allBooks" value="Tất cả sách"/>

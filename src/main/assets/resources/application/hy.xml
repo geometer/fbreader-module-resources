@@ -241,11 +241,6 @@
 		<node name="cannotCreateDirectory" value="Հնարավոր չէ ստեղծել %s գրացուցակը"/>
 		<node name="cannotCreateFile" value="Հնարավոր չէ ստեղծել %s նիշքը"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Ընդարձակել բովանդակությունը"/>
-		<node name="collapseTree" value="Կոծկել բովանդակությունը"/>
-		<node name="readText" value="Կարդալ գլուխը"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Այս գիրքը"/>
 		<node name="allBooks" value="Բոլոր գրքերը"/>

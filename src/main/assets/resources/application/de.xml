@@ -239,11 +239,6 @@
 		<node name="cannotCreateDirectory" value="Das Verzeichnis %s kann nicht erstellt werden"/>
 		<node name="cannotCreateFile" value="Die Datei %s kann nicht erstellt werden"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Inhaltsverzeichnis erweitern"/>
-		<node name="collapseTree" value="Inhaltsverzeichnis reduzieren"/>
-		<node name="readText" value="Text lesen"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Dieses Buch"/>
 		<node name="allBooks" value="Alle Bücher"/>

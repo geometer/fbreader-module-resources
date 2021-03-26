@@ -233,11 +233,6 @@
 		<node name="cannotCreateDirectory" value="Kan ikke oprette biblioteket %s"/>
 		<node name="cannotCreateFile" value="Kan ikke oprette filen %s"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Fold træ ud"/>
-		<node name="collapseTree" value="Fold træ ind"/>
-		<node name="readText" value="Læs bogens tekst"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Denne bog"/>
 		<node name="allBooks" value="Alle bøger"/>

@@ -243,11 +243,6 @@
 		<node name="cannotCreateDirectory" value="Nelze vytvořit adresář %s"/>
 		<node name="cannotCreateFile" value="Nelze vytvořit soubor %s"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Rozbalit strom"/>
-		<node name="collapseTree" value="Sbalit strom"/>
-		<node name="readText" value="Číst text knihy"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Tato kniha"/>
 		<node name="allBooks" value="Všechny knihy"/>

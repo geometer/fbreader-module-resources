@@ -234,11 +234,6 @@
 		<node name="cannotCreateDirectory" value="Ezin izan da sortu %s direktorioa"/>
 		<node name="cannotCreateFile" value="Ezin izan da sortu %s fitxategia"/>
 	</node>
-	<node name="tocView">
-		<node name="expandTree" value="Zabaldu zuhaitza"/>
-		<node name="collapseTree" value="Tolestu zuhaitza"/>
-		<node name="readText" value="Irakurri liburuko testua"/>
-	</node>
 	<node name="bookmarksView">
 		<node name="thisBook" value="Liburu hau"/>
 		<node name="allBooks" value="Liburu guztiak"/>
