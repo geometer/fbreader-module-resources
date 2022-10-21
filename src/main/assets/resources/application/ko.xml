@@ -1194,7 +1194,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="플러그인 설치">
 		<node name="noMorePlugins" value="지금은 새로운 플러그인이 없습니다"/>

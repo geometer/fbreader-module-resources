@@ -1197,7 +1197,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="Instalar plug-ins">
 		<node name="noMorePlugins" value="Não há novos plug-ins de momento, desculpe"/>

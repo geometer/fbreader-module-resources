@@ -1184,7 +1184,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="Bővítmények telepítése">
 		<node name="noMorePlugins" value="Jelenleg nincs új bővítmény"/>

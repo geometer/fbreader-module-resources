@@ -1242,7 +1242,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="プラグインをインストール">
 		<node name="noMorePlugins" value="現時点で新しいプラグインはありません。ご了承ください"/>

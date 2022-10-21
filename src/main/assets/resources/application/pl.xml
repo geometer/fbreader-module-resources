@@ -1184,7 +1184,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="Zainstaluj wtyczki">
 		<node name="noMorePlugins" value="Brak nowych wtyczek"/>

@@ -1200,7 +1200,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="Инсталиране на допълнителни модули">
 		<node name="noMorePlugins" value="Няма нови модули към момента"/>
