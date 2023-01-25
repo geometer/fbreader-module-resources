@@ -263,8 +263,8 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="More" toBeTranslated="true"/>
-		<node name="offline" value="Offline" toBeTranslated="true"/>
+		<node name="more" value="More…" toBeTranslated="true"/>
+		<node name="offline" value="Offline…" toBeTranslated="true"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="Kitaplığı aç"/>

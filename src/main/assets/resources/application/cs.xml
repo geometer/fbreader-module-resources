@@ -272,8 +272,8 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="Více"/>
-		<node name="offline" value="Offline"/>
+		<node name="more" value="Více…"/>
+		<node name="offline" value="Offline…"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="Otevřít knihovnu"/>

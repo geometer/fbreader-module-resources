@@ -253,8 +253,8 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="Більше"/>
-		<node name="offline" value="Поза мережею"/>
+		<node name="more" value="Більше…"/>
+		<node name="offline" value="Поза мережею…"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="Відкрити бібліотеку"/>

@@ -263,8 +263,8 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="Meer"/>
-		<node name="offline" value="Offline"/>
+		<node name="more" value="Meer…"/>
+		<node name="offline" value="Offline…"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="Open bibliotheek"/>

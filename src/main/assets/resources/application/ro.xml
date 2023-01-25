@@ -256,8 +256,8 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="Mai mult"/>
-		<node name="offline" value="Deconectat"/>
+		<node name="more" value="Mai mult…"/>
+		<node name="offline" value="Deconectat…"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="Deschide libraria"/>
