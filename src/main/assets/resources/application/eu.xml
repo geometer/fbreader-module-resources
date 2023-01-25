@@ -249,8 +249,8 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="Gehiago"/>
-		<node name="offline" value="Lineaz kanpo"/>
+		<node name="more" value="Gehiago…"/>
+		<node name="offline" value="Lineaz kanpo…"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="Ireki liburutegia"/>

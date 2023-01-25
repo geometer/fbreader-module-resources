@@ -249,8 +249,8 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="続き"/>
-		<node name="offline" value="オフライン"/>
+		<node name="more" value="続き…"/>
+		<node name="offline" value="オフライン…"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="ライブラリを開く"/>

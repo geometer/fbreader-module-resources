@@ -256,14 +256,14 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="Ավելին"/>
-		<node name="offline" value="Անցանց"/>
+		<node name="more" value="Ավելին…"/>
+		<node name="offline" value="Անցանց…"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="Բացել գրադարանը"/>
 		<node name="networkLibrary" value="Բացել ցանցային գրադարանը"/>
 		<node name="previousBook" value="Բացել նախորդ գիրքը"/>
-		<node name="returnTo" value="Վերադառնալ ..."/>
+		<node name="returnTo" value="Վերադառնալ …"/>
 		<node name="back" value="Ետ"/>
 		<node name="forward" value="Առաջ"/>
 		<node name="close" value="Փակել FBReader-ը"/>

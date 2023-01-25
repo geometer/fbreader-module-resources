@@ -249,8 +249,8 @@
 		</node>
 	</node>
 	<node name="toast">
-		<node name="more" value="Больш"/>
-		<node name="offline" value="Па-за сеткай"/>
+		<node name="more" value="Больш…"/>
+		<node name="offline" value="Па-за сеткай…"/>
 	</node>
 	<node name="cancelMenu">
 		<node name="library" value="Адчыніць бібліятэку"/>
