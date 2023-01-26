@@ -299,6 +299,7 @@
 		<node name="ads" value="Recommended app"/>
 		<node name="whatsnew" value="What's new"/>
 		<node name="openStartScreen" value="Start screen"/>
+		<node name="ttsPlus" value="TTS+"/>
 		<node name="preferences" value="Settings"/>
 		<node name="bookInfo" value="Book info"/>
 		<node name="pickFile" value="Pick file…"/>
