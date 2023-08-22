@@ -13,8 +13,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import org.fbreader.filesystem.util.XmlUtil;
-
-import org.geometerplus.zlibrary.core.language.Language;
+import org.fbreader.language.Language;
 
 final class ZLTreeResource extends ZLResource {
 	private static interface Condition {
@@ -254,11 +253,7 @@ final class ZLTreeResource extends ZLResource {
 		public void readDocument(ZLTreeResource root, String path) {
 			myStack.clear();
 			myStack.add(root);
-			try {
-				XmlUtil.parseQuietly(this.context.getAssets().open(path), this);
-			} catch (Throwable t) {
-				// ignore
-			}
+			XmlUtil.parseQuietly(this.context, path, this);
 		}
 
 		@Override

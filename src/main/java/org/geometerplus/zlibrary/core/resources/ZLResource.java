@@ -8,8 +8,8 @@ import java.util.*;
 
 import android.content.Context;
 
-import org.geometerplus.zlibrary.core.language.Language;
-import org.geometerplus.zlibrary.core.language.LanguageUtil;
+import org.fbreader.language.Language;
+import org.fbreader.language.LanguageUtil;
 
 abstract public class ZLResource {
 	public final String Name;
