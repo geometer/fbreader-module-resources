@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Czech zlibrary resources, by Marek Pavelka -->
 <resources>
 	<node name="dialog">
@@ -20,8 +20,8 @@
 		<node name="de" value="Německy"/>
 		<node name="de-traditional" value="Německy (tradiční pravopis)"/>
 		<node name="el" value="Řecky"/>
-		<node name="en" value="Anglicky"/>
-		<node name="en_US" value="Anglicky (US)"/>
+		<node name="en_GB" value="Anglicky"/>
+		<node name="en" value="Anglicky (US)"/>
 		<node name="eo" value="Esperanto"/>
 		<node name="es" value="Španělsky"/>
 		<node name="eu" value="Baskicky"/>

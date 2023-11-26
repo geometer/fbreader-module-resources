@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Italian zlibrary resources, by Vytek and Neoxx from AndDev.it Translate Team -->
 <!-- Updated by Michelangelo Della Camera, last update: 13 Nov 2015 -->
 <resources>
@@ -21,8 +21,8 @@
 		<node name="de" value="Tedesco"/>
 		<node name="de-traditional" value="Tedesco (ortografia tradizionale)"/>
 		<node name="el" value="Greco"/>
-		<node name="en" value="Inglese"/>
-		<node name="en_US" value="Inglese (US)"/>
+		<node name="en_GB" value="Inglese"/>
+		<node name="en" value="Inglese (US)"/>
 		<node name="eo" value="Danese"/>
 		<node name="es" value="Spagnolo"/>
 		<node name="eu" value="Basco"/>

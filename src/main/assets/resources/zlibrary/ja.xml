@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<node name="dialog">
 		<node name="button">
@@ -19,8 +19,8 @@
 		<node name="de" value="ドイツ語"/>
 		<node name="de-traditional" value="ドイツ語 (旧正書法)"/>
 		<node name="el" value="ギリシャ語"/>
-		<node name="en" value="英語"/>
-		<node name="en_US" value="英語 (米国)"/>
+		<node name="en_GB" value="英語"/>
+		<node name="en" value="英語 (米国)"/>
 		<node name="eo" value="エスペラント"/>
 		<node name="es" value="スペイン語"/>
 		<node name="eu" value="バスク語"/>

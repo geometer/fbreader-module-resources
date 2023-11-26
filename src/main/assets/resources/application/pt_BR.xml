@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Portuguese (Brazil) FBReader translations -->
 <!-- Collaborative work by Igor Marques -->
 <resources>
@@ -1091,7 +1091,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="Instalar plug-ins">
 		<node name="noMorePlugins" value="Não há novos plug-ins de momento, desculpe"/>

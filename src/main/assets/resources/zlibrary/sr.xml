@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Serbian zlibrary resources, by Rancher -->
 <resources>
 	<node name="dialog">
@@ -20,8 +20,8 @@
 		<node name="de" value="немачки"/>
 		<node name="de-traditional" value="немачки (традиционални правопис)"/>
 		<node name="el" value="грчки"/>
-		<node name="en" value="енглески"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="енглески"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="есперанто"/>
 		<node name="es" value="шпански"/>
 		<node name="eu" value="Basque" toBeTranslated="true"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Spanish zlibrary resources, by Antonio Trueba, updated by Francisco Alvarado -->
 <!-- CHANGELOG
 	17-06-2015: Updated by Pilar Mera
@@ -26,8 +26,8 @@
 		<node name="de" value="Alemán"/>
 		<node name="de-traditional" value="Alemán (ortografía tradicional)"/>
 		<node name="el" value="Griego"/>
-		<node name="en" value="Inglés"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="Inglés"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="Esperanto"/>
 		<node name="es" value="Español"/>
 		<node name="eu" value="Vasco"/>

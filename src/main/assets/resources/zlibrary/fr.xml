@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     French zlibrary resources, by Pierre Senellart
     Updated by Sébastien Rodriguez
@@ -24,8 +24,8 @@
 		<node name="de" value="Allemand"/>
 		<node name="de-traditional" value="Allemand (orthographe traditionnelle)"/>
 		<node name="el" value="Grec"/>
-		<node name="en" value="Anglais"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="Anglais"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="Espéranto"/>
 		<node name="es" value="Espagnol"/>
 		<node name="eu" value="Basque"/>

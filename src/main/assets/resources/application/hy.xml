@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Armenian FBReaderJ resources, by Yavruhrat, Marat Yavrumyan -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2015/05/17 -->
 <!-- Updated by Yavruhrat, Marat Yavrumyan 2016/12/13 -->
@@ -278,7 +278,7 @@
 		<node name="bgColor" value="Ետնաշերտի գունավորում"/>
 	</node>
 	<node name="sharing">
-		<node name="sharedFrom" value="Ուղարկվել է &lt;a href=&quot;https://ru.fbreader.org/&quot;&gt;FBReader&lt;/a&gt;-ից"/>
+		<node name="sharedFrom" value="Ուղարկվել է &lt;a href=&quot;https://fbreader.org/&quot;&gt;FBReader&lt;/a&gt;-ից"/>
 	</node>
 	<node name="BookInfo">
 		<node name="fileName" value="Նիշք"/>
@@ -831,7 +831,7 @@
 			<node name="summary" value="Տարբերակ, կապ մեզ հետ"/>
 			<node name="version" value="Տարբերակ"/>
 			<node name="site" value="Մեր կայքը">
-				<node name="url" value="https://ru.fbreader.org/"/>
+				<node name="url" value="https://fbreader.org/"/>
 			</node>
 			<node name="email" value="Ուղարկել նամակ">
 				<node name="url" value="mailto:contact@fbreader.org"/>
@@ -1095,7 +1095,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://ru.fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="Խրվակներ">
 		<node name="noMorePlugins" value="Նոր խրվակներ չկան"/>

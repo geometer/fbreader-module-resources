@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Hungarian zlibrary resources, by L. B. Szabó.  -->
 <resources>
 	<node name="dialog">
@@ -20,8 +20,8 @@
 		<node name="de" value="Német"/>
 		<node name="de-traditional" value="Német (hagyományos)"/>
 		<node name="el" value="Görög"/>
-		<node name="en" value="Angol"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="Angol"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="Eszperantó"/>
 		<node name="es" value="Spanyol"/>
 		<node name="eu" value="Baszk"/>

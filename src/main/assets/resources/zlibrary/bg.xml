@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Bulgarian FBReaderJ resources, by Ники Арсов -->
 <!-- Updated by Георги Георгиев, 22.07.2014 -->
 <resources>
@@ -21,8 +21,8 @@
 		<node name="de" value="немски"/>
 		<node name="de-traditional" value="немски (традиционен)"/>
 		<node name="el" value="гръцки"/>
-		<node name="en" value="английски"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="английски"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="есперанто"/>
 		<node name="es" value="испански"/>
 		<node name="eu" value="баскски"/>

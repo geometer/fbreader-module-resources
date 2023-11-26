@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 	<node name="dialog">
 		<node name="button">
@@ -19,8 +19,8 @@
 		<node name="de" value="جرمن"/>
 		<node name="de-traditional" value="German (traditional spelling)" toBeTranslated="true"/>
 		<node name="el" value="يونانی"/>
-		<node name="en" value="انگریزی (برطانیہ)"/>
-		<node name="en_US" value="انگريزی"/>
+		<node name="en_GB" value="انگریزی (برطانیہ)"/>
+		<node name="en" value="انگريزی"/>
 		<node name="eo" value="ايسپرانٹو"/>
 		<node name="es" value="ہسپانوی"/>
 		<node name="eu" value="باسک"/>

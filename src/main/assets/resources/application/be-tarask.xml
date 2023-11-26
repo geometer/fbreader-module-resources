@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Belarusian FBReaderJ resources by Usievaład Čorny -->
 <resources>
 	<node name="library" value="Бібліятэка FBReader">
@@ -1088,7 +1088,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="Усталяваць убудовы">
 		<node name="noMorePlugins" value="Зараз няма новых убудоваў, прабачце"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Japanese FBReaderJ resources, by Tamo -->
 <resources>
 	<node name="library" value="FBReader ライブラリ">
@@ -1136,7 +1136,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="プラグインをインストール">
 		<node name="noMorePlugins" value="現時点で新しいプラグインはありません。ご了承ください"/>

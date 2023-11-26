@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Greek zlibrary resources, by Alex Doulamis-->
 <resources>
 	<node name="dialog">
@@ -20,8 +20,8 @@
 		<node name="de" value="Γερμανικά"/>
 		<node name="de-traditional" value="Γερμανικά (παλαιά γραφή)"/>
 		<node name="el" value="Ελληνικά"/>
-		<node name="en" value="Αγγλικά"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="Αγγλικά"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="Esperanto"/>
 		<node name="es" value="Ισπανικά"/>
 		<node name="eu" value="Basque" toBeTranslated="true"/>

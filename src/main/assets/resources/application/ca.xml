@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Catalan FBReaderJ resources, by Alfonso Montero and Carles Pastor i Badosa -->
 <!-- CHANGELOG
 	2013-02-06: Initial version. Based on Spanish translation. -Alfonso Montero
@@ -1094,7 +1094,7 @@
 		</node>
 	</node>
 	<node name="links">
-		<node name="faqPage" value="https://fbreader.org/faq-page"/>
+		<node name="faqPage" value="https://fbreader.org/faq"/>
 	</node>
 	<node name="plugins" value="Install plugins" toBeTranslated="true">
 		<node name="noMorePlugins" value="We have no new plugins at the moment, sorry" toBeTranslated="true"/>
