@@ -41,8 +41,8 @@
 		<node name="de" value="Duits"/>
 		<node name="de-traditional" value="Duits (traditionele spelling)"/>
 		<node name="el" value="Grieks"/>
-		<node name="en" value="Engels"/>
-		<node name="en_US" value="Engels (VS)"/>
+		<node name="en_GB" value="Engels"/>
+		<node name="en" value="Engels (VS)"/>
 		<node name="eo" value="Esperanto"/>
 		<node name="es" value="Spaans"/>
 		<node name="eu" value="Baskisch"/>

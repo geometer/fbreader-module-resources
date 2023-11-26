@@ -41,8 +41,8 @@
 		<node name="de" value="Tiếng Đức"/>
 		<node name="de-traditional" value="Tiếng Đức (truyền thống)"/>
 		<node name="el" value="Tiếng Hy Lạp"/>
-		<node name="en" value="Tiếng Anh"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="Tiếng Anh"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="Quốc tế ngữ"/>
 		<node name="es" value="Tiếng Tây Ban Nha "/>
 		<node name="eu" value="Basque" toBeTranslated="true"/>

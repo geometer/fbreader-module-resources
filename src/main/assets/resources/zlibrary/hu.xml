@@ -41,8 +41,8 @@
 		<node name="de" value="Német"/>
 		<node name="de-traditional" value="Német (hagyományos)"/>
 		<node name="el" value="Görög"/>
-		<node name="en" value="Angol"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="Angol"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="Eszperantó"/>
 		<node name="es" value="Spanyol"/>
 		<node name="eu" value="Baszk"/>

@@ -41,8 +41,8 @@
 		<node name="de" value="німецька"/>
 		<node name="de-traditional" value="німецька (стара орфографія)"/>
 		<node name="el" value="грецька"/>
-		<node name="en" value="англійська"/>
-		<node name="en_US" value="англійська (США)"/>
+		<node name="en_GB" value="англійська"/>
+		<node name="en" value="англійська (США)"/>
 		<node name="eo" value="есперанто"/>
 		<node name="es" value="іспанська"/>
 		<node name="eu" value="баскська"/>

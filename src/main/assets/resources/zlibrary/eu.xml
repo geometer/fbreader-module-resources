@@ -41,8 +41,8 @@
 		<node name="de" value="Germaniera"/>
 		<node name="de-traditional" value="Germaniera (ahozkatze tradizionala)"/>
 		<node name="el" value="Greziera"/>
-		<node name="en" value="Ingelesa"/>
-		<node name="en_US" value="Ingelesa (AEB)"/>
+		<node name="en_GB" value="Ingelesa"/>
+		<node name="en" value="Ingelesa (AEB)"/>
 		<node name="eo" value="Esperanto"/>
 		<node name="es" value="Gaztelania"/>
 		<node name="eu" value="Euskara"/>

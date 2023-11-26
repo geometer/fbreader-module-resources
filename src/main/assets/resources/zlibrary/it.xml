@@ -42,8 +42,8 @@
 		<node name="de" value="Tedesco"/>
 		<node name="de-traditional" value="Tedesco (ortografia tradizionale)"/>
 		<node name="el" value="Greco"/>
-		<node name="en" value="Inglese"/>
-		<node name="en_US" value="Inglese (US)"/>
+		<node name="en_GB" value="Inglese"/>
+		<node name="en" value="Inglese (US)"/>
 		<node name="eo" value="Danese"/>
 		<node name="es" value="Spagnolo"/>
 		<node name="eu" value="Basco"/>

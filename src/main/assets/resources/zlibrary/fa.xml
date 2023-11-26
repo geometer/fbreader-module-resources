@@ -40,8 +40,8 @@
 		<node name="de" value="آلمانی"/>
 		<node name="de-traditional" value="آلمانی سنتی"/>
 		<node name="el" value="یونانی"/>
-		<node name="en" value="انگلیسی"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="انگلیسی"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="زبان بین المللی"/>
 		<node name="es" value="اسپانیایی"/>
 		<node name="eu" value="باسک"/>

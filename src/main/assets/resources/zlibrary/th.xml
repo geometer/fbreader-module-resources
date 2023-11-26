@@ -41,8 +41,8 @@
 		<node name="de" value="เยอรมัน"/>
 		<node name="de-traditional" value="เยอรมัน (เทรดิชัน ออโทกราฟี)"/>
 		<node name="el" value="กรีก"/>
-		<node name="en" value="อังกฤษ"/>
-		<node name="en_US" value="English (US)" toBeTranslated="true"/>
+		<node name="en_GB" value="อังกฤษ"/>
+		<node name="en" value="English (US)" toBeTranslated="true"/>
 		<node name="eo" value="เอสเพอรานโท"/>
 		<node name="es" value="เสปน"/>
 		<node name="eu" value="Basque" toBeTranslated="true"/>

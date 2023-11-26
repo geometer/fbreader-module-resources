@@ -44,8 +44,8 @@
 		<node name="de" value="Germană"/>
 		<node name="de-traditional" value="Germană (tradițională)"/>
 		<node name="el" value="Greacă"/>
-		<node name="en" value="Engleză"/>
-		<node name="en_US" value="Engleză (US)"/>
+		<node name="en_GB" value="Engleză"/>
+		<node name="en" value="Engleză (US)"/>
 		<node name="eo" value="Esperanto"/>
 		<node name="es" value="Spaniolă"/>
 		<node name="eu" value="Bască"/>
