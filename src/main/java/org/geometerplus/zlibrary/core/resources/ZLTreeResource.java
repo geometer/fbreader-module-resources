@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2004-2023 FBReader.ORG Limited <contact@fbreader.org>
+ * Copyright (C) 2004-2024 FBReader.ORG Limited <contact@fbreader.org>
  */
 
 package org.geometerplus.zlibrary.core.resources;
