@@ -29,6 +29,7 @@
 		<node name="pt_BR" value="Português (Brasil)"/>
 		<node name="ro" value="Romana"/>
 		<node name="ru" value="Русский"/>
+		<node name="sl" value="Slovenščina"/>
 		<node name="sr" value="Српски"/>
 		<node name="th" value="ไทย"/>
 		<node name="tr" value="Türkçe"/>
