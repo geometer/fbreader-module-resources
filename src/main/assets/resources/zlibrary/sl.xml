@@ -2,59 +2,59 @@
 <resources>
 	<node name="dialog">
 		<node name="button">
-			<node name="ok" value="Ok"/>
-			<node name="cancel" value="Cancel"/>
-			<node name="yes" value="Yes"/>
-			<node name="no" value="No"/>
-			<node name="apply" value="Apply"/>
+			<node name="ok" toBeTranslated="true" value="Ok"/>
+			<node name="cancel" toBeTranslated="true" value="Cancel"/>
+			<node name="yes" toBeTranslated="true" value="Yes"/>
+			<node name="no" toBeTranslated="true" value="No"/>
+			<node name="apply" toBeTranslated="true" value="Apply"/>
 		</node>
 	</node>
 	<node name="language">
-		<node name="ar" value="Arabic"/>
-		<node name="be" value="Belarusian"/>
-		<node name="bg" value="Bulgarian"/>
-		<node name="ca" value="Catalan"/>
-		<node name="cs" value="Czech"/>
-		<node name="da" value="Danish"/>
-		<node name="de" value="German"/>
-		<node name="de-traditional" value="German (traditional spelling)"/>
-		<node name="el" value="Greek"/>
-		<node name="en_GB" value="English (UK)"/>
-		<node name="en" value="English"/>
-		<node name="eo" value="Esperanto"/>
-		<node name="es" value="Spanish"/>
-		<node name="eu" value="Basque"/>
-		<node name="fa" value="Persian"/>
-		<node name="fi" value="Finnish"/>
-		<node name="fr" value="French"/>
-		<node name="gl" value="Galician"/>
-		<node name="he" value="Hebrew"/>
-		<node name="hu" value="Hungarian"/>
-		<node name="hy" value="Armenian"/>
-		<node name="id" value="Indonesian"/>
-		<node name="it" value="Italian"/>
-		<node name="ja" value="Japanese"/>
-		<node name="ka" value="Georgian"/>
-		<node name="ko" value="Korean"/>
-		<node name="lt" value="Lithuanian"/>
-		<node name="nb" value="Norwegian"/>
-		<node name="nl" value="Dutch"/>
-		<node name="pl" value="Polish"/>
-		<node name="pt" value="Portuguese"/>
-		<node name="ro" value="Romanian"/>
-		<node name="ru" value="Russian"/>
-		<node name="sr" value="Serbian"/>
-		<node name="sv" value="Swedish"/>
-		<node name="ta" value="Tamil"/>
-		<node name="th" value="Thai"/>
-		<node name="tr" value="Turkish"/>
-		<node name="uk" value="Ukrainian"/>
-		<node name="vi" value="Vietnamese"/>
-		<node name="zh" value="Chinese"/>
-		<node name="zh_TW" value="Chinese (traditional)"/>
-		<node name="any" value="Any"/>
-		<node name="other" value="Other"/>
-		<node name="multi" value="Multilanguage"/>
-		<node name="system" value="System"/>
+		<node name="ar" toBeTranslated="true" value="Arabic"/>
+		<node name="be" toBeTranslated="true" value="Belarusian"/>
+		<node name="bg" toBeTranslated="true" value="Bulgarian"/>
+		<node name="ca" toBeTranslated="true" value="Catalan"/>
+		<node name="cs" toBeTranslated="true" value="Czech"/>
+		<node name="da" toBeTranslated="true" value="Danish"/>
+		<node name="de" toBeTranslated="true" value="German"/>
+		<node name="de-traditional" toBeTranslated="true" value="German (traditional spelling)"/>
+		<node name="el" toBeTranslated="true" value="Greek"/>
+		<node name="en_GB" toBeTranslated="true" value="English (UK)"/>
+		<node name="en" toBeTranslated="true" value="English"/>
+		<node name="eo" toBeTranslated="true" value="Esperanto"/>
+		<node name="es" toBeTranslated="true" value="Spanish"/>
+		<node name="eu" toBeTranslated="true" value="Basque"/>
+		<node name="fa" toBeTranslated="true" value="Persian"/>
+		<node name="fi" toBeTranslated="true" value="Finnish"/>
+		<node name="fr" toBeTranslated="true" value="French"/>
+		<node name="gl" toBeTranslated="true" value="Galician"/>
+		<node name="he" toBeTranslated="true" value="Hebrew"/>
+		<node name="hu" toBeTranslated="true" value="Hungarian"/>
+		<node name="hy" toBeTranslated="true" value="Armenian"/>
+		<node name="id" toBeTranslated="true" value="Indonesian"/>
+		<node name="it" toBeTranslated="true" value="Italian"/>
+		<node name="ja" toBeTranslated="true" value="Japanese"/>
+		<node name="ka" toBeTranslated="true" value="Georgian"/>
+		<node name="ko" toBeTranslated="true" value="Korean"/>
+		<node name="lt" toBeTranslated="true" value="Lithuanian"/>
+		<node name="nb" toBeTranslated="true" value="Norwegian"/>
+		<node name="nl" toBeTranslated="true" value="Dutch"/>
+		<node name="pl" toBeTranslated="true" value="Polish"/>
+		<node name="pt" toBeTranslated="true" value="Portuguese"/>
+		<node name="ro" toBeTranslated="true" value="Romanian"/>
+		<node name="ru" toBeTranslated="true" value="Russian"/>
+		<node name="sr" toBeTranslated="true" value="Serbian"/>
+		<node name="sv" toBeTranslated="true" value="Swedish"/>
+		<node name="ta" toBeTranslated="true" value="Tamil"/>
+		<node name="th" toBeTranslated="true" value="Thai"/>
+		<node name="tr" toBeTranslated="true" value="Turkish"/>
+		<node name="uk" toBeTranslated="true" value="Ukrainian"/>
+		<node name="vi" toBeTranslated="true" value="Vietnamese"/>
+		<node name="zh" toBeTranslated="true" value="Chinese"/>
+		<node name="zh_TW" toBeTranslated="true" value="Chinese (traditional)"/>
+		<node name="any" toBeTranslated="true" value="Any"/>
+		<node name="other" toBeTranslated="true" value="Other"/>
+		<node name="multi" toBeTranslated="true" value="Multilanguage"/>
+		<node name="system" toBeTranslated="true" value="System"/>
 	</node>
 </resources>
