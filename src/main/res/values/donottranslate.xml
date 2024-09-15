@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="interface_language_codes">
+		<item>ar</item>
+		<item>be</item>
+		<item>bg</item>
+		<item>ca</item>
+		<item>cs</item>
+		<item>da</item>
+		<item>de</item>
+		<item>el</item>
+		<item>en_GB</item>
+		<item>en</item>
+		<item>es</item>
+		<item>eu</item>
+		<item>fa</item>
+		<item>fr</item>
+		<item>gl</item>
+		<item>hu</item>
+		<item>hy</item>
+		<item>it</item>
+		<item>ja</item>
+		<item>ka</item>
+		<item>ko</item>
+		<item>nb</item>
+		<item>nl</item>
+		<item>pl</item>
+		<item>pt</item>
+		<item>pt_BR</item>
+		<item>ro</item>
+		<item>ru</item>
+		<item>sl</item>
+		<item>sr</item>
+		<item>th</item>
+		<item>tr</item>
+		<item>uk</item>
+		<item>vi</item>
+		<item>zh</item>
+		<item>zh_TW</item>
+	</string-array>
+	<string-array name="interface_language_names">
+		<item>العربية</item>
+		<item>Беларуская</item>
+		<item>Български</item>
+		<item>Català</item>
+		<item>Česky</item>
+		<item>Dansk</item>
+		<item>Deutsch</item>
+		<item>Ελληνικά</item>
+		<item>English (UK)</item>
+		<item>English (US)</item>
+		<item>Español</item>
+		<item>Euskara</item>
+		<item>فارسی</item>
+		<item>Français</item>
+		<item>Galego</item>
+		<item>Magyar</item>
+		<item>Հայերեն</item>
+		<item>Italiano</item>
+		<item>日本語</item>
+		<item>ქართული</item>
+		<item>한국말</item>
+		<item>Norsk</item>
+		<item>Nederlands</item>
+		<item>Polski</item>
+		<item>Português (Portugal)</item>
+		<item>Português (Brasil)</item>
+		<item>Romana</item>
+		<item>Русский</item>
+		<item>Slovenščina</item>
+		<item>Српски</item>
+		<item>ไทย</item>
+		<item>Türkçe</item>
+		<item>Українська</item>
+		<item>Tiếng Việt</item>
+		<item>简体中文</item>
+		<item>中文(繁體)</item>
+	</string-array>
+</resources>
