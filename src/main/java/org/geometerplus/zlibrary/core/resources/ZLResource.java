@@ -10,6 +10,7 @@ import android.content.Context;
 
 import org.fbreader.language.Language;
 import org.fbreader.language.LanguageUtil;
+import org.fbreader.resources.R;
 
 abstract public class ZLResource {
 	public final String Name;
@@ -25,26 +26,12 @@ abstract public class ZLResource {
 		return new String[0];
 	}
 
-	private static final List<String> ourLanguageCodes = new LinkedList<String>();
-	public static List<String> languageCodes(Context context) {
-		synchronized (ourLanguageCodes) {
-			if (ourLanguageCodes.isEmpty()) {
-				for (String name : assets(context, "resources/application")) {
-					final String postfix = ".xml";
-					if (name.endsWith(postfix) && !"neutral.xml".equals(name)) {
-						ourLanguageCodes.add(name.substring(0, name.length() - postfix.length()));
-					}
-				}
-			}
-		}
-		return Collections.unmodifiableList(ourLanguageCodes);
-	}
-
 	public static List<Language> interfaceLanguages(Context context) {
+		final String[] codes = context.getResources().getStringArray(R.array.interface_language_codes);
+		final String[] names = context.getResources().getStringArray(R.array.interface_language_names);
 		final List<Language> allLanguages = new LinkedList<Language>();
-		final ZLResource resource = ZLResource.resource(context, "language-self");
-		for (String c : languageCodes(context)) {
-			allLanguages.add(LanguageUtil.language(c, resource));
+		for (int index = 0; index < codes.length; ++index) {
+			allLanguages.add(new Language(codes[index], names[index]));
 		}
 		Collections.sort(allLanguages);
 		allLanguages.add(0, LanguageUtil.language(context, Language.SYSTEM_CODE));

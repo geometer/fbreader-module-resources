@@ -15,7 +15,7 @@ public abstract class LanguageUtil {
 		return language(code, ZLResource.resource(context, "language"));
 	}
 
-	public static Language language(String code, ZLResource root) {
+	private static Language language(String code, ZLResource root) {
 		if (code == null) {
 			return null;
 		}
