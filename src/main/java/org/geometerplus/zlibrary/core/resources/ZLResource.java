@@ -8,8 +8,6 @@ import java.util.*;
 
 import android.content.Context;
 
-import org.fbreader.language.Language;
-import org.fbreader.language.LanguageUtil;
 import org.fbreader.resources.R;
 
 abstract public class ZLResource {
@@ -24,18 +22,6 @@ abstract public class ZLResource {
 		} catch (Throwable e) {
 		}
 		return new String[0];
-	}
-
-	public static List<Language> interfaceLanguages(Context context) {
-		final String[] codes = context.getResources().getStringArray(R.array.interface_language_codes);
-		final String[] names = context.getResources().getStringArray(R.array.interface_language_names);
-		final List<Language> allLanguages = new LinkedList<Language>();
-		for (int index = 0; index < codes.length; ++index) {
-			allLanguages.add(new Language(codes[index], names[index]));
-		}
-		Collections.sort(allLanguages);
-		allLanguages.add(0, LanguageUtil.language(context, Language.SYSTEM_CODE));
-		return allLanguages;
 	}
 
 	public static ZLResource resource(Context context, String key) {
