@@ -141,7 +141,7 @@ final class ZLTreeResource extends ZLResource {
 		final String custom = Language.uiLanguageOption(context).getValue();
 		final String language;
 		final String country;
-		if (Language.SYSTEM_CODE.equals(custom)) {
+		if (Language.Code.system.equals(custom)) {
 			final Locale locale = Locale.getDefault();
 			language = locale.getLanguage();
 			country = locale.getCountry();
