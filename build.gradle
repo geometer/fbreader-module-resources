@@ -7,12 +7,12 @@ dependencies {
 }
 
 android {
-	namespace 'org.fbreader.resources'
+	namespace = 'org.fbreader.resources'
 	compileSdkVersion project.compile_sdk_version
 	buildToolsVersion project.build_tools_version
 
 	lintOptions {
-		abortOnError false
+		abortOnError = false
 	}
 
 	compileOptions {
