@@ -190,13 +190,13 @@
 	<node name="buyBook">
 		<node name="title" value="წიგნის ყიდვა"/>
 		<node name="titleSeveralBooks" value="წიგნის ყიდვა"/>
-		<node name="confirm" value="დარწმუნებული ხართ, რომ გნებავთ წიგნის შეძენა&#10;«%s»?"/>
+		<node name="confirm" value="დარწმუნებული ხართ, რომ გნებავთ წიგნის შეძენა «%s»?"/>
 		<node name="confirmSeveralBooks" value="დარწმუნებული ხართ, რომ გნებავთ შეიძინოთ %s წიგნები?"/>
 		<node name="alreadyBought" value="წიგნი უკვე ნაყიდია"/>
 		<node name="notAuthorised" value="საჭიროა ავტორიზაცია"/>
 		<node name="noAccountInformation" value="ვერ მოხერხდა ანგარიშის შემოწმება"/>
-		<node name="unsufficientFunds" value="საყიდლად საჭიროა %0, ხოლო ანგარიშზეა მხოლოდ %1"/>
-		<node name="zeroFunds" value="ყიდვისთვის საჭიროა %0"/>
+		<node name="unsufficientFunds" value="საყიდლად საჭიროა %1$s, ხოლო ანგარიშზეა მხოლოდ %2$s"/>
+		<node name="zeroFunds" value="ყიდვისთვის საჭიროა %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="ინფორმაცია წიგნია შესახებ"/>

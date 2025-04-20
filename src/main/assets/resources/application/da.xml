@@ -190,8 +190,8 @@
 		<node name="alreadyBought" value="Bogen er allerede købt"/>
 		<node name="notAuthorised" value="Godkendelse påkrævet"/>
 		<node name="noAccountInformation" value="Kan ikke indlæse kontostatus"/>
-		<node name="unsufficientFunds" value="Dette køb koster %0 og du har kun %1"/>
-		<node name="zeroFunds" value="Dette køb koster %0"/>
+		<node name="unsufficientFunds" value="Dette køb koster %1$s og du har kun %2$s"/>
+		<node name="zeroFunds" value="Dette køb koster %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Bogoplysninger"/>

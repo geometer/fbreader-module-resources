@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="Boek is al aangeschaft"/>
 		<node name="notAuthorised" value="Autorisatie vereist"/>
 		<node name="noAccountInformation" value="Kan accountstatus niet laden"/>
-		<node name="unsufficientFunds" value="Deze aankoop kost %0 en je hebt maar %1"/>
-		<node name="zeroFunds" value="Deze aankoop kost %0"/>
+		<node name="unsufficientFunds" value="Deze aankoop kost %1$s en je hebt maar %2$s"/>
+		<node name="zeroFunds" value="Deze aankoop kost %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Boekinformatie"/>

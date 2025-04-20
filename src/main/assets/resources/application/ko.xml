@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="이미 구입한 책입니다"/>
 		<node name="notAuthorised" value="허가가 필요합니다"/>
 		<node name="noAccountInformation" value="계좌 상태를 불러올 수 없습니다"/>
-		<node name="unsufficientFunds" value="구입하려면 %0 이(가) 필요하지만 현재 %1 이(가) 있습니다"/>
-		<node name="zeroFunds" value="구입에는 %0 이(가) 소요됩니다"/>
+		<node name="unsufficientFunds" value="구입하려면 %1$s 이(가) 필요하지만 현재 %2$s 이(가) 있습니다"/>
+		<node name="zeroFunds" value="구입에는 %s 이(가) 소요됩니다"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="책 정보"/>

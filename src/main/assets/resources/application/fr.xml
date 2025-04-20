@@ -185,13 +185,13 @@
 	<node name="buyBook">
 		<node name="title" value="Achat du livre"/>
 		<node name="titleSeveralBooks" value="Acheter des livres"/>
-		<node name="confirm" value="Êtes-vous sûr de vouloir acheter&#10;le livre&#10;« %s » ?"/>
+		<node name="confirm" value="Êtes-vous sûr de vouloir acheter le livre « %s » ?"/>
 		<node name="confirmSeveralBooks" value="Etes-vous sûr d'acheter %s livres ?"/>
 		<node name="alreadyBought" value="Le livre a déjà été acheté"/>
 		<node name="notAuthorised" value="Autorisation requise"/>
 		<node name="noAccountInformation" value="Impossible de charger les informations du compte"/>
-		<node name="unsufficientFunds" value="Cet article vaut %0 et vous n'avez que %1"/>
-		<node name="zeroFunds" value="Cet article coûte %0"/>
+		<node name="unsufficientFunds" value="Cet article vaut %1$s et vous n'avez que %2$s"/>
+		<node name="zeroFunds" value="Cet article coûte %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Informations sur le livre"/>

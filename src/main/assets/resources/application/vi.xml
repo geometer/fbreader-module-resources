@@ -183,13 +183,13 @@
 	<node name="buyBook">
 		<node name="title" value="Mua sách"/>
 		<node name="titleSeveralBooks" value="Purchase books" toBeTranslated="true"/>
-		<node name="confirm" value="Bạn có chắc muốn mua quyển&#10;“%s”&#10;?"/>
+		<node name="confirm" value="Bạn có chắc muốn mua quyển “%s”?"/>
 		<node name="confirmSeveralBooks" value="Are you sure you want to buy %s books?" toBeTranslated="true"/>
 		<node name="alreadyBought" value="Sách đã mua"/>
 		<node name="notAuthorised" value="Authorisation required" toBeTranslated="true"/>
 		<node name="noAccountInformation" value="Cannot load account details" toBeTranslated="true"/>
-		<node name="unsufficientFunds" value="This purchase costs %0, your balance is %1" toBeTranslated="true"/>
-		<node name="zeroFunds" value="This purchase costs %0" toBeTranslated="true"/>
+		<node name="unsufficientFunds" value="This purchase costs %1$s, your balance is %2$s" toBeTranslated="true"/>
+		<node name="zeroFunds" value="This purchase costs %s" toBeTranslated="true"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Thông tin sách"/>

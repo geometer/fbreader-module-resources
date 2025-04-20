@@ -196,8 +196,8 @@
 		<node name="alreadyBought" value="Книгата е вече купена"/>
 		<node name="notAuthorised" value="Необходима е оторизация"/>
 		<node name="noAccountInformation" value="Неустановено състояние на сметката"/>
-		<node name="unsufficientFunds" value="Крайната сума е %0, а в сметката има %1"/>
-		<node name="zeroFunds" value="Крайна сума %0"/>
+		<node name="unsufficientFunds" value="Крайната сума е %1$s, а в сметката има %2$s"/>
+		<node name="zeroFunds" value="Крайна сума %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Информация за книгата"/>

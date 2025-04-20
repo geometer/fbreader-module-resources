@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="Bu kitabı zaten satın almıştınız"/>
 		<node name="notAuthorised" value="Yetkilendirme gerekli"/>
 		<node name="noAccountInformation" value="Hesap durumu yüklenemiyor"/>
-		<node name="unsufficientFunds" value="Kitabın fiyatı %0 ve sizde sadece %1 var"/>
-		<node name="zeroFunds" value="Bu alımın maliyeti %0"/>
+		<node name="unsufficientFunds" value="Kitabın fiyatı %1$s ve sizde sadece %2$s var"/>
+		<node name="zeroFunds" value="Bu alımın maliyeti %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Kitap Künyesi"/>

@@ -187,8 +187,8 @@
 		<node name="alreadyBought" value="Ta książka została już zakupiona"/>
 		<node name="notAuthorised" value="Wymagana autoryzacja"/>
 		<node name="noAccountInformation" value="Nie można pobrać stanu konta"/>
-		<node name="unsufficientFunds" value="To zamówienie jest warte %0, a masz tylko %1"/>
-		<node name="zeroFunds" value="To zamówienie jest warte %0"/>
+		<node name="unsufficientFunds" value="To zamówienie jest warte %1$s, a masz tylko %2$s"/>
+		<node name="zeroFunds" value="To zamówienie jest warte %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Informacje o książce"/>

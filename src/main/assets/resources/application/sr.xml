@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="Већ сте купили књигу"/>
 		<node name="notAuthorised" value="Потребна је провера идентитета"/>
 		<node name="noAccountInformation" value="Не могу да учитам стање налога"/>
-		<node name="unsufficientFunds" value="Ова књига кошта %0 а ви имате само %1"/>
-		<node name="zeroFunds" value="Ова књига кошта %0"/>
+		<node name="unsufficientFunds" value="Ова књига кошта %1$s а ви имате само %2$s"/>
+		<node name="zeroFunds" value="Ова књига кошта %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Подаци о књизи"/>

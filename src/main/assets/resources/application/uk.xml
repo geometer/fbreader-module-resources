@@ -182,13 +182,13 @@
 	<node name="buyBook">
 		<node name="title" value="Придбання книги"/>
 		<node name="titleSeveralBooks" value="Придбати книжки"/>
-		<node name="confirm" value="Ви впевненні, що хочете придбати книгу&#10;«%s»?"/>
+		<node name="confirm" value="Ви впевненні, що хочете придбати книгу «%s»?"/>
 		<node name="confirmSeveralBooks" value="Ви дійсно хочете придбати %s книжок?"/>
 		<node name="alreadyBought" value="Книга вже придбана"/>
 		<node name="notAuthorised" value="Потрібна авторизація"/>
 		<node name="noAccountInformation" value="Неможливо завантажити стан аккаунту"/>
-		<node name="unsufficientFunds" value="Дана покупка коштує %0 але у Вас лише %1"/>
-		<node name="zeroFunds" value="Дана покупка коштує %0"/>
+		<node name="unsufficientFunds" value="Дана покупка коштує %1$s але у Вас лише %2$s"/>
+		<node name="zeroFunds" value="Дана покупка коштує %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Інформація про книгу"/>

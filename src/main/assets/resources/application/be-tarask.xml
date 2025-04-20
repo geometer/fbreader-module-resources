@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="Кнігі ўжо набытыя"/>
 		<node name="notAuthorised" value="Патрабуецца ўпаўнаважаньне"/>
 		<node name="noAccountInformation" value="Немагчыма заладаваць зьвесткі конту"/>
-		<node name="unsufficientFunds" value="Гэты набытак каштуе %0, Ваш балянс — %1"/>
-		<node name="zeroFunds" value="Гэты набытак каштуе %0"/>
+		<node name="unsufficientFunds" value="Гэты набытак каштуе %1$s, Ваш балянс — %2$s"/>
+		<node name="zeroFunds" value="Гэты набытак каштуе %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Інфармацыя кнігі"/>

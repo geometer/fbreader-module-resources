@@ -194,8 +194,8 @@
 		<node name="alreadyBought" value="Livro já foi comprado"/>
 		<node name="notAuthorised" value="Autorização necessária"/>
 		<node name="noAccountInformation" value="Não é possível carregar o saldo da conta"/>
-		<node name="unsufficientFunds" value="Esta compra custa %0 e você tem apenas %1"/>
-		<node name="zeroFunds" value="Esta compra custa %0"/>
+		<node name="unsufficientFunds" value="Esta compra custa %1$s e você tem apenas %2$s"/>
+		<node name="zeroFunds" value="Esta compra custa %s"/>
 	</node>
 	<node name="bookInfo" value="Informação do livro">
 		<node name="bookInfo" value="Informações do livro"/>

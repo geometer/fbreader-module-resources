@@ -185,13 +185,13 @@
 	<node name="buyBook">
 		<node name="title" value="Cumpără cartea"/>
 		<node name="titleSeveralBooks" value="Cumpără cărți"/>
-		<node name="confirm" value="Sunteți sigur că doriți să cumparăti cartea &#10;“ %s”&#10;?"/>
+		<node name="confirm" value="Sunteți sigur că doriți să cumparăti cartea “%s”?"/>
 		<node name="confirmSeveralBooks" value="Sunteți sigur că doriți să cumpărați %s cărți?"/>
 		<node name="alreadyBought" value="Cartea este deja cumpărată"/>
 		<node name="notAuthorised" value="Este necesar să vă autorizați"/>
 		<node name="noAccountInformation" value="Nu se poate încărca situatia contului"/>
-		<node name="unsufficientFunds" value="Costul este de %0 dar aveți disponibili doar %1"/>
-		<node name="zeroFunds" value="Costul este de %0"/>
+		<node name="unsufficientFunds" value="Costul este de %1$s dar aveți disponibili doar %2$s"/>
+		<node name="zeroFunds" value="Costul este de %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Informații carte"/>

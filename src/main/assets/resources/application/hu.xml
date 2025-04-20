@@ -182,13 +182,13 @@
 	<node name="buyBook">
 		<node name="title" value="Könyv vásárlása"/>
 		<node name="titleSeveralBooks" value="Könyvek vásárlása"/>
-		<node name="confirm" value="Biztosan megvásárolja ezt a könyvet?&#10;“%s”"/>
+		<node name="confirm" value="Biztosan megvásárolja ezt a könyvet “%s”?"/>
 		<node name="confirmSeveralBooks" value="Biztosan megvásárol %s könyvet?"/>
 		<node name="alreadyBought" value="Ezt a könyvet már megvásárolta"/>
 		<node name="notAuthorised" value="Bejelentkezés szükséges"/>
 		<node name="noAccountInformation" value="Fiók állapota nem elérhető"/>
-		<node name="unsufficientFunds" value="A vásárlás végösszege %0, de az Ön számláján csak %1 van "/>
-		<node name="zeroFunds" value="A vásárlás végösszege %0"/>
+		<node name="unsufficientFunds" value="A vásárlás végösszege %1$s, de az Ön számláján csak %2$s van "/>
+		<node name="zeroFunds" value="A vásárlás végösszege %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Könyv adatai"/>

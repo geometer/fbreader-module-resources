@@ -197,8 +197,8 @@
 		<node name="alreadyBought" value="Գիրքն արդեն գնված է"/>
 		<node name="notAuthorised" value="Պահանջվում է հեղինակացում"/>
 		<node name="noAccountInformation" value="Չհաջողվեց ստուգել հաշվեկշիռը"/>
-		<node name="unsufficientFunds" value="Գնելու համար պահանջվում է %0, առկա է միայն %1"/>
-		<node name="zeroFunds" value="Գնելու համար պահանջվում է %0"/>
+		<node name="unsufficientFunds" value="Գնելու համար պահանջվում է %1$s, առկա է միայն %2$s"/>
+		<node name="zeroFunds" value="Գնելու համար պահանջվում է %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Գրքի մասին"/>

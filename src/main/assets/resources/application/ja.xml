@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="本はすでに購入済みです"/>
 		<node name="notAuthorised" value="サインインが必要です"/>
 		<node name="noAccountInformation" value="アカウント情報が取得できません"/>
-		<node name="unsufficientFunds" value="購入には %0 が必要ですが所持金は %1 です"/>
-		<node name="zeroFunds" value="購入には %0 が必要です"/>
+		<node name="unsufficientFunds" value="購入には %1$s が必要ですが所持金は %2$s です"/>
+		<node name="zeroFunds" value="購入には %s が必要です"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="本の情報"/>

@@ -190,13 +190,13 @@
 	<node name="buyBook">
 		<node name="title" value="Покупка книги"/>
 		<node name="titleSeveralBooks" value="Покупка книг"/>
-		<node name="confirm" value="Вы уверены, что хотите приобрести книгу&#10;«%s»?"/>
+		<node name="confirm" value="Вы уверены, что хотите приобрести книгу «%s»?"/>
 		<node name="confirmSeveralBooks" value="Вы уверены, что хотите приобрести %s книги?"/>
 		<node name="alreadyBought" value="Книга уже куплена"/>
 		<node name="notAuthorised" value="Требуется авторизация"/>
 		<node name="noAccountInformation" value="Не удалось проверить состояние счёта"/>
-		<node name="unsufficientFunds" value="Для покупки требуется %0, а на счёте только %1"/>
-		<node name="zeroFunds" value="Для покупки требуется %0"/>
+		<node name="unsufficientFunds" value="Для покупки требуется %1$s, а на счёте только %2$s"/>
+		<node name="zeroFunds" value="Для покупки требуется %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Информация о книге"/>

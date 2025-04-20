@@ -192,13 +192,13 @@
 	<node name="buyBook">
 		<node name="title" value="Zakoupit knihu"/>
 		<node name="titleSeveralBooks" value="Zakoupit knihy"/>
-		<node name="confirm" value="Opravdu chcete zakoupit knihu&#10;„%s“?"/>
+		<node name="confirm" value="Opravdu chcete zakoupit knihu „%s“?"/>
 		<node name="confirmSeveralBooks" value="Opravdu chcete zakoupit %s knih?"/>
 		<node name="alreadyBought" value="Kniha je již zakoupena"/>
 		<node name="notAuthorised" value="Vyžadována autorizace"/>
 		<node name="noAccountInformation" value="Nelze načíst stav účtu"/>
-		<node name="unsufficientFunds" value="Tento nákup stojí %0 a vy máte pouze %1"/>
-		<node name="zeroFunds" value="Tento nákup stojí %0"/>
+		<node name="unsufficientFunds" value="Tento nákup stojí %1$s a vy máte pouze %2$s"/>
+		<node name="zeroFunds" value="Tento nákup stojí %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Informace o knize"/>

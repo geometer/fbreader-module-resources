@@ -190,8 +190,8 @@
 		<node name="alreadyBought" value="کتابها خریداری شدند"/>
 		<node name="notAuthorised" value="مجوز نیاز است"/>
 		<node name="noAccountInformation" value="مشخصات حساب بارگذاری نمیشود"/>
-		<node name="unsufficientFunds" value="هزینه این خرید %0 است و شما %1 دارید"/>
-		<node name="zeroFunds" value="این خرید %0 است"/>
+		<node name="unsufficientFunds" value="هزینه این خرید %1$s است و شما %2$s دارید"/>
+		<node name="zeroFunds" value="این خرید %s است"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="اطلاعات کتاب"/>

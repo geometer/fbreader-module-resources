@@ -191,8 +191,8 @@
 		<node name="alreadyBought" toBeTranslated="true" value="Book has already been purchased"/>
 		<node name="notAuthorised" toBeTranslated="true" value="Authorization required"/>
 		<node name="noAccountInformation" toBeTranslated="true" value="Cannot load account details"/>
-		<node name="unsufficientFunds" toBeTranslated="true" value="This purchase costs %0, your balance is %1"/>
-		<node name="zeroFunds" toBeTranslated="true" value="This purchase costs %0"/>
+		<node name="unsufficientFunds" toBeTranslated="true" value="This purchase costs %1$s, your balance is %2$s"/>
+		<node name="zeroFunds" toBeTranslated="true" value="This purchase costs %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" toBeTranslated="true" value="Book Info"/>

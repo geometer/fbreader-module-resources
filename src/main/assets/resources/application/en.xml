@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="Book has already been purchased"/>
 		<node name="notAuthorised" value="Authorization required"/>
 		<node name="noAccountInformation" value="Cannot load account details"/>
-		<node name="unsufficientFunds" value="This purchase costs %0, your balance is %1"/>
-		<node name="zeroFunds" value="This purchase costs %0"/>
+		<node name="unsufficientFunds" value="This purchase costs %1$s, your balance is %2$s"/>
+		<node name="zeroFunds" value="This purchase costs %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Book Info"/>
@@ -410,10 +410,10 @@
 			</node>
 			<node name="font" value="Font family">
 				<node name="inherit" value="&lt;unchanged&gt;"/>
-				<node name="useDownloadable" value="Enable downloadable fonts" toBeTranslated="true"/>
-				<node name="downloadableWarning" value="Network traffic can be used" toBeTranslated="true"/>
-				<node name="fontPreview" value="Preview" toBeTranslated="true"/>
-				<node name="fontLoading" value="Loading…" toBeTranslated="true"/>
+				<node name="useDownloadable" value="Enable downloadable fonts"/>
+				<node name="downloadableWarning" value="Network traffic can be used"/>
+				<node name="fontPreview" value="Preview"/>
+				<node name="fontLoading" value="Loading…"/>
 			</node>
 			<node name="fontSize" value="Font size"/>
 			<node name="fontStyle" value="Font style">
@@ -648,11 +648,11 @@
 				<node name="summaryOn" value="Scroll pages horizontally"/>
 				<node name="summaryOff" value="Scroll pages vertically"/>
 			</node>
-			<node name="tapToScrollForward" value="Tap to scroll forward" toBeTranslated="true">
-				<node name="right_to_left" value="Right third of the screen" toBeTranslated="true"/>
-				<node name="left_to_right" value="Left third of the screen" toBeTranslated="true"/>
-				<node name="up" value="Bottom third of the screen" toBeTranslated="true"/>
-				<node name="down" value="Top third of the screen" toBeTranslated="true"/>
+			<node name="tapToScrollForward" value="Tap to scroll forward">
+				<node name="right_to_left" value="Right third of the screen"/>
+				<node name="left_to_right" value="Left third of the screen"/>
+				<node name="up" value="Bottom third of the screen"/>
+				<node name="down" value="Top third of the screen"/>
 			</node>
 		</node>
 		<node name="tapZones" value="Tap zones">
@@ -665,22 +665,22 @@
 				<node name="custom" value="Custom…"/>
 			</node>
 			<node name="actions">
-				<node name="nothing" value="No action" toBeTranslated="true"/>
-				<node name="toggleBars" value="Toggle toolbars" toBeTranslated="true"/>
-				<node name="pageForward" value="Page forward" toBeTranslated="true"/>
-				<node name="pageBack" value="Page back" toBeTranslated="true"/>
-				<node name="nextChapter" value="Next Chapter" toBeTranslated="true"/>
-				<node name="prevChapter" value="Previous Chapter" toBeTranslated="true"/>
-				<node name="back" value="Back" toBeTranslated="true"/>
-				<node name="lastItem" value="Tap in this area toggles toolbars" toBeTranslated="true"/>
-				<node name="delete" value="Delete" toBeTranslated="true"/>
+				<node name="nothing" value="No action"/>
+				<node name="toggleBars" value="Toggle toolbars"/>
+				<node name="pageForward" value="Page forward"/>
+				<node name="pageBack" value="Page back"/>
+				<node name="nextChapter" value="Next Chapter"/>
+				<node name="prevChapter" value="Previous Chapter"/>
+				<node name="back" value="Back"/>
+				<node name="lastItem" value="Tap in this area toggles toolbars"/>
+				<node name="delete" value="Delete"/>
 			</node>
 			<node name="predefined">
-				<node name="right" value="Right third forward" toBeTranslated="true"/>
-				<node name="left" value="Left third forward" toBeTranslated="true"/>
-				<node name="top" value="Top third forward" toBeTranslated="true"/>
-				<node name="bottom" value="Bottom third forward" toBeTranslated="true"/>
-				<node name="disabled" value="Disabled" toBeTranslated="true"/>
+				<node name="right" value="Right third forward"/>
+				<node name="left" value="Left third forward"/>
+				<node name="top" value="Top third forward"/>
+				<node name="bottom" value="Bottom third forward"/>
+				<node name="disabled" value="Disabled"/>
 			</node>
 		</node>
 		<node name="dictionary" value="Dictionary &amp; translator">
@@ -744,7 +744,7 @@
 				<node name="summary" value="Change items order"/>
 				<node name="bookMenuUpperSection" value="Book menu (upper section)"/>
 				<node name="bookMenuLowerSection" value="Book menu (lower section)"/>
-				<node name="bookMenuExtrasSection" value="Book menu (extras section)" toBeTranslated="true"/>
+				<node name="bookMenuExtrasSection" value="Book menu (extras section)"/>
 				<node name="toolbarOrMainMenu" value="Toolbar or main menu"/>
 				<node name="mainMenu" value="Main menu"/>
 				<node name="enabled" value="Enabled"/>
@@ -781,25 +781,25 @@
 				<node name="none" value="No action"/>
 			</node>
 		</node>
-		<node name="tts" value="Text to speech" toBeTranslated="true">
-			<node name="summary" value="Reading aloud" toBeTranslated="true"/>
-			<node name="highlight" value="Sentence highlighting" toBeTranslated="true">
-				<node name="summaryOn" value="Highlight" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not highlight" toBeTranslated="true"/>
+		<node name="tts" value="Text to speech">
+			<node name="summary" value="Reading aloud"/>
+			<node name="highlight" value="Sentence highlighting">
+				<node name="summaryOn" value="Highlight"/>
+				<node name="summaryOff" value="Do not highlight"/>
 			</node>
-			<node name="stopUnplug" value="Stop on headphones/BT unplug" toBeTranslated="true">
-				<node name="summaryOn" value="Stop" toBeTranslated="true"/>
-				<node name="summaryOff" value="Do not stop" toBeTranslated="true"/>
+			<node name="stopUnplug" value="Stop on headphones/BT unplug">
+				<node name="summaryOn" value="Stop"/>
+				<node name="summaryOff" value="Do not stop"/>
 			</node>
-			<node name="paragraphPause" value="Pause after paragraph, msec" toBeTranslated="true"/>
-			<node name="sentencePause" value="Pause after sentence, msec" toBeTranslated="true"/>
-			<node name="byWords" value="Read by word" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			<node name="paragraphPause" value="Pause after paragraph, msec"/>
+			<node name="sentencePause" value="Pause after sentence, msec"/>
+			<node name="byWords" value="Read by word">
+				<node name="summaryOn" value="Yes"/>
+				<node name="summaryOff" value="No"/>
 			</node>
-			<node name="wordsPause" value="… and pause after each word" toBeTranslated="true">
-				<node name="summaryOn" value="Yes" toBeTranslated="true"/>
-				<node name="summaryOff" value="No" toBeTranslated="true"/>
+			<node name="wordsPause" value="… and pause after each word">
+				<node name="summaryOn" value="Yes"/>
+				<node name="summaryOff" value="No"/>
 			</node>
 			<node name="useNetworkVoices" value="Voices that require a network connection">
 				<node name="summaryOn" value="Use"/>
@@ -848,18 +848,18 @@
 					<node name="summaryOn" value="Use web auth even if Google services are available"/>
 					<node name="summaryOff" value="Use Google auth if available"/>
 				</node>
-				<node name="showChangeNotifications" value="Notify about file modifications" toBeTranslated="true">
-					<node name="allFiles" value="Always" toBeTranslated="true"/>
-					<node name="bookFolders" value="For files in book folders only" toBeTranslated="true"/>
-					<node name="noFiles" value="Never" toBeTranslated="true"/>
+				<node name="showChangeNotifications" value="Notify about file modifications">
+					<node name="allFiles" value="Always"/>
+					<node name="bookFolders" value="For files in book folders only"/>
+					<node name="noFiles" value="Never"/>
 				</node>
-				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog" toBeTranslated="true">
-					<node name="summaryOn" value="Show each time you start FBReader from launcher" toBeTranslated="true"/>
-					<node name="summaryOff" value="Do not show" toBeTranslated="true"/>
+				<node name="showOpenPremiumSuggestion" value="“Open Premium” dialog">
+					<node name="summaryOn" value="Show each time you start FBReader from launcher"/>
+					<node name="summaryOff" value="Do not show"/>
 				</node>
-				<node name="logFileScanning" value="Log file scanning" toBeTranslated="true">
-					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info" toBeTranslated="true"/>
-					<node name="summaryOff" value="Do not log" toBeTranslated="true"/>
+				<node name="logFileScanning" value="Log file scanning">
+					<node name="summaryOn" value="Create a log record each time the app scans a file for extracting book info"/>
+					<node name="summaryOff" value="Do not log"/>
 				</node>
 				<node name="copyLogs" value="Copy log files">
 					<node name="summary" value="Copies *.log files to %s"/>
@@ -868,8 +868,8 @@
 				<node name="copyDatabase" value="Copy books database">
 					<node name="summary" value="Copies books.db file to %s"/>
 				</node>
-				<node name="scanFailures" value="Scan failures list" toBeTranslated="true">
-					<node name="summary" value="List of files FBReader couldn't scan" toBeTranslated="true"/>
+				<node name="scanFailures" value="Scan failures list">
+					<node name="summary" value="List of files FBReader couldn't scan"/>
 				</node>
 			</node>
 		</node>
@@ -910,7 +910,7 @@
 			<node name="markAsUnread" value="Mark as unread"/>
 			<node name="plugin" value="Plugin"/>
 			<node name="premium" value="Premium"/>
-			<node name="clear" value="Clear" toBeTranslated="true"/>
+			<node name="clear" value="Clear"/>
 		</node>
 		<node name="gotoPage" value="Go to page"/>
 		<node name="plugin">
@@ -941,7 +941,7 @@
 			<node name="password" value="Password"/>
 			<node name="confirmPassword" value="Password&#10;confirmation"/>
 			<node name="email" value="Email"/>
-			<node name="birthdate" value="Date of birth" toBeTranslated="true"/>
+			<node name="birthdate" value="Date of birth"/>
 		</node>
 		<node name="litresAutoSignIn">
 			<node name="title" value="Signing in"/>
@@ -980,8 +980,8 @@
 			<node name="registerUser" value="Registering new account. Please wait…"/>
 			<node name="autoSignIn" value="Signing in. Please wait…"/>
 			<node name="recoverPassword" value="Recovering password. Please wait…"/>
-			<node name="loadingFonts" value="Loading fonts. Please wait…" toBeTranslated="true">
-				<node name="disable" value="Disable downloadable fonts" toBeTranslated="true"/>
+			<node name="loadingFonts" value="Loading fonts. Please wait…">
+				<node name="disable" value="Disable downloadable fonts"/>
 			</node>
 		</node>
 		<node name="AuthenticationDialog">
@@ -989,7 +989,7 @@
 			<node name="unencryptedWarning" value="Your password will be sent unencrypted"/>
 			<node name="login" value="Username"/>
 			<node name="password" value="Password"/>
-			<node name="recoverPassword" value="Forgot password?" toBeTranslated="true"/>
+			<node name="recoverPassword" value="Forgot password?"/>
 			<node name="loginIsEmpty" value="Username should not be blank"/>
 			<node name="register" value="Sign up"/>
 		</node>
@@ -1055,7 +1055,7 @@
 		</node>
 	</node>
 	<node name="errorMessage">
-		<node name="cannotOpen" value="Cannot open '%s'" toBeTranslated="true"/>
+		<node name="cannotOpen" value="Cannot open '%s'"/>
 		<node name="fileNotFound" value="File not found: %s"/>
 		<node name="unsupportedEncryptionMethod" value="File %s encryption method is not supported by FBReader. Some pages are not readable"/>
 		<node name="opfFileNotFound" value="OPF is not found in %s"/>
@@ -1158,7 +1158,7 @@
 		<node name="missingApp" value="Twitter app is not installed"/>
 	</node>
 	<node name="bookDownloadNotification">
-		<node name="title" value="FBReader" toBeTranslated="true"/>
-		<node name="text" value="Downloading book in background" toBeTranslated="true"/>
+		<node name="title" value="FBReader"/>
+		<node name="text" value="Downloading book in background"/>
 	</node>
 </resources>

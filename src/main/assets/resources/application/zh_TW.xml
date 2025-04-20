@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="書籍已經買了"/>
 		<node name="notAuthorised" value="需要授權"/>
 		<node name="noAccountInformation" value="無法加載帳戶詳細資訊"/>
-		<node name="unsufficientFunds" value="此購買成本為%0，您的餘額為%1"/>
-		<node name="zeroFunds" value="此購買成本為%0"/>
+		<node name="unsufficientFunds" value="此購買成本為%1$s，您的餘額為%2$s"/>
+		<node name="zeroFunds" value="此購買成本為%s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="書籍資訊"/>

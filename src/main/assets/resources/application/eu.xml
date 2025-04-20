@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="Dagoeneko erosita dago liburua"/>
 		<node name="notAuthorised" value="Baimena behar duzu"/>
 		<node name="noAccountInformation" value="Ezin izan da kontuaren egoera kargatu"/>
-		<node name="unsufficientFunds" value="Erosketa honen kostua %0 da eta %1 baino ez duzu kontuan"/>
-		<node name="zeroFunds" value="Erosketaren kostua %0 da"/>
+		<node name="unsufficientFunds" value="Erosketa honen kostua %1$s da eta %2$s baino ez duzu kontuan"/>
+		<node name="zeroFunds" value="Erosketaren kostua %s da"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Liburuaren infoa"/>

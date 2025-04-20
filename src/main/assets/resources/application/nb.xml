@@ -191,8 +191,8 @@
 		<node name="alreadyBought" value="Boken er allerede kjøpt"/>
 		<node name="notAuthorised" value="Tillatelse kreves"/>
 		<node name="noAccountInformation" value="Kan ikke laste kontotilstand"/>
-		<node name="unsufficientFunds" value="Dette kjøpet koster %0 og du har bare %1"/>
-		<node name="zeroFunds" value="Dette kjøpet koster %0"/>
+		<node name="unsufficientFunds" value="Dette kjøpet koster %1$s og du har bare %2$s"/>
+		<node name="zeroFunds" value="Dette kjøpet koster %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Bokinformasjon"/>

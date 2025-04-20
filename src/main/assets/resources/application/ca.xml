@@ -197,8 +197,8 @@
 		<node name="alreadyBought" value="Aquest llibre ja fou comprat"/>
 		<node name="notAuthorised" value="Es requereix autorització"/>
 		<node name="noAccountInformation" value="No es pot carregar l'estat del compte"/>
-		<node name="unsufficientFunds" value="Aquesta compra val %0 i vostè només té %1"/>
-		<node name="zeroFunds" value="Aquesta compra val %0"/>
+		<node name="unsufficientFunds" value="Aquesta compra val %1$s i vostè només té %2$s"/>
+		<node name="zeroFunds" value="Aquesta compra val %s"/>
 	</node>
 	<node name="bookInfo">
 		<node name="bookInfo" value="Informació del llibre"/>
